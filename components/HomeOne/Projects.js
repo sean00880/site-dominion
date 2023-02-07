@@ -8,7 +8,7 @@ class Services extends Component {
             <div className="container">
             <div className="section-title">
                     <span>Projects</span>
-                    <h2>Browse Through Our LIVE Projects</h2>
+                    <h2>Browse Through Our Collection of Websites</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias eos ea obcaecati et similique incidunt animi, sed, quos officiis placeat. Id ipsa molestias.</p>
                 </div>
                 <div className="inner">

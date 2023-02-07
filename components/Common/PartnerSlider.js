@@ -33,7 +33,7 @@ class PartnerSlider extends Component {
                     >
                         <SwiperSlide>
                             <a href="#" target="_blank">
-                                <img src="/images/brands/brand1.png" alt="Image" />
+                                <img src="/images/brands/tree.jpg" alt="Image" />
                             </a>
                         </SwiperSlide>
 

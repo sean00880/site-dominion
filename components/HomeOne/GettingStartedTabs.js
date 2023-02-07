@@ -2,24 +2,56 @@ import React, { Component } from 'react';
 import Link from 'next/link';
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import ServicesTabs from './ServicesTabs';
+import LogoContent from '../ServiceDetails/LogoContent'
+import HomeAccordion from './HomeAccordion';
+import WorkTab from '../HomeOne/WorkTab';
+
 
 class ServicesStyleOne extends Component {
     render() {
         return (
             <section className="features-area features-area-inner-style">
                 <div className="container">
-                <Tabs>
+                <Tabs defaultIndex={4}>
               <TabList>
-                <Tab>Step #1: Pick A Service</Tab>
+              <h2>Follow The Guide One Step At A Time</h2>
+                    <hr />
+                <Tab>Step #1: Pick a Service</Tab> 
                 
-
+                
               </TabList>
               <div className="row">
-              <TabPanel>
-                <ServicesTabs/>  
               
-              </TabPanel>
-              </div>
+                <TabPanel className="d-flex flex-column">
+                    
+                <div className="col-lg-12 "><p className="p-3">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+                                            </p>
+                                            <Link href="/services">
+                                            <button type="submit" className="default-btn btn-two">
+                                                Services
+                                            </button>
+                                            </Link></div>
+                <div className="row"><div className="col-lg-6"><p className="p-3">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+                                            </p>
+                                            <Link href="/pricing">
+                                            <button type="submit" className="default-btn btn-two">
+                                                Pricing
+                                            </button>
+                                            </Link></div><div className="col-lg-6"><p className="p-3">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+                                            </p>
+                                            <Link href="/portfolio">
+                                            <button type="submit" className="default-btn btn-two">
+                                                Projects
+                                            </button>
+                                            </Link></div></div>
+                                            
+                </TabPanel>
+                
+              
+              
               <TabPanel>
               <div className="main-contact-area">
             <div className="container">
@@ -117,18 +149,20 @@ class ServicesStyleOne extends Component {
             </div>
         </div>
                     </TabPanel>
+                    </div>
                     </Tabs>
+
                     <Tabs>
-                        <TabList>
-                        <Tab>Step #2: Initiate Your FREE Quote Request
-</Tab>
-                <Tab>Step #3: We Work On Your Project</Tab>
+<TabList>
+                
                 <br />
-                <Tab>Step #4: Complete Payment</Tab>
-                <Tab>Step #5: Project Deployed
+                <Tab>Step #2: Initiate Your FREE Quote Request
 </Tab>
-                        </TabList>
-                        <TabPanel>                                        <div className="main-contact-area">
+                
+</TabList>
+<div className="row">
+    <TabPanel>
+    <div className="main-contact-area">
             <div className="container">
                 <div className="section-title">
                     <span>Contact Us</span>
@@ -222,11 +256,27 @@ class ServicesStyleOne extends Component {
                     
                 </div>
             </div>
-        </div></TabPanel>
-                        <TabPanel></TabPanel>
-                        <TabPanel></TabPanel>
-                        <TabPanel></TabPanel>
+        </div>
+    </TabPanel>
+</div>
                     </Tabs>
+                    <Tabs>
+                        <TabList>
+                        <Tab>Step #3: We Work On Your Project</Tab>
+                <Tab>Step #4: Complete Payment</Tab>
+                <Tab>Step #5: Project Deployed
+</Tab>
+                        </TabList>
+                        <div className="row">
+                            <TabPanel>
+
+<WorkTab/>
+                            </TabPanel>
+                            <TabPanel/>
+                            <TabPanel/>
+                        </div>
+                    </Tabs>
+                    
                 </div>
             </section>
         );

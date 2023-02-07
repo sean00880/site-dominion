@@ -11,10 +11,11 @@ const MainBanner = () => {
                     <img className="bannerImage" src="/images/home-one/main-img1.png" alt="Image" />
                         <div className="banner-text">
                             
-                            <h1>High Converting Websites for All Businesses | Design, Deployment, SEO & More.</h1>
+                            <h1>Site Dominion </h1>
+                                <hr/> <h2>Website Design, Deployment, SEO & More.</h2>
                            <hr />
-                           <h3>We offer all-in-1 solutions for Website design, development, hosting, deployment, SEO & more.</h3>
-                           <p style={{"color":"green"}}>Cashapp & Venmo</p>
+                           <h3>Professional Websites Optimized For Lead Generation</h3>
+                           <p style={{"color":"green"}}>Venmo</p>
                             <div className="banner-btn">
                                 <Link href="/about-1">
                                     <a className="default-btn">

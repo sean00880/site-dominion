@@ -4,6 +4,7 @@ import PageBanner from '../components/Common/PageBanner';
 import PricingStyleOne from '../components/Pricing/PricingStyleOne';
 import MakeYourBusiness from '../components/Common/MakeYourBusiness';
 import Footer from '../components/Layouts/Footer';
+import PricingTabs from '../components/HomeOne/PricingTabs';
 
 class Pricing extends Component {
     render() {
@@ -18,11 +19,7 @@ class Pricing extends Component {
                     activePageText="Pricing" 
                 /> 
                 
-                <PricingStyleOne />
-
-                <div className="bg-fafafa">
-                    <MakeYourBusiness />
-                </div>
+                <PricingTabs/>
                 
                 <Footer />
             </>

@@ -49,38 +49,39 @@ class PricingStyleOne extends Component {
                                         <div className="single-pricing single-pricing1">
                                             <div className="pricing-top-heading">
                                                 <h3>Basic</h3>
-                                                <p>Build A Website</p>
+                                                <p>Simple Website Design + Deployment</p>
                                             </div>
-                                            <span>$29<sub>/m</sub></span>
+                                            <span>$299</span>
 
                                             <ul>
                                                 <li>
                                                     <i className='bx bx-check'></i>
-                                                    Drag & Drop Builder
+                                                    Website Design [Basic]
                                                 </li>   
                                                 <li>
                                                     <i className='bx bx-check'></i>
-                                                    Lead Generation & Sales
+                                                    Deployment [Domain + Hosting]
                                                 </li>
                                                 <li>
                                                     <i className='bx bx-check'></i>
-                                                    Boot & Digital Assistants
+                                                    On-page SEO
                                                 </li>
                                                 <li>
                                                     <i className='bx bx-check'></i>
-                                                    Customer Service
+                                                    Multiple Revisions
+                                                </li>
+                                            
+                                                <li>
+                                                    <i className='bx bx-x'></i>
+                                                    Lead Generation API
                                                 </li>
                                                 <li>
                                                     <i className='bx bx-x'></i>
-                                                    Up to 1000 Subscribers
+                                                    Blog
                                                 </li>
                                                 <li>
                                                     <i className='bx bx-x'></i>
-                                                    Unlimited Broadcasts
-                                                </li>
-                                                <li>
-                                                    <i className='bx bx-x'></i>
-                                                    Landing Pages & Web Widgets
+                                                    Unlimited Pages
                                                 </li>
                                             </ul>
 
@@ -98,36 +99,37 @@ class PricingStyleOne extends Component {
                                                 <h3>Premium</h3>
                                                 <p>Build A Website</p>
                                             </div>
-                                            <span>$59<sub>/m</sub></span>
+                                            <span>$499</span>
 
                                             <ul>
+                                            <li>
+                                                    <i className='bx bx-check'></i>
+                                                    Website Design [Industry Standard]
+                                                </li>   
                                                 <li>
                                                     <i className='bx bx-check'></i>
-                                                    Drag & Drop Builder
+                                                    Deployment [Domain + Hosting]
                                                 </li>
                                                 <li>
                                                     <i className='bx bx-check'></i>
-                                                    Lead Generation & Sales
+                                                    On-page SEO
                                                 </li>
                                                 <li>
                                                     <i className='bx bx-check'></i>
-                                                    Boot & Digital Assistants
+                                                    Multiple Revisions
                                                 </li>
+                                            
                                                 <li>
                                                     <i className='bx bx-check'></i>
-                                                    Customer Service
-                                                </li>
-                                                <li>
-                                                    <i className='bx bx-check'></i>
-                                                    Up to 1000 Subscribers
+                                                    Lead Generation API
                                                 </li>
                                                 <li>
                                                     <i className='bx bx-x'></i>
-                                                    Unlimited Broadcasts
+                                                    Blog
                                                 </li>
                                                 <li>
                                                     <i className='bx bx-x'></i>
-                                                    Landing Pages & Web Widgets
+                                                    Unlimited Pages
                                                 </li>
                                             </ul>
 
@@ -147,7 +149,7 @@ class PricingStyleOne extends Component {
                                                 <h3>Elite</h3>
                                                 <p>Build A Website</p>
                                             </div>
-                                            <span>$79 <sub>/m</sub></span>
+                                            <span>$699</span>
 
                                             <ul>
                                                 <li>

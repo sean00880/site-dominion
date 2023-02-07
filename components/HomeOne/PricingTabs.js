@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import Link from 'next/link';
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
+import ProjectTabs from './ProjectTabs';
 import ServicesTabs from './ServicesTabs';
+import PricingStyleOne from '../Pricing/PricingStyleOne';
 
 class ServicesStyleOne extends Component {
     render() {
@@ -10,13 +12,13 @@ class ServicesStyleOne extends Component {
                 <div className="container">
                 <Tabs>
               <TabList>
-                <Tab>Step #1: Pick A Service</Tab>
+                
                 
 
               </TabList>
               <div className="row">
               <TabPanel>
-                <ServicesTabs/>  
+                <PricingStyleOne/>  
               
               </TabPanel>
               </div>
@@ -120,6 +122,7 @@ class ServicesStyleOne extends Component {
                     </Tabs>
                     <Tabs>
                         <TabList>
+                        <Tab>Step #1: Pick A Service</Tab>
                         <Tab>Step #2: Initiate Your FREE Quote Request
 </Tab>
                 <Tab>Step #3: We Work On Your Project</Tab>
@@ -128,6 +131,7 @@ class ServicesStyleOne extends Component {
                 <Tab>Step #5: Project Deployed
 </Tab>
                         </TabList>
+                        <TabPanel><ServicesTabs/></TabPanel>
                         <TabPanel>                                        <div className="main-contact-area">
             <div className="container">
                 <div className="section-title">

@@ -1,23 +1,23 @@
 import React, { Component } from 'react';
 import Navbar from '../components/Layouts/Navbar';
 import PageBanner from '../components/Common/PageBanner';
-
+import PortfolioTabs from '../components/HomeOne/PortfolioTabs';
 import Footer from '../components/Layouts/Footer';
-import GettingStartedTabs from '../components/HomeOne/GettingStartedTabs'
 
-class About1 extends Component {
+class ServiceDetails extends Component {
     render() {
         return (
             <>
                 <Navbar />
 
                 <PageBanner 
-                    pageTitle="All-In-One Website" 
+                    pageTitle="Logo Design" 
                     homePageUrl="/" 
                     homePageText="Home" 
-                    activePageText="Featured Service" 
+                    activePageText="Professional Logo Design for Businesses" 
                 /> 
-                <GettingStartedTabs />
+                
+                <PortfolioTabs />
                 
                 <Footer />
             </>
@@ -25,4 +25,4 @@ class About1 extends Component {
     }
 }
 
-export default About1;
+export default ServiceDetails;
