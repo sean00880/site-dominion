@@ -40,7 +40,7 @@ export default class MyApp extends App {
                         name="viewport" 
                         content="width=device-width, initial-scale=1" 
                     />
-                    <title>Purchase a High Converting Website - sitedominion.com</title>
+                    <title>Lead Generating Websites for Businesses - https://www.sitedominion.com/</title>
                 </Head>
 
                 <Component {...pageProps} />

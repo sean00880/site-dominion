@@ -31,14 +31,14 @@ class Services extends Component {
                                             <div className="abs_img" style={{ backgroundImage: "/images/offer1.png" }}><Link href=""><a></a></Link></div>
                                         </div>
                                         <div className="title_holder">
-                                            <h3><Link href="/portfolio-single-1"><a>Decoded Web</a></Link></h3>
+                                            <h3><Link href="/portfolio/decoded-web"><a>Decoded Web</a></Link></h3>
                                             <p>
-                                                <Link href="/portfolio-single-1"><a>
+                                                <Link href="/portfolio/decoded-web"><a>
                                                     <span className="text">View More</span>
                                                     
                                                 </a></Link>
                                             </p>
-                                            <Link href="/portfolio-single-1"><a></a></Link>
+                                            
                                         </div>
                                     </div>
                                 </li>

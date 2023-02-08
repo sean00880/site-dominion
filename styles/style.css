@@ -90,6 +90,7 @@ body {
   font-family: "Lato", sans-serif;
   color: #4d4d4d;
   overflow-x: hidden;
+  background: linear-gradient(180deg, #e7e7e7, white);
 }
 
 a {
@@ -126,7 +127,7 @@ button:focus {
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-  color: #212121;
+  color: #1d1c1c;
   font-family: "Smooch Sans", sans-serif;
   font-weight: 500;
   letter-spacing: 1px;
@@ -159,6 +160,10 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.industries-serve-area img{
+  width: 100%;
 }
 
 .bannerImage{
@@ -702,6 +707,7 @@ Section Title Area Style
   margin: -9px auto 60px;
   text-align: center;
   position: relative;
+  border-radius: 1vh;
 }
 
 .section-title span {
@@ -1044,10 +1050,10 @@ jumpx Nav Area Style
      padding-top: 20px;
     padding-bottom: 20px;
     transition: all 0.6s ease;
-    background: #1d1c1c;
+    background: linear-gradient(45deg, #e7e7e7, #e4e4e4f0);
     margin: 3px;
     border-radius: 0 0 14px 6vh;
-    border: 3px solid #ececec;
+    border: 3px solid #b36060;
 }
 
 .navbar-area nav .navbar-brand .logo {
@@ -1067,7 +1073,7 @@ jumpx Nav Area Style
 .navbar-area nav .navbar-nav .nav-item a {
   font-size: 19px;
   font-weight: 500;
-  color: #f8f8f8;
+  color: #1a1919;
   text-transform: uppercase;
   padding-left: 0;
   padding-right: 0;
@@ -1080,7 +1086,7 @@ jumpx Nav Area Style
 }
 
 .navbar-area.is-sticky nav .navbar-nav .nav-item a {
-  color: rgb(0, 0, 0);
+  color: rgb(243, 241, 241);
 
 
 }
@@ -1102,15 +1108,23 @@ jumpx Nav Area Style
 }
 
 .navbar-area nav .navbar-nav .nav-item:hover a{
-  color:#4271b1;
+  color:#33598b;
   font-style: italic;
   transition: 1s all ease;
+}
+
+.navbar-area.is-sticky .navbar-nav .nav-item:hover .menu{
+  color: #b3bece;
+}
+
+.navbar-area.is-sticky .navbar-nav .nav-item.active .menu{
+  color: #d4cbcb;
 }
 
 
  .navbar-area nav .navbar-nav .nav-item.active a {
 
-  color: #f56a6a;
+  color: #ac4c4c;
     font-style: italic;
     letter-spacing: 3px;
 }
@@ -1131,10 +1145,6 @@ jumpx Nav Area Style
   border-radius: 5px;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  padding-top: 18px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 18px;
   background: #e7e7e7;
   box-shadow: 1px 1px 22px #dc354569;
 }
@@ -1158,7 +1168,7 @@ jumpx Nav Area Style
 }
 .navbar-area nav .navbar-nav .nav-item .dropdown-menu li a:hover{
   color: #d73d3d;
-  background:white;
+  background:linear-gradient(45deg, #cfcfcf, transparent);
   font-style: italic;
   border: 1px solid #9328286e;
   text-align: center;
@@ -1169,8 +1179,8 @@ jumpx Nav Area Style
 }
 
 @keyframes blinkingBackground{
-  0% {color:#4271b1; background-color: rgb(22, 21, 21); }
-  100% {color: #d73d3d; background-color: white; }
+  0% {color:#4271b1; background-color: rgba(26, 24, 24, 0.438); }
+  100% {color: #d73d3d; background-color: linear-gradient(45deg, #cfcfcf, transparent)}
 }
 
  .navbar-area nav .navbar-nav .nav-item .dropdown-menu li a:focus, .navbar-area nav .navbar-nav .nav-item .dropdown-menu li a.active {
@@ -1340,6 +1350,8 @@ jumpx Nav Area Style
 }
 
 .navbar-area nav .navbar-nav .nav-item:hover .dropdown-menu {
+  background: linear-gradient(45deg, #e7e7e7, #e2e1e1d7);
+  border: 3px solid #363232;
   opacity: 1;
   visibility: visible;
   top: 100%;
@@ -1355,7 +1367,7 @@ jumpx Nav Area Style
 }
 
 .navbar-area .others-options p {
-  color:rgb(217 208 208);
+  color:rgb(66, 63, 63);
   margin: 1vh 3vh;
   font-style: italic;
   letter-spacing: 3px;
@@ -1385,15 +1397,15 @@ jumpx Nav Area Style
 }
 
 .navbar-area.is-sticky nav {
-  background-color: #e7e7e7;
+  background: #1d1c1c;
   padding-top: 15px;
   padding-bottom: 15px;
   height: 20vh;
-  border: 3px solid rgb(128, 57, 57);
+  border: 3px solid rgb(243, 241, 241);
 }
 
 .navbar-area.is-sticky nav h4{
-  color: black
+  color: ghostwhite
 }
 
 .navbar-area h4{
@@ -1404,7 +1416,7 @@ jumpx Nav Area Style
 }
 
 .navbar-area.is-sticky .others-options p{
-  color: rgb(47, 64, 139);
+  color: rgb(244, 245, 248);
 }
 
 .navbar-toggler {
@@ -1678,7 +1690,7 @@ Features Area Style
 ======================================================*/
 .single-features {
   text-align: center;
-  background-color: #ffffff;
+  background:linear-gradient(45deg, #ffffff, transparent);
   -webkit-box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
           box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
   position: relative;
@@ -1768,7 +1780,7 @@ Features Area Style
   background: white;
   color: black;
   padding: 30px;
-  border-radius: 14px 94px;
+  border-radius: 1vh;
   transition: all .6s ease;
 }
 
@@ -1817,10 +1829,7 @@ Features Area Style
   background-repeat: no-repeat;
 }
 
-.col-lg-4:nth-child(2) .single-features {
-  border-right: 1px solid #eeeeee;
-  border-left: 1px solid #eeeeee;
-}
+
 
 .col-lg-4:nth-child(3) .single-features {
   border-radius: 1vh;
@@ -1837,6 +1846,8 @@ Features Area Style
   background-position: right;
   background-repeat: no-repeat;
 }
+
+
 
 
 
@@ -2046,6 +2057,9 @@ Choose Us Area Style
 .features-area h1{
   text-align: center;
   color: #b97a69;
+  font-size: 17px;
+  font-style: italic;
+  text-align: left;
 }
 
 .features-area .wrapper2{
@@ -2060,6 +2074,7 @@ Choose Us Area Style
 .wrapper2 div{
   align-items: center;
   display: flex;
+  font-size: 15px;
   flex-direction: column;
   width: 50%;
   margin: 2vh;
@@ -2073,13 +2088,23 @@ Choose Us Area Style
   border-radius: 2vh 9vh 2vh 9vh;
   border: 2px solid #f2f2f2;
   text-align: center;
-  
+
 }
 
 .features-area .container2{
   background-color: white;
   padding: 7vh 2vh;
   border-radius: 1vh;
+}
+
+.features-area .single-features{
+  border: 3px solid #803939;
+
+  
+}
+
+.features-area .single-features:hover{
+  border: 3px solid #7da3c7;
 }
 
 .main-banner-area.main-banner-area-one .banner-text h3{
@@ -2135,6 +2160,7 @@ Choose Us Area Style
   -webkit-transition: all 0.6s ease;
   transition: all 0.6s ease;
   border-radius: 1vh;
+  border: 3px solid white;
 }
 
 .choose-content ul li:last-child {
@@ -2142,18 +2168,19 @@ Choose Us Area Style
 }
 
 .choose-content ul li span {
-  width: 70px;
+  /* width: 70px; */
   height: 70px;
-  line-height: 70px;
+  /* line-height: 70px; */
+  font-style: italic;
   text-align: center;
   position: relative;
   border-radius: 50%;
+  -webkit-text-stroke: 1px;
   font-size: 30px;
-  font-weight: 600;
-  color: #212121;
+  font-weight: 300;
+  color: #744d4d;
   -webkit-animation: border-transform 7s linear infinite alternate forwards;
-          animation: border-transform 7s linear infinite alternate forwards;
-  -webkit-transition: all 0.6s ease;
+  animation: border-transform 7s linear infinite alternate forwards;
   transition: all 0.6s ease;
   margin-left: auto;
   margin-right: auto;
@@ -3316,14 +3343,14 @@ Pricing Area Style
   -webkit-box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
           box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
   padding: 30px;
-  border-radius: 4px;
+
   position: relative;
   z-index: 1;
   overflow: hidden;
   margin-bottom: 30px;
-  border-radius: 50px 0 50px 0;
   -webkit-transition: all 0.6s ease;
   transition: all 0.6s ease;
+  border-radius: 2vh 3px;
 }
 
 .single-pricing .pricing-top-heading {
@@ -4006,7 +4033,7 @@ FAQ CSS
   text-decoration: none;
   position: relative;
   display: block;
-  font-size: 21px;
+  font-size: 17px;
   font-weight: 600;
   font-family: 'Smooch Sans';
   letter-spacing: 1px;
@@ -5180,6 +5207,7 @@ Blog Details Area Style
 
 .homeImage{
   max-width: 100%;
+  border-radius: 1vh;
 }
 
 .news-details-area .post-navigation .navigation-links .nav-next a i {
@@ -6162,6 +6190,10 @@ Main Contact Area Style
   max-width: unset;
 }
 
+.main-contact-area .section-title h2{
+  font-size: 17px;
+}
+
 .main-contact-area .contact-wrap .section-title {
   text-align: center !important;
   max-width: 600px;
@@ -6220,6 +6252,10 @@ Service Details Area Style
 .service-sidebar-area{
   border: 1px solid #00000036;
     border-radius: 2vh;
+}
+
+.service-details-area{
+  padding: 0;
 }
 
 .service-sidebar-area .service-details-title {
@@ -6655,6 +6691,7 @@ a{
 	clear: both;
 	position: relative;
 	margin-bottom: 100px;
+  padding: 0;
 
 }
 .fn_cs_project_sticky_modern .inner{
@@ -6704,13 +6741,25 @@ a{
     font-weight: 500;
     letter-spacing: 5px;
     font-size: 36px;
-    line-height: 2;
-    color: #fff;
+    line-height: 3;
 	position: relative;
-    padding-bottom: 13px;
 	margin-bottom: 21px;
 	left: -2px;
+  background: #e7e7e7;
+  color: #677ca1;
+  width: 100%;
+  text-align: center;
+  border-radius: 4vh 0;
+  font-style:italic;
 }
+
+.fn_cs_project_sticky_modern .left_part_in2 h3{
+  background: #25292c;
+  color: #c39090;
+  border-radius: 0 4vh;
+
+}
+
 .fn_cs_project_sticky_modern .left_part h3:after{
 	content: '';
     position: absolute;
@@ -6719,16 +6768,36 @@ a{
     width: 100px;
     height: 2px;
     background-color: #fff;
+    display: none;
 }
 .fn_cs_project_sticky_modern .left_part p{
   font-size: 14px;
   line-height: 24px;
   margin: 5vh 0;
-  background: #f9eeeee3;
-  color: #7c6b6b;
+  background: #191919e3;
+  color: #cccccc;
   padding: 8vh 3vh;
   border-radius: 2vh;
+  letter-spacing: 3px;
+  border: 6px double #dbdbdb;
 }
+
+.fn_cs_project_sticky_modern .left_part_in2 p{
+  font-size: 14px;
+  line-height: 24px;
+  margin: 5vh 0;
+  background: #ffffffb5;
+  color: #292525;
+  padding: 8vh 3vh;
+  border-radius: 2vh;
+  letter-spacing: 3px;
+  border: 6px double #dbdbdb;
+}
+
+.features-area h3{
+  color:#383434;
+}
+
 .fn_cs_project_sticky_modern .left_part a{
   font-size: 15px;
   font-weight: 600;
@@ -7051,6 +7120,8 @@ section{
 /* Expertise Area CSS */
 .pp-expertise-area {
   border-bottom: 1px solid #f0f0f0;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .pp-expertise-box {
@@ -7080,6 +7151,8 @@ section{
   display: flex;
   flex-direction: row;
   background-color: white;
+  border-radius: 1vh;
+  border:3px solid #dbdbdb;
 }
 
 .pp-expertise-area .container .section-title{
@@ -7088,10 +7161,22 @@ section{
   flex-direction: column;
   margin: 0 1vh;
   width: 33vh;
+  background: #b97373;
+  padding: 1vh;
+}
+
+.pp-expertise-area .container .section-title h4{
+  color: white;
+}
+
+
+
+.process .container .section-title h4{
+  color:#606378;
 }
 
 .pp-expertise-area .container .row{
-  padding: 0 1vh;
+  padding: 3vh;
   width:100%;
 }
 
@@ -7134,14 +7219,22 @@ section{
 /* Expertise Area CSS */
 .pricing {
   border-bottom: 1px solid #f0f0f0;
-}
-
-.pricing {
   margin-bottom: 30px;
   align-items: center;
   display: flex;
   flex-direction: column;
   background-color: #1f1e1e;
+  border-radius: 1vh;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.process .container{
+  background:linear-gradient(90deg, #b97373, #8ab0d4);
+}
+
+.process .container .section-title {
+  background: #efefef;
 }
 
 
@@ -7151,12 +7244,12 @@ section{
 }
 
 .pp-expertise-area:nth-child(2) .section-title h2{
-  color:#7272b5;
+  color:#e7e7e7;
 }
 
 
 .pricing .section-title h2{
-  color:#abb8ac;
+  color:#393939;
 }
 
 .pricing .icon {
@@ -7186,6 +7279,8 @@ section{
   flex-direction: column;
   margin: 0 1vh;
   width: 33vh;
+  background: #cdd7e0;
+  padding: 1vh;
 }
 
 .pricing .container .row{
@@ -7221,7 +7316,7 @@ section{
 }
 
 .pricing h4 {
-  color: #cfcfcf;
+  color: #464343;
 }
 
 .pricing:hover .icon {
@@ -7368,8 +7463,8 @@ section{
   align-items: center;
   justify-content: center;
 }
-.faq-area .container div{
-
+.faq-area .container{
+  background:#efefef;
 }
 
 .row .features-area{
@@ -7400,4 +7495,14 @@ background-image: none;
 .react-tabs .pp-expertise-area{
   padding-top: 0;
   padding-bottom: 0;
+}
+
+.row{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.projects-link{
+  text-align: right;
+
 }

@@ -61,7 +61,7 @@ class Navbar extends Component {
                                 <ul className="navbar-nav m-auto">
                                     <li className="nav-item active">
                                         <Link href="#">
-                                            <a className="nav-link" onClick={e => e.preventDefault()}>
+                                            <a className="nav-link menu" onClick={e => e.preventDefault()}>
                                                 Home <i className='bx bx-chevron-down'></i>
                                             </a>
                                         </Link>
@@ -101,7 +101,7 @@ class Navbar extends Component {
 
                                     <li className="nav-item">
                                         <Link href="#">
-                                            <a className="nav-link" onClick={e => e.preventDefault()}>
+                                            <a className="nav-link menu" onClick={e => e.preventDefault()}>
                                                 About <i className='bx bx-chevron-down'></i>
                                             </a>
                                         </Link>
@@ -123,7 +123,7 @@ class Navbar extends Component {
 
                                     <li className="nav-item">
                                         <Link href="/services">
-                                            <a className="nav-link" onClick={e => e.preventDefault()}>
+                                            <a className="nav-link menu" onClick={e => e.preventDefault()}>
                                                 Services <i className='bx bx-chevron-down'></i>
                                             </a>
                                         </Link>
@@ -163,7 +163,7 @@ class Navbar extends Component {
 
                                     <li className="nav-item">
                                         <Link href="#">
-                                            <a className="nav-link" onClick={e => e.preventDefault()}>
+                                            <a className="nav-link menu" onClick={e => e.preventDefault()}>
                                                 Pages <i className='bx bx-chevron-down'></i>
                                             </a>
                                         </Link>
@@ -255,7 +255,7 @@ class Navbar extends Component {
 
                                     <li className="nav-item">
                                         <Link href="#">
-                                            <a className="nav-link" onClick={e => e.preventDefault()}>
+                                            <a className="nav-link menu" onClick={e => e.preventDefault()}>
                                                 News <i className='bx bx-chevron-down'></i>
                                             </a>
                                         </Link>
@@ -283,7 +283,7 @@ class Navbar extends Component {
 
                                     <li className="nav-item">
                                         <Link href="#">
-                                            <a className="nav-link" onClick={e => e.preventDefault()}>
+                                            <a className="nav-link menu" onClick={e => e.preventDefault()}>
                                                 Contact <i className='bx bx-chevron-down'></i>
                                             </a>
                                         </Link>

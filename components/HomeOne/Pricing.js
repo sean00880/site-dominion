@@ -27,7 +27,7 @@ const MyExpertise = () => {
 <br /><br />
 While a lot of manpower is involved in website development, we believe website solutions should be accessible to most business owners at affordable rates.
 <br /><br />
-That is why, at Decoded Web, we pledge to charge low set-up costs for fully optimized web solutions so you can allocate your budget on marketing and other business-related needs.</h4>
+That is why, @ Site Dominion, we pledge to charge low set-up costs for fully optimized web solutions so you can allocate your budget on marketing and other business-related needs.</h4>
           </div>
 
           <div className="row justify-content-center">

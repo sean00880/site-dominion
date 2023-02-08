@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Link from 'next/link';
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import ServicesTabs from './ServicesTabs';
 import LogoContent from '../ServiceDetails/LogoContent'
@@ -9,9 +8,11 @@ class ServicesStyleOne extends Component {
         return (
             <section className="features-area features-area-inner-style">
                 <div className="container">
-                <Tabs>
+                <LogoContent/> 
+              
+                <Tabs defaultIndex={1}>
               <TabList>
-                <Tab>Step #1: Browse Through Our Services</Tab>
+                <Tab>Step #1: Pick a Service</Tab>
                 <Tab>Step #2: Initiate Your FREE Quote Request
 </Tab>
                 <Tab>Step #3: We Work On Your Project</Tab>
@@ -23,7 +24,7 @@ class ServicesStyleOne extends Component {
               </TabList>
               <div className="row">
               <TabPanel>
-                <LogoContent/> 
+                <ServicesTabs/> 
               
               </TabPanel>
               </div>

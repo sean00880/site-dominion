@@ -7,9 +7,9 @@ class ServicesStyleFour extends Component {
             <section className="industries-serve-area">
                 <div className="container">
                     <div className="section-title">
-                        <span>What We Offer</span>
                         <h2>Industries We Serve</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates magni fugit, quod iure quibusdam, omnis nisi cum, nostrum nulla deleniti mollitia tenetur.</p>
+                        <hr />
+                        <h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates magni fugit, quod iure quibusdam, omnis nisi cum, nostrum nulla deleniti mollitia tenetur.</h4>
                     </div>
 
                     <div className="row align-items-center">

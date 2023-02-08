@@ -1,28 +1,43 @@
 import React, { Component } from 'react';
-import Link from 'next/link';
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
-import ProjectTabs from './ProjectTabs';
 import ServicesTabs from './ServicesTabs';
+import Portfolio1Content from '../ServiceDetails/Portfolio1Content'
+import Link from 'next/link';
 
 class ServicesStyleOne extends Component {
     render() {
         return (
             <section className="features-area features-area-inner-style">
                 <div className="container">
-                <ProjectTabs/>
                     <Tabs>
                         <TabList>
-                        <Tab>Step #1: Pick A Service</Tab>
-                        <Tab>Step #2: Initiate Your FREE Quote Request
+                            <Tab>Project Overview</Tab>
+                            <Tab>More Projects</Tab>
+                            <Tab>Pricing</Tab>
+                        </TabList>
+                    </Tabs>
+                <Portfolio1Content/> 
+              
+                <Tabs defaultIndex={1}>
+              <TabList>
+                <Tab>Step #1: Pick a Service</Tab>
+                <Tab>Step #2: Initiate Your FREE Quote Request
 </Tab>
                 <Tab>Step #3: We Work On Your Project</Tab>
                 <br />
                 <Tab>Step #4: Complete Payment</Tab>
                 <Tab>Step #5: Project Deployed
 </Tab>
-                        </TabList>
-                        <TabPanel><ServicesTabs/></TabPanel>
-                        <TabPanel>                                        <div className="main-contact-area">
+
+              </TabList>
+              <div className="row">
+              <TabPanel>
+                <ServicesTabs/> 
+              
+              </TabPanel>
+              </div>
+              <TabPanel>
+              <div className="main-contact-area">
             <div className="container">
                 <div className="section-title">
                     <span>Contact Us</span>
@@ -116,10 +131,8 @@ class ServicesStyleOne extends Component {
                     
                 </div>
             </div>
-        </div></TabPanel>
-                        <TabPanel></TabPanel>
-                        <TabPanel></TabPanel>
-                        <TabPanel></TabPanel>
+        </div>
+                    </TabPanel>
                     </Tabs>
                 </div>
             </section>

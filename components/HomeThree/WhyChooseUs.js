@@ -8,7 +8,8 @@ class WhyChooseUs extends Component {
                     <div className="section-title">
                         <span>Why Choose Us</span>
                         <h2>What's included in our featured website package?</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nisi rem quo itaque minus dolorem ratione vero, quisquam reiciendis quia atque eos aspernatur.</p>
+                        <hr />
+                        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nisi rem quo itaque minus dolorem ratione vero, quisquam reiciendis quia atque eos aspernatur.</h4>
                     </div>
 
                     <div className="row align-items-center">

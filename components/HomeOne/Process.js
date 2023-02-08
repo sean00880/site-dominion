@@ -13,7 +13,7 @@ import HomeAccordion from "./HomeAccordion";
 const MyExpertise = () => {
   return (
     <>
-      <div className="pp-expertise-area">
+      <div className="pp-expertise-area process">
         <div className="container">
           <div className="section-title style-two">
           

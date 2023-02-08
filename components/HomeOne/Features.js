@@ -7,7 +7,11 @@ const Features = () => {
                 
                 <div className="container">
                     <div className="row">
-                    <h1>Web Development Services </h1>
+                    <div className="section-title">
+                        <h2>Our Services</h2>
+                        <hr />
+                        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nisi rem quo itaque minus dolorem ratione vero, quisquam reiciendis quia atque eos aspernatur.</h4>
+                    </div>
                 
                 <hr />
                 <h3>Go with Site Dominion's featured website package. We handle everything for you, from design to developement, hosting, deployment and optimization.</h3>                       

@@ -16,8 +16,9 @@ import '../node_modules/font-awesome/css/font-awesome.min.css';
 const Index = () => {
     return (
         <>
+       
             <Navbar />
-            
+          
             <MainBanner />
             <PartnerSlider/>
             <TopSections/>
@@ -31,8 +32,7 @@ const Index = () => {
             <News />
             <Testimonials />
 
-        
-            
+     
             <Footer />
         </>
     )
