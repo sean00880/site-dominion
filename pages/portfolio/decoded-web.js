@@ -13,8 +13,8 @@ class DecodedWeb extends Component {
                 <PageBanner 
                     pageTitle="Decoded Web - Website Development" 
                     homePageUrl="/" 
-                    homePageText="Home" 
-                    activePageText="Portfolio" 
+                    homePageText="sitedominion.com" 
+                    activePageText="portfolio/decoded-web" 
                 /> 
                 
                 <Project1Tabs />

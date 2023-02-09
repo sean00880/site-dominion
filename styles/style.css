@@ -1479,7 +1479,7 @@ Main Banner Area Style
 ======================================================*/
 .main-banner-area {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#00095e), to(#000638));
-  background-image: url(/images/background2.png);
+  background-image: url('/images/backgroundred.png');
   background-size: cover;
   background-attachment: fixed;
   position: relative;
@@ -1729,7 +1729,7 @@ Features Area Style
 
 .single-features p {
   margin-bottom: 10px;
-  padding: 30px;
+  padding: 4vh 0;
   color:#8b8282e0;
 }
 
@@ -1779,7 +1779,6 @@ Features Area Style
 .single-features:hover p{
   background: white;
   color: black;
-  padding: 30px;
   border-radius: 1vh;
   transition: all .6s ease;
 }
@@ -2079,32 +2078,55 @@ Choose Us Area Style
   width: 50%;
   margin: 2vh;
     justify-content: space-between;
-    color: rgb(26, 25, 25);
+    color: #e7e7e7;
 }
 
 .features-area .container {
-  background-color: #e7e7e7;
-  padding: 3vh;
-  border-radius: 2vh 9vh 2vh 9vh;
+  background:linear-gradient(90deg, #e7e7e7, #1d1c1c);
+  border-radius: 1vh;
   border: 2px solid #f2f2f2;
   text-align: center;
-
+  padding: 1vh
 }
 
 .features-area .container2{
   background-color: white;
-  padding: 7vh 2vh;
   border-radius: 1vh;
+  padding: 1vh
+}
+
+
+
+.features-area .container .row{
+  background: linear-gradient(45deg, #1d1c1c, #464545);
+  border-radius: 0 0 1vh 1vh;
+  padding: 1vh;
+  margin: 0;
+}
+
+.features-area .container .react-tabs .row {
+  border-radius: 0 0 1vh 1vh;
+}
+
+.features-area .react-tabs .main-contact-area .container {
+  border-radius: 0 0 1vh 1vh;
+  background-color: linear-gradient(90deg, #e7e7e7, white);
+}
+
+
+.features-area h4, h3{
+color: #bbbbbb;
 }
 
 .features-area .single-features{
-  border: 3px solid #803939;
+  border: 3px solid #1a181859;
 
   
 }
 
 .features-area .single-features:hover{
-  border: 3px solid #7da3c7;
+  border: 3px solid #eeeeeeee;
+  background:linear-gradient(45deg, #0f0f0f, #464545);
 }
 
 .main-banner-area.main-banner-area-one .banner-text h3{
@@ -2153,7 +2175,7 @@ Choose Us Area Style
   padding-right: 30px;
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: #dbe6f1;
+  background: linear-gradient(45deg, #b97373, #953728);
   -webkit-box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
           box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
   margin-bottom: 30px;
@@ -2161,6 +2183,10 @@ Choose Us Area Style
   transition: all 0.6s ease;
   border-radius: 1vh;
   border: 3px solid white;
+}
+
+.choose-content ul li p {
+  color: white;
 }
 
 .choose-content ul li:last-child {
@@ -2178,7 +2204,7 @@ Choose Us Area Style
   -webkit-text-stroke: 1px;
   font-size: 30px;
   font-weight: 300;
-  color: #744d4d;
+  color: #e0dcdc;
   -webkit-animation: border-transform 7s linear infinite alternate forwards;
   animation: border-transform 7s linear infinite alternate forwards;
   transition: all 0.6s ease;
@@ -2204,7 +2230,7 @@ Choose Us Area Style
   border-radius: 50%;
   display: inline-block;
   font-size: 25px;
-  color: #dcddfa;
+  color: #1a1a1b;
 }
 
 .choose-content ul li h3 {
@@ -2215,7 +2241,7 @@ Choose Us Area Style
 }
 
 .choose-content ul li:nth-child(2) span i {
-  color: #bde5fa;
+  color: #151616;
 }
 
 .choose-content ul li:hover {
@@ -2745,7 +2771,9 @@ Client Area Style
 }
 
 .client-area {
-  background-color: #192064;
+  background-image: url(/images/background2blue.png);
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .client-area .section-title h2 {
@@ -2927,10 +2955,18 @@ News Area Style
 Footer Top Area Style
 ======================================================*/
 .footer-top-area {
-  background-color: #00042c;
+  background-image: url('/images/background.png');
+  background-attachment:fixed;
+  background-size: cover;
   position: relative;
   z-index: 1;
   overflow: hidden;
+}
+
+.footer-top-area .container{
+  border-radius: 1vh;
+  background: linear-gradient(45deg, #1d1c1c, #464545);
+  padding: 2vh;
 }
 
 .footer-top-area .footer-shape img {
@@ -3342,7 +3378,7 @@ Pricing Area Style
   background-color: #ffffff;
   -webkit-box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
           box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
-  padding: 30px;
+  padding: 1vh;
 
   position: relative;
   z-index: 1;
@@ -3605,7 +3641,7 @@ Industries Serve Area Style
 ======================================================*/
 .industries-serve-area {
   padding-bottom: 90px;
-  background-image: url('/images/backgroundblue.png');
+  background-image: url('/images/background2blue.png');
   background-size: cover;
   background-attachment: fixed;
 }
@@ -3613,7 +3649,7 @@ Industries Serve Area Style
 .industries-serve-area .container{
     background-color: #e7e7e7;
     padding: 7vh 2vh;
-    border-radius: 2vh 9vh;
+    border-radius: 1vh;
     border: 2px solid #8a5050af;
 }
 
@@ -4483,6 +4519,7 @@ Page Title Area Style
   text-transform: uppercase;
   background-color: rgb(223, 222, 222);
   padding:0 10px;
+  margin-bottom: 0;
 }
 
 .page-title-area .page-title-content ul li a:hover {
@@ -4932,6 +4969,22 @@ Ask Question Area Style
 /*
 Blog Details Area Style
 =====================================================*/
+
+.news-area .row{
+  border-radius: 1vh;
+}
+.news-area .col-lg-4 {
+  background:linear-gradient(180deg, #81abd3, #3e79cc);
+  padding-top: 2vh;
+
+}
+
+.news-area .col-lg-6 {
+  background:linear-gradient(180deg, #81abd3, #3e79cc);
+  padding-top: 2vh;
+
+}
+
 .news-details-area {
   /*
 	Sidebar Widget Area Style
@@ -6186,12 +6239,27 @@ Contact Info Area Style
 /*
 Main Contact Area Style
 =====================================================*/
+
+.main-contact-area .container{
+  border: 0;
+}
+
+.main-contact-area .container .row{
+  border-radius: 1vh;
+}
+
+
 .main-contact-area .contact-wrap {
   max-width: unset;
 }
 
 .main-contact-area .section-title h2{
-  font-size: 17px;
+  font-size: 33px;
+    color: #ebebeb;
+}
+
+.main-contact-area .section-title p{
+    color: ghostwhite;
 }
 
 .main-contact-area .contact-wrap .section-title {
@@ -6217,8 +6285,7 @@ Main Contact Area Style
   background-color: #ffffff;
   -webkit-box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
           box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
-  padding: 50px;
-  border-radius: 1vh 7vh;
+  border-radius: 1vh;
 }
 
 .main-contact-area .contact-wrap .contact-form #msgSubmit {
@@ -6243,7 +6310,7 @@ Contact Info Area Three Style
 }
 
 .features-area-inner-style .single-features {
-  margin-bottom: 40px;
+  margin-bottom: 0;
 }
 
 /*
@@ -6298,6 +6365,8 @@ Service Details Area Style
 .service-sidebar-area .service-list ul li a {
   color: #212121;
   display: block;
+  font-weight: 500;
+  font-style: normal;
 }
 
 .service-sidebar-area .service-list ul li i {
@@ -6346,7 +6415,7 @@ Service Details Area Style
   margin-bottom: 15px;
 }
 
-.service-details-wrap .mb-30 {
+.service-details-wrap  .mb-30 {
   margin-bottom: 30px;
 }
 
@@ -6364,6 +6433,12 @@ Service Details Area Style
   margin-top: 30px;
   margin-bottom: 30px;
   padding-left: 0;
+}
+
+.service-details-wrap p {
+  text-align: left;
+  text-indent: 1vh;
+  padding:1vhl
 }
 
 .service-details-wrap ul li {
@@ -6518,7 +6593,7 @@ Service Details Area Style
   font-size: 15px;
   font-weight: 600;
   color: white;
-  padding: 18px 35px;
+  padding: 17px;
   line-height: 1;
   transition: all 0.6s ease;
   z-index: 1;
@@ -6596,6 +6671,12 @@ Service Details Area Style
 
 a{
   letter-spacing: 3px;
+  color: #7c2020;
+  font-size: 21px;
+  font-family: 'Smooch Sans',sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  margin-bottom: 1vh;
 }
 
 .default-btn2{
@@ -6690,10 +6771,9 @@ a{
 	float: left;
 	clear: both;
 	position: relative;
-	margin-bottom: 100px;
-  padding: 0;
-
+  padding: 3vh 0;
 }
+
 .fn_cs_project_sticky_modern .inner{
 	width: 100%;
     float: left;
@@ -6701,7 +6781,6 @@ a{
     position: relative;
     display: flex;
     flex-direction: row;
-    margin: 2vh 0;
     padding: 6vh 1vh;
     background-color: #e7e7e7;
 }
@@ -6712,8 +6791,8 @@ a{
 	width: 100%;
   background-image: url(/images/background2.png);
   width: 100%;
-  padding: 10vh 2vh;
-  top: 47px;
+  padding: 9.5vh 2vh;
+  top: 5vh;
   position: relative;
   border-radius: 14px 94px;
   align-items: center;
@@ -6726,7 +6805,7 @@ a{
 .fn_cs_project_sticky_modern .left_part_in2{
   
   border-radius: 14px 94px;
-  background-image: url(/images/backgroundblue.png);
+  background-image: url(/images/background2blue.png);
   background-size: cover;
   background-attachment: fixed;
 }
@@ -6771,8 +6850,8 @@ a{
     display: none;
 }
 .fn_cs_project_sticky_modern .left_part p{
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 15px;
+  line-height: 2;
   margin: 5vh 0;
   background: #191919e3;
   color: #cccccc;
@@ -6783,8 +6862,8 @@ a{
 }
 
 .fn_cs_project_sticky_modern .left_part_in2 p{
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 15px;
+  line-height: 2;
   margin: 5vh 0;
   background: #ffffffb5;
   color: #292525;
@@ -6794,9 +6873,7 @@ a{
   border: 6px double #dbdbdb;
 }
 
-.features-area h3{
-  color:#383434;
-}
+
 
 .fn_cs_project_sticky_modern .left_part a{
   font-size: 15px;
@@ -6899,7 +6976,6 @@ a{
     float: left;
     clear: both;
     position: relative;
-	padding: 0px 50px;
 }
 .fn_cs_project_sticky_modern .img_holder{
 	position: relative;
@@ -7083,6 +7159,7 @@ a{
 	.fn_cs_project_sticky_modern .left_part{width: 100%;min-width: 100%;margin-bottom: 70px;}
 	.fn_cs_project_sticky_modern .right_part{width: 100%;min-width: 100%;padding-left: 0px;}
 	.fn_cs_project_sticky_modern .inner{flex-direction: column;}
+  .fn_cs_project_sticky_modern .inner2{flex-direction: column-reverse;}
 }
 @media(max-width: 1040px){
 	.fn_cs_project_sticky_modern .item{padding: 0px !important;}
@@ -7090,7 +7167,7 @@ a{
 }
 
 section{
-  padding: 10vh 1.4vh;
+  padding: 3vh 0;
 }
 
 .navbar-area nav img{
@@ -7122,6 +7199,7 @@ section{
   border-bottom: 1px solid #f0f0f0;
   padding-left: 0;
   padding-right: 0;
+  padding: 5vh 0;
 }
 
 .pp-expertise-box {
@@ -7161,7 +7239,7 @@ section{
   flex-direction: column;
   margin: 0 1vh;
   width: 33vh;
-  background: #b97373;
+  background: linear-gradient(45deg, #b97373, #953728);
   padding: 1vh;
 }
 
@@ -7219,7 +7297,6 @@ section{
 /* Expertise Area CSS */
 .pricing {
   border-bottom: 1px solid #f0f0f0;
-  margin-bottom: 30px;
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -7340,11 +7417,12 @@ section{
 }
 
 .cs-card-area .container{
-  background: ghostwhite;
+  background: #464545;
   border-radius: 1vh;
   border: none;
   
 }
+
 
 .cs-card-content {
   margin-bottom: 30px;
@@ -7359,7 +7437,7 @@ section{
   font-weight: 600;
   font-style: italic;
   font-family: 'Smooch Sans', sans-serif;
-  color: #1d1c1c;
+  color:   rgb(223, 222, 222);
   letter-spacing: 3px;
   text-align: center;
   height: 9vh;
@@ -7382,7 +7460,7 @@ section{
   height: 1px;
   left: 0;
   bottom: 0;
-  background: #f9004d;
+  background: #ad6052;
 }
 
 
@@ -7394,8 +7472,15 @@ section{
   text-align: center;
   padding: 0 0 10px;
   border-bottom: 2px solid #f1f0f0;
-  margin-bottom: 50px;
   line-height: 4;
+  background: #1d1c1c;
+  /* margin: 1vh; */
+  margin: 0;
+  border-radius: 1vh 1vh 0 0;
+}
+
+.features-area .react-tabs .react-tabs__tab-list:nth-child(3){
+  border-radius: 0;
 }
 
 .features-area .react-tabs .react-tabs__tab-list li {
@@ -7405,7 +7490,7 @@ section{
   position: relative;
   margin-left: 20px;
   margin-right: 20px;
-  color: #685f5f;
+  color: #ffffff;
   cursor: pointer;
   font-size: 25px;
   font-weight: 500;
@@ -7437,9 +7522,13 @@ section{
 }
 
 .features-area .react-tabs .react-tabs__tab-list li.react-tabs__tab--selected {
-  color: #c93737;
+  color: #e6e1e1;
     font-style: italic;
     transition: .4s;
+}
+
+.col-lg-12 .single-features{
+  background: linear-gradient(180deg, #e7e7e7, white);
 }
 
 .features-area .react-tabs .react-tabs__tab-list li.react-tabs__tab--selected::before {
@@ -7503,6 +7592,18 @@ background-image: none;
 }
 
 .projects-link{
+  font-family: 'smooch sans';
+  font-size: 28px;
+  font-style: italic;
   text-align: right;
+  /* padding-left: 94vh; */
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  color: #812121;
 
+}
+
+.projects-link:hover{
+  color:rgb(66, 63, 63);
 }

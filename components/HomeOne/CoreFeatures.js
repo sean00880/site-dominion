@@ -13,7 +13,7 @@ import {CgUserlane} from "react-icons/cg"
 const MyExpertise = () => {
   return (
     <>
-      <div className="pp-expertise-area pt-100 pb-70">
+      <div className="pp-expertise-area">
         <div className="container">
           <div className="section-title style-two">
           

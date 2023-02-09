@@ -12,9 +12,10 @@ class ServicesStyleOne extends Component {
                     <Tabs>
                         <TabList>
                             <Tab>Project Overview</Tab>
-                            <Tab>More Projects</Tab>
-                            <Tab>Pricing</Tab>
+                        
+                          
                         </TabList>
+                            <a href="/portfolio" style={{'display':'flex','flexDirection':'column','textAlign':'right'}}> &lt;&#45; Back To Projects</a>
                     </Tabs>
                 <Portfolio1Content/> 
               

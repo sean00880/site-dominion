@@ -13,10 +13,10 @@ class Services extends Component {
                 <Navbar />
 
                 <PageBanner 
-                    pageTitle="Our Services" 
-                    homePageUrl="/services" 
+                    pageTitle="Our Portfolio" 
+                    homePageUrl="/portfolio" 
                     homePageText="www.sitedominion.com" 
-                    activePageText="Services" 
+                    activePageText="Projects" 
                 /> 
             
                 <PortfolioTabs />

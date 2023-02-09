@@ -4,7 +4,7 @@ import Link from 'next/link';
 class PrototypeProjects extends Component {
     render() {
         return (
-            <div className="inner">
+            <div className="inner inner2">
                     
             <div className="right_part">
                 <div className="fn_cs_sticky_section_right">

@@ -20,7 +20,7 @@ class ServicesStyleOne extends Component {
                 
                 
               </TabList>
-              <div className="row">
+              <div className="row" style={{"borderRadius":"0"}}>
               
                 <TabPanel className="d-flex flex-column">
                     
@@ -153,15 +153,15 @@ class ServicesStyleOne extends Component {
                     </Tabs>
 
                     <Tabs>
-<TabList>
+<TabList style={{"borderRadius":"0"}}>
                 
                 <br />
                 <Tab>Step #2: Initiate Your FREE Quote Request
 </Tab>
                 
 </TabList>
-<div className="row">
-    <TabPanel>
+<div className="row" style={{"borderRadius":"0 0 1vh", "padding":"1vh"}}>
+    <TabPanel style={{"padding":"0"}}>
     <div className="main-contact-area">
             <div className="container">
                 <div className="section-title">
@@ -260,8 +260,8 @@ class ServicesStyleOne extends Component {
     </TabPanel>
 </div>
                     </Tabs>
-                    <Tabs>
-                        <TabList>
+                    <Tabs >
+                        <TabList style={{"borderRadius":"0vh 0vh"}}>
                         <Tab>Step #3: We Work On Your Project</Tab>
                 <Tab>Step #4: Complete Payment</Tab>
                 <Tab>Step #5: Project Deployed
