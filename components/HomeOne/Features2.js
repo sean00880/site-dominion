@@ -4,7 +4,7 @@ import WhyChooseUs from '../HomeThree/WhyChooseUs';
 
 const Features = () => {
         return (
-            <section className="features-area" style={{"borderBottom":"2px solid #3c3838"}}>
+            <section className="features-area" style={{"borderBottom":"2px solid #9d9d9d6e"}}>
                 
                 <div className="container">
                     <div className="row">

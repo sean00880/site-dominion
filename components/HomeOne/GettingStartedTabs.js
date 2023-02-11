@@ -61,7 +61,7 @@ class ServicesStyleOne extends Component {
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque quibusdam deleniti porro praesentium. Aliquam minus quisquam velit in at nam.</p>
                 </div>
 
-                <div className="row align-items-center">
+                <div className="row align-items-center" style={{"borderRadius":"1vh"}}>
                     <div className="col-lg-12 col-md-12">
                         <div className="contact-wrap contact-pages mb-0">
                             <div className="contact-form">
@@ -260,15 +260,15 @@ class ServicesStyleOne extends Component {
     </TabPanel>
 </div>
                     </Tabs>
-                    <Tabs >
-                        <TabList style={{"borderRadius":"0vh 0vh"}}>
+                    <Tabs style={{"borderRadius":"0vh 0vh", "padding":"0"}}>
+                        <TabList style={{"borderRadius":"0vh 0vh" , "padding":"0"}}>
                         <Tab>Step #3: We Work On Your Project</Tab>
                 <Tab>Step #4: Complete Payment</Tab>
                 <Tab>Step #5: Project Deployed
 </Tab>
                         </TabList>
-                        <div className="row">
-                            <TabPanel>
+                        <div className="row" style={{"borderRadius":"0vh 0vh 1vh 1vh"}}>
+                            <TabPanel  style={{"padding":"0"}}>
 
 <WorkTab/>
                             </TabPanel>

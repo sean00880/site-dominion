@@ -15,12 +15,12 @@ class ServicesStyleOne extends Component {
                         
                           
                         </TabList>
-                            <a href="/portfolio" style={{'display':'flex','flexDirection':'column','textAlign':'right'}}> &lt;&#45; Back To Projects</a>
+                            <a href="/portfolio" className='portfolio_back' style={{'display':'flex','flexDirection':'column','textAlign':'right'}}> &lt;&#45; Back To Projects</a>
                     </Tabs>
                 <Portfolio1Content/> 
               
                 <Tabs defaultIndex={1}>
-              <TabList>
+              <TabList style={{"borderRadius":"0"}}>
                 <Tab>Step #1: Pick a Service</Tab>
                 <Tab>Step #2: Initiate Your FREE Quote Request
 </Tab>
@@ -31,7 +31,7 @@ class ServicesStyleOne extends Component {
 </Tab>
 
               </TabList>
-              <div className="row">
+              <div className="row" style={{"borderRadius":"0"}}>
               <TabPanel>
                 <ServicesTabs/> 
               

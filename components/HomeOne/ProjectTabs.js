@@ -9,7 +9,7 @@ class ServicesStyleOne extends Component {
     render() {
         return (
             <div className="features-area features-area-inner-style">
-                <div className="container">
+                <div className="container" style={{"borderRadius":"1vh 1vh 0 0"}}>
                 <Tabs>
               <TabList>
                 <Tab>Featured</Tab>

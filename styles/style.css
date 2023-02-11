@@ -79,7 +79,9 @@ This files table contents are outlined below>>>>>
 /*
 Default Style
 ============================*/
-
+html{
+  
+}
 
 
 body {
@@ -91,6 +93,7 @@ body {
   color: #4d4d4d;
   overflow-x: hidden;
   background: linear-gradient(180deg, #e7e7e7, white);
+  
 }
 
 a {
@@ -2074,6 +2077,8 @@ Choose Us Area Style
   align-items: center;
   display: flex;
   font-size: 15px;
+  letter-spacing: 4px;
+  line-height: 2;
   flex-direction: column;
   width: 50%;
   margin: 2vh;
@@ -2110,12 +2115,25 @@ Choose Us Area Style
 
 .features-area .react-tabs .main-contact-area .container {
   border-radius: 0 0 1vh 1vh;
+  padding:0;
   background-color: linear-gradient(90deg, #e7e7e7, white);
+}
+
+.react-tabs__tab-panel{
+  padding: 0;
 }
 
 
 .features-area h4, h3{
-color: #bbbbbb;
+color: #7b7575;
+}
+
+.services .container .row .section-title h4{
+  color:#f0ecec;
+}
+
+.services    h4, h3{
+  color:#f0ecec;
 }
 
 .features-area .single-features{
@@ -2134,7 +2152,7 @@ color: #bbbbbb;
   font-weight: 500;
   background: #312c2c;
   color: #d7d7d7;
-  padding: 7px;
+  padding: 2vh;
   font-size: 22px;
   border-radius: 1vh;
   line-height: 2;
@@ -2967,6 +2985,7 @@ Footer Top Area Style
   border-radius: 1vh;
   background: linear-gradient(45deg, #1d1c1c, #464545);
   padding: 2vh;
+  border: 3px solid white;
 }
 
 .footer-top-area .footer-shape img {
@@ -4891,10 +4910,19 @@ Sign In & Log In  Area Style
 Ask Question Area Style
 =====================================================*/
 .ask-question {
-  background-color: #ffffff;
+  background-color: #1d1c1c;
   -webkit-box-shadow: 0px 0px 29px 0px rgba(102, 102, 102, 0.08);
           box-shadow: 0px 0px 29px 0px rgba(102, 102, 102, 0.08);
-  padding: 50px;
+  padding: 2vh;
+}
+
+.portfolio_back {
+  color:#c5c4c4;
+}
+
+
+.portfolio_back:hover {
+  color:#d98383;
 }
 
 .ask-question .section-title {
@@ -4978,6 +5006,43 @@ Blog Details Area Style
   padding-top: 2vh;
 
 }
+
+.news-area .col-lg-4:nth-child(1) {
+  background:linear-gradient(180deg, #81abd3, #3e79cc);
+  padding-top: 2vh;
+  border-radius: 1vh 0 0 1vh;
+}
+
+.news-area .col-lg-4:nth-child(1) img{
+  border-radius: 1vh 0 0 0;
+}
+
+.news-area .col-lg-4:nth-child(3) img{
+  border-radius: 1vh 0 0 0;
+}
+
+.single-news .news-content-wrap:nth-child(1){
+  border-radius: 0 0 0 1vh;
+}
+
+.news-area .col-lg-4:nth-child(3) {
+  background:linear-gradient(180deg, #81abd3, #3e79cc);
+  padding-top: 2vh;
+  border-radius: 0 1vh 1vh 0;
+}
+
+.news-area .col-lg-6:nth-child(1) {
+  background:linear-gradient(180deg, #81abd3, #3e79cc);
+  padding-top: 2vh;
+  border-radius: 1vh 0 0 1vh;
+}
+
+.news-area .col-lg-6:nth-child(3) {
+  background:linear-gradient(180deg, #81abd3, #3e79cc);
+  padding-top: 2vh;
+  border-radius: 0 1vh 1vh 0;
+}
+
 
 .news-area .col-lg-6 {
   background:linear-gradient(180deg, #81abd3, #3e79cc);
@@ -6236,6 +6301,14 @@ Contact Info Area Style
   height: 445px;
 }
 
+.react-tabs .col-lg-12 {
+  padding: 0;
+}
+
+
+.service-details-area .container .row{
+  background-color: rgb(231, 231, 231);
+}
 /*
 Main Contact Area Style
 =====================================================*/
@@ -6246,6 +6319,14 @@ Main Contact Area Style
 
 .main-contact-area .container .row{
   border-radius: 1vh;
+}
+
+.main-contact-area .container .row .div{
+  padding: 0;
+}
+
+.col-lg-12, .col-lg-6 ,.col-sm-6{
+  padding: 2px;
 }
 
 
@@ -6310,8 +6391,13 @@ Contact Info Area Three Style
 }
 
 .features-area-inner-style .single-features {
-  margin-bottom: 0;
+  
 }
+
+.tab .features-area .container{
+  border-radius: 0 0 1vh 1vh;
+}
+
 
 /*
 Service Details Area Style
@@ -6323,6 +6409,10 @@ Service Details Area Style
 
 .service-details-area{
   padding: 0;
+}
+
+.service-details-area .container .row{
+  border-radius: 1vh;
 }
 
 .service-sidebar-area .service-details-title {
@@ -6415,6 +6505,18 @@ Service Details Area Style
   margin-bottom: 15px;
 }
 
+.service-details-wrap{
+  background: #e7e7e7;
+  border-radius: 1vh 0 0 0;
+  padding: 2vh;
+}
+
+.service-details-area .container .row .col-lg-4{
+  background: #e7e7e7;
+  border-radius: 0 1vh 0 0;
+  padding: 2vh;
+}
+
 .service-details-wrap  .mb-30 {
   margin-bottom: 30px;
 }
@@ -6438,16 +6540,17 @@ Service Details Area Style
 .service-details-wrap p {
   text-align: left;
   text-indent: 1vh;
-  padding:1vhl
+  padding: 1vh 2vh;
 }
 
 .service-details-wrap ul li {
   display: inline-block;
-  font-weight: 600;
-  color: #212121;
+  font-weight: 400;
+  color: #bfbfbf;
   font-size: 14px;
   padding-left: 30px;
   position: relative;
+  letter-spacing: 3px;
 }
 
 .service-details-wrap ul li i {
@@ -6482,7 +6585,9 @@ Service Details Area Style
 .service-details-wrap .car-service-list-wrap .car-service-list ul li {
   margin-bottom: 15px;
   display: block;
+  margin-left: 15px;
 }
+
 
 .service-details-wrap .car-service-list-wrap .car-service-list ul li:last-child {
   margin-bottom: 0;
@@ -6767,11 +6872,18 @@ a{
 }
 
 .fn_cs_project_sticky_modern{
-	width: 100%;
-	float: left;
-	clear: both;
-	position: relative;
-  padding: 3vh 0;
+  width: 100%;
+  float: left;
+  clear: both;
+  position: relative;
+  padding: 7vh 0;
+  background: #eaeaea;
+  border-radius: 1vh;
+  margin-bottom:7vh;
+}
+
+.fn_cs_project_sticky_modern .container{
+  background: #eaeaea;
 }
 
 .fn_cs_project_sticky_modern .inner{
@@ -6791,7 +6903,7 @@ a{
 	width: 100%;
   background-image: url(/images/background2.png);
   width: 100%;
-  padding: 9.5vh 2vh;
+  padding: 8vh 2vh;
   top: 5vh;
   position: relative;
   border-radius: 14px 94px;
@@ -7256,6 +7368,7 @@ section{
 .pp-expertise-area .container .row{
   padding: 3vh;
   width:100%;
+  background: linear-gradient(45deg, #f4f4f4, #e7e7e7);
 }
 
 .pp-expertise-box .icon.bg-fff5e6 {
@@ -7314,7 +7427,9 @@ section{
   background: #efefef;
 }
 
-
+.process .container .row{
+  background: none;
+}
 
 .pp-expertise-area .section-title h2{
   color:#f26363;
@@ -7529,6 +7644,11 @@ section{
 
 .col-lg-12 .single-features{
   background: linear-gradient(180deg, #e7e7e7, white);
+  margin: 0;
+}
+
+.react-tabs__tab-panel .react-tabs__tab-panel--selected{
+  padding: 0;
 }
 
 .features-area .react-tabs .react-tabs__tab-list li.react-tabs__tab--selected::before {
@@ -7584,6 +7704,7 @@ background-image: none;
 .react-tabs .pp-expertise-area{
   padding-top: 0;
   padding-bottom: 0;
+  border-radius: 1vh;
 }
 
 .row{

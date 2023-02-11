@@ -3,7 +3,7 @@ import TopSections from '../HomeOne/TopSections'
 
 const Features = () => {
         return (
-            <section className="features-area" style={{"borderBottom":"2px solid #3c3838"}}>
+            <section className="features-area services" style={{"borderBottom":"2px solid #3c3838"}}>
                 
                 <div className="container">
                     <div className="row">

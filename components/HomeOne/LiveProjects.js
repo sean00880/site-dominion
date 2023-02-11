@@ -9,8 +9,9 @@ class LiveProjectsSlider extends Component {
             <div className="section-title">
                     <span>Projects</span>
                     <h2>Check out our LIVE websites.</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias eos ea obcaecati et similique incidunt animi, sed, quos officiis placeat. Id ipsa molestias.</p>
-                </div>
+                    <hr />
+                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias eos ea obcaecati et similique incidunt animi, sed, quos officiis placeat. Id ipsa molestias.</h4>
+                 </div>
                 <LiveProjects/>
             </div>
         </section>

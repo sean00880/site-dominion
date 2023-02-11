@@ -11,7 +11,7 @@ class ServicesStyleOne extends Component {
                 <div className="container">
                 <ProjectTabs/>
                     <Tabs>
-                        <TabList>
+                        <TabList style={{"borderRadius":"0"}}>
                         <Tab>Step #1: Pick A Service</Tab>
                         <Tab>Step #2: Initiate Your FREE Quote Request
 </Tab>
@@ -21,9 +21,9 @@ class ServicesStyleOne extends Component {
                 <Tab>Step #5: Project Deployed
 </Tab>
                         </TabList>
-                        <TabPanel><ServicesTabs/></TabPanel>
+                        <TabPanel className='tab' style={{"borderRadius":"0"}}><ServicesTabs/></TabPanel>
                         <TabPanel>                                        <div className="main-contact-area">
-            <div className="container">
+            <div className="container" style={{"borderRadius":"0"}}>
                 <div className="section-title">
                     <span>Contact Us</span>
                     <h2>Get Your FREE Quote</h2>

@@ -12,7 +12,7 @@ class WhyChooseUs extends Component {
                         <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nisi rem quo itaque minus dolorem ratione vero, quisquam reiciendis quia atque eos aspernatur.</h4>
                     </div>
 
-                    <div className="row align-items-center">
+                    <div className="row align-items-center" style={{"borderRadius":"1vh"}}>
                         <div className="col-lg-6">
                             <div className="choose-content">
                                 <ul>

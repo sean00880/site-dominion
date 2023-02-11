@@ -9,7 +9,8 @@ class PrototypeProjectsSlider extends Component {
             <div className="section-title">
                     <span>Projects</span>
                     <h2>Browse Through Our Prototype Projects</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias eos ea obcaecati et similique incidunt animi, sed, quos officiis placeat. Id ipsa molestias.</p>
+                    <hr />
+                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias eos ea obcaecati et similique incidunt animi, sed, quos officiis placeat. Id ipsa molestias.</h4>
                 </div> 
                 <PrototypeProjects/>                             
             </div>

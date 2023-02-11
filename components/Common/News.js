@@ -4,8 +4,8 @@ import Link from 'next/link';
 class News extends Component {
     render() {
         return (
-            <section className="news-area pt-100 pb-70">
-                <div className="container">
+            <section className="news-area pt-100 pb-70" >
+                <div className="container" >
                     <div className="section-title">
                         <h2>Our Blog</h2>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut ipsum fugit temporibus possimus itaque accusamus voluptatibus dignissimos nobis eaque.</p>

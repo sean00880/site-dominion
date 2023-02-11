@@ -13,10 +13,10 @@ class PrototypeProjects extends Component {
                             <div className="item">
                                 <div className="img_holder">
                                     <img src="img/thumb/560-375.jpg" alt="" />
-                                    <div className="abs_img" style={{ backgroundImage: "/images/offer1.png" }}><Link href=""><a></a></Link></div>
-                                </div>
+                                    <div className="abs_img" ><Link href=""><a style={{ "backgroundImage": "url(/images/projecta.png)", "backgroundSize":"contain", "backgroundPosition":"center","backgroundRepeat":"no-repeat" }}></a></Link></div>
+                                       </div>
                                 <div className="title_holder">
-                                    <h3><Link href="/portfolio-single-1"><a>GREENPOWER Landscaping</a></Link></h3>
+                                    <h3><Link href="/portfolio/greenpower"><a>GREENPOWER Landscaping - Landscaping Business Website</a></Link></h3>
                                     <p>
                                         <Link href="/portfolio-single-1"><a>
                                             <span className="text">View More</span>
@@ -31,10 +31,10 @@ class PrototypeProjects extends Component {
                             <div className="item">
                                 <div className="img_holder">
                                     <img src="img/thumb/560-375.jpg" alt="" />
-                                    <div className="abs_img" style={{ backgroundImage: "/images/offer1.png" }}><Link href="/portfolio-single-2"><a></a></Link></div>
-                                </div>
+                                    <div className="abs_img" ><Link href=""><a style={{ "backgroundImage": "url(/images/projectc.png)", "backgroundSize":"contain", "backgroundPosition":"center","backgroundRepeat":"no-repeat" }}></a></Link></div>
+                                 </div>
                                 <div className="title_holder">
-                                    <h3><Link href="/portfolio-single-2"><a>Articulate Insuarance</a></Link></h3>
+                                    <h3><Link href="/portfolio-single-2"><a>Articulate Insuarance - Insurance Agency</a></Link></h3>
                                     <p>
                                         <Link href="/portfolio-single-2"><a>
                                             <span className="text">View More</span>
@@ -49,10 +49,10 @@ class PrototypeProjects extends Component {
                             <div className="item">
                                 <div className="img_holder">
                                     <img src="img/thumb/560-375.jpg" alt="" />
-                                    <div className="abs_img" style={{ backgroundImage: "/images/offer1.png" }}><Link href="/portfolio-single-3"><a></a></Link></div>
+                                    <div className="abs_img" ><Link href=""><a style={{ "backgroundImage": "url(/images/projectb.png)", "backgroundSize":"contain", "backgroundPosition":"center","backgroundRepeat":"no-repeat" }}></a></Link></div>
                                 </div>
                                 <div className="title_holder">
-                                    <h3><Link href="/portfolio-single-3"><a>ShipWreck Cove - Crypto Community</a></Link></h3>
+                                    <h3><Link href="/portfolio-single-3"><a>Shareo - Online Marketing Agency</a></Link></h3>
                                     <p>
                                         <Link href="/portfolio-single-3"><a>
                                             <span className="text">View More</span>

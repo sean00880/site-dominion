@@ -16,7 +16,7 @@ class ServicesStyleOne extends Component {
               </TabList>
               <div className="row" style={{"borderRadius":"0"}}>
               <TabPanel>
-                <ServicesTabs/>  
+                <ServicesTabs className="tabs"/>  
               
               </TabPanel>
               </div>

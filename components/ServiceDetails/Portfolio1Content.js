@@ -6,8 +6,8 @@ class ServiceDetailsContent extends Component {
     render() {
         return (
             <section className="service-details-area ptb-100">
-                <div className="container">
-                    <div className="row">
+                <div className="container" style={{"borderRadius":"0"}}>
+                    <div className="row" style={{"borderRadius":"1vh", "backgroundColor":"#e7e7e7"}}>
                         <div className="col-lg-8">
                             <div className="service-details-wrap">
                                 <div className="service-img">
@@ -58,14 +58,17 @@ class ServiceDetailsContent extends Component {
                                     </div>
                                 </div>
 
-                                <AskQuestionForm />
+                                
                             </div>
+                          
                         </div>
+                       
 
 
                         <div className="col-lg-4">
                             <ServiceSidebar />
                         </div>
+                        <AskQuestionForm />
                     </div>
                 </div>
             </section>
