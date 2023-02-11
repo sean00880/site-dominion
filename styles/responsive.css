@@ -1,8 +1,4 @@
-@media (hover: none) {
-  html{
-      background-attachment: scroll;
-  }
-}
+
 
 @media only screen and (max-width: 767px) {
 
@@ -1824,5 +1820,13 @@
 
   .navbar-area nav img{
     top:-30%;
+  }
+}
+
+@media (hover: none) {
+  .cs-card-area, section, .main-banner-area, .features-area, .industries-serve-area, .fn_cs_project_sticky_modern .left_part_in, .client-area, .footer-top-area{
+      background-attachment: scroll;
+      background-position: center;
+      background-size:cover ;
   }
 }
