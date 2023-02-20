@@ -25,6 +25,7 @@ const About = () => {
                                 </a>
                             </Link>
                         </div>
+                        
                         <CoreFeatures/>
                         <Pricing/>
                         <Process />

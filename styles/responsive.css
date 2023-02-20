@@ -1008,6 +1008,7 @@
 
   .navbar .container{
     top: 35%;
+    background:transparent;
   }
 
 
@@ -1735,6 +1736,10 @@
 }
 
 @media only screen and (max-width: 991px) {
+  .main-banner-area.main-banner-area-one {
+    justify-content: flex-end;
+  }
+ 
   .mobile-nav .logo {
     top: 12px;
   }
@@ -1799,6 +1804,16 @@
     left: 4vh;
     position: relative;
   }
+
+}
+
+@media only screen and (max-width: 991px){
+  .pricing-card{
+    width: auto;
+  }
+  .long {
+    width: 100%;
+  }
 }
 
 
@@ -1824,8 +1839,8 @@
 }
 
 @media (hover: none) {
-  .cs-card-area, section, .main-banner-area, .features-area, .industries-serve-area, .fn_cs_project_sticky_modern .left_part_in, .client-area, .footer-top-area{
-      background-attachment: scroll;
+  .cs-card-area, section, .main-banner-area, .features-area, .industries-serve-area, .fn_cs_project_sticky_modern .left_part_in, .client-area, .footer-top-area, .section-title, .about-content spans{
+      background-attachment: unset;
       background-position: center;
       background-size:cover ;
   }

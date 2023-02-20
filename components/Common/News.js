@@ -6,9 +6,10 @@ class News extends Component {
         return (
             <section className="news-area pt-100 pb-70" >
                 <div className="container" >
-                    <div className="section-title">
+                    <div className="section-title2">
                         <h2>Our Blog</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut ipsum fugit temporibus possimus itaque accusamus voluptatibus dignissimos nobis eaque.</p>
+                        <hr />
+                        <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut ipsum fugit temporibus possimus itaque accusamus voluptatibus dignissimos nobis eaque.</h4>
                     </div>
 
                     <div className="row">

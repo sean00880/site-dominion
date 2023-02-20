@@ -75,7 +75,7 @@ class ServicesStyleFour extends Component {
 
                         <div className="col-lg-4">
                             <div className="industries-img">
-                                <img src="/images/offer1.png" alt="Image" />
+                                <img src="/images/industry.webp" alt="Image" />
                             </div>
                         </div>
 

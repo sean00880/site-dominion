@@ -6,7 +6,7 @@ import {RxCode} from "react-icons/rx"
 import {RiCustomerService2Line} from "react-icons/ri"
 import {MdOutlineScreenshot} from "react-icons/md"
 import {CgUserlane} from "react-icons/cg"
-import Pricing from '../Pricing/PricingStyleOne'
+import Pricing from '../Pricing/PricingStyleTwo'
 
 
 
@@ -18,7 +18,7 @@ const MyExpertise = () => {
           <div className="section-title style-two">
           
                         <div className="about-img">
-                            <img src="/images/about-img.png" alt="Image" className="homeImage"/>
+                            <img src="/images/price2.png" alt="Image" className="homeImage"/>
                         </div>
                    
             <h2>Custom Pricing</h2>
@@ -30,7 +30,7 @@ While a lot of manpower is involved in website development, we believe website s
 That is why, @ Site Dominion, we pledge to charge low set-up costs for fully optimized web solutions so you can allocate your budget on marketing and other business-related needs.</h4>
           </div>
 
-          <div className="row justify-content-center">
+          <div className="row justify-content-center" style={{"width":"100%"}}>
             
             <Pricing/>
           </div>

@@ -8,15 +8,14 @@ const MainBanner = () => {
             <div className="container-fluid">
                 <div className="row text-center justify-center flex flex-column-reverse text-align-center align-items-center">
                     <div className="wrapper" style={{"display":"flex", "alignItems":"center"}}>
-                    <img className="bannerImage" src="/images/home-one/main-img1.png" alt="Image" />
+                    
                         <div className="banner-text">
+                        <img className="bannerImage" src="/images/home-one/main-img1.png" alt="Image" />
                             
-                            <h1>Site Dominion </h1>
-                                <hr/> <h2>Website Design, Deployment, SEO & More.</h2>
-                           <hr />
-                           <h3>Professional Websites Optimized For Lead Generation</h3>
-                           <p style={{"color":"green"}}>Venmo</p>
-                            <div className="banner-btn">
+                            
+                            <h2>Website Design, Deployment, SEO & More.</h2>
+                           <h3>Professional Websites Optimized For Lead Generation <p>Business transactions processed via VENMO.</p>
+                           <div className="banner-btn">
                                 <Link href="/about-1">
                                     <a className="default-btn">
                                         Learn More
@@ -28,7 +27,9 @@ const MainBanner = () => {
                                         Contact Us
                                     </a>
                                 </Link>
-                            </div>
+                            </div></h3>
+                           
+                            
                         </div>
                     </div>
 

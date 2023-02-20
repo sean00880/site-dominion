@@ -14,7 +14,7 @@ const Features = () => {
                     </div>
                 
                 <hr />
-                <h3>Go with Site Dominion's featured website package. We handle everything for you, from design to developement, hosting, deployment and optimization.</h3>                       
+                <h3 style={{"color":"#f0ecec"}}>Go with Site Dominion's featured website package. We handle everything for you, from design to developement, hosting, deployment and optimization.</h3>                       
                         <h1>All-In-One Package</h1>
                         <TopSections/>
                         <div className="wrapper">
@@ -85,7 +85,7 @@ const Features = () => {
                             </div>
                         </div>
 
-                <h3>Or you can get started by choosing a service. </h3>
+                <h3 style={{"color":"#f0ecec"}}>Or you can get started by choosing a service. </h3>
                 <div className="wrapper">
                     
                         <div className="col-lg-4 p-0">

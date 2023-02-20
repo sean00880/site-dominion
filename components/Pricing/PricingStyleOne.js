@@ -44,7 +44,7 @@ class PricingStyleOne extends Component {
 
                         <div className="tab_content">
                             <div id="tab1" className="tabs_item">
-                                <div className="row">
+                                <div className="row" style={{"borderRadius":"1vh"}}>
                                     <div className="col-lg-4 col-md-6">
                                         <div className="single-pricing single-pricing1">
                                             <div className="pricing-top-heading">

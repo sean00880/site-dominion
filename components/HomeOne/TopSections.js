@@ -3,7 +3,7 @@ import React from "react";
 const TopSections = () => {
   return (
     <>
-      <div className="cs-card-area">
+      <div className="cs-card-area" style={{"background":"none"}}>
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-3 col-sm-6">

@@ -11,7 +11,7 @@ const Features = () => {
                 
                 <hr />
                         <h1>Site Dominion Premium Website Package</h1>
-                <h3>Go with Site Dominion's featured all-in-one website package. We handle everything for you, from design to developement, hosting, deployment and optimization.</h3>    
+                <h3 style={{"color":"#f0ecec"}}>Go with Site Dominion's featured all-in-one website package. We handle everything for you, from design to developement, hosting, deployment and optimization.</h3>    
                 <h3>Our three step process:</h3>                   
                         <div className="wrapper">
                        

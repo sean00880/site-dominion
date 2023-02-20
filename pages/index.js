@@ -1,7 +1,7 @@
 import Navbar from '../components/Layouts/Navbar'
 import MainBanner from '../components/HomeOne/MainBanner'
 import Features from '../components/HomeOne/Features'
-import TopSections from '../components/HomeOne/TopSections'
+import TopSections2 from '../components/HomeOne/TopSections2'
 import About from '../components/HomeOne/About'
 import WhyChooseUs from '../components/HomeOne/WhyChooseUs'
 import Services from '../components/HomeOne/Services'
@@ -21,7 +21,7 @@ const Index = () => {
           
             <MainBanner />
             <PartnerSlider/>
-            <TopSections/>
+            <TopSections2/>
             <About />
             <Features />
                 
