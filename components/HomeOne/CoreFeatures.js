@@ -18,7 +18,7 @@ const MyExpertise = () => {
           <div className="section-title style-two">
           
                         <div className="about-img">
-                            <img src="/images/features.jpg" alt="Image" className="homeImage"/>
+                            <img src="/images/main-img1.png" alt="Image" className="homeImage"/>
                         </div>
                    
             <h2>Core Features</h2>

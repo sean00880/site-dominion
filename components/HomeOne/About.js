@@ -8,7 +8,7 @@ import WhyChooseUs from '../HomeThree/WhyChooseUs';
 
 const About = () => {
     return (
-        <section className="about-area" style={{"minHeight":"100vh", "justifyContent":"center", "display":"flex","flex-direction":"column", "padding":"3vh 0vh", "borderBottom":"2px solid #b64c4c"}}>
+        <section className="about-area">
             <div className="container">
                 <div className="row align-items-center">
                 <div className="about-content">

@@ -6,7 +6,7 @@ import PrototypeProjects from '../Portfolio/PrototypeProjects';
 class Services extends Component {
     render() {
         return (
-            <section className="fn_cs_project_sticky_modern pt-100" data-animation-type="alpha">
+            <section className="fn_cs_project_sticky_modern" data-animation-type="alpha">
             <div className="container">
             <div className="section-title">
                     <span>Projects</span>

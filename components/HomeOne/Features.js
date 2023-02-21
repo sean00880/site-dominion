@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import TopSections from '../HomeOne/TopSections'
+import Image from 'next/image'
 
 const Features = () => {
         return (
@@ -22,7 +23,7 @@ const Features = () => {
                        
                        <div className="col-lg-4 p-0">
                             <div className="single-features">
-                                <i className="flaticon-cloud-computing-1"></i>
+                                <Image src="/images/design.png" width={100} height={100}/>
                                 <h3>1) Design + Development</h3>
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, maxime ipsum praesentium culpa expedita.</p>
 
@@ -36,7 +37,7 @@ const Features = () => {
 
                         <div className="col-lg-4 p-0">
                             <div className="single-features">
-                                <i className="flaticon-engineer"></i>
+                            <Image src="/images/deployment.webp" width={100} height={100}/>
                                 <h3>2) Full Deployment [Hosting & Domain]</h3>
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, maxime ipsum praesentium culpa expedita.</p>
                                 
@@ -50,7 +51,7 @@ const Features = () => {
 
                         <div className="col-lg-4 offset-lg-0 p-0">
                             <div className="single-features">
-                                <i className="flaticon-success"></i>
+                            <Image src="/images/seo.png" width={100} height={100}/>
                                 <h3>3) Project Optimization</h3>
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, maxime ipsum praesentium culpa expedita.</p>
                                 
