@@ -1526,7 +1526,7 @@ Main Banner Area Style
 ======================================================*/
 .main-banner-area {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#00095e), to(#000638));
-  background-image: url('/images/background8.png');
+  background-image: url('/images/backgroundred.png');
   background-size: cover;
   background-attachment: fixed;
   position: relative;
