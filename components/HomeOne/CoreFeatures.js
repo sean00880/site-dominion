@@ -1,4 +1,5 @@
-import React from "react";
+import React from 'react';
+import Flip from 'react-reveal/Flip';
 import {FaBitcoin} from "react-icons/fa";
 import {MdDesignServices} from "react-icons/md";
 import {CgWebsite} from "react-icons/cg";
@@ -6,6 +7,7 @@ import {RxCode} from "react-icons/rx"
 import {RiCustomerService2Line} from "react-icons/ri"
 import {MdOutlineScreenshot} from "react-icons/md"
 import {CgUserlane} from "react-icons/cg"
+import Fade from 'react-reveal/Fade';
 
 
 
@@ -15,18 +17,30 @@ const MyExpertise = () => {
     <>
       <div className="pp-expertise-area">
         <div className="container">
+        <Fade left cascade>   
           <div className="section-title style-two">
           
                         <div className="about-img">
-                            <img src="/images/main-img1.png" alt="Image" className="homeImage"/>
+                        <Fade top>
+                          <img src="/images/main-img1.png" alt="Image" className="homeImage"/>
+                        </Fade>
+                            
+                        <Flip left>
+                            <img src="/images/phones.png" alt="Image" className="homeImage2"/>
+                        </Flip>
                         </div>
-                   
+                          
             <h2>Core Features</h2>
-            <hr />
+            <hr style={{"color":"white"}}/>
             <h4>Site Dominion's promise is to produce and deliver websites of the highest caliber in order to provide direct value to businesses accross the globe.</h4>
+          
           </div>
+          </Fade>
+
+         
 
           <div className="row justify-content-center">
+          <Fade right cascade>
             <div className="col-lg-4 col-md-6 col-sm-6">
               <div
                 className="pp-expertise-box"
@@ -137,7 +151,9 @@ const MyExpertise = () => {
                 </p>
               </div>
             </div>
+            </Fade>
           </div>
+          
         </div>
       </div>
     </>

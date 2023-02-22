@@ -1212,10 +1212,11 @@ jumpx Nav Area Style
   font-size: 23px;
   font-weight: 400;    
   height: 6vh;
+  font-style: normal;
 }
 .navbar-area nav .navbar-nav .nav-item .dropdown-menu li a:hover{
   color: #d73d3d;
-  background:linear-gradient(45deg, #cfcfcf, transparent);
+  background:linear-gradient(45deg, #e8e8e8, ghostwhite);
   font-style: italic;
   border: 1px solid #9328286e;
   text-align: center;
@@ -1397,8 +1398,8 @@ jumpx Nav Area Style
 }
 
 .navbar-area nav .navbar-nav .nav-item:hover .dropdown-menu {
-  background: linear-gradient(45deg, #e7e7e7, #e2e1e1d7);
-  border: 3px solid #363232;
+  background: linear-gradient(45deg, #e7e7e7, ghostwhite);
+  border: 3px solid #464545;
   opacity: 1;
   visibility: visible;
   top: 100%;
@@ -1756,6 +1757,12 @@ Main Banner Area Style
     
       }
 
+.pricing-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .pricing-area .container{
   padding:2vh 1vh;
 }
@@ -1932,6 +1939,7 @@ About Area Style
 ======================================================*/
 .about-img {
   text-align: center;
+  position: relative;
 }
 
 .about-content2 {
@@ -2134,7 +2142,7 @@ Choose Us Area Style
 
 .features-area h1{
   text-align: center;
-  color: #b97a69;
+  color: #e7e6e5;
   font-size: 17px;
   font-style: italic;
   text-align: left;
@@ -2191,7 +2199,7 @@ Choose Us Area Style
 .features-area .container .row{
   background: linear-gradient(45deg, #1d1c1c, #464545);
   border-radius: 0 0 1vh 1vh;
-  padding: 2vh 1vh;
+  padding: 1vh;
   margin: 0;
 }
 
@@ -2220,7 +2228,6 @@ color: #7b7575;
 
 .services h4, h3{
   color:#181717;
-  font-style: italic;
 }
 
 .features-area .section-title{
@@ -2984,7 +2991,10 @@ News Area Style
 
 .single-news .blog-img {
   position: relative;
-  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow:hidden;
 }
 
 .single-news .blog-img .dates {
@@ -3487,7 +3497,7 @@ Offer Area Two Style
   -webkit-box-shadow:0vh 2vh 8vh rgb(185 52 52);
   box-shadow:0vh 2vh 8vh rgb(185 52 52);
   padding: 1vh;
-  height: 80vh;
+  height: 88vh;
   position: relative;
   z-index: 1;
   overflow: hidden;
@@ -3540,7 +3550,7 @@ Offer Area Two Style
     align-self: center;
     justify-content: center;
     display: flex;
-    top: 14vh;
+    top: 18vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -3624,7 +3634,7 @@ Offer Area Two Style
   padding: 15px 35px;
   position: absolute;
   bottom: 3vh;
-  border: 1px solid rgba(27, 27, 27, 0.76);
+  border: 4px double rgb(196 196 196 / 76%);
 }
 
 .pricing-card:hover {
@@ -3931,9 +3941,13 @@ Industries Serve Area Style
 
 .industries-serve-area .container{
     background-color: #e7e7e7;
-    padding: 7vh 2vh;
     border-radius: 0;
     border: 2px solid #8a5050af;
+    padding:1vh;
+}
+
+.industries-serve-area .container .row{
+  padding:1vh;
 }
 
 .industries-serve-area .industries-img {
@@ -4419,8 +4433,14 @@ FAQ CSS
 
 .faq-accordion .accordion .accordion__panel p {
   line-height: 2;
-  color: #a27d7d;
+  color: #876868;
   text-align: left;
+}
+
+.faq-accordion .accordion .accordion__panel .section-title p {
+  line-height: 2;
+  color: #e9e7e7;
+  text-align: center;
 }
 
 .faq-accordion .accordion .accordion-content.show {
@@ -5290,6 +5310,7 @@ Blog Details Area Style
 
 
 .news-area .row{
+  padding:1vh;
   border-radius: 1vh;
 }
 .news-area .col-lg-4 {
@@ -5301,15 +5322,15 @@ Blog Details Area Style
 .news-area .col-lg-4:nth-child(1) {
   background:linear-gradient(180deg, #7a2b2b, #2b2e32);
   padding-top: 2vh;
-  border-radius: 1vh 0 0 1vh;
+  border-radius: 0;
 }
 
 .news-area .col-lg-4:nth-child(1) img{
-  border-radius: 1vh 0 0 0;
+  border-radius: 0;
 }
 
 .news-area .col-lg-4:nth-child(3) img{
-  border-radius: 0 1vh 0 0;
+  border-radius: 0;
 }
 
 .single-news .news-content-wrap:nth-child(1){
@@ -5319,7 +5340,7 @@ Blog Details Area Style
 .news-area .col-lg-4:nth-child(3) {
   background:linear-gradient(180deg, #7a2b2b, #2b2e32);
   padding-top: 2vh;
-  border-radius: 0 1vh 1vh 0;
+  border-radius: 0;
 }
 
 .news-area .col-lg-6:nth-child(1) {
@@ -5617,6 +5638,14 @@ Blog Details Area Style
 .homeImage{
   max-width: 100%;
   border-radius: 1vh;
+}
+.homeImage2{
+position: absolute;
+top: 32%;
+left: 29%;
+width: 100%;
+display: flex;
+justify-content: center;
 }
 
 .news-details-area .post-navigation .navigation-links .nav-next a i {
@@ -7649,9 +7678,9 @@ section{
   justify-content: center;
   flex-direction: column;
   margin: 0 1vh;
-  width: 33vh;
   background: linear-gradient( #464545, #a44240, #414244);
   border-radius: 1vh;
+  width:55%;
 }
 
 .pp-expertise-area .container .section-title h4{
@@ -7727,7 +7756,7 @@ section{
 }
 
 .process .container{
-  background:linear-gradient(225deg,#e7e7e7, #ffffff, #ffffff, #322f2f);
+  background:linear-gradient(225deg,#e7e7e7, #ffffff, #ffffff, #e7e7e7);
 }
 
 
@@ -7781,7 +7810,7 @@ section{
   flex-direction: column;
   margin: 0 1vh;
   margin-right: 0;
-  width: 33vh;
+  width: 55%;
   background: #ffffff;
   border-radius: 1vh;
 }

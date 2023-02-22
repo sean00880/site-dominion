@@ -91,7 +91,7 @@ const Features = () => {
                     
                         <div className="col-lg-4 p-0">
                             <div className="single-features">
-                                <i className="flaticon-cloud-computing-1"></i>
+                            <Image src="/images/logo-design.png" width={100} height={100}/>
                                 <h3>Logo Design</h3>
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, maxime ipsum praesentium culpa expedita.</p>
 
@@ -105,7 +105,7 @@ const Features = () => {
 
                         <div className="col-lg-4 p-0">
                             <div className="single-features">
-                                <i className="flaticon-engineer"></i>
+                            <Image src="/images/blog-setup.svg" width={100} height={100}/>
                                 <h3>Blog Creation + Setup</h3>
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, maxime ipsum praesentium culpa expedita.</p>
                                 
@@ -120,7 +120,7 @@ const Features = () => {
 
                         <div className="col-lg-4 offset-lg-0 p-0">
                             <div className="single-features">
-                                <i className="flaticon-success"></i>
+                            <Image src="/images/content-management.svg" width={100} height={100}/>
                                 
                                 <h3>Content Creation/Management</h3>
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, maxime ipsum praesentium culpa expedita.</p>
