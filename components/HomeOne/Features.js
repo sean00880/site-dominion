@@ -37,7 +37,7 @@ const Features = () => {
 
                         <div className="col-lg-4 p-0">
                             <div className="single-features">
-                            <Image src="/images/deployment.webp" width={100} height={100}/>
+                            <Image src="/images/deployment.png" width={100} height={100}/>
                                 <h3>2) Full Deployment [Hosting & Domain]</h3>
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, maxime ipsum praesentium culpa expedita.</p>
                                 

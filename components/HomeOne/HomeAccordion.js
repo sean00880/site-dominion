@@ -21,8 +21,10 @@ class HomeAccordion extends Component {
                                     <AccordionItem uuid="a">
                                         <AccordionItemHeading>
                                             <AccordionItemButton>
-                                                Step One: Browse Through Our Services
+                                                Step One: Browse Through Our Services   
+                                                <img className='accordion__image' src="/images/browse.png" alt="browse" />                                            
                                             </AccordionItemButton>
+                                            
                                         </AccordionItemHeading>
 
                                         <AccordionItemPanel>
@@ -42,9 +44,9 @@ class HomeAccordion extends Component {
                                     <AccordionItem uuid="b" >
                                         <AccordionItemHeading>
                                             <AccordionItemButton >
-                                                Step Two: Initiate Your FREE Quote Request
-
-                                                
+                                             
+                                                Step Two: Initiate Your FREE Quote Request  
+                                                <img className='accordion__image2' src="/images/quote.png" alt="browse" />                                               
                                             </AccordionItemButton>
                                         </AccordionItemHeading>
 
@@ -151,6 +153,7 @@ class HomeAccordion extends Component {
                                         <AccordionItemHeading>
                                             <AccordionItemButton>
                                             Step Three: We Work On Your Project
+                                            <img className='accordion__image' src="/images/process.svg" alt="process" />
                                             </AccordionItemButton>
                                         </AccordionItemHeading>
                                         <AccordionItemPanel>
@@ -164,6 +167,7 @@ class HomeAccordion extends Component {
                                         <AccordionItemHeading>
                                             <AccordionItemButton>
                                             Step Four: Complete Payment
+                                            <img className='accordion__image3' src="/images/payment.svg" alt="process" />
                                             </AccordionItemButton>
                                         </AccordionItemHeading>
                                         <AccordionItemPanel>
@@ -177,6 +181,7 @@ class HomeAccordion extends Component {
                                         <AccordionItemHeading>
                                             <AccordionItemButton>
                                             Step Five: Website Deployment
+                                            <img className='accordion__image' src="/images/browser.png" alt="browse" /> 
                                             </AccordionItemButton>
                                         </AccordionItemHeading>
                                         <AccordionItemPanel>

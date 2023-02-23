@@ -7,7 +7,7 @@ class ServicesStyleOne extends Component {
     render() {
         return (
             <section className="features-area features-area-inner-style">
-                <div className="container">
+                <div className="container" style={{"borderRadius":"1vh"}}>
                 <Tabs>
               <TabList>
                 <Tab>Step #1: Pick A Service</Tab>

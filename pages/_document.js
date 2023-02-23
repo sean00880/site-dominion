@@ -14,7 +14,7 @@ import Document, {
               href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i&display=swap"
               rel="stylesheet"
             />
-            <link href="https://fonts.googleapis.com/css2?family=Lato&family=Smooch+Sans&display=swap" rel="stylesheet" />
+            <link href="https://fonts.googleapis.com/css2?family=montserrat&family=Smooch+Sans&display=swap" rel="stylesheet" />
             <link rel="icon" type="image/png" href="/images/favicon.png"></link>
           </Head>
           <body>

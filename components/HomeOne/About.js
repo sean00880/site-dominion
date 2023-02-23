@@ -1,10 +1,4 @@
 import Link from 'next/link';
-import MakeYourBusiness from '../Common/MakeYourBusiness';
-import GettingStarted from '../HomeOne/GettingStarted';
-import CoreFeatures from '../HomeOne/CoreFeatures';
-import Pricing from '../HomeOne/Pricing';
-import Process from '../HomeOne/Process';
-import WhyChooseUs from '../HomeThree/WhyChooseUs';
 
 const About = () => {
     return (
@@ -26,10 +20,7 @@ const About = () => {
                             </Link>
                         </div>
                         
-                        <CoreFeatures/>
-                        <Pricing/>
-                        <Process />
-                        <WhyChooseUs />
+                      
 
                 </div>
             </div>

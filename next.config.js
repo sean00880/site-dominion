@@ -4,6 +4,7 @@ const nextConfig = {
   reactStrictMode: true,
   trailingSlash: true,
   distDir: 'build',
+  compress: true,
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')],
   },

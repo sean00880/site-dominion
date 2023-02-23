@@ -4,9 +4,9 @@ import LiveProjects from '../Portfolio/LiveProjects';
 class LiveProjectsSlider extends Component {
     render() {
         return (
-            <section className="fn_cs_project_sticky_modern pt-100" data-animation-type="alpha">
+            <section className="fn_cs_project_sticky_modern" data-animation-type="alpha">
             <div className="container">
-            <div className="section-title">
+            <div className="section-title" style={{"textAlign":"left"}}>
                     <span>Projects</span>
                     <h2>Check out our LIVE websites.</h2>
                     <hr />

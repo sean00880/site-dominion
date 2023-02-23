@@ -9,11 +9,16 @@ import "swiper/css/bundle";
 // Global styles
 import '../styles/style.css';
 import '../styles/responsive.css';
-
+import React from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import App from 'next/app';
 import Head from 'next/head';
 import Loader from '../components/Shared/Loader';
 import GoTop from '../components/Shared/GoTop';
+
+
+
 
 export default class MyApp extends App {
 
@@ -30,8 +35,11 @@ export default class MyApp extends App {
             this.timerHandle = 0;
         }
     }
+
+    
     
     render () {
+
         const { Component, pageProps } = this.props
         return (
             <>

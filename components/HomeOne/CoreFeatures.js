@@ -8,26 +8,30 @@ import {RiCustomerService2Line} from "react-icons/ri"
 import {MdOutlineScreenshot} from "react-icons/md"
 import {CgUserlane} from "react-icons/cg"
 import Fade from 'react-reveal/Fade';
-
-
+import Slide from 'react-reveal/Slide';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 
 const MyExpertise = () => {
+  React.useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <>
       <div className="pp-expertise-area">
         <div className="container">
-        <Fade left cascade>   
+       
           <div className="section-title style-two">
           
-                        <div className="about-img">
-                        <Fade top>
-                          <img src="/images/main-img1.png" alt="Image" className="homeImage"/>
-                        </Fade>
+                        <div className="about-img"  >
+                        
+                          <img src="/images/main-img1.png" alt="Image" className="homeImage" data-aos="fade-down" data-aos-duration="2400" data-aos-delay="325" />
+                       
                             
-                        <Flip left>
-                            <img src="/images/phones.png" alt="Image" className="homeImage2"/>
-                        </Flip>
+                        
+                            <img src="/images/phones.png" alt="Image" className="homeImage2" data-aos="flip-right" data-aos-duration="2400" data-aos-delay="550"/>
+                        
                         </div>
                           
             <h2>Core Features</h2>
@@ -35,12 +39,12 @@ const MyExpertise = () => {
             <h4>Site Dominion's promise is to produce and deliver websites of the highest caliber in order to provide direct value to businesses accross the globe.</h4>
           
           </div>
-          </Fade>
+       
 
          
-
-          <div className="row justify-content-center">
-          <Fade right cascade>
+         
+          <div className="row justify-content-center" data-aos="fade-left">
+       
             <div className="col-lg-4 col-md-6 col-sm-6">
               <div
                 className="pp-expertise-box"
@@ -62,7 +66,7 @@ const MyExpertise = () => {
                 className="pp-expertise-box"
                 data-aos="fade-up"
                 data-aos-duration="1200"
-                data-aos-delay="200"
+                data-aos-delay="100"
               >
                 <CgWebsite className="icon"/>
                 <h3>Advanced Functionality</h3>
@@ -78,7 +82,7 @@ const MyExpertise = () => {
                 className="pp-expertise-box"
                 data-aos="fade-up"
                 data-aos-duration="1200"
-                data-aos-delay="300"
+                data-aos-delay="200"
               >
                 <MdDesignServices className="icon"/>
                 <h3>Impactful Design</h3>
@@ -94,7 +98,7 @@ const MyExpertise = () => {
                 className="pp-expertise-box"
                 data-aos="fade-up"
                 data-aos-duration="1200"
-                data-aos-delay="400"
+                data-aos-delay="200"
               >
                 <CgUserlane className='icon'/>
                 <h3>Luxurious User Experience</h3>
@@ -110,7 +114,7 @@ const MyExpertise = () => {
                 className="pp-expertise-box"
                 data-aos="fade-up"
                 data-aos-duration="1200"
-                data-aos-delay="500"
+                data-aos-delay="300"
               >
                 <RxCode className="icon"/>
                 <h3>Best Programming Practices Followed</h3>
@@ -126,7 +130,7 @@ const MyExpertise = () => {
                 className="pp-expertise-box"
                 data-aos="fade-up"
                 data-aos-duration="1200"
-                data-aos-delay="600"
+                data-aos-delay="300"
               >
                 <RiCustomerService2Line  className="icon"/>
                 <h3>Flexible Support</h3>
@@ -141,7 +145,7 @@ const MyExpertise = () => {
                 className="pp-expertise-box"
                 data-aos="fade-up"
                 data-aos-duration="1200"
-                data-aos-delay="600"
+                data-aos-delay="400"
               >
                 <MdOutlineScreenshot className='icon'/>
                 <h3>Responsive on All Devices</h3>
@@ -151,7 +155,7 @@ const MyExpertise = () => {
                 </p>
               </div>
             </div>
-            </Fade>
+           
           </div>
           
         </div>
