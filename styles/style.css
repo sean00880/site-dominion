@@ -1615,14 +1615,14 @@ Main Banner Area Style
 
 .main-banner-area .banner-text .banner-btn .default-btn {
   margin-right: 20px;
-  background: #c25252;
+  background: linear-gradient(225deg, #9c373b, #606060);
     border: 2px solid #bfbdbdd9;
     color: white;
 }
 
 .main-banner-area .banner-text .banner-btn .default-btn:last-child {
   margin-right: 0;
-  background: #1f1e1e;
+  background: linear-gradient(225deg, #44449d, #3f3f3f);
 }
 
 .main-banner-area .banner-main-img {
@@ -3582,7 +3582,7 @@ Offer Area Two Style
     align-self: center;
     justify-content: center;
     display: flex;
-    top: 18vh;
+    top: 16vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -4392,7 +4392,7 @@ FAQ CSS
   display: block;
   box-shadow: 2px 8px 20px 0 rgb(25 42 70 / 13%) !important;
   background: linear-gradient(45deg, #e7e7e7, #783737);
-  padding: 20px 25px;
+  padding: 3vh 9vh;
   color: #3f3f3f;
   text-decoration: none;
   position: relative;
@@ -4428,7 +4428,7 @@ max-height: 60px;
 right: 10px;
 position: absolute;
 position: absolute;
-top: 7px;
+top: 13px;
 border-radius: 1vh;
 padding: 1vh;
 }
@@ -4438,7 +4438,7 @@ padding: 1vh;
   max-height: 60px;
   right: 10px;
   position: absolute;
-  top: 7px;
+  top: 13px;
   background: #ffffff;
   border-radius: 1vh;
   padding: 1vh;
@@ -4450,7 +4450,7 @@ padding: 1vh;
   left: 10px;
   position: absolute;
   position: absolute;
-  top: 7px;
+  top: 13px;
   border-radius: 1vh;
   background: #ffffff;
   padding: 1vh;
@@ -4462,7 +4462,7 @@ padding: 1vh;
     left: 10px;
     position: absolute;
     position: absolute;
-    top: 7px;
+    top: 13px;
     background: #ffffff;
     border-radius: 1vh;
     padding: 1vh;
@@ -4479,7 +4479,7 @@ max-height: 60px;
 right: 10px;
 position: absolute;
 position: absolute;
-top: 7px;
+top: 13px;
 border-radius: 1vh;
 padding: 1vh;
 }
@@ -4560,7 +4560,16 @@ padding: 1vh;
 
 .faq-img{
   margin: 2vh;
+  border-radius:1vh;
+  border:3px solid #aeaeae;
 }
+
+
+.faq-img img{
+  border-radius:1vh;
+  
+}
+
 
 .faq-area .container{
   background-color: #ffffff;
@@ -7376,7 +7385,6 @@ a{
   background: #25292c;
   color: #c39090;
   border-radius: 0 4vh;
-
 }
 
 .fn_cs_project_sticky_modern .left_part h3:after{
@@ -7723,10 +7731,10 @@ a{
 
 
 .navbar-area nav img{
-  max-width: 12%;
+  max-width: 11%;
   position: absolute;
-  top: -30%;
-  left: 0%;
+  top: -10%;
+  left: 3%;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -7757,6 +7765,7 @@ a{
   align-items: center;
   display: flex;
   flex-direction: column;
+  padding:2vh;
 }
 
 .pp-expertise-box .icon {
@@ -7765,7 +7774,7 @@ a{
   height: 80px;
   font-size: 40px;
   line-height: 80px;
-  color: #bb7075;
+  color: #b55353;
   border-radius: 10px;
   -webkit-transition: all 0.6s ease;
   transition: all 0.6s ease;
@@ -7780,7 +7789,7 @@ a{
   display: flex;
   flex-direction: row;
   background:linear-gradient( #f9f9f9f9, #ffffff);  
-  padding:1vh 0;
+  padding:1vh 2vh;
 }
 
 .pp-expertise-area .container .section-title{
@@ -7845,7 +7854,7 @@ a{
 .pp-expertise-box h3 {
   font-size: 20px;
   margin-bottom: 12px;
-  color: #403a3a;
+  color:#626262;
   font-style: italic;
   text-align: center;
   font-weight: 500;
@@ -7855,7 +7864,7 @@ a{
 
 
 .pp-expertise-box:hover .icon {
-  background-color: #111;
+  background: linear-gradient(45deg, #464546, #3f4562);
   color: #ffffff;
 }
 

@@ -30,7 +30,7 @@ const MyExpertise = () => {
                        
                             
                         
-                            <img src="/images/phones.png" alt="Image" className="homeImage2" data-aos="flip-right" data-aos-duration="2400" data-aos-delay="550"/>
+                            <img src="/images/phones.png" alt="Image" className="homeImage2" data-aos="flip-right" data-aos-duration="1200" data-aos-delay="550"/>
                         
                         </div>
                           

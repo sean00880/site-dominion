@@ -17,6 +17,7 @@ import GettingStarted from '../components/HomeOne/GettingStarted';
 import dynamic from 'next/dynamic'
 const CoreFeatures = dynamic(() => import( '../components/HomeOne/CoreFeatures'));
 const Pricing = dynamic(() => import( '../components/HomeOne/Pricing'));
+
 import Process from '../components/HomeOne/Process';
 import WhyChooseUs from '../components/HomeThree/WhyChooseUs';
 

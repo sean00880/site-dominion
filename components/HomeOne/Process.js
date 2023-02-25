@@ -18,7 +18,7 @@ const MyExpertise = () => {
           <div className="section-title style-two">
           
                         <div className="about-img">
-                            <img src="/images/mockup.png" alt="Image" className="homeImage"/>
+                            <img src="/images/mockup.png" alt="Image" className="homeImage" data-aos="flip-right" data-aos-duration="2400" data-aos-delay="550"/>/>
                         </div>
                    
             <h2>Our Process</h2>
@@ -26,7 +26,7 @@ const MyExpertise = () => {
             <h4>Site Dominion's promise is to produce and deliver websites of the highest caliber in order to provide direct value to businesses accross the globe.</h4>
           </div>
 
-          <div className="row justify-content-center">
+          <div className="row justify-content-center" data-aos="fade-left">
             <HomeAccordion/>
           </div>
         </div>
