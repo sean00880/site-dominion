@@ -18,7 +18,7 @@ const MyExpertise = () => {
           <div className="section-title style-two">
           
                         <div className="about-img">
-                            <img src="/images/mockup.png" alt="Image" className="homeImage" data-aos="flip-right" data-aos-duration="2400" data-aos-delay="550"/>/>
+                            <img src="/images/mockup.png" alt="Image" className="homeImage" data-aos="flip-right" data-aos-duration="2400" data-aos-delay="550"/>
                         </div>
                    
             <h2>Our Process</h2>
