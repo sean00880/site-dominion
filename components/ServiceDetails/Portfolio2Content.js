@@ -33,23 +33,23 @@ class ServiceDetailsContent extends Component {
                                             <div className="car-service-list">
                                                 <ul>
                                                     <li>
-                                                        <i className='bx bx-check'></i>
+                                                        <i role="none" className='bx bx-check'></i>
                                                         Engine bay cleaned and dressed
                                                     </li>
                                                     <li>
-                                                        <i className='bx bx-check'></i>
+                                                        <i role="none" className='bx bx-check'></i>
                                                         Door card panels cleaned
                                                     </li>
                                                     <li>
-                                                        <i className='bx bx-check'></i>
+                                                        <i role="none" className='bx bx-check'></i>
                                                         Plastic trim enhanced
                                                     </li>
                                                     <li>
-                                                        <i className='bx bx-check'></i>
+                                                        <i role="none" className='bx bx-check'></i>
                                                         Paint surface clay barred
                                                     </li>
                                                     <li>
-                                                        <i className='bx bx-check'></i>
+                                                        <i role="none" className='bx bx-check'></i>
                                                         Alloy wheel treatment inside and out
                                                     </li>
                                                 </ul>

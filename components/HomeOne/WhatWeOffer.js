@@ -38,7 +38,7 @@ const WhatWeOffer = () => {
                                     onClick={(e) => openTabSection(e, 'tab1')}
                                 >
                                     <span>
-                                        <i className="flaticon-machine-learning"></i>
+                                        <i role="none" className="flaticon-machine-learning"></i>
                                         <h3>Heavy Industry</h3>
                                         <p>All kind of industry</p>
                                     </span>
@@ -48,7 +48,7 @@ const WhatWeOffer = () => {
                                     onClick={(e) => openTabSection(e, 'tab2')}
                                 >
                                     <span>
-                                        <i className="flaticon-artificial-intelligence"></i>
+                                        <i role="none" className="flaticon-artificial-intelligence"></i>
                                         <h3>Transportation</h3>
                                         <p>All kind of industry</p>
                                     </span>
@@ -58,7 +58,7 @@ const WhatWeOffer = () => {
                                     onClick={(e) => openTabSection(e, 'tab3')}
                                 >
                                     <span>
-                                        <i className="flaticon-health"></i>
+                                        <i role="none" className="flaticon-health"></i>
                                         <h3>Health Care</h3>
                                         <p>All kind of industry</p>
                                     </span>
@@ -68,7 +68,7 @@ const WhatWeOffer = () => {
                                     onClick={(e) => openTabSection(e, 'tab4')}
                                 >
                                     <span>
-                                        <i className="flaticon-automation"></i>
+                                        <i role="none" className="flaticon-automation"></i>
                                         <h3>Manufacturing</h3>
                                         <p>All kind of industry</p>
                                     </span>
@@ -97,15 +97,15 @@ const WhatWeOffer = () => {
                                                     <div className="col-lg-6 col-sm-6">
                                                         <ul className="industries-item">
                                                             <li>
-                                                                <i className="flaticon-checked"></i>
+                                                                <i role="none" className="flaticon-checked"></i>
                                                                 Opportunities
                                                             </li>
                                                             <li>
-                                                                <i className="flaticon-checked"></i>
+                                                                <i role="none" className="flaticon-checked"></i>
                                                                 Creating
                                                             </li>
                                                             <li>
-                                                                <i className="flaticon-checked"></i>
+                                                                <i role="none" className="flaticon-checked"></i>
                                                                 Industries
                                                             </li>
                                                         </ul>
@@ -114,15 +114,15 @@ const WhatWeOffer = () => {
                                                     <div className="col-lg-6 col-sm-6">
                                                         <ul className="industries-item">
                                                             <li>
-                                                                <i className="flaticon-checked"></i>
+                                                                <i role="none" className="flaticon-checked"></i>
                                                                 Security
                                                             </li>
                                                             <li>
-                                                                <i className="flaticon-checked"></i>
+                                                                <i role="none" className="flaticon-checked"></i>
                                                                 Highest
                                                             </li>
                                                             <li>
-                                                                <i className="flaticon-checked"></i>
+                                                                <i role="none" className="flaticon-checked"></i>
                                                                 Priority
                                                             </li>
                                                         </ul>
@@ -152,15 +152,15 @@ const WhatWeOffer = () => {
                                                     <div className="col-lg-6 col-sm-6">
                                                         <ul className="industries-item">
                                                             <li>
-                                                                <i className="flaticon-checked"></i>
+                                                                <i role="none" className="flaticon-checked"></i>
                                                                 Security
                                                             </li>
                                                             <li>
-                                                                <i className="flaticon-checked"></i>
+                                                                <i role="none" className="flaticon-checked"></i>
                                                                 Highest
                                                             </li>
                                                             <li>
-                                                                <i className="flaticon-checked"></i>
+                                                                <i role="none" className="flaticon-checked"></i>
                                                                 Priority
                                                             </li>
                                                         </ul>
@@ -169,15 +169,15 @@ const WhatWeOffer = () => {
                                                     <div className="col-lg-6 col-sm-6">
                                                         <ul className="industries-item">
                                                             <li>
-                                                                <i className="flaticon-checked"></i>
+                                                                <i role="none" className="flaticon-checked"></i>
                                                                 Opportunities
                                                             </li>
                                                             <li>
-                                                                <i className="flaticon-checked"></i>
+                                                                <i role="none" className="flaticon-checked"></i>
                                                                 Creating
                                                             </li>
                                                             <li>
-                                                                <i className="flaticon-checked"></i>
+                                                                <i role="none" className="flaticon-checked"></i>
                                                                 Industries
                                                             </li>
                                                         </ul>
@@ -219,15 +219,15 @@ const WhatWeOffer = () => {
                                                     <div className="col-lg-6 col-sm-6">
                                                         <ul className="industries-item">
                                                             <li>
-                                                                <i className="flaticon-checked"></i>
+                                                                <i role="none" className="flaticon-checked"></i>
                                                                 Creating
                                                             </li>
                                                             <li>
-                                                                <i className="flaticon-checked"></i>
+                                                                <i role="none" className="flaticon-checked"></i>
                                                                 Consectetur
                                                             </li>
                                                             <li>
-                                                                <i className="flaticon-checked"></i>
+                                                                <i role="none" className="flaticon-checked"></i>
                                                                 Adipisicing
                                                             </li>
                                                         </ul>
@@ -236,15 +236,15 @@ const WhatWeOffer = () => {
                                                     <div className="col-lg-6 col-sm-6">
                                                         <ul className="industries-item">
                                                             <li>
-                                                                <i className="flaticon-checked"></i>
+                                                                <i role="none" className="flaticon-checked"></i>
                                                                 Artificial
                                                             </li>
                                                             <li>
-                                                                <i className="flaticon-checked"></i>
+                                                                <i role="none" className="flaticon-checked"></i>
                                                                 Industry
                                                             </li>
                                                             <li>
-                                                                <i className="flaticon-checked"></i>
+                                                                <i role="none" className="flaticon-checked"></i>
                                                                 Opportunities
                                                             </li>
                                                         </ul>
@@ -274,15 +274,15 @@ const WhatWeOffer = () => {
                                                     <div className="col-lg-6 col-sm-6">
                                                         <ul className="industries-item">
                                                             <li>
-                                                                <i className="flaticon-checked"></i>
+                                                                <i role="none" className="flaticon-checked"></i>
                                                                 Opportunities
                                                             </li>
                                                             <li>
-                                                                <i className="flaticon-checked"></i>
+                                                                <i role="none" className="flaticon-checked"></i>
                                                                 Creating
                                                             </li>
                                                             <li>
-                                                                <i className="flaticon-checked"></i>
+                                                                <i role="none" className="flaticon-checked"></i>
                                                                 Industries
                                                             </li>
                                                         </ul>
@@ -291,15 +291,15 @@ const WhatWeOffer = () => {
                                                     <div className="col-lg-6 col-sm-6">
                                                         <ul className="industries-item">
                                                             <li>
-                                                                <i className="flaticon-checked"></i>
+                                                                <i role="none" className="flaticon-checked"></i>
                                                                 Security
                                                             </li>
                                                             <li>
-                                                                <i className="flaticon-checked"></i>
+                                                                <i role="none" className="flaticon-checked"></i>
                                                                 Highest
                                                             </li>
                                                             <li>
-                                                                <i className="flaticon-checked"></i>
+                                                                <i role="none" className="flaticon-checked"></i>
                                                                 Priority
                                                             </li>
                                                         </ul>

@@ -30,21 +30,21 @@ class Login extends Component {
                                         <div className="row">
                                             <div className="col-lg-4 col-md-4 col-sm-12">
                                                 <a href="#" className="default-btn mb-30">
-                                                    <i className="bx bxl-google"></i> {' '}
+                                                    <i role="none" className="bx bxl-google"></i> {' '}
                                                     Google
                                                 </a>
                                             </div>
 
                                             <div className="col-lg-4 col-md-4 col-sm-12">
                                                 <a href="#" className="default-btn mb-30">
-                                                    <i className="bx bxl-facebook"></i> {' '}
+                                                    <i role="none" className="bx bxl-facebook"></i> {' '}
                                                     Facebook
                                                 </a>
                                             </div>
 
                                             <div className="col-lg-4 col-md-4 col-sm-12">
                                                 <a href="#" className="default-btn mb-30">
-                                                    <i className="bx bxl-twitter"></i> {' '}
+                                                    <i role="none" className="bx bxl-twitter"></i> {' '}
                                                     Twitter
                                                 </a>
                                             </div>

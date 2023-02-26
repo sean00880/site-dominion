@@ -8,7 +8,7 @@ class CommentsArea extends Component {
                 <h3 className="comments-title">2 Comments:</h3>
 
                 <ol className="comment-list">
-                    <li className="comment">
+                    <li role="none" className="comment">
                         <div className="comment-body">
                             <footer className="comment-meta">
                                 <div className="comment-author vcard">
@@ -34,7 +34,7 @@ class CommentsArea extends Component {
                         </div>
 
                         <ol className="children">
-                            <li className="comment">
+                            <li role="none" className="comment">
                                 <div className="comment-body">
                                     <footer className="comment-meta">
                                         <div className="comment-author vcard">
@@ -62,7 +62,7 @@ class CommentsArea extends Component {
                         </ol>
                     </li>
 
-                    <li className="comment">
+                    <li role="none" className="comment">
                         <div className="comment-body">
                             <footer className="comment-meta">
                                 <div className="comment-author vcard">

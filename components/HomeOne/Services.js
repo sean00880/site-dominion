@@ -13,7 +13,7 @@ const Services = () => {
                 <div className="row">
                     <div className="col-lg-4 col-sm-6">
                         <div className="single-offer">
-                            <i className="flaticon-chip"></i>
+                            <i role="none" className="flaticon-chip"></i>
                             <h3>
                                 <Link href="/service-details">
                                     <a>Robotics & Drones</a>
@@ -25,7 +25,7 @@ const Services = () => {
 
                     <div className="col-lg-4 col-sm-6">
                         <div className="single-offer">
-                            <i className="flaticon-vr"></i>
+                            <i role="none" className="flaticon-vr"></i>
                             <h3>
                                 <Link href="/service-details">
                                     <a>Virtually Reality</a>
@@ -37,7 +37,7 @@ const Services = () => {
 
                     <div className="col-lg-4 col-sm-6">
                         <div className="single-offer">
-                            <i className="flaticon-blockchain"></i>
+                            <i role="none" className="flaticon-blockchain"></i>
                             <h3>
                                 <Link href="/service-details">
                                     <a>Blockchain Project</a>
@@ -49,7 +49,7 @@ const Services = () => {
 
                     <div className="col-lg-4 col-sm-6">
                         <div className="single-offer">
-                            <i className="flaticon-target"></i>
+                            <i role="none" className="flaticon-target"></i>
                             <h3>
                                 <Link href="/service-details">
                                     <a>Image Processing</a>
@@ -61,7 +61,7 @@ const Services = () => {
 
                     <div className="col-lg-4 col-sm-6">
                         <div className="single-offer">
-                            <i className="flaticon-choice"></i>
+                            <i role="none" className="flaticon-choice"></i>
                             <h3>
                                 <Link href="/service-details">
                                     <a>Order Management</a>
@@ -73,7 +73,7 @@ const Services = () => {
 
                     <div className="col-lg-4 col-sm-6">
                         <div className="single-offer">
-                            <i className="flaticon-deep-learning"></i>
+                            <i role="none" className="flaticon-deep-learning"></i>
                             <h3>
                                 <Link href="/service-details">
                                     <a>Machine Learning</a>

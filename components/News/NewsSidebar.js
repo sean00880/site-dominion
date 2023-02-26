@@ -14,7 +14,7 @@ class NewsSidebar extends Component {
                                 <input type="search" className="search-field" placeholder="Search..." />
                             </label>
 
-                            <button type="submit"><i className='bx bx-search'></i></button>
+                            <button type="submit"><i role="none" className='bx bx-search'></i></button>
                         </form>
                     </div>
                 </div>

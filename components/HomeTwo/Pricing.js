@@ -59,31 +59,31 @@ class Pricing extends Component {
 
                                             <ul>
                                                 <li>
-                                                    <i className='bx bx-check'></i>
+                                                    <i role="none" className='bx bx-check'></i>
                                                     Drag & Drop Builder
                                                 </li>
                                                 <li>
-                                                    <i className='bx bx-check'></i>
+                                                    <i role="none" className='bx bx-check'></i>
                                                     Lead Generation & Sales
                                                 </li>
                                                 <li>
-                                                    <i className='bx bx-check'></i>
+                                                    <i role="none" className='bx bx-check'></i>
                                                     Boot & Digital Assistants
                                                 </li>
                                                 <li>
-                                                    <i className='bx bx-check'></i>
+                                                    <i role="none" className='bx bx-check'></i>
                                                     Customer Service
                                                 </li>
                                                 <li>
-                                                    <i className='bx bx-x'></i>
+                                                    <i role="none" className='bx bx-x'></i>
                                                     Up to 1000 Subscribers
                                                 </li>
                                                 <li>
-                                                    <i className='bx bx-x'></i>
+                                                    <i role="none" className='bx bx-x'></i>
                                                     Unlimited Broadcasts
                                                 </li>
                                                 <li>
-                                                    <i className='bx bx-x'></i>
+                                                    <i role="none" className='bx bx-x'></i>
                                                     Landing Pages & Web Widgets
                                                 </li>
                                             </ul>
@@ -106,31 +106,31 @@ class Pricing extends Component {
 
                                             <ul>
                                                 <li>
-                                                    <i className='bx bx-check'></i>
+                                                    <i role="none" className='bx bx-check'></i>
                                                     Drag & Drop Builder
                                                 </li>
                                                 <li>
-                                                    <i className='bx bx-check'></i>
+                                                    <i role="none" className='bx bx-check'></i>
                                                     Lead Generation & Sales
                                                 </li>
                                                 <li>
-                                                    <i className='bx bx-check'></i>
+                                                    <i role="none" className='bx bx-check'></i>
                                                     Boot & Digital Assistants
                                                 </li>
                                                 <li>
-                                                    <i className='bx bx-check'></i>
+                                                    <i role="none" className='bx bx-check'></i>
                                                     Customer Service
                                                 </li>
                                                 <li>
-                                                    <i className='bx bx-check'></i>
+                                                    <i role="none" className='bx bx-check'></i>
                                                     Up to 1000 Subscribers
                                                 </li>
                                                 <li>
-                                                    <i className='bx bx-x'></i>
+                                                    <i role="none" className='bx bx-x'></i>
                                                     Unlimited Broadcasts
                                                 </li>
                                                 <li>
-                                                    <i className='bx bx-x'></i>
+                                                    <i role="none" className='bx bx-x'></i>
                                                     Landing Pages & Web Widgets
                                                 </li>
                                             </ul>
@@ -155,31 +155,31 @@ class Pricing extends Component {
 
                                             <ul>
                                                 <li>
-                                                    <i className='bx bx-check'></i>
+                                                    <i role="none" className='bx bx-check'></i>
                                                     Drag & Drop Builder
                                                 </li>
                                                 <li>
-                                                    <i className='bx bx-check'></i>
+                                                    <i role="none" className='bx bx-check'></i>
                                                     Lead Generation & Sales
                                                 </li>
                                                 <li>
-                                                    <i className='bx bx-check'></i>
+                                                    <i role="none" className='bx bx-check'></i>
                                                     Boot & Digital Assistants
                                                 </li>
                                                 <li>
-                                                    <i className='bx bx-check'></i>
+                                                    <i role="none" className='bx bx-check'></i>
                                                     Customer Service
                                                 </li>
                                                 <li>
-                                                    <i className='bx bx-check'></i>
+                                                    <i role="none" className='bx bx-check'></i>
                                                     Up to 1000 Subscribers
                                                 </li>
                                                 <li>
-                                                    <i className='bx bx-check'></i>
+                                                    <i role="none" className='bx bx-check'></i>
                                                     Unlimited Broadcasts
                                                 </li>
                                                 <li>
-                                                    <i className='bx bx-check'></i>
+                                                    <i role="none" className='bx bx-check'></i>
                                                     Landing Pages & Web Widgets
                                                 </li>
                                             </ul>
@@ -206,31 +206,31 @@ class Pricing extends Component {
 
                                             <ul>
                                                 <li>
-                                                    <i className='bx bx-check'></i>
+                                                    <i role="none" className='bx bx-check'></i>
                                                     Drag & Drop Builder
                                                 </li>
                                                 <li>
-                                                    <i className='bx bx-check'></i>
+                                                    <i role="none" className='bx bx-check'></i>
                                                     Lead Generation & Sales
                                                 </li>
                                                 <li>
-                                                    <i className='bx bx-check'></i>
+                                                    <i role="none" className='bx bx-check'></i>
                                                     Boot & Digital Assistants
                                                 </li>
                                                 <li>
-                                                    <i className='bx bx-check'></i>
+                                                    <i role="none" className='bx bx-check'></i>
                                                     Customer Service
                                                 </li>
                                                 <li>
-                                                    <i className='bx bx-x'></i>
+                                                    <i role="none" className='bx bx-x'></i>
                                                     Up to 1000 Subscribers
                                                 </li>
                                                 <li>
-                                                    <i className='bx bx-x'></i>
+                                                    <i role="none" className='bx bx-x'></i>
                                                     Unlimited Broadcasts
                                                 </li>
                                                 <li>
-                                                    <i className='bx bx-x'></i>
+                                                    <i role="none" className='bx bx-x'></i>
                                                     Landing Pages & Web Widgets
                                                 </li>
                                             </ul>
@@ -253,31 +253,31 @@ class Pricing extends Component {
 
                                             <ul>
                                                 <li>
-                                                    <i className='bx bx-check'></i>
+                                                    <i role="none" className='bx bx-check'></i>
                                                     Drag & Drop Builder
                                                 </li>
                                                 <li>
-                                                    <i className='bx bx-check'></i>
+                                                    <i role="none" className='bx bx-check'></i>
                                                     Lead Generation & Sales
                                                 </li>
                                                 <li>
-                                                    <i className='bx bx-check'></i>
+                                                    <i role="none" className='bx bx-check'></i>
                                                     Boot & Digital Assistants
                                                 </li>
                                                 <li>
-                                                    <i className='bx bx-check'></i>
+                                                    <i role="none" className='bx bx-check'></i>
                                                     Customer Service
                                                 </li>
                                                 <li>
-                                                    <i className='bx bx-check'></i>
+                                                    <i role="none" className='bx bx-check'></i>
                                                     Up to 1000 Subscribers
                                                 </li>
                                                 <li>
-                                                    <i className='bx bx-x'></i>
+                                                    <i role="none" className='bx bx-x'></i>
                                                     Unlimited Broadcasts
                                                 </li>
                                                 <li>
-                                                    <i className='bx bx-x'></i>
+                                                    <i role="none" className='bx bx-x'></i>
                                                     Landing Pages & Web Widgets
                                                 </li>
                                             </ul>
@@ -302,31 +302,31 @@ class Pricing extends Component {
 
                                             <ul>
                                                 <li>
-                                                    <i className='bx bx-check'></i>
+                                                    <i role="none" className='bx bx-check'></i>
                                                     Drag & Drop Builder
                                                 </li>
                                                 <li>
-                                                    <i className='bx bx-check'></i>
+                                                    <i role="none" className='bx bx-check'></i>
                                                     Lead Generation & Sales
                                                 </li>
                                                 <li>
-                                                    <i className='bx bx-check'></i>
+                                                    <i role="none" className='bx bx-check'></i>
                                                     Boot & Digital Assistants
                                                 </li>
                                                 <li>
-                                                    <i className='bx bx-check'></i>
+                                                    <i role="none" className='bx bx-check'></i>
                                                     Customer Service
                                                 </li>
                                                 <li>
-                                                    <i className='bx bx-check'></i>
+                                                    <i role="none" className='bx bx-check'></i>
                                                     Up to 1000 Subscribers
                                                 </li>
                                                 <li>
-                                                    <i className='bx bx-check'></i>
+                                                    <i role="none" className='bx bx-check'></i>
                                                     Unlimited Broadcasts
                                                 </li>
                                                 <li>
-                                                    <i className='bx bx-check'></i>
+                                                    <i role="none" className='bx bx-check'></i>
                                                     Landing Pages & Web Widgets
                                                 </li>
                                             </ul>

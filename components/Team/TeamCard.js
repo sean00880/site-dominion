@@ -24,22 +24,22 @@ class TeamCard extends Component {
                                     <ul>
                                         <li>
                                             <a aria-label="facebook" href="https://www.facebook.com/" target="_blank">
-                                                <i className="bx bxl-facebook"></i>
+                                                <i role="none" className="bx bxl-facebook"></i>
                                             </a>
                                         </li>
                                         <li>
                                             <a aria-label="twitter" href="https://www.twitter.com/" target="_blank">
-                                                <i className="bx bxl-twitter"></i>
+                                                <i role="none" className="bx bxl-twitter"></i>
                                             </a>
                                         </li>
                                         <li>
                                             <a aria-label="linkedin" href="https://www.linkedin.com/" target="_blank">
-                                                <i className="bx bxl-linkedin"></i>
+                                                <i role="none" className="bx bxl-linkedin"></i>
                                             </a>
                                         </li>
                                         <li>
                                             <a  aria-label="pinterest" href="https://www.pinterest.com/" target="_blank">
-                                                <i className="bx bxl-pinterest-alt"></i>
+                                                <i role="none" className="bx bxl-pinterest-alt"></i>
                                             </a>
                                         </li>
                                     </ul>
@@ -64,22 +64,22 @@ class TeamCard extends Component {
                                     <ul>
                                     <li>
                                             <a aria-label="facebook" href="https://www.facebook.com/" target="_blank">
-                                                <i className="bx bxl-facebook"></i>
+                                                <i role="none" className="bx bxl-facebook"></i>
                                             </a>
                                         </li>
                                         <li>
                                             <a aria-label="twitter" href="https://www.twitter.com/" target="_blank">
-                                                <i className="bx bxl-twitter"></i>
+                                                <i role="none" className="bx bxl-twitter"></i>
                                             </a>
                                         </li>
                                         <li>
                                             <a aria-label="linkedin" href="https://www.linkedin.com/" target="_blank">
-                                                <i className="bx bxl-linkedin"></i>
+                                                <i role="none" className="bx bxl-linkedin"></i>
                                             </a>
                                         </li>
                                         <li>
                                             <a  aria-label="pinterest" href="https://www.pinterest.com/" target="_blank">
-                                                <i className="bx bxl-pinterest-alt"></i>
+                                                <i role="none" className="bx bxl-pinterest-alt"></i>
                                             </a>
                                         </li>
                                     </ul>
@@ -104,22 +104,22 @@ class TeamCard extends Component {
                                     <ul>
                                     <li>
                                             <a aria-label="facebook" href="https://www.facebook.com/" target="_blank">
-                                                <i className="bx bxl-facebook"></i>
+                                                <i role="none" className="bx bxl-facebook"></i>
                                             </a>
                                         </li>
                                         <li>
                                             <a aria-label="twitter" href="https://www.twitter.com/" target="_blank">
-                                                <i className="bx bxl-twitter"></i>
+                                                <i role="none" className="bx bxl-twitter"></i>
                                             </a>
                                         </li>
                                         <li>
                                             <a aria-label="linkedin" href="https://www.linkedin.com/" target="_blank">
-                                                <i className="bx bxl-linkedin"></i>
+                                                <i role="none" className="bx bxl-linkedin"></i>
                                             </a>
                                         </li>
                                         <li>
                                             <a  aria-label="pinterest" href="https://www.pinterest.com/" target="_blank">
-                                                <i className="bx bxl-pinterest-alt"></i>
+                                                <i role="none" className="bx bxl-pinterest-alt"></i>
                                             </a>
                                         </li>
                                     </ul>
@@ -144,22 +144,22 @@ class TeamCard extends Component {
                                     <ul>
                                     <li>
                                             <a aria-label="facebook" href="https://www.facebook.com/" target="_blank">
-                                                <i className="bx bxl-facebook"></i>
+                                                <i role="none" className="bx bxl-facebook"></i>
                                             </a>
                                         </li>
                                         <li>
                                             <a aria-label="twitter" href="https://www.twitter.com/" target="_blank">
-                                                <i className="bx bxl-twitter"></i>
+                                                <i role="none" className="bx bxl-twitter"></i>
                                             </a>
                                         </li>
                                         <li>
                                             <a aria-label="linkedin" href="https://www.linkedin.com/" target="_blank">
-                                                <i className="bx bxl-linkedin"></i>
+                                                <i role="none" className="bx bxl-linkedin"></i>
                                             </a>
                                         </li>
                                         <li>
                                             <a  aria-label="pinterest" href="https://www.pinterest.com/" target="_blank">
-                                                <i className="bx bxl-pinterest-alt"></i>
+                                                <i role="none" className="bx bxl-pinterest-alt"></i>
                                             </a>
                                         </li>
                                     </ul>
@@ -184,22 +184,22 @@ class TeamCard extends Component {
                                     <ul>
                                     <li>
                                             <a aria-label="facebook" href="https://www.facebook.com/" target="_blank">
-                                                <i className="bx bxl-facebook"></i>
+                                                <i role="none" className="bx bxl-facebook"></i>
                                             </a>
                                         </li>
                                         <li>
                                             <a aria-label="twitter" href="https://www.twitter.com/" target="_blank">
-                                                <i className="bx bxl-twitter"></i>
+                                                <i role="none" className="bx bxl-twitter"></i>
                                             </a>
                                         </li>
                                         <li>
                                             <a aria-label="linkedin" href="https://www.linkedin.com/" target="_blank">
-                                                <i className="bx bxl-linkedin"></i>
+                                                <i role="none" className="bx bxl-linkedin"></i>
                                             </a>
                                         </li>
                                         <li>
                                             <a  aria-label="pinterest" href="https://www.pinterest.com/" target="_blank">
-                                                <i className="bx bxl-pinterest-alt"></i>
+                                                <i role="none" className="bx bxl-pinterest-alt"></i>
                                             </a>
                                         </li>
                                     </ul>
@@ -224,22 +224,22 @@ class TeamCard extends Component {
                                     <ul>
                                     <li>
                                             <a aria-label="facebook" href="https://www.facebook.com/" target="_blank">
-                                                <i className="bx bxl-facebook"></i>
+                                                <i role="none" className="bx bxl-facebook"></i>
                                             </a>
                                         </li>
                                         <li>
                                             <a aria-label="twitter" href="https://www.twitter.com/" target="_blank">
-                                                <i className="bx bxl-twitter"></i>
+                                                <i role="none" className="bx bxl-twitter"></i>
                                             </a>
                                         </li>
                                         <li>
                                             <a aria-label="linkedin" href="https://www.linkedin.com/" target="_blank">
-                                                <i className="bx bxl-linkedin"></i>
+                                                <i role="none" className="bx bxl-linkedin"></i>
                                             </a>
                                         </li>
                                         <li>
                                             <a  aria-label="pinterest" href="https://www.pinterest.com/" target="_blank">
-                                                <i className="bx bxl-pinterest-alt"></i>
+                                                <i role="none" className="bx bxl-pinterest-alt"></i>
                                             </a>
                                         </li>
                                     </ul>
@@ -264,22 +264,22 @@ class TeamCard extends Component {
                                     <ul>
                                     <li>
                                             <a aria-label="facebook" href="https://www.facebook.com/" target="_blank">
-                                                <i className="bx bxl-facebook"></i>
+                                                <i role="none" className="bx bxl-facebook"></i>
                                             </a>
                                         </li>
                                         <li>
                                             <a aria-label="twitter" href="https://www.twitter.com/" target="_blank">
-                                                <i className="bx bxl-twitter"></i>
+                                                <i role="none" className="bx bxl-twitter"></i>
                                             </a>
                                         </li>
                                         <li>
                                             <a aria-label="linkedin" href="https://www.linkedin.com/" target="_blank">
-                                                <i className="bx bxl-linkedin"></i>
+                                                <i role="none" className="bx bxl-linkedin"></i>
                                             </a>
                                         </li>
                                         <li>
                                             <a  aria-label="pinterest" href="https://www.pinterest.com/" target="_blank">
-                                                <i className="bx bxl-pinterest-alt"></i>
+                                                <i role="none" className="bx bxl-pinterest-alt"></i>
                                             </a>
                                         </li>
                                     </ul>
@@ -304,22 +304,22 @@ class TeamCard extends Component {
                                     <ul>
                                     <li>
                                             <a aria-label="facebook" href="https://www.facebook.com/" target="_blank">
-                                                <i className="bx bxl-facebook"></i>
+                                                <i role="none" className="bx bxl-facebook"></i>
                                             </a>
                                         </li>
                                         <li>
                                             <a aria-label="twitter" href="https://www.twitter.com/" target="_blank">
-                                                <i className="bx bxl-twitter"></i>
+                                                <i role="none" className="bx bxl-twitter"></i>
                                             </a>
                                         </li>
                                         <li>
                                             <a aria-label="linkedin" href="https://www.linkedin.com/" target="_blank">
-                                                <i className="bx bxl-linkedin"></i>
+                                                <i role="none" className="bx bxl-linkedin"></i>
                                             </a>
                                         </li>
                                         <li>
                                             <a  aria-label="pinterest" href="https://www.pinterest.com/" target="_blank">
-                                                <i className="bx bxl-pinterest-alt"></i>
+                                                <i role="none" className="bx bxl-pinterest-alt"></i>
                                             </a>
                                         </li>
                                     </ul>
@@ -332,36 +332,36 @@ class TeamCard extends Component {
                             <div className="page-navigation-area">
                                 <nav aria-label="Page navigation example text-center">
                                     <ul className="pagination">
-                                        <li className="page-item">
+                                        <li role="none" className="page-item">
                                             <Link href="#">
                                                 <a className="page-link page-links">
-                                                    <i className='bx bx-chevrons-left'></i>
+                                                    <i role="none" className='bx bx-chevrons-left'></i>
                                                 </a>
                                             </Link>
                                         </li>
 
-                                        <li className="page-item active">
+                                        <li role="none" className="page-item active">
                                             <Link href="#">
                                                 <a className="page-link">1</a>
                                             </Link>
                                         </li>
 
-                                        <li className="page-item">
+                                        <li role="none" className="page-item">
                                             <Link href="#">
                                                 <a className="page-link">2</a>
                                             </Link>
                                         </li>
 
-                                        <li className="page-item">
+                                        <li role="none" className="page-item">
                                             <Link href="#">
                                                 <a className="page-link">3</a>
                                             </Link>
                                         </li>
 
-                                        <li className="page-item">
+                                        <li role="none" className="page-item">
                                             <Link href="#">
                                                 <a className="page-link">
-                                                    <i className='bx bx-chevrons-right'></i>
+                                                    <i role="none" className='bx bx-chevrons-right'></i>
                                                 </a>
                                             </Link>
                                         </li>

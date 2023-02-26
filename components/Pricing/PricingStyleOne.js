@@ -55,32 +55,32 @@ class PricingStyleOne extends Component {
 
                                             <ul>
                                                 <li>
-                                                    <i className='bx bx-check'></i>
+                                                    <i role="none" className='bx bx-check'></i>
                                                     Website Design [Personal Use]
                                                 </li>   
                                                 <li>
-                                                    <i className='bx bx-check'></i>
+                                                    <i role="none" className='bx bx-check'></i>
                                                     Deployment [Domain + Hosting]
                                                 </li>
                                                 <li>
-                                                    <i className='bx bx-check'></i>
+                                                    <i role="none" className='bx bx-check'></i>
                                                     On-page SEO
                                                 </li>
                                                 <li>
-                                                    <i className='bx bx-check'></i>
+                                                    <i role="none" className='bx bx-check'></i>
                                                     Multiple Revisions
                                                 </li>
                                             
                                                 <li>
-                                                    <i className='bx bx-x'></i>
+                                                    <i role="none" className='bx bx-x'></i>
                                                     Lead Generation API
                                                 </li>
                                                 <li>
-                                                    <i className='bx bx-x'></i>
+                                                    <i role="none" className='bx bx-x'></i>
                                                     Blog
                                                 </li>
                                                 <li>
-                                                    <i className='bx bx-x'></i>
+                                                    <i role="none" className='bx bx-x'></i>
                                                     Unlimited Pages
                                                 </li>
                                             </ul>
@@ -103,32 +103,32 @@ class PricingStyleOne extends Component {
 
                                             <ul>
                                             <li>
-                                                    <i className='bx bx-check'></i>
+                                                    <i role="none" className='bx bx-check'></i>
                                                     Website Design [Professional]
                                                 </li>   
                                                 <li>
-                                                    <i className='bx bx-check'></i>
+                                                    <i role="none" className='bx bx-check'></i>
                                                     Deployment [Domain + Hosting]
                                                 </li>
                                                 <li>
-                                                    <i className='bx bx-check'></i>
+                                                    <i role="none" className='bx bx-check'></i>
                                                     On-page SEO
                                                 </li>
                                                 <li>
-                                                    <i className='bx bx-check'></i>
+                                                    <i role="none" className='bx bx-check'></i>
                                                     Multiple Revisions
                                                 </li>
                                             
                                                 <li>
-                                                    <i className='bx bx-x'></i>
+                                                    <i role="none" className='bx bx-x'></i>
                                                     Lead Generation API
                                                 </li>
                                                 <li>
-                                                    <i className='bx bx-x'></i>
+                                                    <i role="none" className='bx bx-x'></i>
                                                     Blog
                                                 </li>
                                                 <li>
-                                                    <i className='bx bx-x'></i>
+                                                    <i role="none" className='bx bx-x'></i>
                                                     Unlimited Pages
                                                 </li>
                                             </ul>
@@ -153,32 +153,32 @@ class PricingStyleOne extends Component {
 
                                             <ul>
                                             <li>
-                                                    <i className='bx bx-check'></i>
+                                                    <i role="none" className='bx bx-check'></i>
                                                     Website Design [Industry Standard]
                                                 </li>   
                                                 <li>
-                                                    <i className='bx bx-check'></i>
+                                                    <i role="none" className='bx bx-check'></i>
                                                     Deployment [Domain + Hosting]
                                                 </li>
                                                 <li>
-                                                    <i className='bx bx-check'></i>
+                                                    <i role="none" className='bx bx-check'></i>
                                                     On-page SEO
                                                 </li>
                                                 <li>
-                                                    <i className='bx bx-check'></i>
+                                                    <i role="none" className='bx bx-check'></i>
                                                     Multiple Revisions
                                                 </li>
                                             
                                                 <li>
-                                                    <i className='bx bx-check'></i>
+                                                    <i role="none" className='bx bx-check'></i>
                                                     Lead Generation API
                                                 </li>
                                                 <li>
-                                                    <i className='bx bx-check'></i>
+                                                    <i role="none" className='bx bx-check'></i>
                                                     Blog
                                                 </li>
                                                 <li>
-                                                    <i className='bx bx-check'></i>
+                                                    <i role="none" className='bx bx-check'></i>
                                                     Unlimited Pages
                                                 </li>
                                             </ul>
@@ -205,31 +205,31 @@ class PricingStyleOne extends Component {
 
                                             <ul>
                                                 <li>
-                                                    <i className='bx bx-check'></i>
+                                                    <i role="none" className='bx bx-check'></i>
                                                     Drag & Drop Builder
                                                 </li>
                                                 <li>
-                                                    <i className='bx bx-check'></i>
+                                                    <i role="none" className='bx bx-check'></i>
                                                     Lead Generation & Sales
                                                 </li>
                                                 <li>
-                                                    <i className='bx bx-check'></i>
+                                                    <i role="none" className='bx bx-check'></i>
                                                     Boot & Digital Assistants
                                                 </li>
                                                 <li>
-                                                    <i className='bx bx-check'></i>
+                                                    <i role="none" className='bx bx-check'></i>
                                                     Customer Service
                                                 </li>
                                                 <li>
-                                                    <i className='bx bx-x'></i>
+                                                    <i role="none" className='bx bx-x'></i>
                                                     Up to 1000 Subscribers
                                                 </li>
                                                 <li>
-                                                    <i className='bx bx-x'></i>
+                                                    <i role="none" className='bx bx-x'></i>
                                                     Unlimited Broadcasts
                                                 </li>
                                                 <li>
-                                                    <i className='bx bx-x'></i>
+                                                    <i role="none" className='bx bx-x'></i>
                                                     Landing Pages & Web Widgets
                                                 </li>
                                             </ul>
@@ -252,31 +252,31 @@ class PricingStyleOne extends Component {
 
                                             <ul>
                                                 <li>
-                                                    <i className='bx bx-check'></i>
+                                                    <i role="none" className='bx bx-check'></i>
                                                     Drag & Drop Builder
                                                 </li>
                                                 <li>
-                                                    <i className='bx bx-check'></i>
+                                                    <i role="none" className='bx bx-check'></i>
                                                     Lead Generation & Sales
                                                 </li>
                                                 <li>
-                                                    <i className='bx bx-check'></i>
+                                                    <i role="none" className='bx bx-check'></i>
                                                     Boot & Digital Assistants
                                                 </li>
                                                 <li>
-                                                    <i className='bx bx-check'></i>
+                                                    <i role="none" className='bx bx-check'></i>
                                                     Customer Service
                                                 </li>
                                                 <li>
-                                                    <i className='bx bx-check'></i>
+                                                    <i role="none" className='bx bx-check'></i>
                                                     Up to 1000 Subscribers
                                                 </li>
                                                 <li>
-                                                    <i className='bx bx-x'></i>
+                                                    <i role="none" className='bx bx-x'></i>
                                                     Unlimited Broadcasts
                                                 </li>
                                                 <li>
-                                                    <i className='bx bx-x'></i>
+                                                    <i role="none" className='bx bx-x'></i>
                                                     Landing Pages & Web Widgets
                                                 </li>
                                             </ul>
@@ -301,31 +301,31 @@ class PricingStyleOne extends Component {
 
                                             <ul>
                                                 <li>
-                                                    <i className='bx bx-check'></i>
+                                                    <i role="none" className='bx bx-check'></i>
                                                     Drag & Drop Builder
                                                 </li>
                                                 <li>
-                                                    <i className='bx bx-check'></i>
+                                                    <i role="none" className='bx bx-check'></i>
                                                     Lead Generation & Sales
                                                 </li>
                                                 <li>
-                                                    <i className='bx bx-check'></i>
+                                                    <i role="none" className='bx bx-check'></i>
                                                     Boot & Digital Assistants
                                                 </li>
                                                 <li>
-                                                    <i className='bx bx-check'></i>
+                                                    <i role="none" className='bx bx-check'></i>
                                                     Customer Service
                                                 </li>
                                                 <li>
-                                                    <i className='bx bx-check'></i>
+                                                    <i role="none" className='bx bx-check'></i>
                                                     Up to 1000 Subscribers
                                                 </li>
                                                 <li>
-                                                    <i className='bx bx-check'></i>
+                                                    <i role="none" className='bx bx-check'></i>
                                                     Unlimited Broadcasts
                                                 </li>
                                                 <li>
-                                                    <i className='bx bx-check'></i>
+                                                    <i role="none" className='bx bx-check'></i>
                                                     Landing Pages & Web Widgets
                                                 </li>
                                             </ul>

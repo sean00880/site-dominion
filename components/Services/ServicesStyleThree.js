@@ -9,7 +9,7 @@ class ServicesStyleThree extends Component {
                     <div className="row">
                         <div className="col-lg-4 col-sm-6">
                             <div className="service-card">
-                                <i className="flaticon-chip"></i>
+                                <i role="none" className="flaticon-chip"></i>
                                 <h3>
                                     <Link href="/service-details">
                                         <a>Robotics & Drones</a>
@@ -21,7 +21,7 @@ class ServicesStyleThree extends Component {
 
                         <div className="col-lg-4 col-sm-6">
                             <div className="service-card">
-                                <i className="flaticon-vr"></i>
+                                <i role="none" className="flaticon-vr"></i>
                                 <h3>
                                     <Link href="/service-details">
                                         <a>Virtually Reality</a>
@@ -33,7 +33,7 @@ class ServicesStyleThree extends Component {
 
                         <div className="col-lg-4 col-sm-6">
                             <div className="service-card">
-                                <i className="flaticon-blockchain"></i>
+                                <i role="none" className="flaticon-blockchain"></i>
                                 <h3>
                                     <Link href="/service-details">
                                         <a>Blockchain Project</a>
@@ -45,7 +45,7 @@ class ServicesStyleThree extends Component {
 
                         <div className="col-lg-4 col-sm-6">
                             <div className="service-card">
-                                <i className="flaticon-target"></i>
+                                <i role="none" className="flaticon-target"></i>
                                 <h3>
                                     <Link href="/service-details">
                                         <a>Image Processing</a>
@@ -57,7 +57,7 @@ class ServicesStyleThree extends Component {
 
                         <div className="col-lg-4 col-sm-6">
                             <div className="service-card">
-                                <i className="flaticon-choice"></i>
+                                <i role="none" className="flaticon-choice"></i>
                                 <h3>
                                     <Link href="/service-details">
                                         <a>Order Management</a>
@@ -69,7 +69,7 @@ class ServicesStyleThree extends Component {
 
                         <div className="col-lg-4 col-sm-6">
                             <div className="service-card">
-                                <i className="flaticon-deep-learning"></i>
+                                <i role="none" className="flaticon-deep-learning"></i>
                                 <h3>
                                     <Link href="/service-details">
                                         <a>Machine Learning</a>
@@ -82,7 +82,7 @@ class ServicesStyleThree extends Component {
 
                         <div className="col-lg-4 col-sm-6">
                             <div className="service-card">
-                                <i className="flaticon-cloud-computing-1"></i>
+                                <i role="none" className="flaticon-cloud-computing-1"></i>
                                 <h3>
                                     <Link href="/service-details">
                                         <a>Data Science</a>
@@ -94,7 +94,7 @@ class ServicesStyleThree extends Component {
 
                         <div className="col-lg-4 col-sm-6">
                             <div className="service-card">
-                                <i className="flaticon-engineer"></i>
+                                <i role="none" className="flaticon-engineer"></i>
                                 <h3>
                                     <Link href="/service-details">
                                         <a>Data Engineer</a>
@@ -106,7 +106,7 @@ class ServicesStyleThree extends Component {
 
                         <div className="col-lg-4 col-sm-6 offset-sm-3 offset-lg-0">
                             <div className="service-card">
-                                <i className="flaticon-success"></i>
+                                <i role="none" className="flaticon-success"></i>
                                 <h3>
                                     <Link href="/service-details">
                                         <a>Facing AI Challenges</a>
@@ -121,36 +121,36 @@ class ServicesStyleThree extends Component {
                             <div className="page-navigation-area">
                                 <nav aria-label="Page navigation example text-center">
                                     <ul className="pagination">
-                                        <li className="page-item">
+                                        <li role="none" className="page-item">
                                             <Link href="#">
                                                 <a className="page-link page-links">
-                                                    <i className='bx bx-chevrons-left'></i>
+                                                    <i role="none" className='bx bx-chevrons-left'></i>
                                                 </a>
                                             </Link>
                                         </li>
 
-                                        <li className="page-item active">
+                                        <li role="none" className="page-item active">
                                             <Link href="#">
                                                 <a className="page-link">1</a>
                                             </Link>
                                         </li>
 
-                                        <li className="page-item">
+                                        <li role="none" className="page-item">
                                             <Link href="#">
                                                 <a className="page-link">2</a>
                                             </Link>
                                         </li>
 
-                                        <li className="page-item">
+                                        <li role="none" className="page-item">
                                             <Link href="#">
                                                 <a className="page-link">3</a>
                                             </Link>
                                         </li>
 
-                                        <li className="page-item">
+                                        <li role="none" className="page-item">
                                             <Link href="#">
                                                 <a className="page-link">
-                                                    <i className='bx bx-chevrons-right'></i>
+                                                    <i role="none" className='bx bx-chevrons-right'></i>
                                                 </a>
                                             </Link>
                                         </li>

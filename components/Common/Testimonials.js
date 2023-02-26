@@ -35,15 +35,15 @@ class Testimonials extends Component {
                     >
                         <SwiperSlide>
                             <div className="single-client">
-                                <i className="quotes flaticon-left-quotes-sign"></i>
+                                <i role="none" className="quotes flaticon-left-quotes-sign"></i>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,do eiusmod tempor incididunt ut labore et dolore.</p>
 
                                 <ul>
-                                    <li><i className="bx bxs-star"></i></li>
-                                    <li><i className="bx bxs-star"></i></li>
-                                    <li><i className="bx bxs-star"></i></li>
-                                    <li><i className="bx bxs-star"></i></li>
-                                    <li><i className="bx bxs-star"></i></li>
+                                    <li><i role="none" className="bx bxs-star"></i></li>
+                                    <li><i role="none" className="bx bxs-star"></i></li>
+                                    <li><i role="none" className="bx bxs-star"></i></li>
+                                    <li><i role="none" className="bx bxs-star"></i></li>
+                                    <li><i role="none" className="bx bxs-star"></i></li>
                                 </ul>
 
                                 <div className="client-img">
@@ -56,15 +56,15 @@ class Testimonials extends Component {
 
                         <SwiperSlide>
                             <div className="single-client">
-                                <i className="quotes flaticon-left-quotes-sign"></i>
+                                <i role="none" className="quotes flaticon-left-quotes-sign"></i>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,do eiusmod tempor incididunt ut labore et dolore.</p>
                             
                                 <ul>
-                                    <li><i className="bx bxs-star"></i></li>
-                                    <li><i className="bx bxs-star"></i></li>
-                                    <li><i className="bx bxs-star"></i></li>
-                                    <li><i className="bx bxs-star"></i></li>
-                                    <li><i className="bx bxs-star"></i></li>
+                                    <li><i role="none" className="bx bxs-star"></i></li>
+                                    <li><i role="none" className="bx bxs-star"></i></li>
+                                    <li><i role="none" className="bx bxs-star"></i></li>
+                                    <li><i role="none" className="bx bxs-star"></i></li>
+                                    <li><i role="none" className="bx bxs-star"></i></li>
                                 </ul>
 
                                 <div className="client-img">
@@ -77,15 +77,15 @@ class Testimonials extends Component {
 
                         <SwiperSlide>
                             <div className="single-client">
-                                <i className="quotes flaticon-left-quotes-sign"></i>
+                                <i role="none" className="quotes flaticon-left-quotes-sign"></i>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,do eiusmod tempor incididunt ut labore et dolore.</p>
                                 
                                 <ul>
-                                    <li><i className="bx bxs-star"></i></li>
-                                    <li><i className="bx bxs-star"></i></li>
-                                    <li><i className="bx bxs-star"></i></li>
-                                    <li><i className="bx bxs-star"></i></li>
-                                    <li><i className="bx bxs-star"></i></li>
+                                    <li><i role="none" className="bx bxs-star"></i></li>
+                                    <li><i role="none" className="bx bxs-star"></i></li>
+                                    <li><i role="none" className="bx bxs-star"></i></li>
+                                    <li><i role="none" className="bx bxs-star"></i></li>
+                                    <li><i role="none" className="bx bxs-star"></i></li>
                                 </ul>
 
                                 <div className="client-img">
@@ -98,15 +98,15 @@ class Testimonials extends Component {
 
                         <SwiperSlide>
                             <div className="single-client">
-                                <i className="quotes flaticon-left-quotes-sign"></i>
+                                <i role="none" className="quotes flaticon-left-quotes-sign"></i>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,do eiusmod tempor incididunt ut labore et dolore.</p>
                             
                                 <ul>
-                                    <li><i className="bx bxs-star"></i></li>
-                                    <li><i className="bx bxs-star"></i></li>
-                                    <li><i className="bx bxs-star"></i></li>
-                                    <li><i className="bx bxs-star"></i></li>
-                                    <li><i className="bx bxs-star"></i></li>
+                                    <li><i role="none" className="bx bxs-star"></i></li>
+                                    <li><i role="none" className="bx bxs-star"></i></li>
+                                    <li><i role="none" className="bx bxs-star"></i></li>
+                                    <li><i role="none" className="bx bxs-star"></i></li>
+                                    <li><i role="none" className="bx bxs-star"></i></li>
                                 </ul>
 
                                 <div className="client-img">

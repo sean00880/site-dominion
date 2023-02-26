@@ -18,31 +18,31 @@ const WhyChooseUs = () => {
                             <ul>
                                 <li>
                                     <span>
-                                        01 <i className="flaticon-technical-support"></i>
+                                        01 <i role="none" className="flaticon-technical-support"></i>
                                     </span>
                                     <h3>Initiate Contact</h3>
                                     <p>Lorem ipsum dolor sit labore amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
                                 </li>
 
-                                <li className="ml">
+                                <li role="none" className="ml">
                                     <span>
-                                        02 <i className="flaticon-shield"></i>
+                                        02 <i role="none" className="flaticon-shield"></i>
                                     </span>
                                     <h3>Website Design</h3>
                                     <p>Lorem ipsum dolor sit labore amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
                                 </li>
 
-                                <li className="ml-25">
+                                <li role="none" className="ml-25">
                                     <span>
-                                        03 <i className="flaticon-support"></i>
+                                        03 <i role="none" className="flaticon-support"></i>
                                     </span>
                                     <h3>Full Deployment</h3>
                                     <p>Lorem ipsum dolor sit labore amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
                                 </li>
 
-                                <li className="ml-25">
+                                <li role="none" className="ml-25">
                                     <span>
-                                        03 <i className="flaticon-support"></i>
+                                        03 <i role="none" className="flaticon-support"></i>
                                     </span>
                                     <h3>Project Optimization</h3>
                                     <p>Lorem ipsum dolor sit labore amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>

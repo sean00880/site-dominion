@@ -16,17 +16,17 @@ class WhyChooseUs extends Component {
                             <div className="choose-content">
                                 <ul>
                                     <li>
-                                        <span>01 <i className="flaticon-technical-support"></i></span>
+                                        <span>01 <i role="none" className="flaticon-technical-support"></i></span>
                                         <h3>Safe Security</h3>
                                         <p>Lorem ipsum dolor sit labore amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
                                     </li>
-                                    <li className="ml">
-                                        <span>02 <i className="flaticon-shield"></i></span>
+                                    <li role="none" className="ml">
+                                        <span>02 <i role="none" className="flaticon-shield"></i></span>
                                         <h3>Technical Support</h3>
                                         <p>Lorem ipsum dolor sit labore amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
                                     </li>
-                                    <li className="ml-25">
-                                        <span>03 <i className="flaticon-support"></i></span>
+                                    <li role="none" className="ml-25">
+                                        <span>03 <i role="none" className="flaticon-support"></i></span>
                                         <h3>Live Support</h3>
                                         <p>Lorem ipsum dolor sit labore amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
                                     </li>
@@ -38,19 +38,19 @@ class WhyChooseUs extends Component {
                             <div className="choose-content">
                                 <ul>
                                     <li>
-                                        <span>04 <i className="flaticon-technical-support"></i></span>
+                                        <span>04 <i role="none" className="flaticon-technical-support"></i></span>
                                         <h3>Free Try </h3>
                                         <p>Lorem ipsum dolor sit labore amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
                                     </li>
 
-                                    <li className="ml">
-                                        <span>05 <i className="flaticon-shield"></i></span>
+                                    <li role="none" className="ml">
+                                        <span>05 <i role="none" className="flaticon-shield"></i></span>
                                         <h3>Advanced Tchnology</h3>
                                         <p>Lorem ipsum dolor sit labore amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
                                     </li>
 
-                                    <li className="ml-25">
-                                        <span>06 <i className="flaticon-support"></i></span>
+                                    <li role="none" className="ml-25">
+                                        <span>06 <i role="none" className="flaticon-support"></i></span>
                                         <h3>Competitive Pricing</h3>
                                         <p>Lorem ipsum dolor sit labore amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
                                     </li>

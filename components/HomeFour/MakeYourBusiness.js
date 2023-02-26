@@ -13,13 +13,13 @@ class MakeYourBusiness extends Component {
                             </div>
 
                             <div className="single-business">
-                                <i className="flaticon-chip"></i>
+                                <i role="none" className="flaticon-chip"></i>
                                 <h3>AI Will Automatic Cyber Security Improve</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore. Quis ipsum suspendisse ultrices gravida suspendisse.</p>
                             </div>
 
                             <div className="single-business">
-                                <i className="flaticon-blockchain"></i>
+                                <i role="none" className="flaticon-blockchain"></i>
                                 <h3>A Community With A Unique Mission</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore. Quis ipsum suspendisse ultrices gravida suspendisse.</p>
                             </div>

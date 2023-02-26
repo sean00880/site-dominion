@@ -9,15 +9,15 @@ class TestimonialsContent extends Component {
                     <div className="row">
                         <div className="col-lg-4 col-sm-6">
                             <div className="single-client">
-                                <i className="quotes flaticon-left-quotes-sign"></i>
+                                <i role="none" className="quotes flaticon-left-quotes-sign"></i>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,do eiusmod tempor incididunt ut labore et dolore.</p>
 
                                 <ul>
-                                    <li><i className="bx bxs-star"></i></li>
-                                    <li><i className="bx bxs-star"></i></li>
-                                    <li><i className="bx bxs-star"></i></li>
-                                    <li><i className="bx bxs-star"></i></li>
-                                    <li><i className="bx bxs-star"></i></li>
+                                    <li><i role="none" className="bx bxs-star"></i></li>
+                                    <li><i role="none" className="bx bxs-star"></i></li>
+                                    <li><i role="none" className="bx bxs-star"></i></li>
+                                    <li><i role="none" className="bx bxs-star"></i></li>
+                                    <li><i role="none" className="bx bxs-star"></i></li>
                                 </ul>
                                 
                                 <div className="client-img">
@@ -30,15 +30,15 @@ class TestimonialsContent extends Component {
 
                         <div className="col-lg-4 col-sm-6">
                             <div className="single-client">
-                                <i className="quotes flaticon-left-quotes-sign"></i>
+                                <i role="none" className="quotes flaticon-left-quotes-sign"></i>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,do eiusmod tempor incididunt ut labore et dolore.</p>
 
                                 <ul>
-                                    <li><i className="bx bxs-star"></i></li>
-                                    <li><i className="bx bxs-star"></i></li>
-                                    <li><i className="bx bxs-star"></i></li>
-                                    <li><i className="bx bxs-star"></i></li>
-                                    <li><i className="bx bxs-star"></i></li>
+                                    <li><i role="none" className="bx bxs-star"></i></li>
+                                    <li><i role="none" className="bx bxs-star"></i></li>
+                                    <li><i role="none" className="bx bxs-star"></i></li>
+                                    <li><i role="none" className="bx bxs-star"></i></li>
+                                    <li><i role="none" className="bx bxs-star"></i></li>
                                 </ul>
 
                                 <div className="client-img">
@@ -51,15 +51,15 @@ class TestimonialsContent extends Component {
 
                         <div className="col-lg-4 col-sm-6">
                             <div className="single-client">
-                                <i className="quotes flaticon-left-quotes-sign"></i>
+                                <i role="none" className="quotes flaticon-left-quotes-sign"></i>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,do eiusmod tempor incididunt ut labore et dolore.</p>
 
                                 <ul>
-                                    <li><i className="bx bxs-star"></i></li>
-                                    <li><i className="bx bxs-star"></i></li>
-                                    <li><i className="bx bxs-star"></i></li>
-                                    <li><i className="bx bxs-star"></i></li>
-                                    <li><i className="bx bxs-star"></i></li>
+                                    <li><i role="none" className="bx bxs-star"></i></li>
+                                    <li><i role="none" className="bx bxs-star"></i></li>
+                                    <li><i role="none" className="bx bxs-star"></i></li>
+                                    <li><i role="none" className="bx bxs-star"></i></li>
+                                    <li><i role="none" className="bx bxs-star"></i></li>
                                 </ul>
 
                                 <div className="client-img">
@@ -72,15 +72,15 @@ class TestimonialsContent extends Component {
 
                         <div className="col-lg-4 col-sm-6">
                             <div className="single-client">
-                                <i className="quotes flaticon-left-quotes-sign"></i>
+                                <i role="none" className="quotes flaticon-left-quotes-sign"></i>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,do eiusmod tempor incididunt ut labore et dolore.</p>
 
                                 <ul>
-                                    <li><i className="bx bxs-star"></i></li>
-                                    <li><i className="bx bxs-star"></i></li>
-                                    <li><i className="bx bxs-star"></i></li>
-                                    <li><i className="bx bxs-star"></i></li>
-                                    <li><i className="bx bxs-star"></i></li>
+                                    <li><i role="none" className="bx bxs-star"></i></li>
+                                    <li><i role="none" className="bx bxs-star"></i></li>
+                                    <li><i role="none" className="bx bxs-star"></i></li>
+                                    <li><i role="none" className="bx bxs-star"></i></li>
+                                    <li><i role="none" className="bx bxs-star"></i></li>
                                 </ul>
 
                                 <div className="client-img">
@@ -93,15 +93,15 @@ class TestimonialsContent extends Component {
                         
                         <div className="col-lg-4 col-sm-6">
                             <div className="single-client">
-                                <i className="quotes flaticon-left-quotes-sign"></i>
+                                <i role="none" className="quotes flaticon-left-quotes-sign"></i>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,do eiusmod tempor incididunt ut labore et dolore.</p>
 
                                 <ul>
-                                    <li><i className="bx bxs-star"></i></li>
-                                    <li><i className="bx bxs-star"></i></li>
-                                    <li><i className="bx bxs-star"></i></li>
-                                    <li><i className="bx bxs-star"></i></li>
-                                    <li><i className="bx bxs-star"></i></li>
+                                    <li><i role="none" className="bx bxs-star"></i></li>
+                                    <li><i role="none" className="bx bxs-star"></i></li>
+                                    <li><i role="none" className="bx bxs-star"></i></li>
+                                    <li><i role="none" className="bx bxs-star"></i></li>
+                                    <li><i role="none" className="bx bxs-star"></i></li>
                                 </ul>
 
                                 <div className="client-img">
@@ -114,15 +114,15 @@ class TestimonialsContent extends Component {
 
                         <div className="col-lg-4 col-sm-6">
                             <div className="single-client">
-                                <i className="quotes flaticon-left-quotes-sign"></i>
+                                <i role="none" className="quotes flaticon-left-quotes-sign"></i>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,do eiusmod tempor incididunt ut labore et dolore.</p>
 
                                 <ul>
-                                    <li><i className="bx bxs-star"></i></li>
-                                    <li><i className="bx bxs-star"></i></li>
-                                    <li><i className="bx bxs-star"></i></li>
-                                    <li><i className="bx bxs-star"></i></li>
-                                    <li><i className="bx bxs-star"></i></li>
+                                    <li><i role="none" className="bx bxs-star"></i></li>
+                                    <li><i role="none" className="bx bxs-star"></i></li>
+                                    <li><i role="none" className="bx bxs-star"></i></li>
+                                    <li><i role="none" className="bx bxs-star"></i></li>
+                                    <li><i role="none" className="bx bxs-star"></i></li>
                                 </ul>
 
                                 <div className="client-img">
@@ -135,15 +135,15 @@ class TestimonialsContent extends Component {
 
                         <div className="col-lg-4 col-sm-6">
                             <div className="single-client">
-                                <i className="quotes flaticon-left-quotes-sign"></i>
+                                <i role="none" className="quotes flaticon-left-quotes-sign"></i>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,do eiusmod tempor incididunt ut labore et dolore.</p>
 
                                 <ul>
-                                    <li><i className="bx bxs-star"></i></li>
-                                    <li><i className="bx bxs-star"></i></li>
-                                    <li><i className="bx bxs-star"></i></li>
-                                    <li><i className="bx bxs-star"></i></li>
-                                    <li><i className="bx bxs-star"></i></li>
+                                    <li><i role="none" className="bx bxs-star"></i></li>
+                                    <li><i role="none" className="bx bxs-star"></i></li>
+                                    <li><i role="none" className="bx bxs-star"></i></li>
+                                    <li><i role="none" className="bx bxs-star"></i></li>
+                                    <li><i role="none" className="bx bxs-star"></i></li>
                                 </ul>
 
                                 <div className="client-img">
@@ -156,15 +156,15 @@ class TestimonialsContent extends Component {
 
                         <div className="col-lg-4 col-sm-6">
                             <div className="single-client">
-                                <i className="quotes flaticon-left-quotes-sign"></i>
+                                <i role="none" className="quotes flaticon-left-quotes-sign"></i>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,do eiusmod tempor incididunt ut labore et dolore.</p>
 
                                 <ul>
-                                    <li><i className="bx bxs-star"></i></li>
-                                    <li><i className="bx bxs-star"></i></li>
-                                    <li><i className="bx bxs-star"></i></li>
-                                    <li><i className="bx bxs-star"></i></li>
-                                    <li><i className="bx bxs-star"></i></li>
+                                    <li><i role="none" className="bx bxs-star"></i></li>
+                                    <li><i role="none" className="bx bxs-star"></i></li>
+                                    <li><i role="none" className="bx bxs-star"></i></li>
+                                    <li><i role="none" className="bx bxs-star"></i></li>
+                                    <li><i role="none" className="bx bxs-star"></i></li>
                                 </ul>
 
                                 <div className="client-img">
@@ -177,15 +177,15 @@ class TestimonialsContent extends Component {
 
                         <div className="col-lg-4 col-sm-6 offset-sm-3 offset-lg-0">
                             <div className="single-client">
-                                <i className="quotes flaticon-left-quotes-sign"></i>
+                                <i role="none" className="quotes flaticon-left-quotes-sign"></i>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,do eiusmod tempor incididunt ut labore et dolore.</p>
 
                                 <ul>
-                                    <li><i className="bx bxs-star"></i></li>
-                                    <li><i className="bx bxs-star"></i></li>
-                                    <li><i className="bx bxs-star"></i></li>
-                                    <li><i className="bx bxs-star"></i></li>
-                                    <li><i className="bx bxs-star"></i></li>
+                                    <li><i role="none" className="bx bxs-star"></i></li>
+                                    <li><i role="none" className="bx bxs-star"></i></li>
+                                    <li><i role="none" className="bx bxs-star"></i></li>
+                                    <li><i role="none" className="bx bxs-star"></i></li>
+                                    <li><i role="none" className="bx bxs-star"></i></li>
                                 </ul>
 
                                 <div className="client-img">
@@ -201,36 +201,36 @@ class TestimonialsContent extends Component {
                             <div className="page-navigation-area">
                                 <nav aria-label="Page navigation example text-center">
                                     <ul className="pagination">
-                                        <li className="page-item">
+                                        <li role="none" className="page-item">
                                             <Link href="#">
                                                 <a className="page-link page-links">
-                                                    <i className='bx bx-chevrons-left'></i>
+                                                    <i role="none" className='bx bx-chevrons-left'></i>
                                                 </a>
                                             </Link>
                                         </li>
 
-                                        <li className="page-item active">
+                                        <li role="none" className="page-item active">
                                             <Link href="#">
                                                 <a className="page-link">1</a>
                                             </Link>
                                         </li>
 
-                                        <li className="page-item">
+                                        <li role="none" className="page-item">
                                             <Link href="#">
                                                 <a className="page-link">2</a>
                                             </Link>
                                         </li>
 
-                                        <li className="page-item">
+                                        <li role="none" className="page-item">
                                             <Link href="#">
                                                 <a className="page-link">3</a>
                                             </Link>
                                         </li>
 
-                                        <li className="page-item">
+                                        <li role="none" className="page-item">
                                             <Link href="#">
                                                 <a className="page-link">
-                                                    <i className='bx bx-chevrons-right'></i>
+                                                    <i role="none" className='bx bx-chevrons-right'></i>
                                                 </a>
                                             </Link>
                                         </li>

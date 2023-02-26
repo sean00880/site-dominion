@@ -43,7 +43,7 @@ class CaseStudies extends Component {
 
                                     <Link href="/case-studies-details">
                                         <a className="link-icon">
-                                            <i className="bx bx-plus"></i>
+                                            <i role="none" className="bx bx-plus"></i>
                                         </a>
                                     </Link>
                                 </div>
@@ -65,7 +65,7 @@ class CaseStudies extends Component {
 
                                     <Link href="/case-studies-details">
                                         <a className="link-icon">
-                                            <i className="bx bx-plus"></i>
+                                            <i role="none" className="bx bx-plus"></i>
                                         </a>
                                     </Link>
                                 </div>
@@ -87,7 +87,7 @@ class CaseStudies extends Component {
 
                                     <Link href="/case-studies-details">
                                         <a className="link-icon">
-                                            <i className="bx bx-plus"></i>
+                                            <i role="none" className="bx bx-plus"></i>
                                         </a>
                                     </Link>
                                 </div>
@@ -109,7 +109,7 @@ class CaseStudies extends Component {
 
                                     <Link href="/case-studies-details">
                                         <a className="link-icon">
-                                            <i className="bx bx-plus"></i>
+                                            <i role="none" className="bx bx-plus"></i>
                                         </a>
                                     </Link>
                                 </div>

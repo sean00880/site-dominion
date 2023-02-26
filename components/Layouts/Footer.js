@@ -20,22 +20,22 @@ class Footer extends Component {
                                     <ul className="social-icon">
                                         <li>
                                             <a aria-label="facebook" href="https://www.facebook.com/" target="_blank">
-                                                <i className="bx bxl-facebook"></i>
+                                                <i role="none" className="bx bxl-facebook"></i>
                                             </a>
                                         </li>
                                         <li>
                                             <a aria-label="twitter" href="https://twitter.com/" target="_blank">
-                                                <i className="bx bxl-twitter"></i>
+                                                <i role="none" className="bx bxl-twitter"></i>
                                             </a>
                                         </li>
                                         <li>
                                             <a aria-label="linkedin" href="https://www.linkedin.com/" target="_blank">
-                                                <i className="bx bxl-linkedin"></i>
+                                                <i role="none" className="bx bxl-linkedin"></i>
                                             </a>
                                         </li>
                                         <li>
                                             <a aria-label="pinterest" href="https://www.pinterest.com/" target="_blank">
-                                                <i className="bx bxl-pinterest-alt"></i>
+                                                <i role="none" className="bx bxl-pinterest-alt"></i>
                                             </a>
                                         </li>
                                     </ul>
@@ -49,7 +49,7 @@ class Footer extends Component {
                                         <li>
                                             <Link href="/service-details">
                                                 <a>
-                                                    <i className="right-icon bx bx-chevrons-right"></i>
+                                                    <i role="none" className="right-icon bx bx-chevrons-right"></i>
                                                     Big Data
                                                 </a>
                                             </Link>
@@ -57,7 +57,7 @@ class Footer extends Component {
                                         <li>
                                             <Link href="/service-details">
                                                 <a>
-                                                    <i className="right-icon bx bx-chevrons-right"></i>
+                                                    <i role="none" className="right-icon bx bx-chevrons-right"></i>
                                                     UI/UX Design
                                                 </a>
                                             </Link>
@@ -65,7 +65,7 @@ class Footer extends Component {
                                         <li>
                                             <Link href="/service-details">
                                                 <a>
-                                                    <i className="right-icon bx bx-chevrons-right"></i>
+                                                    <i role="none" className="right-icon bx bx-chevrons-right"></i>
                                                     Desktop Application
                                                 </a>
                                             </Link>
@@ -73,7 +73,7 @@ class Footer extends Component {
                                         <li>
                                             <Link href="/service-details">
                                                 <a>
-                                                    <i className="right-icon bx bx-chevrons-right"></i>
+                                                    <i role="none" className="right-icon bx bx-chevrons-right"></i>
                                                     Mobile Application
                                                 </a>
                                             </Link>
@@ -81,7 +81,7 @@ class Footer extends Component {
                                         <li>
                                             <Link href="/service-details">
                                                 <a>
-                                                    <i className="right-icon bx bx-chevrons-right"></i>
+                                                    <i role="none" className="right-icon bx bx-chevrons-right"></i>
                                                     Product Engineering
                                                 </a>
                                             </Link>
@@ -89,7 +89,7 @@ class Footer extends Component {
                                         <li>
                                             <Link href="/service-details">
                                                 <a>
-                                                    <i className="right-icon bx bx-chevrons-right"></i>
+                                                    <i role="none" className="right-icon bx bx-chevrons-right"></i>
                                                     Machine Learning
                                                 </a>
                                             </Link>
@@ -106,7 +106,7 @@ class Footer extends Component {
                                         <li>
                                             <Link href="/about-1">
                                                 <a>
-                                                    <i className="right-icon bx bx-chevrons-right"></i>
+                                                    <i role="none" className="right-icon bx bx-chevrons-right"></i>
                                                     About Us
                                                 </a>
                                             </Link>
@@ -114,7 +114,7 @@ class Footer extends Component {
                                         <li>
                                             <Link href="/services">
                                                 <a>
-                                                    <i className="right-icon bx bx-chevrons-right"></i>
+                                                    <i role="none" className="right-icon bx bx-chevrons-right"></i>
                                                     Services
                                                 </a>
                                             </Link>
@@ -122,7 +122,7 @@ class Footer extends Component {
                                         <li>
                                             <Link href="/pricing">
                                                 <a>
-                                                    <i className="right-icon bx bx-chevrons-right"></i>
+                                                    <i role="none" className="right-icon bx bx-chevrons-right"></i>
                                                     Pricing
                                                 </a>
                                             </Link>
@@ -130,7 +130,7 @@ class Footer extends Component {
                                         <li>
                                             <Link href="/team">
                                                 <a>
-                                                    <i className="right-icon bx bx-chevrons-right"></i>
+                                                    <i role="none" className="right-icon bx bx-chevrons-right"></i>
                                                     Team
                                                 </a>
                                             </Link>
@@ -138,7 +138,7 @@ class Footer extends Component {
                                         <li>
                                             <Link href="/contact">
                                                 <a>
-                                                    <i className="right-icon bx bx-chevrons-right"></i>
+                                                    <i role="none" className="right-icon bx bx-chevrons-right"></i>
                                                     Support
                                                 </a>
                                             </Link>
@@ -146,7 +146,7 @@ class Footer extends Component {
                                         <li>
                                             <Link href="/testimonials">
                                                 <a>
-                                                    <i className="right-icon bx bx-chevrons-right"></i>
+                                                    <i role="none" className="right-icon bx bx-chevrons-right"></i>
                                                     Testimonials
                                                 </a>
                                             </Link>
@@ -160,20 +160,20 @@ class Footer extends Component {
                                     <h3>Information</h3>
 
                                     <ul className="information">
-                                        <li className="address">
-                                            <i className="flaticon-call"></i>
+                                        <li role="none" className="address">
+                                            <i role="none" className="flaticon-call"></i>
                                             <span>Phone</span>
                                             +882-569-756
                                         </li>
 
-                                        <li className="address">
-                                            <i className="flaticon-envelope"></i>
+                                        <li role="none" className="address">
+                                            <i role="none" className="flaticon-envelope"></i>
                                             <span>Email</span>
                                             hello@sitedominion.com
                                         </li>
 
-                                        <li className="address">
-                                            <i className="flaticon-maps-and-flags"></i>
+                                        <li role="none" className="address">
+                                            <i role="none" className="flaticon-maps-and-flags"></i>
                                             <span>Address</span>
                                             123, Western Road, Melbourne Australia
                                         </li>

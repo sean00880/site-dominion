@@ -26,12 +26,12 @@ class NewsGridCard extends Component {
                                         <li>
                                             <Link href="#"> 
                                                 <a>
-                                                    <i className="flaticon-user"></i> Admin
+                                                    <i role="none" className="flaticon-user"></i> Admin
                                                 </a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <i className="flaticon-conversation"></i> 2 Comments
+                                            <i role="none" className="flaticon-conversation"></i> 2 Comments
                                         </li>
                                     </ul>
 
@@ -45,7 +45,7 @@ class NewsGridCard extends Component {
                                     
                                     <Link href="/news-details">
                                         <a className="read-more">
-                                            Read More <i className="bx bx-plus"></i>
+                                            Read More <i role="none" className="bx bx-plus"></i>
                                         </a>
                                     </Link>
                                 </div>
@@ -71,12 +71,12 @@ class NewsGridCard extends Component {
                                         <li>
                                             <Link href="#"> 
                                                 <a>
-                                                    <i className="flaticon-user"></i> Admin
+                                                    <i role="none" className="flaticon-user"></i> Admin
                                                 </a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <i className="flaticon-conversation"></i> 3 Comments
+                                            <i role="none" className="flaticon-conversation"></i> 3 Comments
                                         </li>
                                     </ul>
 
@@ -90,7 +90,7 @@ class NewsGridCard extends Component {
                                     
                                     <Link href="/news-details">
                                         <a className="read-more">
-                                            Read More <i className="bx bx-plus"></i>
+                                            Read More <i role="none" className="bx bx-plus"></i>
                                         </a>
                                     </Link>
                                 </div>
@@ -116,12 +116,12 @@ class NewsGridCard extends Component {
                                         <li>
                                             <Link href="#"> 
                                                 <a>
-                                                    <i className="flaticon-user"></i> Admin
+                                                    <i role="none" className="flaticon-user"></i> Admin
                                                 </a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <i className="flaticon-conversation"></i> 4 Comments
+                                            <i role="none" className="flaticon-conversation"></i> 4 Comments
                                         </li>
                                     </ul>
 
@@ -135,7 +135,7 @@ class NewsGridCard extends Component {
 
                                     <Link href="/news-details">
                                         <a className="read-more">
-                                            Read More <i className="bx bx-plus"></i>
+                                            Read More <i role="none" className="bx bx-plus"></i>
                                         </a>
                                     </Link>
                                 </div>
@@ -161,12 +161,12 @@ class NewsGridCard extends Component {
                                         <li>
                                             <Link href="#"> 
                                                 <a>
-                                                    <i className="flaticon-user"></i> Admin
+                                                    <i role="none" className="flaticon-user"></i> Admin
                                                 </a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <i className="flaticon-conversation"></i> 2 Comments
+                                            <i role="none" className="flaticon-conversation"></i> 2 Comments
                                         </li>
                                     </ul>
 
@@ -180,7 +180,7 @@ class NewsGridCard extends Component {
 
                                     <Link href="/news-details">
                                         <a className="read-more">
-                                            Read More <i className="bx bx-plus"></i>
+                                            Read More <i role="none" className="bx bx-plus"></i>
                                         </a>
                                     </Link>
                                 </div>
@@ -206,12 +206,12 @@ class NewsGridCard extends Component {
                                         <li>
                                             <Link href="#"> 
                                                 <a>
-                                                    <i className="flaticon-user"></i> Admin
+                                                    <i role="none" className="flaticon-user"></i> Admin
                                                 </a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <i className="flaticon-conversation"></i> 2 Comments
+                                            <i role="none" className="flaticon-conversation"></i> 2 Comments
                                         </li>
                                     </ul>
 
@@ -225,7 +225,7 @@ class NewsGridCard extends Component {
 
                                     <Link href="/news-details">
                                         <a className="read-more">
-                                            Read More <i className="bx bx-plus"></i>
+                                            Read More <i role="none" className="bx bx-plus"></i>
                                         </a>
                                     </Link>
                                 </div>
@@ -251,12 +251,12 @@ class NewsGridCard extends Component {
                                         <li>
                                             <Link href="#"> 
                                                 <a>
-                                                    <i className="flaticon-user"></i> Admin
+                                                    <i role="none" className="flaticon-user"></i> Admin
                                                 </a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <i className="flaticon-conversation"></i> 2 Comments
+                                            <i role="none" className="flaticon-conversation"></i> 2 Comments
                                         </li>
                                     </ul>
 
@@ -270,7 +270,7 @@ class NewsGridCard extends Component {
 
                                     <Link href="/news-details">
                                         <a className="read-more">
-                                            Read More <i className="bx bx-plus"></i>
+                                            Read More <i role="none" className="bx bx-plus"></i>
                                         </a>
                                     </Link>
                                 </div>
@@ -296,12 +296,12 @@ class NewsGridCard extends Component {
                                         <li>
                                             <Link href="#"> 
                                                 <a>
-                                                    <i className="flaticon-user"></i> Admin
+                                                    <i role="none" className="flaticon-user"></i> Admin
                                                 </a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <i className="flaticon-conversation"></i> 2 Comments
+                                            <i role="none" className="flaticon-conversation"></i> 2 Comments
                                         </li>
                                     </ul>
 
@@ -315,7 +315,7 @@ class NewsGridCard extends Component {
 
                                     <Link href="/news-details">
                                         <a className="read-more">
-                                            Read More <i className="bx bx-plus"></i>
+                                            Read More <i role="none" className="bx bx-plus"></i>
                                         </a>
                                     </Link>
                                 </div>
@@ -341,12 +341,12 @@ class NewsGridCard extends Component {
                                         <li>
                                             <Link href="#"> 
                                                 <a>
-                                                    <i className="flaticon-user"></i> Admin
+                                                    <i role="none" className="flaticon-user"></i> Admin
                                                 </a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <i className="flaticon-conversation"></i> 2 Comments
+                                            <i role="none" className="flaticon-conversation"></i> 2 Comments
                                         </li>
                                     </ul>
 
@@ -360,7 +360,7 @@ class NewsGridCard extends Component {
 
                                     <Link href="/news-details">
                                         <a className="read-more">
-                                            Read More <i className="bx bx-plus"></i>
+                                            Read More <i role="none" className="bx bx-plus"></i>
                                         </a>
                                     </Link>
                                 </div>
@@ -386,12 +386,12 @@ class NewsGridCard extends Component {
                                         <li>
                                             <Link href="#"> 
                                                 <a>
-                                                    <i className="flaticon-user"></i> Admin
+                                                    <i role="none" className="flaticon-user"></i> Admin
                                                 </a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <i className="flaticon-conversation"></i> 2 Comments
+                                            <i role="none" className="flaticon-conversation"></i> 2 Comments
                                         </li>
                                     </ul>
 
@@ -405,7 +405,7 @@ class NewsGridCard extends Component {
 
                                     <Link href="/news-details">
                                         <a className="read-more">
-                                            Read More <i className="bx bx-plus"></i>
+                                            Read More <i role="none" className="bx bx-plus"></i>
                                         </a>
                                     </Link>
                                 </div>
@@ -417,36 +417,36 @@ class NewsGridCard extends Component {
                             <div className="page-navigation-area">
                                 <nav aria-label="Page navigation example text-center">
                                     <ul className="pagination">
-                                        <li className="page-item">
+                                        <li role="none" className="page-item">
                                             <Link href="#">
                                                 <a className="page-link page-links">
-                                                    <i className='bx bx-chevrons-left'></i>
+                                                    <i role="none" className='bx bx-chevrons-left'></i>
                                                 </a>
                                             </Link>
                                         </li>
 
-                                        <li className="page-item active">
+                                        <li role="none" className="page-item active">
                                             <Link href="#">
                                                 <a className="page-link">1</a>
                                             </Link>
                                         </li>
 
-                                        <li className="page-item">
+                                        <li role="none" className="page-item">
                                             <Link href="#">
                                                 <a className="page-link">2</a>
                                             </Link>
                                         </li>
 
-                                        <li className="page-item">
+                                        <li role="none" className="page-item">
                                             <Link href="#">
                                                 <a className="page-link">3</a>
                                             </Link>
                                         </li>
 
-                                        <li className="page-item">
+                                        <li role="none" className="page-item">
                                             <Link href="#">
                                                 <a className="page-link">
-                                                    <i className='bx bx-chevrons-right'></i>
+                                                    <i role="none" className='bx bx-chevrons-right'></i>
                                                 </a>
                                             </Link>
                                         </li>

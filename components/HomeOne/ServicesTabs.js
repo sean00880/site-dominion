@@ -18,7 +18,7 @@ class ServicesStyleOne extends Component {
                 
               <div className="col-lg-12 offset-lg-0 p-0">
                             <div className="single-features">
-                                <i className="flaticon-success"></i>
+                                <i role="none" className="flaticon-success"></i>
                                 <h3>Site Dominion Premium Website </h3>
                                 <p>Go with our featured service and get the best web development service you could ask for.</p>
                                 
@@ -38,7 +38,7 @@ class ServicesStyleOne extends Component {
                        
                        <div className="col-lg-4 p-0 column">
                             <div className="single-features">
-                                <i className="flaticon-cloud-computing-1"></i>
+                                <i role="none" className="flaticon-cloud-computing-1"></i>
                                 <h3>1) Design + Development</h3>
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, maxime ipsum praesentium culpa expedita.</p>
 
@@ -48,7 +48,7 @@ class ServicesStyleOne extends Component {
 
                         <div className="col-lg-4 p-0">
                             <div className="single-features">
-                                <i className="flaticon-engineer"></i>
+                                <i role="none" className="flaticon-engineer"></i>
                                 <h3>2) Full Deployment [Hosting & Domain]</h3>
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, maxime ipsum praesentium culpa expedita.</p>
                                 
@@ -58,7 +58,7 @@ class ServicesStyleOne extends Component {
 
                         <div className="col-lg-4 offset-lg-0 p-0">
                             <div className="single-features">
-                                <i className="flaticon-success"></i>
+                                <i role="none" className="flaticon-success"></i>
                                 <h3>3) Project Optimization</h3>
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, maxime ipsum praesentium culpa expedita.</p>
                                 
@@ -76,7 +76,7 @@ class ServicesStyleOne extends Component {
                     <div className="row">
                         <div className="col-lg-4 col-sm-6">
                             <div className="single-features">
-                                <i className="flaticon-cloud-computing-1"></i>
+                                <i role="none" className="flaticon-cloud-computing-1"></i>
                                 <h3>Social Media Page Setup</h3>
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, maxime ipsum praesentium culpa expedita.</p>
 
@@ -90,7 +90,7 @@ class ServicesStyleOne extends Component {
 
                         <div className="col-lg-4 col-sm-6">
                             <div className="single-features">
-                                <i className="flaticon-engineer"></i>
+                                <i role="none" className="flaticon-engineer"></i>
                                 <h3>Landing Page</h3>
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, maxime ipsum praesentium culpa expedita.</p>
 
@@ -104,7 +104,7 @@ class ServicesStyleOne extends Component {
 
                         <div className="col-lg-4 col-sm-6">
                             <div className="single-features">
-                                <i className="flaticon-success"></i>
+                                <i role="none" className="flaticon-success"></i>
                                 <h3>Ad Design</h3>
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, maxime ipsum praesentium culpa expedita.</p>
 
@@ -120,7 +120,7 @@ class ServicesStyleOne extends Component {
 
                         <div className="col-lg-4 col-sm-6">
                             <div className="single-features">
-                                <i className="flaticon-machine-learning"></i>
+                                <i role="none" className="flaticon-machine-learning"></i>
                                 <h3>Blog Setup</h3>
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, maxime ipsum praesentium culpa expedita.</p>
 
@@ -134,7 +134,7 @@ class ServicesStyleOne extends Component {
 
                         <div className="col-lg-4 col-sm-6">
                             <div className="single-features">
-                                <i className="flaticon-artificial-intelligence"></i>
+                                <i role="none" className="flaticon-artificial-intelligence"></i>
                                 <h3>Website Design [Design Only]</h3>
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, maxime ipsum praesentium culpa expedita.</p>
 
@@ -148,7 +148,7 @@ class ServicesStyleOne extends Component {
 
                         <div className="col-lg-4 col-sm-6 offset-sm-3 offset-lg-0">
                             <div className="single-features">
-                                <i className="flaticon-health"></i>
+                                <i role="none" className="flaticon-health"></i>
                                 <h3>Website Content Management</h3>
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, maxime ipsum praesentium culpa expedita.</p>
 

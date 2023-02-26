@@ -49,7 +49,7 @@ class NewsDetailsContent extends Component {
 
                                 <div className="article-footer">
                                     <div className="article-tags">
-                                        <span><i className='bx bx-share-alt'></i></span>
+                                        <span><i role="none" className='bx bx-share-alt'></i></span>
                                         <Link href="#">
                                             <a>Share</a>
                                         </Link>
@@ -59,22 +59,22 @@ class NewsDetailsContent extends Component {
                                         <ul className="social">
                                             <li>
                                                 <a href="https://www.facebook.com/" target="_blank">
-                                                    <i className='bx bxl-facebook'></i>
+                                                    <i role="none" className='bx bxl-facebook'></i>
                                                 </a>
                                             </li>
                                             <li>
                                                 <a href="https://www.twitter.com/" target="_blank">
-                                                    <i className='bx bxl-twitter'></i>
+                                                    <i role="none" className='bx bxl-twitter'></i>
                                                 </a>
                                             </li>
                                             <li>
                                                 <a href="https://www.linkedin.com/" target="_blank">
-                                                    <i className='bx bxl-linkedin'></i>
+                                                    <i role="none" className='bx bxl-linkedin'></i>
                                                 </a>
                                             </li>
                                             <li>
                                                 <a href="https://www.pinterest.com/" target="_blank">
-                                                    <i className='bx bxl-pinterest-alt'></i>
+                                                    <i role="none" className='bx bxl-pinterest-alt'></i>
                                                 </a>
                                             </li>
                                         </ul>
@@ -86,14 +86,14 @@ class NewsDetailsContent extends Component {
                                         <div className="nav-previous">
                                             <Link href="#">
                                                 <a>
-                                                    <i className='bx bx-left-arrow-alt'></i> Prev Post
+                                                    <i role="none" className='bx bx-left-arrow-alt'></i> Prev Post
                                                 </a>
                                             </Link>
                                         </div>
 
                                         <div className="nav-next">
                                             <Link href="#">
-                                                <a>Next Post <i className='bx bx-right-arrow-alt'></i></a>
+                                                <a>Next Post <i role="none" className='bx bx-right-arrow-alt'></i></a>
                                             </Link>
                                         </div>
                                     </div>

@@ -34,7 +34,7 @@ const MainBanner = () => {
                                         onClick={ () => setToggler(!toggler) }
                                         className="default-btn active popup-youtube"
                                     > 
-                                        <i className="bx bx-play"></i> How it work?
+                                        <i role="none" className="bx bx-play"></i> How it work?
                                     </div>
                                 </div>
                             </div>

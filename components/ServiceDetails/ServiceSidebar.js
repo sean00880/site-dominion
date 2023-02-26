@@ -12,7 +12,7 @@ class ServiceSidebar extends Component {
                             <Link href="/service-details">
                                 <a>
                                     Technology
-                                    <i className='bx bx-check'></i>
+                                    <i role="none" className='bx bx-check'></i>
                                 </a>
                             </Link>
                         </li>
@@ -20,7 +20,7 @@ class ServiceSidebar extends Component {
                             <Link href="/service-details">
                                 <a>
                                     Tips
-                                    <i className='bx bx-check'></i>
+                                    <i role="none" className='bx bx-check'></i>
                                 </a>
                             </Link>
                         </li>
@@ -28,7 +28,7 @@ class ServiceSidebar extends Component {
                             <Link href="/service-details">
                                 <a>
                                     AI & IT
-                                    <i className='bx bx-check'></i>
+                                    <i role="none" className='bx bx-check'></i>
                                 </a>
                             </Link>
                         </li>
@@ -36,7 +36,7 @@ class ServiceSidebar extends Component {
                             <Link href="/service-details">
                                 <a>
                                     Solution
-                                    <i className='bx bx-check'></i>
+                                    <i role="none" className='bx bx-check'></i>
                                 </a>
                             </Link>
                         </li>
@@ -48,19 +48,19 @@ class ServiceSidebar extends Component {
                     <ul>
                         <li>
                             +800 603 6035
-                            <i className='bx bx-phone-call bx-rotate-270'></i>
+                            <i role="none" className='bx bx-phone-call bx-rotate-270'></i>
                         </li>
                         <li>
                             hello@jumpx.com
-                            <i className='bx bx-envelope'></i>
+                            <i role="none" className='bx bx-envelope'></i>
                         </li>
                         <li>
                             123, Western Road, Australia
-                            <i className='bx bx-location-plus'></i>
+                            <i role="none" className='bx bx-location-plus'></i>
                         </li>
                         <li>
                             9:00 AM – 8:00 PM
-                            <i className='bx bx-time'></i>
+                            <i role="none" className='bx bx-time'></i>
                         </li>
                     </ul>
                 </div>
@@ -72,7 +72,7 @@ class ServiceSidebar extends Component {
                             <Link href="#">
                                 <a>
                                     PDF File (1)
-                                    <i className='bx bxs-cloud-download'></i>
+                                    <i role="none" className='bx bxs-cloud-download'></i>
                                 </a>
                             </Link>
                         </li>
@@ -80,7 +80,7 @@ class ServiceSidebar extends Component {
                             <Link href="#">
                                 <a>
                                     PDF File (2)
-                                    <i className='bx bxs-cloud-download'></i>
+                                    <i role="none" className='bx bxs-cloud-download'></i>
                                 </a>
                             </Link>
                         </li>
@@ -88,7 +88,7 @@ class ServiceSidebar extends Component {
                             <Link href="#">
                                 <a>
                                     PDF File (3)
-                                    <i className='bx bxs-cloud-download'></i>
+                                    <i role="none" className='bx bxs-cloud-download'></i>
                                 </a>
                             </Link>
                         </li>
@@ -96,7 +96,7 @@ class ServiceSidebar extends Component {
                             <Link href="#">
                                 <a>
                                     PDF File (4)
-                                    <i className='bx bxs-cloud-download'></i>
+                                    <i role="none" className='bx bxs-cloud-download'></i>
                                 </a>
                             </Link>
                         </li>

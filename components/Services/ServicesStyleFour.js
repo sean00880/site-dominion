@@ -17,7 +17,7 @@ class ServicesStyleFour extends Component {
                             <div className="row">
                                 <div className="col-lg-12 col-md-6">
                                     <div className="single-industries">
-                                        <i className="flaticon-machine-learning"></i>
+                                        <i role="none" className="flaticon-machine-learning"></i>
                                         <h3>Heavy Industry</h3>
                                         <span>All kind of industry</span>
 
@@ -31,7 +31,7 @@ class ServicesStyleFour extends Component {
 
                                 <div className="col-lg-12 col-md-6">
                                     <div className="single-industries">
-                                        <i className="flaticon-artificial-intelligence"></i>
+                                        <i role="none" className="flaticon-artificial-intelligence"></i>
                                         <h3>Transportation</h3>
                                         <span>All kind of industry</span>
 
@@ -45,7 +45,7 @@ class ServicesStyleFour extends Component {
 
                                 <div className="col-lg-12 col-md-6">
                                     <div className="single-industries">
-                                        <i className="flaticon-health"></i>
+                                        <i role="none" className="flaticon-health"></i>
                                         <h3>Health Care</h3>
                                         <span>All kind of industry</span>
 
@@ -59,7 +59,7 @@ class ServicesStyleFour extends Component {
 
                                 <div className="col-lg-12 col-md-6">
                                     <div className="single-industries">
-                                        <i className="flaticon-automation"></i>
+                                        <i role="none" className="flaticon-automation"></i>
                                         <h3>Manufacturing</h3>
                                         <span>All kind of industry</span>
 
@@ -83,7 +83,7 @@ class ServicesStyleFour extends Component {
                             <div className="row">
                                 <div className="col-lg-12 col-md-6">
                                     <div className="single-industries right-item">
-                                        <i className="flaticon-choice"></i>
+                                        <i role="none" className="flaticon-choice"></i>
                                         <h3>Logistic</h3>
                                         <span>All kind of industry</span>
 
@@ -97,7 +97,7 @@ class ServicesStyleFour extends Component {
 
                                 <div className="col-lg-12 col-md-6">
                                     <div className="single-industries right-item">
-                                        <i className="flaticon-deep-learning"></i>
+                                        <i role="none" className="flaticon-deep-learning"></i>
                                         <h3>Real Estate</h3>
                                         <span>All kind of industry</span>
 
@@ -111,7 +111,7 @@ class ServicesStyleFour extends Component {
 
                                 <div className="col-lg-12 col-md-6">
                                     <div className="single-industries right-item">
-                                        <i className="flaticon-cyber-security"></i>
+                                        <i role="none" className="flaticon-cyber-security"></i>
                                         <h3>Banking</h3>
                                         <span>All kind of industry</span>
 
@@ -125,7 +125,7 @@ class ServicesStyleFour extends Component {
 
                                 <div className="col-lg-12 col-md-6">
                                     <div className="single-industries right-item">
-                                        <i className="flaticon-blockchain"></i>
+                                        <i role="none" className="flaticon-blockchain"></i>
                                         <h3>Automobile</h3>
                                         <span>All kind of industry</span>
 

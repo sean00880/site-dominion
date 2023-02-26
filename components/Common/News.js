@@ -32,12 +32,12 @@ class News extends Component {
                                         <li>
                                             <Link href="/news-grid"> 
                                                 <a>
-                                                    <i className="flaticon-user"></i> Admin
+                                                    <i role="none" className="flaticon-user"></i> Admin
                                                 </a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <i className="flaticon-conversation"></i> 2 Comments
+                                            <i role="none" className="flaticon-conversation"></i> 2 Comments
                                         </li>
                                     </ul>
 
@@ -51,7 +51,7 @@ class News extends Component {
                                     
                                     <Link href="/news-details">
                                         <a className="read-more">
-                                            Read More <i className="bx bx-plus"></i>
+                                            Read More <i role="none" className="bx bx-plus"></i>
                                         </a>
                                     </Link>
                                 </div>
@@ -77,12 +77,12 @@ class News extends Component {
                                         <li>
                                             <Link href="/news-grid"> 
                                                 <a>
-                                                    <i className="flaticon-user"></i> Admin
+                                                    <i role="none" className="flaticon-user"></i> Admin
                                                 </a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <i className="flaticon-conversation"></i> 3 Comments
+                                            <i role="none" className="flaticon-conversation"></i> 3 Comments
                                         </li>
                                     </ul>
 
@@ -96,7 +96,7 @@ class News extends Component {
                                     
                                     <Link href="/news-details">
                                         <a className="read-more">
-                                            Read More <i className="bx bx-plus"></i>
+                                            Read More <i role="none" className="bx bx-plus"></i>
                                         </a>
                                     </Link>
                                 </div>
@@ -122,12 +122,12 @@ class News extends Component {
                                         <li>
                                             <Link href="/news-grid"> 
                                                 <a>
-                                                    <i className="flaticon-user"></i> Admin
+                                                    <i role="none" className="flaticon-user"></i> Admin
                                                 </a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <i className="flaticon-conversation"></i> 4 Comments
+                                            <i role="none" className="flaticon-conversation"></i> 4 Comments
                                         </li>
                                     </ul>
 
@@ -141,7 +141,7 @@ class News extends Component {
 
                                     <Link href="/news-details">
                                         <a className="read-more">
-                                            Read More <i className="bx bx-plus"></i>
+                                            Read More <i role="none" className="bx bx-plus"></i>
                                         </a>
                                     </Link>
                                 </div>

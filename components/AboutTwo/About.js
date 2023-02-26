@@ -23,15 +23,15 @@ class About extends Component {
                                     <div className="col-lg-6 col-sm-6">
                                         <ul>
                                             <li>
-                                                <i className="flaticon-checked"></i>
+                                                <i role="none" className="flaticon-checked"></i>
                                                 Advanced caching
                                             </li>
                                             <li>
-                                                <i className="flaticon-checked"></i>
+                                                <i role="none" className="flaticon-checked"></i>
                                                 Unlimited  applications
                                             </li>
                                             <li>
-                                                <i className="flaticon-checked"></i>
+                                                <i role="none" className="flaticon-checked"></i>
                                                 PHP 7 ready transfer
                                             </li>
                                         </ul>
@@ -40,15 +40,15 @@ class About extends Component {
                                     <div className="col-lg-6 col-sm-6">
                                         <ul>
                                             <li>
-                                                <i className="flaticon-checked"></i>
+                                                <i role="none" className="flaticon-checked"></i>
                                                 PHP ready serves
                                             </li>
                                             <li>
-                                                <i className="flaticon-checked"></i>
+                                                <i role="none" className="flaticon-checked"></i>
                                                 24/7 Free extra support
                                             </li>
                                             <li>
-                                                <i className="flaticon-checked"></i>
+                                                <i role="none" className="flaticon-checked"></i>
                                                 Optimized stack
                                             </li>
                                         </ul>
