@@ -1053,7 +1053,7 @@
   }
   .navbar-area nav .navbar-brand img {
 
-    max-width: 18%;
+    max-width: 16%;
     top: -107%;
     left: 3%;
     position: absolute;
@@ -1455,7 +1455,7 @@
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .navbar-area nav .navbar-brand img {
-    max-width: 13%;
+    max-width: 11%;
     top: -23%;
     left: 2%;
     position: absolute;
@@ -1698,23 +1698,19 @@
   }
 }
 
-@media only screen and (min-width: 992px) and (max-height: 1200px) {
+
+
+@media only screen and (min-width: 948px), (max-width: 1200px) and (max-height: 1200px) {
   .navbar-area nav .navbar-brand img {
-    max-width: 12%;
-    top: -2%;
-    left: 2%;
+    max-width: 11%;
+    top: -20%;
+    left: 3%;
     position: absolute;
 }
 }
 
-@media only screen and (min-width: 1248px) and (max-height: 1200px) {
-  .navbar-area nav .navbar-brand img {
-    max-width: 12%;
-    top: -21%;
-    left: 2%;
-    position: absolute;
-}
-}
+
+
 
 @media only screen and (min-width: 1500px) and (max-height: 1200px) {
   .navbar-area nav .navbar-brand img {
@@ -1726,6 +1722,12 @@
 }
 
 @media only screen and (min-width: 1824px) {
+  .navbar-area nav .navbar-brand img {
+    max-width: 10%;
+    top: -21%;
+    left: 2%;
+    position: absolute;
+}
   .main-banner-area.main-banner-area-one {
     justify-content: flex-end;
     padding:5vh;
@@ -1885,10 +1887,6 @@
     position: absolute;
   }
 
-  html{
-    overflow-x:hidden;
-  }
-
 }
 
 @media only screen and (max-width: 991px){
@@ -1911,9 +1909,10 @@
 @media only screen and (min-width: 1200px){
 
   .navbar-area nav img{
-    top: -13%;
-    max-width: 11%;
-    left: 3%;
+    max-width: 10%;
+    top: -16%;
+    left: 2%;
+    position: absolute;
   }
 }
 
@@ -1950,6 +1949,14 @@
       background-attachment: unset;
       background-position: center;
       background-size:cover ;
+  }
+
+  html{
+    overflow-x: hidden;
+  }
+
+  .fn_cs_project_sticky_modern .left_part_in{
+    top:5vh;
   }
   .features-area .container .row{
     background: linear-gradient(45deg, #000000, #464545);

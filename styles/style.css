@@ -596,7 +596,7 @@ Default Btn Area Style
   letter-spacing: 3px;
   border: 2px solid #e7e7e7;
   color: #7a3535;
-  padding: 18px 35px;
+  padding: 10px 30px;
   line-height: 1;
   -webkit-transition: all 0.6s ease;
   transition: all 0.6s ease;
@@ -777,7 +777,7 @@ Section Title Area Style
   background-color: black;
   padding: 2vh;
   border-radius: 2vh;
-
+  font-size:17px;
 }
 
 .section-title span {
@@ -1440,23 +1440,25 @@ jumpx Nav Area Style
 
 .navbar-area .others-options {
   position: relative;
-  top: 3px;
+  top: 19px;
+  display: flex;
+  flex-direction: column-reverse;
 }
 
 .navbar-area .others-options p {
   color:rgb(66, 63, 63);
   margin: 1vh 3vh;
   font-style: italic;
-  letter-spacing: 3px;
+  letter-spacing: 1px;
   font-size: 21px;
   font-family: 'Smooch Sans', sans-serif;
   text-align: right;
-      font-weight: 700;
+      font-weight: 500;
   line-height: 2;
 }
 
 .navbar-area .others-options .default-btn {
-  padding: 15px 28px;
+  padding: 10px 28px;
   letter-spacing: 2px;
   text-transform: uppercase;
   line-height: 2;
@@ -1814,6 +1816,10 @@ Features Area Style
     border-radius: 1vh;
     padding: 10px 3px;
     min-height: 48vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .single-features i {
@@ -7165,6 +7171,7 @@ Service Details Area Style
   border: 2px solid #e7e7e7;
   margin: 2vh 0;
   text-align: center;
+  min-width:13vh;
 }
 
 .default-btn1::before {
@@ -7327,6 +7334,7 @@ a{
   background:url('/images/background2blue.png');
   background-size: cover;
   background-attachment: fixed;
+  padding: 2vh 0;
 }
 
 .fn_cs_project_sticky_modern .container .section-title{
@@ -7356,8 +7364,7 @@ a{
 	width: 100%;
   background-image: url(/images/background5.png);
   width: 100%;
-  padding: 8vh 2vh;
-  top: 5vh;
+  padding: 5vh 2vh;
   position: relative;
   border-radius: 14px 94px;
   align-items: center;
@@ -7705,7 +7712,7 @@ a{
 .fn_cs_sticky_section{
   position: sticky; 
    z-index: 100;
-    top: 150px;
+    top: 250px;
   position: -webkit-sticky;
 }
 
@@ -7763,7 +7770,6 @@ a{
   position: absolute;
   justify-content: space-between;
   top: 12%;
-  background: #ffffff2e;
   max-width: 99%;
   /* border: 1px solid black; */
   border-radius: 1vh 0 1vh 4vh;

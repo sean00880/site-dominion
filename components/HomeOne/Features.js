@@ -25,7 +25,7 @@ const Features = () => {
                             <div className="single-features" data-aos="flip-left"  data-aos-duration="1200" >
                                 <Image src="/images/design.png" width={100} height={100}/>
                                 <h3>1) Design + Development</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, maxime ipsum praesentium culpa expedita.</p>
+                                <p>A gorgeous web design coupled with subpar development can guarantee you a lifetime of sorrow. Site Dominion ensures that that your website loads quickly, is safe, functions flawlessly across all browsers and screen sizes, and is set up for the long term to continuously reach your business goals.</p>
 
                                 <Link href="/service-details">
                                     <a className="read-more-icon">
@@ -35,11 +35,25 @@ const Features = () => {
                             </div>
                         </div>
 
+                        <div className="col-lg-4 offset-lg-0 p-0">
+                            <div className="single-features" data-aos="flip-right"  data-aos-duration="1200" >
+                            <Image src="/images/seo.png" width={100} height={100}/>
+                                <h3>2) Project Optimization</h3>
+                                <p>We use SEO and tools, cutting-edge techniques, and experiments to enhance the functionality of your website, further attract more visitors, boost conversions, and increase revenue.</p>
+                                
+                                <Link href="/service-details">
+                                    <a className="read-more-icon">
+                                        <span className="flaticon-right-arrow span2"></span>
+                                    </a>
+                                </Link>
+                            </div>
+                        </div>
+
                         <div className="col-lg-4 p-0">
                             <div className="single-features" data-aos="flip-up"  data-aos-duration="1200" data-aos-delay="100">
                             <Image src="/images/deployment.png" width={100} height={100}/>
-                                <h3>2) Full Deployment [Hosting & Domain]</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, maxime ipsum praesentium culpa expedita.</p>
+                                <h3>3) Full Deployment [Hosting & Domain]</h3>
+                                <p>After the completion of the developmental phase, the website is pushed into deployment. Site Dominion's premium website package covers all domain and hosting expenses, so you don't have to break a sweat.</p>
                                 
                                 <Link href="/service-details">
                                     <a className="read-more-icon">
@@ -49,28 +63,16 @@ const Features = () => {
                             </div>
                         </div>
 
-                        <div className="col-lg-4 offset-lg-0 p-0">
-                            <div className="single-features" data-aos="flip-right"  data-aos-duration="1200" >
-                            <Image src="/images/seo.png" width={100} height={100}/>
-                                <h3>3) Project Optimization</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, maxime ipsum praesentium culpa expedita.</p>
-                                
-                                <Link href="/service-details">
-                                    <a className="read-more-icon">
-                                        <span className="flaticon-right-arrow span2"></span>
-                                    </a>
-                                </Link>
-                            </div>
-                        </div>
+                     
                         </div>
                        <hr />
                        <div className='wrapper2'  data-aos="fade-down">
                             <div>
-                                Check out our existing clients' projects:
+                                Browse through our existing projects:
                                 <br />
                             <Link href="/about-1">
                                 <a className="default-btn2">
-                                    View Live Projects
+                                    View Projects
                                 </a>
                             </Link>
                             </div>
@@ -135,21 +137,21 @@ const Features = () => {
                         </div>
                         <div className='wrapper2'>
                             <div>
-                                Browse our Prototype Projects:
+                            Full List of Services:
                                 <br />
                             <Link href="/about-1">
                                 <a className="default-btn2">
-                                    Prototype Projects
+                                    All Services
                                 </a>
                             </Link>
                             </div>
                             <div>
-                            Full List of Services:
+                                Check Out our Pricing Options:
                                 <br />
                             <Link href="/services">
                             
                                 <a className="default-btn1">
-                                    All Services
+                                    Pricing
                                 </a>
                             </Link>
                             </div>
