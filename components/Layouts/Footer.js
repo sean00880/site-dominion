@@ -12,7 +12,7 @@ class Footer extends Component {
                             <div className="col-lg-3 col-md-6">
                                 <div className="single-widget">
                                     <a href="/" className="logo">
-                                        <img src="/images/logo.png" alt="Image" />
+                                        <img src="/images/lion4.png" alt="Site Dominion | Footer Logo" />
                                     </a>
 
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat molestiae corporis, magni maxime perferendis ducimus totam officiis sit exercitationem sed odio debitis minus cumque dolores dicta.</p>

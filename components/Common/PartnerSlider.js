@@ -33,49 +33,49 @@ class PartnerSlider extends Component {
                     >
                         <SwiperSlide>
                             <a href="#" target="_blank">
-                                <img src="/images/brands/tree.jpg" alt="Image" />
+                                <img src="/images/brands/tree.jpg" role="button" alt="Grandpa Ron's LLC | Website by Site Dominion" />
                             </a>
                         </SwiperSlide>
 
                         <SwiperSlide>
                             <a href="#" target="_blank">
-                                <img src="/images/brands/brand2.png" alt="Image" />
+                                <img src="/images/brands/brand2.png" role="button" alt="All Landscaping Services LLC | Website by Site Dominion" />
                             </a>
                         </SwiperSlide>
 
                         <SwiperSlide>
                             <a href="#" target="_blank">
-                                <img src="/images/brands/brand3.png" alt="Image" />
+                                <img src="/images/brands/brand3.png" role="button" alt="Designation Dump LLC | Website by Site Dominion" />
                             </a>
                         </SwiperSlide>
 
                         <SwiperSlide>
                             <a href="#" target="_blank">
-                                <img src="/images/brands/brand4.png" alt="Image" />
+                                <img src="/images/brands/brand4.png" role="button" alt="Decoded Web | Website by Site Dominion" />
                             </a>
                         </SwiperSlide>
 
                         <SwiperSlide>
                             <a href="#" target="_blank">
-                                <img src="/images/brands/brand5.png" alt="Image" />
+                                <img src="/images/brands/brand5.png" role="button" alt="Image" />
                             </a>
                         </SwiperSlide>
 
                         <SwiperSlide>
                             <a href="#" target="_blank">
-                                <img src="/images/brands/brand6.png" alt="Image" />
+                                <img src="/images/brands/brand6.png" role="button" alt="Image" />
                             </a>
                         </SwiperSlide>
 
                         <SwiperSlide>
                             <a href="#" target="_blank">
-                                <img src="/images/brands/brand7.png" alt="Image" />
+                                <img src="/images/brands/brand7.png" role="button" alt="Image" />
                             </a>
                         </SwiperSlide>
 
                         <SwiperSlide>
                             <a href="#" target="_blank">
-                                <img src="/images/brands/brand8.png" alt="Image" />
+                                <img src="/images/brands/brand8.png" role="button" alt="Image" />
                             </a>
                         </SwiperSlide>
                     </Swiper> 

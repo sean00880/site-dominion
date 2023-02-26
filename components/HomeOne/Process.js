@@ -18,7 +18,7 @@ const MyExpertise = () => {
           <div className="section-title style-two">
           
                         <div className="about-img">
-                            <img src="/images/mockup.png" alt="Image" className="homeImage" data-aos="flip-right" />
+                            <img src="/images/mockup.png" alt="Site Dominion | Web Design Process Desktop Display" className="homeImage" data-aos="flip-right" />
                         </div>
                    
             <h2>Our Process</h2>

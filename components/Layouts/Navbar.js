@@ -38,7 +38,7 @@ class Navbar extends Component {
                            
                                 <Link href="/">
                                 <a className="navbar-brand">
-                                    <img src="/images/NewLogo.png" alt="logo"/>
+                                    <img src="/images/NewLogo.png" alt="Site Dominion Logo"/>
                                 </a>
                             </Link>
                         
@@ -62,7 +62,7 @@ class Navbar extends Component {
                                     <li className="nav-item active">
                                         <Link href="#">
                                             <a className="nav-link menu" aria-haspopup="true" aria-expanded="false" onClick={e => e.preventDefault()}>
-                                                Home <i className='bx bx-chevron-down'></i>
+                                                Home <i className='bx bx-chevron-down' role='none'></i>
                                             </a>
                                         </Link>
 
@@ -102,7 +102,7 @@ class Navbar extends Component {
                                     <li className="nav-item">
                                         <Link href="#">
                                             <a className="nav-link menu" aria-haspopup="true" aria-expanded="false" onClick={e => e.preventDefault()}>
-                                                About <i className='bx bx-chevron-down'></i>
+                                                About <i className='bx bx-chevron-down' role='none'></i>
                                             </a>
                                         </Link>
 
@@ -124,7 +124,7 @@ class Navbar extends Component {
                                     <li className="nav-item">
                                         <Link href="/services">
                                             <a className="nav-link menu" aria-haspopup="true" aria-expanded="false" onClick={e => e.preventDefault()}>
-                                                Services <i className='bx bx-chevron-down'></i>
+                                                Services <i className='bx bx-chevron-down' role='none'></i>
                                             </a>
                                         </Link>
 
@@ -164,7 +164,7 @@ class Navbar extends Component {
                                     <li className="nav-item">
                                         <Link href="#">
                                             <a className="nav-link menu" aria-haspopup="true" aria-expanded="false" onClick={e => e.preventDefault()}>
-                                                Pages <i className='bx bx-chevron-down'></i>
+                                                Pages <i className='bx bx-chevron-down' role='none'></i>
                                             </a>
                                         </Link>
 
@@ -196,7 +196,7 @@ class Navbar extends Component {
                                             <li className="nav-item">
                                                 <Link href="#">
                                                     <a className="nav-link" onClick={e => e.preventDefault()}>
-                                                        User <i className='bx bx-chevron-down'></i>
+                                                        User <i className='bx bx-chevron-down' role='none'></i>
                                                     </a>
                                                 </Link>
 
@@ -256,7 +256,7 @@ class Navbar extends Component {
                                     <li className="nav-item">
                                         <Link href="#">
                                             <a className="nav-link menu" aria-haspopup="true" onClick={e => e.preventDefault()}>
-                                                News <i className='bx bx-chevron-down'></i>
+                                                News <i className='bx bx-chevron-down' role='none'></i>
                                             </a>
                                         </Link>
 
@@ -284,7 +284,7 @@ class Navbar extends Component {
                                     <li className="nav-item">
                                         <Link href="#">
                                             <a className="nav-link menu" aria-haspopup="true" aria-expanded="false" onClick={e => e.preventDefault()}>
-                                                Contact <i className='bx bx-chevron-down'></i>
+                                                Contact <i className='bx bx-chevron-down' role='none'></i>
                                             </a>
                                         </Link>
 

@@ -10,7 +10,7 @@ const MainBanner = () => {
                     <div className="wrapper" style={{"display":"flex", "alignItems":"center"}}>
                     
                         <div className="banner-text">
-                        <img className="bannerImage" src="/images/home-one/main-img1.png" alt="Image" />
+                        <img className="bannerImage" src="/images/home-one/main-img1.png" alt="Site Dominion Banner" />
                             
                             
                             <h2>Website Design, Deployment, SEO & More.</h2>
