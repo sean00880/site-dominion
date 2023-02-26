@@ -57,7 +57,7 @@ class NewsGridCard extends Component {
                                 <div className="blog-img">
                                     <Link href="/news-details">
                                         <a>
-                                            <img src="/images/blog/blog2.png" alt="Image" />
+                                            <img src="/images/blog/blog2.png" alt="Blog 2 post by Site Dominion." />
                                         </a>
                                     </Link>
 
@@ -102,7 +102,7 @@ class NewsGridCard extends Component {
                                 <div className="blog-img">
                                     <Link href="/news-details">
                                         <a>
-                                            <img src="/images/blog/blog3.png" alt="Image" />
+                                            <img src="/images/blog/blog3.png" alt="Blog 3 post by Site Dominion" />
                                         </a>
                                     </Link>
 

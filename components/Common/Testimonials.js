@@ -47,7 +47,7 @@ class Testimonials extends Component {
                                 </ul>
 
                                 <div className="client-img">
-                                    <img src="/images/clients/client1.jpg" alt="Image" />
+                                    <img src="/images/clients/client1.jpg" alt="Client 1 image." />
                                     <h3>Alen Meair</h3>
                                     <span>Developer</span>
                                 </div>
@@ -68,7 +68,7 @@ class Testimonials extends Component {
                                 </ul>
 
                                 <div className="client-img">
-                                    <img src="/images/clients/client2.jpg" alt="Image" />
+                                    <img src="/images/clients/client2.jpg" alt="Client 2 image" />
                                     <h3>Axon Detos</h3>
                                     <span>CEO</span>
                                 </div>
@@ -89,7 +89,7 @@ class Testimonials extends Component {
                                 </ul>
 
                                 <div className="client-img">
-                                    <img src="/images/clients/client3.jpg" alt="Image" />
+                                    <img src="/images/clients/client3.jpg" alt="Client 3 image." />
                                     <h3>John Dona</h3>
                                     <span>Designer</span>
                                 </div>
@@ -110,7 +110,7 @@ class Testimonials extends Component {
                                 </ul>
 
                                 <div className="client-img">
-                                    <img src="/images/clients/client4.jpg" alt="Image" />
+                                    <img src="/images/clients/client4.jpg" alt="Client 4 image." />
                                     <h3>Jon Smith</h3>
                                     <span>Developer</span>
                                 </div>
