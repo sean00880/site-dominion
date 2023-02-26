@@ -24,7 +24,7 @@ const Features = () => {
 
                                 <Link href="/service-details">
                                     <a className="read-more-icon">
-                                        <span className="flaticon-right-arrow"></span>
+                                        <span className="flaticon-right-arrow" role="presentation"></span>
                                     </a>
                                 </Link>
                             </div>
@@ -38,7 +38,7 @@ const Features = () => {
                                 
                                 <Link href="/service-details">
                                     <a className="read-more-icon">
-                                        <span className="flaticon-right-arrow span"></span>
+                                        <span className="flaticon-right-arrow span" role="presentation"></span>
                                     </a>
                                 </Link>
                             </div>
@@ -52,7 +52,7 @@ const Features = () => {
                                 
                                 <Link href="/service-details">
                                     <a className="read-more-icon">
-                                        <span className="flaticon-right-arrow span2"></span>
+                                        <span className="flaticon-right-arrow span2" role="presentation"></span>
                                     </a>
                                 </Link>
                             </div>

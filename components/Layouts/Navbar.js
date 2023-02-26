@@ -308,7 +308,7 @@ class Navbar extends Component {
                                 <p role="heading">Ready for your website?</p>   
                                     <Link href="/getting-started">
                                         <a className="default-btn">
-                                            Get Started <i className="bx bx-log-in-circle"></i>
+                                            Get Started <i className="bx bx-log-in-circle" role="presentation"></i>
                                         </a>
                                     </Link>
                                 </div>

@@ -15,7 +15,7 @@ class Features extends Component {
 
                                 <Link href="/service-details">
                                     <a className="read-more-icon">
-                                        <span className="flaticon-right-arrow"></span>
+                                        <span className="flaticon-right-arrow" role="presentation"></span>
                                     </a>
                                 </Link>
                             </div>
@@ -29,7 +29,7 @@ class Features extends Component {
                                 
                                 <Link href="/service-details">
                                     <a className="read-more-icon">
-                                        <span className="flaticon-right-arrow"></span>
+                                        <span className="flaticon-right-arrow" role="presentation"></span>
                                     </a>
                                 </Link>
                             </div>
@@ -43,7 +43,7 @@ class Features extends Component {
                                 
                                 <Link href="/service-details">
                                     <a className="read-more-icon">
-                                        <span className="flaticon-right-arrow"></span>
+                                        <span className="flaticon-right-arrow" role="presentation"></span>
                                     </a>
                                 </Link>
                             </div>
