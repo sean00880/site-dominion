@@ -181,7 +181,7 @@ class GettingStarted extends Component {
 
                         <div className="col-lg-4">
                             <div className="faq-img">
-                                <img src="/images/faq-img.png" alt="Image" />
+                                <img src="/images/faq-img.png" alt="Site Dominion's services section image." />
                             </div>
                         </div>
                     </div>

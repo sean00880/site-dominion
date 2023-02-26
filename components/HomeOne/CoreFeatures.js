@@ -27,7 +27,7 @@ const MyExpertise = () => {
           
                         <div className="about-img"  >
                         
-                          <img src="/images/main-img1.png" alt="Image" className="homeImage" data-aos="fade-down" data-aos-duration="2400" data-aos-delay="325" />
+                          <img src="/images/main-img1.png" alt="Site Dominion's homepage image." className="homeImage" data-aos="fade-down" data-aos-duration="2400" data-aos-delay="325" />
                        
                             
                         

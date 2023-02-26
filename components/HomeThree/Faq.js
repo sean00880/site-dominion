@@ -93,7 +93,7 @@ class Faq extends Component {
 
                         <div className="col-lg-4">
                             <div className="faq-img">
-                                <img src="/images/faq-img.png" alt="Image" />
+                                <img src="/images/faq-img.png" alt="Site Dominion's FAQ component image." />
                             </div>
                         </div>
                     </div>

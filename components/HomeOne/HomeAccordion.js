@@ -16,7 +16,7 @@ class HomeAccordion extends Component {
                 <div className="container">
                     <div className="d-flex flex-column align-items-center w-100">
                     <div className="faq-img" data-aos="zoom-in" data-aos-delay="600">
-                                <img src="/images/faq-img.png" alt="Image"  />
+                                <img src="/images/faq-img.png" alt="Site Dominion's home-accordion image."  />
                             </div>
                         <div className="col-lg-12">
                             <div className="faq-accordion">
