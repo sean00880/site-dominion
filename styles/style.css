@@ -2403,6 +2403,7 @@ font-size: 17px;
   text-align: center;
   background: white;
   line-height: 2;
+  text-decoration: underline;
 }
 
 .choose-content ul li:nth-child(2) span i {

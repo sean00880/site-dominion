@@ -11,10 +11,10 @@ class ServiceDetails extends Component {
                 <Navbar />
 
                 <PageBanner 
-                    pageTitle="Logo Design" 
+                    pageTitle="Blog Development + Setup" 
                     homePageUrl="/" 
                     homePageText="Home" 
-                    activePageText="Professional Logo Design for Businesses" 
+                    activePageText="Blog Development & Setup Services" 
                 /> 
                 
                 <BlogTabs />

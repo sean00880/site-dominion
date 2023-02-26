@@ -23,22 +23,22 @@ class TeamCard extends Component {
 
                                     <ul>
                                         <li>
-                                            <a href="https://www.facebook.com/" target="_blank">
+                                            <a aria-label="facebook" href="https://www.facebook.com/" target="_blank">
                                                 <i className="bx bxl-facebook"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="https://www.twitter.com/" target="_blank">
+                                            <a aria-label="twitter" href="https://www.twitter.com/" target="_blank">
                                                 <i className="bx bxl-twitter"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="https://www.linkedin.com/" target="_blank">
+                                            <a aria-label="linkedin" href="https://www.linkedin.com/" target="_blank">
                                                 <i className="bx bxl-linkedin"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="https://www.pinterest.com/" target="_blank">
+                                            <a  aria-label="pinterest" href="https://www.pinterest.com/" target="_blank">
                                                 <i className="bx bxl-pinterest-alt"></i>
                                             </a>
                                         </li>
@@ -62,23 +62,23 @@ class TeamCard extends Component {
                                     <span>Executive</span>
 
                                     <ul>
-                                        <li>
-                                            <a href="https://www.facebook.com/" target="_blank">
+                                    <li>
+                                            <a aria-label="facebook" href="https://www.facebook.com/" target="_blank">
                                                 <i className="bx bxl-facebook"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="https://www.twitter.com/" target="_blank">
+                                            <a aria-label="twitter" href="https://www.twitter.com/" target="_blank">
                                                 <i className="bx bxl-twitter"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="https://www.linkedin.com/" target="_blank">
+                                            <a aria-label="linkedin" href="https://www.linkedin.com/" target="_blank">
                                                 <i className="bx bxl-linkedin"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="https://www.pinterest.com/" target="_blank">
+                                            <a  aria-label="pinterest" href="https://www.pinterest.com/" target="_blank">
                                                 <i className="bx bxl-pinterest-alt"></i>
                                             </a>
                                         </li>
@@ -102,23 +102,23 @@ class TeamCard extends Component {
                                     <span>Developer</span>
 
                                     <ul>
-                                        <li>
-                                            <a href="https://www.facebook.com/" target="_blank">
+                                    <li>
+                                            <a aria-label="facebook" href="https://www.facebook.com/" target="_blank">
                                                 <i className="bx bxl-facebook"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="https://www.twitter.com/" target="_blank">
+                                            <a aria-label="twitter" href="https://www.twitter.com/" target="_blank">
                                                 <i className="bx bxl-twitter"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="https://www.linkedin.com/" target="_blank">
+                                            <a aria-label="linkedin" href="https://www.linkedin.com/" target="_blank">
                                                 <i className="bx bxl-linkedin"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="https://www.pinterest.com/" target="_blank">
+                                            <a  aria-label="pinterest" href="https://www.pinterest.com/" target="_blank">
                                                 <i className="bx bxl-pinterest-alt"></i>
                                             </a>
                                         </li>
@@ -142,23 +142,23 @@ class TeamCard extends Component {
                                     <span>UI/UX Designer</span>
 
                                     <ul>
-                                        <li>
-                                            <a href="https://www.facebook.com/" target="_blank">
+                                    <li>
+                                            <a aria-label="facebook" href="https://www.facebook.com/" target="_blank">
                                                 <i className="bx bxl-facebook"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="https://www.twitter.com/" target="_blank">
+                                            <a aria-label="twitter" href="https://www.twitter.com/" target="_blank">
                                                 <i className="bx bxl-twitter"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="https://www.linkedin.com/" target="_blank">
+                                            <a aria-label="linkedin" href="https://www.linkedin.com/" target="_blank">
                                                 <i className="bx bxl-linkedin"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="https://www.pinterest.com/" target="_blank">
+                                            <a  aria-label="pinterest" href="https://www.pinterest.com/" target="_blank">
                                                 <i className="bx bxl-pinterest-alt"></i>
                                             </a>
                                         </li>
@@ -182,23 +182,23 @@ class TeamCard extends Component {
                                     <span>React Developer</span>
 
                                     <ul>
-                                        <li>
-                                            <a href="https://www.facebook.com/" target="_blank">
+                                    <li>
+                                            <a aria-label="facebook" href="https://www.facebook.com/" target="_blank">
                                                 <i className="bx bxl-facebook"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="https://www.twitter.com/" target="_blank">
+                                            <a aria-label="twitter" href="https://www.twitter.com/" target="_blank">
                                                 <i className="bx bxl-twitter"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="https://www.linkedin.com/" target="_blank">
+                                            <a aria-label="linkedin" href="https://www.linkedin.com/" target="_blank">
                                                 <i className="bx bxl-linkedin"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="https://www.pinterest.com/" target="_blank">
+                                            <a  aria-label="pinterest" href="https://www.pinterest.com/" target="_blank">
                                                 <i className="bx bxl-pinterest-alt"></i>
                                             </a>
                                         </li>
@@ -222,23 +222,23 @@ class TeamCard extends Component {
                                     <span>Angular Developer</span>
 
                                     <ul>
-                                        <li>
-                                            <a href="https://www.facebook.com/" target="_blank">
+                                    <li>
+                                            <a aria-label="facebook" href="https://www.facebook.com/" target="_blank">
                                                 <i className="bx bxl-facebook"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="https://www.twitter.com/" target="_blank">
+                                            <a aria-label="twitter" href="https://www.twitter.com/" target="_blank">
                                                 <i className="bx bxl-twitter"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="https://www.linkedin.com/" target="_blank">
+                                            <a aria-label="linkedin" href="https://www.linkedin.com/" target="_blank">
                                                 <i className="bx bxl-linkedin"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="https://www.pinterest.com/" target="_blank">
+                                            <a  aria-label="pinterest" href="https://www.pinterest.com/" target="_blank">
                                                 <i className="bx bxl-pinterest-alt"></i>
                                             </a>
                                         </li>
@@ -262,23 +262,23 @@ class TeamCard extends Component {
                                     <span>Wed Developer</span>
 
                                     <ul>
-                                        <li>
-                                            <a href="https://www.facebook.com/" target="_blank">
+                                    <li>
+                                            <a aria-label="facebook" href="https://www.facebook.com/" target="_blank">
                                                 <i className="bx bxl-facebook"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="https://www.twitter.com/" target="_blank">
+                                            <a aria-label="twitter" href="https://www.twitter.com/" target="_blank">
                                                 <i className="bx bxl-twitter"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="https://www.linkedin.com/" target="_blank">
+                                            <a aria-label="linkedin" href="https://www.linkedin.com/" target="_blank">
                                                 <i className="bx bxl-linkedin"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="https://www.pinterest.com/" target="_blank">
+                                            <a  aria-label="pinterest" href="https://www.pinterest.com/" target="_blank">
                                                 <i className="bx bxl-pinterest-alt"></i>
                                             </a>
                                         </li>
@@ -302,23 +302,23 @@ class TeamCard extends Component {
                                     <span>Web Developer</span>
 
                                     <ul>
-                                        <li>
-                                            <a href="https://www.facebook.com/" target="_blank">
+                                    <li>
+                                            <a aria-label="facebook" href="https://www.facebook.com/" target="_blank">
                                                 <i className="bx bxl-facebook"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="https://www.twitter.com/" target="_blank">
+                                            <a aria-label="twitter" href="https://www.twitter.com/" target="_blank">
                                                 <i className="bx bxl-twitter"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="https://www.linkedin.com/" target="_blank">
+                                            <a aria-label="linkedin" href="https://www.linkedin.com/" target="_blank">
                                                 <i className="bx bxl-linkedin"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="https://www.pinterest.com/" target="_blank">
+                                            <a  aria-label="pinterest" href="https://www.pinterest.com/" target="_blank">
                                                 <i className="bx bxl-pinterest-alt"></i>
                                             </a>
                                         </li>

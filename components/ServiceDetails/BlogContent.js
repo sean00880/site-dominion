@@ -15,12 +15,12 @@ class ServiceDetailsContent extends Component {
                                 </div>
 
                                 <h2>Blog Creation Services that Deliver Engaging Blog Designs</h2>
-                                <p>Your company's logo engages customers and potential clients in a subtle yet effective way. Your logo is frequently the first thing customers will notice about your business, and the initial image they have of you could influence how interested they become in working with you in the future.</p>
 
-                                <p>Our top-notch logo designers have the expertise and imagination needed to produce significant outcomes. We work hard to comprehend your brand, down to the smallest of details, in order to produce eye-catching visual solutions that highlight your business and your narrative.
-</p>
+                                <p>With the help of a corporate blog, you can engage with your audience and promote consistent online brand messaging. The way your blog is laid out, though, can significantly influence how readers interact with it.</p>
 
-                                <p>We collaborate with our clients to create distinctive logos that are appropriate for the companies, goods, and services they stand for.</p>
+                                <p>When setting up and maintaining a blog, you will communicate with your intended audience directly. It offers your business the possibility to spread messages that may not otherwise be heard. A blog may be used for everything, from announcing new products and significant updates to establishing your business as an industry authority. </p>
+
+                                <p>Our blog designers are aware of the significance of blogging for businesses. Consequently, they put the same amount of effort into producing blogs as they do into creating complete corporate websites.</p>
 
                                 <div className="car-service-list-wrap">
                                     <div className="row align-items-center">

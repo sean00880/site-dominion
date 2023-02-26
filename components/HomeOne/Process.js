@@ -26,7 +26,7 @@ const MyExpertise = () => {
             <h4>Site Dominion's promise is to produce and deliver websites of the highest caliber in order to provide direct value to businesses accross the globe.</h4>
           </div>
 
-          <div className="row justify-content-center" data-aos="fade-left" data-aos-duration="2400" data-aos-delay="550">
+          <div className="row justify-content-center" data-aos="fade-right" data-aos-duration="2400" data-aos-delay="550">
             <HomeAccordion/>
           </div>
         </div>

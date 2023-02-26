@@ -32,13 +32,13 @@ class PricingStyleOne extends Component {
                                 className="current"
                                 onClick={(e) => this.openTabSection(e, 'tab1')}
                             >
-                                <span>One-Time</span>
+                                <span role="button" tabIndex={1}>One-Time</span>
                             </li>
 
                             <li
                                 onClick={(e) => this.openTabSection(e, 'tab2')}
                             >
-                                <span>Monthly</span>
+                                <span role="button" tabIndex={2}>Monthly</span>
                             </li>
                         </ul>
 
