@@ -34,7 +34,7 @@ class RecoverPassword extends Component {
                                         <div className="row">
                                             <div className="col-12">
                                                 <div className="form-group">
-                                                    <input className="form-control" type="text" name="name" placeholder="Enter Email Address" />
+                                                    <input aria-label="Your Email Address" className="form-control" type="text" name="name" placeholder="Enter Email Address" />
                                                 </div>
                                             </div>
                                             

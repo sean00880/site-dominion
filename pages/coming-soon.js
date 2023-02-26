@@ -59,7 +59,7 @@ class ComingSoon extends Component {
                                 </div>
 
                                 <form className="newsletter-form">
-                                    <input type="email" className="input-newsletter" placeholder="Enter email address" name="email" required />
+                                    <input type="email" aria-label="Your Email" className="input-newsletter" placeholder="Enter email address" name="email" required />
                 
                                     <button type="submit" className="default-btn">
                                         Notify Me

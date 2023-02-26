@@ -35,6 +35,7 @@ class SignUp extends Component {
                                                         type="text" 
                                                         name="name" 
                                                         placeholder="First Name" 
+                                                        aria-label="Your First Name"
                                                     />
                                                 </div>
                                             </div>
@@ -46,6 +47,7 @@ class SignUp extends Component {
                                                         type="text" 
                                                         name="name" 
                                                         placeholder="Last Name" 
+                                                        aria-label="Your Last Name"
                                                     />
                                                 </div>
                                             </div>
@@ -57,6 +59,7 @@ class SignUp extends Component {
                                                         type="text" 
                                                         name="name" 
                                                         placeholder="Enter Your Username" 
+                                                        aria-label="Your Username"
                                                     />
                                                 </div>
                                             </div>
@@ -68,6 +71,7 @@ class SignUp extends Component {
                                                         type="email" 
                                                         name="email" 
                                                         placeholder="Email Address" 
+                                                        aria-label="Your Email Address"
                                                     />
                                                 </div>
                                             </div>
@@ -79,6 +83,7 @@ class SignUp extends Component {
                                                         type="text" 
                                                         name="password" 
                                                         placeholder="Password" 
+                                                        aria-label="Create Password"
                                                     />
                                                 </div>
                                             </div>
@@ -90,6 +95,7 @@ class SignUp extends Component {
                                                         type="text" 
                                                         name="password" 
                                                         placeholder="Confirm Password" 
+                                                        aria-label="Confirm Password"
                                                     />
                                                 </div>
                                             </div>

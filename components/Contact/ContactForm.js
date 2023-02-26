@@ -68,6 +68,7 @@ const ContactForm = () => {
                                         <div className="col-lg-6 col-sm-6">
                                             <div className="form-group">
                                                 <input 
+                                                    aria-label="Your Name"
                                                     type="text" 
                                                     name="name" 
                                                     placeholder="Name" 
@@ -81,6 +82,7 @@ const ContactForm = () => {
                                         <div className="col-lg-6 col-sm-6">
                                             <div className="form-group">
                                                 <input 
+                                                    aria-label="Your Email"
                                                     type="text" 
                                                     name="email" 
                                                     placeholder="Email" 
@@ -94,6 +96,7 @@ const ContactForm = () => {
                                         <div className="col-lg-6 col-sm-6">
                                             <div className="form-group">
                                                 <input 
+                                                    aria-label="Your Number"
                                                     type="text" 
                                                     name="number" 
                                                     placeholder="Phone number" 
@@ -107,6 +110,7 @@ const ContactForm = () => {
                                         <div className="col-lg-6 col-sm-6">
                                             <div className="form-group">
                                                 <input 
+                                                    aria-label="Your Subject"
                                                     type="text" 
                                                     name="subject" 
                                                     placeholder="Subject" 
@@ -120,6 +124,7 @@ const ContactForm = () => {
                                         <div className="col-lg-12 col-md-12">
                                             <div className="form-group">
                                                 <textarea 
+                                                    aria-label="Your Detailed Message"
                                                     name="text" 
                                                     cols="30" 
                                                     rows="6" 

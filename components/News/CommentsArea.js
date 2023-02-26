@@ -115,7 +115,7 @@ class CommentsArea extends Component {
                             <textarea name="comment" id="comment" cols="45" rows="5" required="required"></textarea>
                         </p>
                         <p className="form-submit text-center">
-                            <input type="submit" name="submit" id="submit" className="submit" value="Post A Comment" />
+                            <input aria-label="Submit Comment" type="submit" name="submit" id="submit" className="submit" value="Post A Comment" />
                         </p>
                     </form>
                 </div>
