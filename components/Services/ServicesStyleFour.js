@@ -74,7 +74,7 @@ class ServicesStyleFour extends Component {
                         </div>
 
                         <div className="col-lg-4">
-                            <div className="industries-img">
+                            <div className="industries-img" data-aos="zoom-in-up">
                                 <img src="/images/industry.webp" alt="Image" />
                             </div>
                         </div>

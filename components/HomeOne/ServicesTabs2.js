@@ -130,13 +130,13 @@ class ServicesStyleOne extends Component {
                         </TabList>
                         <TabPanel>                                        <div className="main-contact-area">
             <div className="container">
-                <div className="section-title">
+                <div className="section-title" style={{"borderRadius":"0"}}>
                     <span>Contact Us</span>
                     <h2>Get Your FREE Quote</h2>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque quibusdam deleniti porro praesentium. Aliquam minus quisquam velit in at nam.</p>
                 </div>
 
-                <div className="row align-items-center" style={{"borderRadius":"1vh"}}>
+                <div className="row align-items-center" >
                     <div className="col-lg-12 col-md-12">
                         <div className="contact-wrap contact-pages mb-0">
                             <div className="contact-form">

@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import ServicesTabs from './ServicesTabs';
-import LogoContent from '../ServiceDetails/LogoContent'
+import BlogContent from '../ServiceDetails/BlogContent'
 
 class ServicesStyleOne extends Component {
     render() {
         return (
             <section className="features-area features-area-inner-style">
                 <div className="container">
-                <LogoContent/> 
+                <BlogContent/> 
               
                 <Tabs defaultIndex={1}>
               <TabList style={{'borderRadius':'0'}}>

@@ -15,6 +15,9 @@ class HomeAccordion extends Component {
             <section className="faq-area">
                 <div className="container">
                     <div className="d-flex flex-column align-items-center w-100">
+                    <div className="faq-img" data-aos="zoom-in" data-aos-delay="600">
+                                <img src="/images/faq-img.png" alt="Image"  />
+                            </div>
                         <div className="col-lg-12">
                             <div className="faq-accordion">
                                 <Accordion >
@@ -194,9 +197,7 @@ class HomeAccordion extends Component {
                             </div>
                         </div>
 
-                            <div className="faq-img" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="600">
-                                <img src="/images/faq-img.png" alt="Image"  />
-                            </div>
+                            
                     </div>
                 </div>
             </section>

@@ -131,7 +131,7 @@ button:focus {
           box-shadow: none;
 }
 
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h5, h6 {
   color: #1d1c1c;
   font-family: "Smooch Sans", sans-serif;
   font-weight: 500;
@@ -214,12 +214,16 @@ img {
 }
 
 .form-control:focus {
-  color: #000000;
-  background-color: transparent;
+  color: #f3f2f2;
+  background: #2b2a2aaf;
   -webkit-box-shadow: unset;
           box-shadow: unset;
   outline: 0;
-  border: 1px solid #4681bb;
+  border: 1px solid #e6e6e6;
+}
+
+.form-control:focus::placeholder{
+  color: white;
 }
 
 .form-control:hover:focus, .form-control:focus {
@@ -795,7 +799,8 @@ Section Title Area Style
 
 .section-title h4 {
   color: #702525;
-
+  letter-spacing: 1px;
+  font-size: 17px;
 }
 
 .section-title h2:last-child {
@@ -1808,6 +1813,7 @@ Features Area Style
     border: 1px solid transparent;
     border-radius: 1vh;
     padding: 10px 3px;
+    min-height: 48vh;
 }
 
 .single-features i {
@@ -1838,8 +1844,9 @@ Features Area Style
 
 .single-features p {
   padding: 4vh 0;
-  color:#464343e0;
+  color:black;
   margin:1vh;
+  font-style: normal;
 }
 
 .single-features .read-more-icon {
@@ -2143,13 +2150,13 @@ Choose Us Area Style
 .features-area {
   position: relative;
   z-index: 1;
-  background-image: url(/images/background5.png);
+  background-image: url(/images/lion4.png);
   background-size: cover;
   background-attachment:fixed ;
   justify-content: center;
   display: flex;
   flex-direction: column;
-  color: #b97a69;
+  color: #683434;
 }
 
 .features-area .wrapper{
@@ -2206,7 +2213,6 @@ Choose Us Area Style
 }
 
 .features-area .container {
-  background:linear-gradient(90deg, #e7e7e7, #1d1c1c);
   border: 2px solid #f2f2f2;
   text-align: center;
   padding: 1vh
@@ -2221,7 +2227,7 @@ Choose Us Area Style
 
 
 .features-area .container .row{
-  background: linear-gradient(45deg, #1d1c1c, #464545);
+  background: linear-gradient(45deg, #000000e0, #464545ed);
   border-radius: 0 0 1vh 1vh;
   padding: 1vh;
   margin: 0;
@@ -2252,15 +2258,19 @@ Choose Us Area Style
 
 
 .features-area h4, h3{
-color: #7b7575;
+color: #131212;
+font-size: 17px;
 }
 
 .services .container .row .section-title h4{
   color:#702525;
+  font-size: 17px;
 }
 
 .services h4, h3{
   color:#ffffff;
+  letter-spacing: 1px;
+  font-size: 23px;
 }
 
 .features-area .section-title{
@@ -2268,14 +2278,14 @@ color: #7b7575;
 }
 
 .features-area .single-features{
-  border: 3px solid #1a181859;
+  border:3px solid #ffffff;
   background:white;
 }
 
 .features-area .single-features:hover{
-  border: 3px solid #aeaeae;
+  border: 3px solid #ffffff;
   background:linear-gradient(45deg, #b2b2b3, #f0f0f0, #b2b2b3);
-  
+
 }
 
 .main-banner-area.main-banner-area-one .banner-text h3{
@@ -2285,7 +2295,7 @@ color: #7b7575;
   color: #d7d7d7;
   font-size: 22px;
   line-height: 2;
-  letter-spacing: 3px;
+  letter-spacing: 1px;
   margin-top: 0;
 }
 
@@ -2323,18 +2333,18 @@ color: #7b7575;
   padding-right: 30px;
   padding-top: 30px;
   padding-bottom: 30px;
-  background:linear-gradient(45deg, #464545, #c8b75a);
+  background:white;
   -webkit-box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
           box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
   margin-bottom: 30px;
   -webkit-transition: all 0.6s ease;
   transition: all 0.6s ease;
   border-radius: 1vh;
-  border: 3px solid white;
+  border: 3px solid rgb(231, 231, 231);
 }
 
 .choose-content ul li p {
-  color: white;
+  color: #0c0c0c;
 }
 
 .choose-content ul li:last-child {
@@ -2352,7 +2362,7 @@ color: #7b7575;
   -webkit-text-stroke: 1px;
   font-size: 30px;
   font-weight: 300;
-  color: #e0dcdc;
+  color: #adaba7;
   -webkit-animation: border-transform 7s linear infinite alternate forwards;
   animation: border-transform 7s linear infinite alternate forwards;
   transition: all 0.6s ease;
@@ -3118,7 +3128,6 @@ Footer Top Area Style
 }
 
 .footer-top-area .container{
-  border-radius: 1vh;
   background: linear-gradient(45deg, #1d1c1c, #464545);
   padding: 2vh;
   border: 3px solid white;
@@ -3557,8 +3566,8 @@ Offer Area Two Style
 
 .pricing-card .pricing-top-heading p {
   font-weight: 600;
-  font-size: 14px;
-  padding: 0vh 4vh;
+  font-size: 16px;
+  padding: 0vh 2vh;
 }
 
 .pricing-card span {
@@ -3637,6 +3646,7 @@ Offer Area Two Style
   font-weight: 600;
   font-size: 20px;
   font-family: 'Smooch Sans', sans-serif;
+  letter-spacing: 1px;
 }
 
 .pricing-card ul li:last-child {
@@ -4400,7 +4410,7 @@ FAQ CSS
   font-size: 19px;
   font-weight: 600;
   font-family: 'Smooch Sans';
-  border: 3px solid #aeaeae;
+  border: 3px solid #ffffff;
   letter-spacing: 2px;
   align-items: center;
 }
@@ -4450,19 +4460,19 @@ padding: 1vh;
   left: 10px;
   position: absolute;
   position: absolute;
-  top: 13px;
+  top: 15px;
   border-radius: 1vh;
   background: #ffffff;
   padding: 1vh;
   }
 
   .faq-accordion .accordion .accordion__button .accordion__image3{
-    max-width: 89px;
-    max-height: 89px;
+    max-width: 82px;
+    max-height: 82px;
     left: 10px;
     position: absolute;
     position: absolute;
-    top: 13px;
+    top: 17px;
     background: #ffffff;
     border-radius: 1vh;
     padding: 1vh;
@@ -4559,9 +4569,8 @@ padding: 1vh;
 }
 
 .faq-img{
-  margin: 2vh;
+  margin: 2vh 0;
   border-radius:1vh;
-  border:3px solid #aeaeae;
 }
 
 
@@ -5333,6 +5342,8 @@ Ask Question Area Style
   -webkit-box-shadow: 0px 0px 29px 0px rgba(102, 102, 102, 0.08);
           box-shadow: 0px 0px 29px 0px rgba(102, 102, 102, 0.08);
   padding: 2vh;
+  border-radius: 1vh;
+  background:white;
 }
 
 .portfolio_back {
@@ -5756,12 +5767,12 @@ Blog Details Area Style
   border-radius: 1vh;
 }
 .homeImage2{
-position: absolute;
-top: 32%;
-left: 29%;
-width: 100%;
-display: flex;
-justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 53%;
+  width: 64%;
+  display: flex;
+  justify-content: center;
 }
 
 .news-details-area .post-navigation .navigation-links .nav-next a i {
@@ -6772,11 +6783,12 @@ Main Contact Area Style
 
 .main-contact-area .section-title h2{
   font-size: 33px;
-    color: #ebebeb;
+    color: #0b0a0a;
 }
 
 .main-contact-area .section-title p{
-    color: ghostwhite;
+    color: black;
+    font-size: 17px;
 }
 
 .main-contact-area .contact-wrap .section-title {
@@ -6910,7 +6922,7 @@ Service Details Area Style
 }
 
 .service-sidebar-area .service-list ul li:hover {
-  background-color: #4b3f3d;;
+  background: linear-gradient(45deg, #31395a, #413f3f);
   color: #ffffff;
 }
 
@@ -6942,14 +6954,14 @@ Service Details Area Style
 }
 
 .service-details-wrap{
-  background: #e7e7e7;
-  border-radius: 1vh 0 0 0;
+  background: white;
+  border-radius: 1vh 0 0 1vh;
   padding: 2vh;
 }
 
 .service-details-area .container .row .col-lg-4{
-  background: #e7e7e7;
-  border-radius: 0 1vh 0 0;
+  background: linear-gradient(45deg, white, #f8f8f8);
+  border-radius: 0 1vh 1vh 0;
   padding: 2vh;
 }
 
@@ -6961,10 +6973,11 @@ Service Details Area Style
   margin-bottom: 30px;
 }
 
-.service-details-wrap h3 {
+.service-details-wrap h2 {
   margin-bottom: 20px;
   font-size: 28px;
   color: #963a2c;
+  text-transform: capitalize;
 }
 
 .service-details-wrap ul {
@@ -6977,6 +6990,9 @@ Service Details Area Style
   text-align: left;
   text-indent: 1vh;
   padding: 1vh 2vh;
+  font-size: 17px;
+  color:black;
+  letter-spacing: 1px;
 }
 
 .service-details-wrap ul li {
@@ -7398,14 +7414,14 @@ a{
     display: none;
 }
 .fn_cs_project_sticky_modern .left_part p{
-  font-size: 15px;
+  font-size: 17px;
   line-height: 2;
   margin: 5vh 0;
-  background: #191919e3;
+  background: #000000de;
   color: #cccccc;
   padding: 8vh 3vh;
   border-radius: 2vh;
-  letter-spacing: 3px;
+  letter-spacing: 1px;
   border: 6px double #dbdbdb;
 }
 
@@ -7876,12 +7892,13 @@ a{
   align-items: center;
   display: flex;
   flex-direction: column;
-  background: radial-gradient(#817c7c, #474243, #252424);
+  background: linear-gradient(45deg, #b55353, #464545, #b55353);
   padding: 1vh;
 }
 
 .process .container{
   background:linear-gradient(225deg,#e7e7e7, #ffffff, #ffffff, #e7e7e7);
+  flex-direction: row-reverse;
 }
 
 
@@ -7924,9 +7941,8 @@ a{
 
 .pricing .container{
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   justify-content: space-between;
-  padding:0;
 }
 
 .pricing .container .section-title{
@@ -7934,7 +7950,7 @@ a{
   justify-content: center;
   flex-direction: column;
   margin: 0 1vh;
-  margin-right: 0;
+  margin-left: 0;
   width: 55%;
   background: #ffffff;
   border-radius: 1vh;
@@ -8194,7 +8210,7 @@ background-image: none;
 }
 
 .choose-ue-area{
-  background: #322f2f;
+  background: linear-gradient(45deg, #e5e5e0, #c8b85b);
   padding: 0 1vh;
 }
 

@@ -8,18 +8,19 @@ class ServiceDetailsContent extends Component {
             <section className="service-details-area ptb-100">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-8">
+                        <div className="col-lg-8" style={{'borderRadius':'0'}}>
                             <div className="service-details-wrap">
                                 <div className="service-img">
                                     <img src="/images/services-details/services-details.jpg" alt="Image" />
                                 </div>
 
-                                <h3>Service Of Warehousing</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas veritatis ducimus rerum sunt dignissimos libero et eum modi! Consequuntur rem incidunt et ducimus magnam sunt rerum hic beatae sed obcaecati. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium asperiores eos obcaecati nostrum sed, corporis placeat quasi pariatur id, est iure, minus quibusdam! Facilis.</p>
+                                <h2>Blog Creation Services that Deliver Engaging Blog Designs</h2>
+                                <p>Your company's logo engages customers and potential clients in a subtle yet effective way. Your logo is frequently the first thing customers will notice about your business, and the initial image they have of you could influence how interested they become in working with you in the future.</p>
 
-                                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classNameical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words.</p>
+                                <p>Our top-notch logo designers have the expertise and imagination needed to produce significant outcomes. We work hard to comprehend your brand, down to the smallest of details, in order to produce eye-catching visual solutions that highlight your business and your narrative.
+</p>
 
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem, you to be sure there isn't anything.</p>
+                                <p>We collaborate with our clients to create distinctive logos that are appropriate for the companies, goods, and services they stand for.</p>
 
                                 <div className="car-service-list-wrap">
                                     <div className="row align-items-center">

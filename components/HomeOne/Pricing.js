@@ -13,7 +13,7 @@ import Pricing from '../Pricing/PricingStyleTwo'
 const MyExpertise = () => {
   return (
     <>
-      <div className="pricing pt-100 pb-70">
+      <div className="pricing">
         <div className="container">
           <div className="section-title style-two">
           

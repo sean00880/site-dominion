@@ -8,13 +8,13 @@ class ServiceDetailsContent extends Component {
             <section className="service-details-area ptb-100">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-8">
+                        <div className="col-lg-8" style={{'borderRadius':'0'}}>
                             <div className="service-details-wrap">
                                 <div className="service-img">
-                                    <img src="/images/services-details/services-details.jpg" alt="Image" />
+                                    <img src="/images/logodisplay.png" alt="Image" />
                                 </div>
 
-                                <h3>Service Of Warehousing</h3>
+                                <h2>Logos that serve to encapsulate everything a brand constitutes</h2>
                                 <p>Your company's logo engages customers and potential clients in a subtle yet effective way. Your logo is frequently the first thing customers will notice about your business, and the initial image they have of you could influence how interested they become in working with you in the future.</p>
 
                                 <p>Our top-notch logo designers have the expertise and imagination needed to produce significant outcomes. We work hard to comprehend your brand, down to the smallest of details, in order to produce eye-catching visual solutions that highlight your business and your narrative.
@@ -26,7 +26,7 @@ class ServiceDetailsContent extends Component {
                                     <div className="row align-items-center">
                                         <div className="col-lg-6 col-md-6">
                                             <div className="service-list-img">
-                                                <img src="/images/services-details/services-details2.png" alt="Image" />
+                                                <img src="/images/services-details/services-details.jpg" alt="Site Dominion - Logos Display" />
                                             </div>
                                         </div>
 

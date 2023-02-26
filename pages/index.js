@@ -31,10 +31,10 @@ const Index = () => {
             <PartnerSlider/>
             <TopSections2/>
             <CoreFeatures/>
-                        <Pricing/>
-                        <Process />
-                        <Features />
-                        <WhyChooseUs />
+            <Process />
+            <Features />
+            <WhyChooseUs />
+            <Pricing/>                
             <ServicesStyleFour />
             <Projects />
             <News />

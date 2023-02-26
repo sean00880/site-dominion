@@ -18,11 +18,11 @@ const Features = () => {
                 <h3 style={{"color":"#f0ecec"}}>Go with Site Dominion's featured website package. We handle everything for you, from design to developement, hosting, deployment and optimization.</h3>                       
                         <h1>All-In-One Package</h1>
                         <TopSections/>
-                        <div className="wrapper">
+                        <div className="wrapper"  data-aos="fade-down">
                       
                        
                        <div className="col-lg-4 p-0">
-                            <div className="single-features">
+                            <div className="single-features" data-aos="flip-left"  data-aos-duration="1200" >
                                 <Image src="/images/design.png" width={100} height={100}/>
                                 <h3>1) Design + Development</h3>
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, maxime ipsum praesentium culpa expedita.</p>
@@ -36,7 +36,7 @@ const Features = () => {
                         </div>
 
                         <div className="col-lg-4 p-0">
-                            <div className="single-features">
+                            <div className="single-features" data-aos="flip-up"  data-aos-duration="1200" data-aos-delay="100">
                             <Image src="/images/deployment.png" width={100} height={100}/>
                                 <h3>2) Full Deployment [Hosting & Domain]</h3>
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, maxime ipsum praesentium culpa expedita.</p>
@@ -50,7 +50,7 @@ const Features = () => {
                         </div>
 
                         <div className="col-lg-4 offset-lg-0 p-0">
-                            <div className="single-features">
+                            <div className="single-features" data-aos="flip-right"  data-aos-duration="1200" >
                             <Image src="/images/seo.png" width={100} height={100}/>
                                 <h3>3) Project Optimization</h3>
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, maxime ipsum praesentium culpa expedita.</p>
@@ -64,7 +64,7 @@ const Features = () => {
                         </div>
                         </div>
                        <hr />
-                       <div className='wrapper2'>
+                       <div className='wrapper2'  data-aos="fade-down">
                             <div>
                                 Check out our existing clients' projects:
                                 <br />
@@ -90,10 +90,10 @@ const Features = () => {
                 <div className="wrapper">
                     
                         <div className="col-lg-4 p-0">
-                            <div className="single-features">
+                            <div className="single-features" data-aos="flip-left"  data-aos-duration="1200" >
                             <Image src="/images/logo-design.png" width={100} height={100}/>
                                 <h3>Logo Design</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, maxime ipsum praesentium culpa expedita.</p>
+                                <p>Our goal at Site Dominion is to make the best first impression possible for your brand. And it all starts with a standout logo and specialized materials that are skillfully manufactured. One of our design experts will assist you in bringing your brand to life once you reach out to us.</p>
 
                                 <Link href="/logo-design">
                                     <a className="read-more-icon">
@@ -104,10 +104,10 @@ const Features = () => {
                         </div>
 
                         <div className="col-lg-4 p-0">
-                            <div className="single-features">
+                            <div className="single-features" data-aos="flip-down"  data-aos-duration="1200"  data-aos-delay="100" >
                             <Image src="/images/blog-setup.svg" width={100} height={100}/>
                                 <h3>Blog Creation + Setup</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, maxime ipsum praesentium culpa expedita.</p>
+                                <p>Reach clients and search engines with skilled professionals' high-quality, budget friendly blog and website content. A straightforward solution to cover your blogging needs.</p>
                                 
                                 <Link href="/blog-creation">
                                     <a className="read-more-icon">
@@ -119,11 +119,11 @@ const Features = () => {
                         
 
                         <div className="col-lg-4 offset-lg-0 p-0">
-                            <div className="single-features">
+                            <div className="single-features" data-aos="flip-right"  data-aos-duration="1200" >
                             <Image src="/images/content-management.svg" width={100} height={100}/>
                                 
                                 <h3>Content Creation/Management</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, maxime ipsum praesentium culpa expedita.</p>
+                                <p>Don't have time to manage the content on your website? Or maybe you're unsure about how to approach it. Let our professionals assist you with creating transformational SEO friendly content to fastrack the process.</p>
                                 
                                 <Link href="/service-details">
                                     <a className="read-more-icon">
