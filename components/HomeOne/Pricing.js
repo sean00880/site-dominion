@@ -32,7 +32,7 @@ That is why, @ Site Dominion, we pledge to charge low set-up costs for fully opt
                         </div>
           </div>
 
-          <div className="row justify-content-center" style={{"width":"100%"}} data-aos="fade-right" data-aos-duration="1200" data-aos-delay="300">
+          <div className="row justify-content-center" style={{"width":"100%"}} data-aos="fade-right"  data-aos-duration="1200" >
             
             <Pricing/>
           </div>

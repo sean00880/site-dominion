@@ -46,7 +46,7 @@ class PricingStyleOne extends Component {
                             <div id="tab1" className="tabs_item" style={{"width":"100%"}}>
                                 <div className="row" style={{"borderRadius":"1vh"}}>
                                     <div className="col-lg-4 col-md-6">
-                                        <div className="pricing-card single-pricing1" data-aos="flip-left"  data-aos-delay="100" data-aos-duration="2400">
+                                        <div className="pricing-card single-pricing1" data-aos="flip-left"  data-aos-delay="100" data-aos-duration="1200">
                                             <div className="pricing-top-heading">
                                                 <h3>Basic</h3>
                                                 <p>Personal Website Design + Deployment</p>
@@ -94,7 +94,7 @@ class PricingStyleOne extends Component {
                                     </div>
 
                                     <div className="col-lg-4 col-md-6">
-                                        <div className="pricing-card single-pricing2" data-aos="flip-up"  data-aos-delay="200" data-aos-duration="2400">
+                                        <div className="pricing-card single-pricing2" data-aos="flip-up"  data-aos-delay="150" data-aos-duration="1200">
                                             <div className="pricing-top-heading">
                                                 <h3>Premium</h3>
                                                 <p>Professional Website Design + Setup</p>
@@ -144,7 +144,7 @@ class PricingStyleOne extends Component {
                                     </div>
 
                                     <div className="col-lg-4 col-md-12 offset-lg-0">
-                                        <div className="pricing-card long" data-aos="flip-right"  data-aos-delay="100" data-aos-duration="2400">
+                                        <div className="pricing-card long" data-aos="flip-right"  data-aos-delay="100" data-aos-duration="1200">
                                             <div className="pricing-top-heading">
                                                 <h3>Elite</h3>
                                                 <p>Industrial Website Design + Setup</p>
