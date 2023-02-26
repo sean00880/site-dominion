@@ -305,7 +305,7 @@ class Navbar extends Component {
                                 </ul>
                                 
                                 <div className="others-options">
-                                <p>Ready for your website?</p>   
+                                <p role="heading">Ready for your website?</p>   
                                     <Link href="/getting-started">
                                         <a className="default-btn">
                                             Get Started <i className="bx bx-log-in-circle"></i>

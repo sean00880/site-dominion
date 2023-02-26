@@ -141,7 +141,7 @@ class Pricing extends Component {
                                                 </a>
                                             </Link>
 
-                                            <strong className="popular">Popular</strong>
+                                            <strong className="popular" role="heading">Popular</strong>
                                         </div>
                                     </div>
 
@@ -288,7 +288,7 @@ class Pricing extends Component {
                                                 </a>
                                             </Link>
 
-                                            <strong className="popular">Popular</strong>
+                                            <strong className="popular" role="heading">Popular</strong>
                                         </div>
                                     </div>
 
