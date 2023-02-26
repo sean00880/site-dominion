@@ -162,19 +162,19 @@ class Footer extends Component {
                                     <ul className="information">
                                         <li role="none" className="address">
                                             <i role="none" className="flaticon-call"></i>
-                                            <span>Phone</span>
+                                            <span role="heading">Phone</span>
                                             +882-569-756
                                         </li>
 
                                         <li role="none" className="address">
                                             <i role="none" className="flaticon-envelope"></i>
-                                            <span>Email</span>
+                                            <span role="heading">Email</span>
                                             hello@sitedominion.com
                                         </li>
 
                                         <li role="none" className="address">
                                             <i role="none" className="flaticon-maps-and-flags"></i>
-                                            <span>Address</span>
+                                            <span role="heading">Address</span>
                                             123, Western Road, Melbourne Australia
                                         </li>
                                     </ul>
