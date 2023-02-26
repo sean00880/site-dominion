@@ -103,13 +103,13 @@ body {
 a {
 	display: inline-block;
     transition: $transition;
-    text-decoration: none;
+    text-decoration: underline;
 	&:hover {
-        text-decoration: none;
+        text-decoration: underline;
         color: $heading-color;
 	}
 	&:focus {
-		text-decoration: none;
+		text-decoration: underline;
 	} 
 }
 button {
@@ -3119,7 +3119,7 @@ FAQ CSS
 			background: #ffffff;
 			padding: 20px 25px;
 			color: $heading-color;
-			text-decoration: none;
+			text-decoration: underline;
 			position: relative;
 			display: block;
 			font-size: 18px;
