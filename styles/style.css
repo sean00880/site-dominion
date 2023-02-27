@@ -7601,6 +7601,12 @@ a{
   color: #c99393;
   padding: 8px;
 }
+
+.fn_cs_project_sticky_modern .title_holder p a span{
+
+    color: #ffffff;
+}
+
 .fn_cs_project_sticky_modern .img_holder img{
 	position: relative;
 	opacity: 0;
