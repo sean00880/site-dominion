@@ -39,9 +39,9 @@ export default class GoTop extends Component {
         return (
             <div className="scroll-to-top">
                 {is_visible && ( 
-                    <div className="top" tabIndex={0} button="role" onClick={() => this.scrollToTop()}>
-                        <i role="none" className="bx bx-chevrons-up" ></i>
-			            <i role="none" className="bx bx-chevrons-up bx-fade-up"></i>
+                    <div className="top" tabIndex={0} role="button" onClick={() => this.scrollToTop()}>
+                        <i role="button" className="bx bx-chevrons-up" ></i>
+			            <i role="button" className="bx bx-chevrons-up bx-fade-up"></i>
                     </div>
                 )}
             </div>
