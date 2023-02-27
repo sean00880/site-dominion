@@ -62,7 +62,7 @@ class Navbar extends Component {
                                     <li role="none" className="nav-item active">
                                         <Link href="#">
                                             <a className="nav-link menu" aria-haspopup="true" aria-expanded="false" onClick={e => e.preventDefault()}>
-                                                Home <i role="none" className='bx bx-chevron-down' role='none'></i>
+                                                Home <i role="none" className='bx bx-chevron-down'></i>
                                             </a>
                                         </Link>
 
@@ -102,7 +102,7 @@ class Navbar extends Component {
                                     <li role="none" className="nav-item">
                                         <Link href="#">
                                             <a className="nav-link menu" aria-haspopup="true" aria-expanded="false" onClick={e => e.preventDefault()}>
-                                                About <i role="none" className='bx bx-chevron-down' role='none'></i>
+                                                About <i role="none" className='bx bx-chevron-down'></i>
                                             </a>
                                         </Link>
 
@@ -124,7 +124,7 @@ class Navbar extends Component {
                                     <li role="none" className="nav-item">
                                         <Link href="/services">
                                             <a className="nav-link menu" aria-haspopup="true" aria-expanded="false" onClick={e => e.preventDefault()}>
-                                                Services <i role="none" className='bx bx-chevron-down' role='none'></i>
+                                                Services <i role="none" className='bx bx-chevron-down'></i>
                                             </a>
                                         </Link>
 
@@ -164,7 +164,7 @@ class Navbar extends Component {
                                     <li role="none" className="nav-item">
                                         <Link href="#">
                                             <a className="nav-link menu" aria-haspopup="true" aria-expanded="false" onClick={e => e.preventDefault()}>
-                                                Pages <i role="none" className='bx bx-chevron-down' role='none'></i>
+                                                Pages <i role="none" className='bx bx-chevron-down'></i>
                                             </a>
                                         </Link>
 
@@ -233,8 +233,8 @@ class Navbar extends Component {
 
                                     <li role="none" className="nav-item">
                                         <Link href="#">
-                                            <a className="nav-link menu" aria-haspopup="true" onClick={e => e.preventDefault()}>
-                                                News <i role="none" className='bx bx-chevron-down' role='none'></i>
+                                            <a className="nav-link menu" aria-expanded="false" aria-haspopup="true" onClick={e => e.preventDefault()}>
+                                                News <i role="none" className='bx bx-chevron-down'></i>
                                             </a>
                                         </Link>
 
