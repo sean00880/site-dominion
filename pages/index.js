@@ -24,9 +24,9 @@ import WhyChooseUs from '../components/HomeThree/WhyChooseUs';
 const Index = () => {
     return (
         <>
-       
+            <a href="#main" class="skip-to-main-content-link">Skip to main content</a>
             <Navbar />
-          
+            <main>
             <MainBanner />
             <PartnerSlider/>
             <TopSections2/>
@@ -40,7 +40,7 @@ const Index = () => {
             <News />
             <Testimonials />
 
-     
+            </main>
             <Footer />
         </>
     )
