@@ -21,7 +21,7 @@ class LiveProjects extends Component {
                                     <div className="item">
                                         <div className="img_holder">
                                             <img src="img/offer1.png" alt="" />
-                                            <div className="abs_img" ><Link href=""><a style={{ "backgroundImage": "url(/images/project4.png)", "backgroundSize":"contain", "backgroundPosition":"center","backgroundRepeat":"no-repeat" }}></a></Link></div>
+                                            <div className="abs_img" ><Link href=""><a style={{ "backgroundImage": "url(/images/project4.png)", "backgroundSize":"contain", "backgroundPosition":"center","backgroundRepeat":"no-repeat" }}/></Link></div>
                                         </div>
                                         <div className="title_holder">
                                             <h3><Link href="/portfolio/decoded-web"><a>All Landscaping Services LLC</a></Link></h3>
