@@ -194,28 +194,6 @@ class Navbar extends Component {
                                             </li>
 
                                             <li role="none" className="nav-item">
-                                                <Link href="#">
-                                                    <a className="nav-link" onClick={e => e.preventDefault()}>
-                                                        User <i role="none" className='bx bx-chevron-down' role='none'></i>
-                                                    </a>
-                                                </Link>
-
-                                                <ul className="dropdown-menu">
-                                                    <li role="none" className="nav-item">
-                                                        <Link href="/login" activeClassName="active">
-                                                            <a className="nav-link">Login</a>
-                                                        </Link>
-                                                    </li>
-
-                                                    <li role="none" className="nav-item">
-                                                        <Link href="/sign-up" activeClassName="active">
-                                                            <a className="nav-link">Sign Up</a>
-                                                        </Link>
-                                                    </li>
-                                                </ul>
-                                            </li>
-
-                                            <li role="none" className="nav-item">
                                                 <Link href="/terms-conditions" activeClassName="active">
                                                     <a className="nav-link">Terms & Conditions</a>
                                                 </Link>
