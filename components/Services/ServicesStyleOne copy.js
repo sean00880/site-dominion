@@ -16,7 +16,7 @@ class ServicesStyleOne extends Component {
 
                                 <Link href="/service-details">
                                     <a className="read-more-icon">
-                                        <span className="flaticon-right-arrow" role="presentation"></span>
+                                        <span className="flaticon-right-arrow" role="presentation">Learn More</span>
                                     </a>
                                 </Link>
                             </div>
@@ -30,7 +30,7 @@ class ServicesStyleOne extends Component {
 
                                 <Link href="/service-details">
                                     <a className="read-more-icon">
-                                        <span className="flaticon-right-arrow" role="presentation"></span>
+                                        <span className="flaticon-right-arrow" role="presentation">Learn More</span>
                                     </a>
                                 </Link>
                             </div>
@@ -44,7 +44,7 @@ class ServicesStyleOne extends Component {
 
                                 <Link href="/service-details">
                                     <a className="read-more-icon">
-                                        <span className="flaticon-right-arrow" role="presentation"></span>
+                                        <span className="flaticon-right-arrow" role="presentation">Learn More</span>
                                     </a>
                                 </Link>
                             </div>
@@ -58,7 +58,7 @@ class ServicesStyleOne extends Component {
 
                                 <Link href="/service-details">
                                     <a className="read-more-icon">
-                                        <span className="flaticon-right-arrow" role="presentation"></span>
+                                        <span className="flaticon-right-arrow" role="presentation">Learn More</span>
                                     </a>
                                 </Link>
                             </div>
@@ -72,7 +72,7 @@ class ServicesStyleOne extends Component {
 
                                 <Link href="/service-details">
                                     <a className="read-more-icon">
-                                        <span className="flaticon-right-arrow" role="presentation"></span>
+                                        <span className="flaticon-right-arrow" role="presentation">Learn More</span>
                                     </a>
                                 </Link>
                             </div>
@@ -86,7 +86,7 @@ class ServicesStyleOne extends Component {
 
                                 <Link href="/service-details">
                                     <a className="read-more-icon">
-                                        <span className="flaticon-right-arrow" role="presentation"></span>
+                                        <span className="flaticon-right-arrow" role="presentation">Learn More</span>
                                     </a>
                                 </Link>
                             </div>
@@ -100,7 +100,7 @@ class ServicesStyleOne extends Component {
 
                                 <Link href="/service-details">
                                     <a className="read-more-icon">
-                                        <span className="flaticon-right-arrow" role="presentation"></span>
+                                        <span className="flaticon-right-arrow" role="presentation">Learn More</span>
                                     </a>
                                 </Link>
                             </div>
@@ -114,7 +114,7 @@ class ServicesStyleOne extends Component {
 
                                 <Link href="/service-details">
                                     <a className="read-more-icon">
-                                        <span className="flaticon-right-arrow" role="presentation"></span>
+                                        <span className="flaticon-right-arrow" role="presentation">Learn More</span>
                                     </a>
                                 </Link>
                             </div>
@@ -128,7 +128,7 @@ class ServicesStyleOne extends Component {
 
                                 <Link href="/service-details">
                                     <a className="read-more-icon">
-                                        <span className="flaticon-right-arrow" role="presentation"></span>
+                                        <span className="flaticon-right-arrow" role="presentation">Learn More</span>
                                     </a>
                                 </Link>
                             </div>
