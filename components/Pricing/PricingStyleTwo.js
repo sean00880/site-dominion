@@ -85,7 +85,7 @@ class PricingStyleOne extends Component {
                                                 </li>
                                             </ul>
 
-                                            <Link href="/contact">
+                                            <Link href="/getting-started/#quote">
                                                 <a className="default-btn">
                                                     Get Started
                                                 </a>

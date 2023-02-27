@@ -102,7 +102,7 @@ a {
   display: inline-block;
   -webkit-transition: all 0.6s ease;
   transition: all 0.6s ease;
-  text-decoration: underline;
+  text-decoration: none;
   font-family: 'smooch sans', sans-serif;
 }
 
@@ -214,12 +214,13 @@ img {
 }
 
 .form-control:focus {
-  color: #f3f2f2;
-  background: #2b2a2aaf;
+  color: #555050;
+    background: #ffffff;
   -webkit-box-shadow: unset;
           box-shadow: unset;
   outline: 0;
   border: 1px solid #e6e6e6;
+  font-style: normal;
 }
 
 .form-control:focus::placeholder{
@@ -800,7 +801,7 @@ Section Title Area Style
 .section-title h4 {
   color: #702525;
   letter-spacing: 1px;
-  font-size: 17px;
+  font-size: 14px;
 }
 
 .section-title h2:last-child {
@@ -1871,7 +1872,7 @@ Features Area Style
 }
 
 .single-features .read-more-icon span {
-  width: 16vh;
+  width: 14vh;
     /* height: 5vh; */
     padding: 0vh;
     margin: 2vh;
@@ -2271,12 +2272,11 @@ Choose Us Area Style
 
 .features-area h4, h3{
 color: #131212;
-font-size: 17px;
 }
 
 .services .container .row .section-title h4{
   color:#702525;
-  font-size: 17px;
+  font-size: 14px;
 }
 
 .services h4, h3{
@@ -4072,6 +4072,7 @@ Industries Serve Area Style
   right: 23px;
   top: 42px;
   font-size: 30px;
+  text-decoration: none;
 }
 
 .single-industries .right-icon span {
@@ -6801,7 +6802,6 @@ Main Contact Area Style
 
 .main-contact-area .section-title p{
     color: black;
-    font-size: 17px;
 }
 
 .main-contact-area .contact-wrap .section-title {
@@ -6842,6 +6842,10 @@ Main Contact Area Style
 
 .main-contact-area .contact-wrap .form-control {
   border-radius: 4px !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /*
@@ -7163,7 +7167,7 @@ Service Details Area Style
   font-size: 15px;
   font-weight: 600;
   color: white;
-  padding: 18px 13px;
+  padding: 10px 13px;
   line-height: 1;
   transition: all 0.6s ease;
   z-index: 1;
@@ -7222,7 +7226,7 @@ Service Details Area Style
   background-color: white;
   -webkit-transition: all 0.6s ease;
   transition: all 0.6s ease;
-  text-indent: 17px;
+  text-indent: 5px;
 }
 
 .default-btn1:hover::before {
@@ -7251,7 +7255,7 @@ a{
   font-size: 15px;
   font-weight: 600;
   color: #641a1a;
-  padding: 18px 20px;
+  padding: 10px 20px;
   line-height: 1;
   transition: all 0.6s ease;
   z-index: 1;
@@ -7603,10 +7607,6 @@ a{
   padding: 8px;
 }
 
-.fn_cs_project_sticky_modern .title_holder p a span{
-
-    color: #ffffff;
-}
 
 .fn_cs_project_sticky_modern .img_holder img{
 	position: relative;
@@ -8102,11 +8102,11 @@ a{
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
   position: relative;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 2vh;
+  margin-right: 2vh;
   color: #ffffff;
   cursor: pointer;
-  font-size: 25px;
+  font-size: 19px;
   font-weight: 500;
   font-family:'Smooch Sans', sans-serif;
   
@@ -8152,14 +8152,6 @@ a{
 
 .features-area .react-tabs .react-tabs__tab-list li.react-tabs__tab--selected::before {
   width: 100%;
-}
-
-.features-area .react-tabs .react-tabs__tab-list li:first-child {
-  margin-left: 0;
-}
-
-.features-area .react-tabs .react-tabs__tab-list li:last-child {
-  margin-right: 0;
 }
 
 .faq-accordion .accordion .accordion__panel .features-area{
@@ -8263,3 +8255,35 @@ a:focus, a:hover{
   transform: translateX(-50%);
   opacity: 1;
 }
+
+.form-control{
+  text-align: left;
+  font-family: 'smooch sans',sans-serif;
+    font-size: 19px;
+  letter-spacing: 2px;
+  font-style: italic;
+}
+.form-control2{
+  height: 200%;
+}
+
+.options{
+  height: 4vh;
+  width: 100%;
+  text-align: center;
+  border-radius: 1vh;
+  border-color: #d5d5d5;
+  letter-spacing: 1px;
+  font-size: 17px;
+  font-style: italic;
+  color: #822121;
+}
+
+.options-items{
+  letter-spacing: 3px;
+}
+
+.options-selected{
+  letter-spacing: 3px;
+}
+

@@ -23,7 +23,7 @@ class ServicesStyleFour extends Component {
 
                                         <Link href="/service-details">
                                             <a className="right-icon">
-                                                <span className="bx bx-chevrons-right" role="presentation" >Learn More</span>
+                                                <span className="bx bx-chevrons-right" role="presentation" > </span>
                                             </a>
                                         </Link>
                                     </div>
@@ -37,7 +37,7 @@ class ServicesStyleFour extends Component {
 
                                         <Link href="/service-details">
                                             <a className="right-icon">
-                                                <span className="bx bx-chevrons-right" role="presentation" >Learn More</span>
+                                                <span className="bx bx-chevrons-right" role="presentation" > </span>
                                             </a>
                                         </Link>
                                     </div>
@@ -51,7 +51,7 @@ class ServicesStyleFour extends Component {
 
                                         <Link href="/service-details">
                                             <a className="right-icon">
-                                                <span className="bx bx-chevrons-right" role="presentation" >Learn More</span>
+                                                <span className="bx bx-chevrons-right" role="presentation" > </span>
                                             </a>
                                         </Link>
                                     </div>
@@ -65,7 +65,7 @@ class ServicesStyleFour extends Component {
 
                                         <Link href="/service-details">
                                             <a className="right-icon">
-                                                <span className="bx bx-chevrons-right" role="presentation">Learn More</span>
+                                                <span className="bx bx-chevrons-right" role="presentation"> </span>
                                             </a>
                                         </Link>
                                     </div>
@@ -89,7 +89,7 @@ class ServicesStyleFour extends Component {
 
                                         <Link href="/service-details">
                                             <a className="right-icon">
-                                                <span className="bx bx-chevrons-right" role="presentation">Learn More</span>
+                                                <span className="bx bx-chevrons-right" role="presentation"> </span>
                                             </a>
                                         </Link>
                                     </div>
@@ -103,7 +103,7 @@ class ServicesStyleFour extends Component {
 
                                         <Link href="/service-details">
                                             <a className="right-icon">
-                                                <span className="bx bx-chevrons-right" role="presentation" ></span>
+                                                <span className="bx bx-chevrons-right" role="presentation" > </span>
                                             </a>
                                         </Link>
                                     </div>
@@ -117,7 +117,7 @@ class ServicesStyleFour extends Component {
 
                                         <Link href="/service-details">
                                             <a className="right-icon">
-                                                <span className="bx bx-chevrons-right" role="presentation" >Learn More</span>
+                                                <span className="bx bx-chevrons-right" role="presentation" > </span>
                                             </a>
                                         </Link>
                                     </div>
@@ -131,7 +131,7 @@ class ServicesStyleFour extends Component {
 
                                         <Link href="/service-details">
                                             <a className="right-icon">
-                                                <span className="bx bx-chevrons-right" role="presentation" >Learn More</span>
+                                                <span className="bx bx-chevrons-right" role="presentation" > </span>
                                             </a>
                                         </Link>
                                     </div>

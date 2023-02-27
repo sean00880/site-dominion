@@ -1,11 +1,11 @@
-import CoreFeatures from '../HomeOne/CoreFeatures';
-import WhyChooseUs from '../HomeThree/WhyChooseUs';
+import CoreFeatures2 from '../HomeOne/CoreFeatures2';
+import WhyChooseUs2 from '../HomeThree/WhyChooseUs2';
 
 const WorkTab = () => {
     return (
       <>
-        <CoreFeatures/>
-        <WhyChooseUs/>
+        <CoreFeatures2/>
+        <WhyChooseUs2/>
       </>
     );
   };

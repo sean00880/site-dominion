@@ -60,7 +60,7 @@ class GettingStarted extends Component {
                                                     name="name" 
                                                     placeholder="Name" 
                                                     className="form-control" 
-                                                    value="text" 
+                                                    
                                                     
                                                     required 
                                                 />
@@ -73,7 +73,7 @@ class GettingStarted extends Component {
                                                     name="email" 
                                                     placeholder="Email" 
                                                     className="form-control" 
-                                                    value="text" 
+                                                    
                                                    
                                                     required 
                                                 />
@@ -86,7 +86,7 @@ class GettingStarted extends Component {
                                                     name="number" 
                                                     placeholder="Phone number" 
                                                     className="form-control" 
-                                                    value="text" 
+                                                    
                                                     
                                                     required 
                                                 />
@@ -99,7 +99,7 @@ class GettingStarted extends Component {
                                                     name="subject" 
                                                     placeholder="Subject" 
                                                     className="form-control" 
-                                                    value="text" 
+                                                    
                                                     
                                                     required 
                                                 />
@@ -113,7 +113,7 @@ class GettingStarted extends Component {
                                                     rows="6" 
                                                     placeholder="Write your message..." 
                                                     className="form-control" 
-                                                    value="text" 
+                                                    
                                                    
                                                     required 
                                                 />

@@ -8,11 +8,7 @@
   .navbar-area .navbar-brand {
     padding-top: 0;
   }
-  .navbar-area .navbar-brand img {
-    max-width: 23%;
-    top: -132%;
-    position: absolute;
-  }
+  
   .navbar-area nav {
     background-color: #000000;
     padding-top: 10px;
@@ -1054,7 +1050,7 @@
   .navbar-area nav .navbar-brand img {
 
     max-width: 16%;
-    top: -107%;
+    top: -77%;
     left: 3%;
     position: absolute;
   }
@@ -1699,16 +1695,29 @@
 }
 
 
-
-@media only screen and (min-width: 948px), (max-width: 1200px) and (max-height: 1200px) {
-  .navbar-area nav .navbar-brand img {
-    max-width: 11%;
-    top: -20%;
-    left: 3%;
+@media only screen and (max-width: 767px){
+  .navbar-area .navbar-brand img {
+    max-width: 20%;
+    top: -132%;
     position: absolute;
-}
-}
+  }
+  }
 
+  @media only screen and (max-width: 570px){
+    .navbar-area .navbar-brand img {
+      max-width: 23%;
+      top: -132%;
+      position: absolute;
+    }
+    }
+
+    @media only screen and (max-width: 426px){
+      .navbar-area .navbar-brand img {
+        max-width: 23%;
+        top: -90%;
+        position: absolute;
+      }
+      }
 
 
 
@@ -1855,6 +1864,7 @@
 
 .pricing .container .section-title, .pp-expertise-area .container .section-title{
   width:100%;
+  border-radius: 0;
 }
 
 .pricing .container {
@@ -1904,6 +1914,7 @@
     position: absolute;
   }
 }
+
 
 
 @media only screen and (min-width: 1200px){

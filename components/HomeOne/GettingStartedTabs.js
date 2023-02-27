@@ -20,7 +20,7 @@ class ServicesStyleOne extends Component {
                 
                 
               </TabList>
-              <div className="row" style={{"borderRadius":"0"}}>
+              <div className="row" style={{"borderRadius":"0", "background":"none"}}>
               
                 <TabPanel className="d-flex flex-column">
                     
@@ -32,7 +32,7 @@ class ServicesStyleOne extends Component {
                                                 Services
                                             </button>
                                             </Link></div>
-                <div className="row"><div className="col-lg-6"><p className="p-3">
+                <div className="row" style={{"background":"none"}}><div className="col-lg-6"><p className="p-3">
                                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
                                             </p>
                                             <Link href="/pricing">
@@ -52,103 +52,7 @@ class ServicesStyleOne extends Component {
                 
               
               
-              <TabPanel>
-              <div className="main-contact-area">
-            <div className="container">
-                <div className="section-title">
-                    <span>Contact Us</span>
-                    <h2>Get Your FREE Quote</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque quibusdam deleniti porro praesentium. Aliquam minus quisquam velit in at nam.</p>
-                </div>
 
-                <div className="row align-items-center" style={{"borderRadius":"1vh"}}>
-                    <div className="col-lg-12 col-md-12">
-                        <div className="contact-wrap contact-pages mb-0">
-                            <div className="contact-form">
-                                <form>
-                                    <div className="row">
-                                        <div className="col-lg-6 col-sm-6">
-                                            <div className="form-group">
-                                                <input 
-                                                    type="text" 
-                                                    name="name" 
-                                                    placeholder="Name" 
-                                                    className="form-control" 
-                                                    value="text" 
-                                                    
-                                                    required 
-                                                />
-                                            </div>
-                                        </div>
-                                        <div className="col-lg-6 col-sm-6">
-                                            <div className="form-group">
-                                                <input 
-                                                    type="text" 
-                                                    name="email" 
-                                                    placeholder="Email" 
-                                                    className="form-control" 
-                                                    value="text" 
-                                                   
-                                                    required 
-                                                />
-                                            </div>
-                                        </div>
-                                        <div className="col-lg-6 col-sm-6">
-                                            <div className="form-group">
-                                                <input 
-                                                    type="text" 
-                                                    name="number" 
-                                                    placeholder="Phone number" 
-                                                    className="form-control" 
-                                                    value="text" 
-                                                    
-                                                    required 
-                                                />
-                                            </div>
-                                        </div>
-                                        <div className="col-lg-6 col-sm-6">
-                                            <div className="form-group">
-                                                <input 
-                                                    type="text" 
-                                                    name="subject" 
-                                                    placeholder="Subject" 
-                                                    className="form-control" 
-                                                    value="text" 
-                                                    
-                                                    required 
-                                                />
-                                            </div>
-                                        </div>
-                                        <div className="col-lg-12 col-md-12">
-                                            <div className="form-group">
-                                                <textarea 
-                                                    name="text" 
-                                                    cols="30" 
-                                                    rows="6" 
-                                                    placeholder="Write your message..." 
-                                                    className="form-control" 
-                                                    value="text" 
-                                                   
-                                                    required 
-                                                />
-                                            </div>
-                                        </div>
-                                        <div className="col-lg-12 col-sm-12">
-                                            <button type="submit" className="default-btn btn-two">
-                                                Submit
-                                            </button>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-
-                    
-                </div>
-            </div>
-        </div>
-                    </TabPanel>
                     </div>
                     </Tabs>
 
@@ -160,9 +64,9 @@ class ServicesStyleOne extends Component {
 </Tab>
                 
 </TabList>
-<div className="row" style={{"borderRadius":"0 0 1vh", "padding":"1vh"}}>
-    <TabPanel style={{"padding":"0"}}>
-    <div className="main-contact-area">
+<div className="row" style={{"borderRadius":"0", "padding":"1vh"}}>
+    <TabPanel style={{"padding":"0"}} >
+    <div className="main-contact-area" id="quote">
             <div className="container">
                 <div className="section-title">
                     <span>Contact Us</span>
@@ -170,12 +74,12 @@ class ServicesStyleOne extends Component {
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque quibusdam deleniti porro praesentium. Aliquam minus quisquam velit in at nam.</p>
                 </div>
 
-                <div className="row align-items-center">
+                <div className="row align-items-center" style={{"padding":"0", "margin":"2vh 0","background":"none"}}>
                     <div className="col-lg-12 col-md-12">
                         <div className="contact-wrap contact-pages mb-0">
-                            <div className="contact-form">
+                            <div className="contact-form" style={{"borderRadius":"1vh", "margin":"2vh"}}>
                                 <form>
-                                    <div className="row">
+                                    <div className="row" style={{"borderRadius":"0","background":"none"}}>
                                         <div className="col-lg-6 col-sm-6">
                                             <div className="form-group">
                                                 <input 
@@ -183,7 +87,7 @@ class ServicesStyleOne extends Component {
                                                     name="name" 
                                                     placeholder="Name" 
                                                     className="form-control" 
-                                                    value="text" 
+                                                    
                                                     
                                                     required 
                                                 />
@@ -196,7 +100,7 @@ class ServicesStyleOne extends Component {
                                                     name="email" 
                                                     placeholder="Email" 
                                                     className="form-control" 
-                                                    value="text" 
+                                                  
                                                    
                                                     required 
                                                 />
@@ -209,7 +113,6 @@ class ServicesStyleOne extends Component {
                                                     name="number" 
                                                     placeholder="Phone number" 
                                                     className="form-control" 
-                                                    value="text" 
                                                     
                                                     required 
                                                 />
@@ -222,10 +125,60 @@ class ServicesStyleOne extends Component {
                                                     name="subject" 
                                                     placeholder="Subject" 
                                                     className="form-control" 
-                                                    value="text" 
+                                                    
                                                     
                                                     required 
                                                 />
+                                            </div>
+                                        </div>
+                                        <div className="col-lg-12 col-sm-12">
+                                            <div className="form-group">
+                                            <label name="text" 
+                                                    cols="30" 
+                                                    rows="6" 
+                                                    placeholder="Write your message..." 
+                                                    className="form-control form-control2" 
+                                                    
+                                                   
+                                                    required >
+													Service:
+													<select className="options">
+                                                        <option value="1">Site Dominion Package</option>
+														<option value="2">Website Development</option>
+                                                        <option value="3">Logo Creation</option>
+														<option value="4">SEO</option>
+														<option value="5">Blog Setup</option>
+                                                        <option value="6">Content Management/Creation</option>
+                                                        <hr />
+                                                        <option value="7">Other</option>
+													</select>
+													
+												</label>
+                                            </div>
+                                        </div>
+                                        <div className="col-lg-12 col-sm-12">
+                                            <div className="form-group">
+                                            <label name="text" 
+                                                    cols="30" 
+                                                    rows="6" 
+                                                    placeholder="Write your message..." 
+                                                    className="form-control form-control2" 
+                                                    
+                                                   
+                                                    required >
+													Industry/Niche:
+													<select className="options">
+                                                        <option value="1">Landscaping / Junk Removal</option>
+														<option value="2">Construction / Contractual Work</option>
+                                                        <option value="3">Salon/Parlor</option>
+														<option value="4">SEO</option>
+														<option value="5">Small Business (Describe)</option>
+                                                        <option value="6">Content Management/Creation</option>
+                                                        <hr />
+                                                        <option value="7">Other</option>
+													</select>
+													
+												</label>
                                             </div>
                                         </div>
                                         <div className="col-lg-12 col-md-12">
@@ -236,7 +189,7 @@ class ServicesStyleOne extends Component {
                                                     rows="6" 
                                                     placeholder="Write your message..." 
                                                     className="form-control" 
-                                                    value="text" 
+                                                    
                                                    
                                                     required 
                                                 />
@@ -261,7 +214,7 @@ class ServicesStyleOne extends Component {
 </div>
                     </Tabs>
                     <Tabs style={{"borderRadius":"0vh 0vh", "padding":"0"}}>
-                        <TabList style={{"borderRadius":"0vh 0vh" , "padding":"0"}}>
+                        <TabList style={{"borderRadius":"0vh 0vh" , "padding":"3vh 0"}}>
                         <Tab>Step #3: We Work On Your Project</Tab>
                 <Tab>Step #4: Complete Payment</Tab>
                 <Tab>Step #5: Project Deployed
