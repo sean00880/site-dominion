@@ -22,7 +22,7 @@ class HomeAccordion extends Component {
                         <div className="col-lg-12">
                             <div className="faq-accordion">
                                 <Accordion >
-                                    <AccordionItem uuid="a" data-aos="flip-left"  data-aos-delay="100">
+                                    <AccordionItem uuid="a" data-aos="zoom-in-left"  data-aos-delay="100">
                                         <AccordionItemHeading>
                                             <AccordionItemButton>
                                                 Step One: Browse Through Our Services   
@@ -60,7 +60,7 @@ class HomeAccordion extends Component {
                                         </AccordionItemPanel>
                                     </AccordionItem>
 
-                                    <AccordionItem uuid="b" data-aos="flip-right" data-aos-delay="200">
+                                    <AccordionItem uuid="b" data-aos="zoom-in-right" data-aos-delay="200">
                                         <AccordionItemHeading>
                                             <AccordionItemButton >
                                              
@@ -74,7 +74,7 @@ class HomeAccordion extends Component {
                                         </AccordionItemPanel>
                                     </AccordionItem>
 
-                                    <AccordionItem uuid="c" data-aos="flip-left" data-aos-delay="300">
+                                    <AccordionItem uuid="c" data-aos="zoom-in-left" data-aos-delay="300">
                                         <AccordionItemHeading>
                                             <AccordionItemButton>
                                             Step Three: We Work On Your Project
@@ -88,7 +88,7 @@ class HomeAccordion extends Component {
                                         </AccordionItemPanel>
                                     </AccordionItem>
 
-                                    <AccordionItem uuid="d" data-aos="flip-right" data-aos-delay="400">
+                                    <AccordionItem uuid="d" data-aos="zoom-in-right" data-aos-delay="400">
                                         <AccordionItemHeading>
                                             <AccordionItemButton>
                                             Step Four: Complete Payment
@@ -102,7 +102,7 @@ class HomeAccordion extends Component {
                                         </AccordionItemPanel>
                                     </AccordionItem>
 
-                                    <AccordionItem uuid="e"  data-aos="flip-left" data-aos-delay="500">
+                                    <AccordionItem uuid="e"  data-aos="zoom-in-left" data-aos-delay="500">
                                         <AccordionItemHeading>
                                             <AccordionItemButton>
                                             Step Five: Website Deployment
