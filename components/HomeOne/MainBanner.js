@@ -16,7 +16,7 @@ const MainBanner = () => {
                             <h2>Website Design, Deployment, SEO & More.</h2>
                            <h3>Professional Websites Optimized For Lead Generation <p>Business transactions processed via VENMO.</p>
                            <div className="banner-btn">
-                                <Link href="/about-1">
+                                <Link href="/getting-started">
                                     <a className="default-btn">
                                         Learn More
                                     </a>

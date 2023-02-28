@@ -11,7 +11,7 @@ class ServiceDetailsContent extends Component {
                         <div className="col-lg-8" style={{'borderRadius':'0'}}>
                             <div className="service-details-wrap">
                                 <div className="service-img">
-                                    <img src="/images/services-details/services-details.jpg" alt="Image" />
+                                    <img src="/images/blogImage.png" alt="Image" />
                                 </div>
 
                                 <h2>Blog Creation Services that Deliver Engaging Blog Designs</h2>
@@ -58,8 +58,6 @@ class ServiceDetailsContent extends Component {
                                         </div>
                                     </div>
                                 </div>
-
-                                <AskQuestionForm />
                             </div>
                         </div>
 

@@ -112,8 +112,7 @@ class GettingStarted extends Component {
                                                     cols="30" 
                                                     rows="6" 
                                                     placeholder="Write your message..." 
-                                                    className="form-control" 
-                                                    
+                                                    className="form-control"                                                
                                                    
                                                     required 
                                                 />

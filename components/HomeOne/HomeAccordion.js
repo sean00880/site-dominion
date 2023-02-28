@@ -8,6 +8,7 @@ import {
 } from 'react-accessible-accordion';
 import AccordionServices from './AccordionServices'
 import Link from 'next/link';
+import QuoteRequest from './QuoteRequest'
 
 class HomeAccordion extends Component {
     render() {
@@ -32,14 +33,29 @@ class HomeAccordion extends Component {
 
                                         <AccordionItemPanel>
                                            
-                                        <p>
+                                        <div className="col-lg-12 step1"><p className="p-3">
                                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
                                             </p>
                                             <Link href="/services">
                                             <button type="submit" className="default-btn btn-two">
                                                 Services
                                             </button>
-                                            </Link>
+                                            </Link></div>
+                <div className="row" style={{"background":"none"}}><div className="col-lg-6 step1"><p className="p-3">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+                                            </p>
+                                            <Link href="/pricing">
+                                            <button type="submit" className="default-btn btn-two">
+                                                Pricing
+                                            </button>
+                                            </Link></div><div className="col-lg-6 step1"><p className="p-3">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+                                            </p>
+                                            <Link href="/portfolio">
+                                            <button type="submit" className="default-btn btn-two">
+                                                Projects
+                                            </button>
+                                            </Link></div></div>
                                    
                                         </AccordionItemPanel>
                                     </AccordionItem>
@@ -54,101 +70,7 @@ class HomeAccordion extends Component {
                                         </AccordionItemHeading>
 
                                         <AccordionItemPanel>
-                                        <div className="main-contact-area">
-            <div className="container">
-                <div className="section-title">
-                    <span>Contact Us</span>
-                    <h2>Get Your FREE Quote</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque quibusdam deleniti porro praesentium. Aliquam minus quisquam velit in at nam.</p>
-                </div>
-
-                <div className="row align-items-center">
-                    <div className="col-lg-12 col-md-12">
-                        <div className="contact-wrap contact-pages mb-0">
-                            <div className="contact-form">
-                                <form>
-                                    <div className="row">
-                                        <div className="col-lg-6 col-sm-6">
-                                            <div className="form-group">
-                                                <input 
-                                                    type="text" 
-                                                    name="name" 
-                                                    placeholder="Name" 
-                                                    className="form-control" 
-                                                    value="text" 
-                                                    
-                                                    required 
-                                                />
-                                            </div>
-                                        </div>
-                                        <div className="col-lg-6 col-sm-6">
-                                            <div className="form-group">
-                                                <input 
-                                                    type="text" 
-                                                    name="email" 
-                                                    placeholder="Email" 
-                                                    className="form-control" 
-                                                    value="text" 
-                                                   
-                                                    required 
-                                                />
-                                            </div>
-                                        </div>
-                                        <div className="col-lg-6 col-sm-6">
-                                            <div className="form-group">
-                                                <input 
-                                                    type="text" 
-                                                    name="number" 
-                                                    placeholder="Phone number" 
-                                                    className="form-control" 
-                                                    value="text" 
-                                                    
-                                                    required 
-                                                />
-                                            </div>
-                                        </div>
-                                        <div className="col-lg-6 col-sm-6">
-                                            <div className="form-group">
-                                                <input 
-                                                    type="text" 
-                                                    name="subject" 
-                                                    placeholder="Subject" 
-                                                    className="form-control" 
-                                                    value="text" 
-                                                    
-                                                    required 
-                                                />
-                                            </div>
-                                        </div>
-                                        <div className="col-lg-12 col-md-12">
-                                            <div className="form-group">
-                                                <textarea 
-                                                    name="text" 
-                                                    cols="30" 
-                                                    rows="6" 
-                                                    placeholder="Write your message..." 
-                                                    className="form-control" 
-                                                    value="text" 
-                                                   
-                                                    required 
-                                                />
-                                            </div>
-                                        </div>
-                                        <div className="col-lg-12 col-sm-12">
-                                            <button type="submit" className="default-btn btn-two">
-                                                Submit
-                                            </button>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-
-                    
-                </div>
-            </div>
-        </div>
+                                        <QuoteRequest/>
                                         </AccordionItemPanel>
                                     </AccordionItem>
 

@@ -5,7 +5,7 @@ import ServicesTabs from './ServicesTabs';
 import LogoContent from '../ServiceDetails/LogoContent'
 import HomeAccordion from './HomeAccordion';
 import WorkTab from '../HomeOne/WorkTab';
-
+import QuoteRequest from './QuoteRequest';
 
 class ServicesStyleOne extends Component {
     render() {
@@ -14,13 +14,13 @@ class ServicesStyleOne extends Component {
                 <div className="container">
                 <Tabs defaultIndex={4}>
               <TabList>
-              <h2>Follow The Guide One Step At A Time</h2>
-                    <hr />
+              <h2 style={{"color":"white"}}>Follow Our 5-Step Guide</h2>
+                    <hr style={{"color":"white"}}/>
                 <Tab>Step #1: Pick a Service</Tab> 
                 
                 
               </TabList>
-              <div className="row" style={{"borderRadius":"0", "background":"none"}}>
+              <div className="row" style={{"borderRadius":"0", "background":"white"}}>
               
                 <TabPanel className="d-flex flex-column">
                     
@@ -66,150 +66,7 @@ class ServicesStyleOne extends Component {
 </TabList>
 <div className="row" style={{"borderRadius":"0", "padding":"1vh"}}>
     <TabPanel style={{"padding":"0"}} >
-    <div className="main-contact-area" id="quote">
-            <div className="container">
-                <div className="section-title">
-                    <span>Contact Us</span>
-                    <h2>Get Your FREE Quote</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque quibusdam deleniti porro praesentium. Aliquam minus quisquam velit in at nam.</p>
-                </div>
-
-                <div className="row align-items-center" style={{"padding":"0", "margin":"2vh 0","background":"none"}}>
-                    <div className="col-lg-12 col-md-12">
-                        <div className="contact-wrap contact-pages mb-0">
-                            <div className="contact-form" style={{"borderRadius":"1vh", "margin":"2vh"}}>
-                                <form>
-                                    <div className="row" style={{"borderRadius":"0","background":"none"}}>
-                                        <div className="col-lg-6 col-sm-6">
-                                            <div className="form-group">
-                                                <input 
-                                                    type="text" 
-                                                    name="name" 
-                                                    placeholder="Name" 
-                                                    className="form-control" 
-                                                    
-                                                    
-                                                    required 
-                                                />
-                                            </div>
-                                        </div>
-                                        <div className="col-lg-6 col-sm-6">
-                                            <div className="form-group">
-                                                <input 
-                                                    type="text" 
-                                                    name="email" 
-                                                    placeholder="Email" 
-                                                    className="form-control" 
-                                                  
-                                                   
-                                                    required 
-                                                />
-                                            </div>
-                                        </div>
-                                        <div className="col-lg-6 col-sm-6">
-                                            <div className="form-group">
-                                                <input 
-                                                    type="text" 
-                                                    name="number" 
-                                                    placeholder="Phone number" 
-                                                    className="form-control" 
-                                                    
-                                                    required 
-                                                />
-                                            </div>
-                                        </div>
-                                        <div className="col-lg-6 col-sm-6">
-                                            <div className="form-group">
-                                                <input 
-                                                    type="text" 
-                                                    name="subject" 
-                                                    placeholder="Subject" 
-                                                    className="form-control" 
-                                                    
-                                                    
-                                                    required 
-                                                />
-                                            </div>
-                                        </div>
-                                        <div className="col-lg-12 col-sm-12">
-                                            <div className="form-group">
-                                            <label name="text" 
-                                                    cols="30" 
-                                                    rows="6" 
-                                                    placeholder="Write your message..." 
-                                                    className="form-control form-control2" 
-                                                    
-                                                   
-                                                    required >
-													Service:
-													<select className="options">
-                                                        <option value="1">Site Dominion Package</option>
-														<option value="2">Website Development</option>
-                                                        <option value="3">Logo Creation</option>
-														<option value="4">SEO</option>
-														<option value="5">Blog Setup</option>
-                                                        <option value="6">Content Management/Creation</option>
-                                                        <hr />
-                                                        <option value="7">Other</option>
-													</select>
-													
-												</label>
-                                            </div>
-                                        </div>
-                                        <div className="col-lg-12 col-sm-12">
-                                            <div className="form-group">
-                                            <label name="text" 
-                                                    cols="30" 
-                                                    rows="6" 
-                                                    placeholder="Write your message..." 
-                                                    className="form-control form-control2" 
-                                                    
-                                                   
-                                                    required >
-													Industry/Niche:
-													<select className="options">
-                                                        <option value="1">Landscaping / Junk Removal</option>
-														<option value="2">Construction / Contractual Work</option>
-                                                        <option value="3">Salon/Parlor</option>
-														<option value="4">SEO</option>
-														<option value="5">Small Business (Describe)</option>
-                                                        <option value="6">Content Management/Creation</option>
-                                                        <hr />
-                                                        <option value="7">Other</option>
-													</select>
-													
-												</label>
-                                            </div>
-                                        </div>
-                                        <div className="col-lg-12 col-md-12">
-                                            <div className="form-group">
-                                                <textarea 
-                                                    name="text" 
-                                                    cols="30" 
-                                                    rows="6" 
-                                                    placeholder="Write your message..." 
-                                                    className="form-control" 
-                                                    
-                                                   
-                                                    required 
-                                                />
-                                            </div>
-                                        </div>
-                                        <div className="col-lg-12 col-sm-12">
-                                            <button type="submit" className="default-btn btn-two">
-                                                Submit
-                                            </button>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-
-                    
-                </div>
-            </div>
-        </div>
+    <QuoteRequest/>
     </TabPanel>
 </div>
                     </Tabs>

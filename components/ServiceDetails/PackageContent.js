@@ -11,7 +11,7 @@ class ServiceDetailsContent extends Component {
                         <div className="col-lg-8" style={{'borderRadius':'0'}}>
                             <div className="service-details-wrap">
                                 <div className="service-img">
-                                    <img src="/images/logodisplay.png" alt="Image" />
+                                    <img src="/images/faq-img.png" alt="Image" />
                                 </div>
 
                                 <h2>Logos that serve to encapsulate everything a brand constitutes</h2>

@@ -124,10 +124,10 @@ const Features = () => {
                             <div className="single-features" data-aos="flip-right"  data-aos-duration="1200" >
                             <Image src="/images/content-management.svg" alt="Content management icon." width={100} height={100}/>
                                 
-                                <h3>Content Creation/Management</h3>
+                                <h3>Website Content Writing</h3>
                                 <p>Don't have time to manage the content on your website? Or maybe you're unsure about how to approach it. Let our professionals assist you with creating transformational SEO friendly content to fastrack the process.</p>
                                 
-                                <Link href="/service-details">
+                                <Link href="/website-content-writing">
                                     <a className="read-more-icon">
                                         <span className="flaticon-right-arrow" role="presentation">Learn More</span>
                                     </a>
