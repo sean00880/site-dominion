@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ServiceSidebar from './ServiceSidebar';
 import AskQuestionForm from './AskQuestionForm';
-import PickServiceContent from './PickServiceContent';
+import PickServiceLink from './PickServiceLink';
 
 class ServiceDetailsContent extends Component {
     render() {
@@ -23,7 +23,7 @@ class ServiceDetailsContent extends Component {
 
                                 <p>We collaborate with our clients to create distinctive logos that are appropriate for the companies, goods, and services they stand for.</p>
                                 
-                                <PickServiceContent/>
+                                <PickServiceLink/>
                                 <div className="car-service-list-wrap">
                                     <div className="row align-items-center">
                                         <div className="col-lg-6 col-md-6">
