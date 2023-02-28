@@ -31,7 +31,7 @@ class ServicesStyleOne extends Component {
               
               </TabPanel>
               </div>
-              <TabPanel id="quote">
+              <TabPanel id="quote2">
               <QuoteRequest/> 
                     </TabPanel>
                     <TabPanel>

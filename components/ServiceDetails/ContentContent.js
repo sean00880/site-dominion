@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ServiceSidebar from './ServiceSidebar';
 import AskQuestionForm from './AskQuestionForm';
-
+import PickServiceContent from './PickServiceContent';
 class ServiceDetailsContent extends Component {
     render() {
         return (
@@ -32,6 +32,7 @@ class ServiceDetailsContent extends Component {
                                 <h3>Conclusion:</h3>
                                 <p>Our team of web geeks will create website content for you that greatly increases your prospect-to-customer ratio by using the appropriate amount of catchphrases and trigger words. In order to increase your website's visibility on search engines like Google, Bing, Yahoo, and others, your web material will also be search engine optimized. We are the masters of writing site material, regardless of the style you require: funny, direct, straightforward instructive, or enthralling persuading!</p>
                                
+                                <PickServiceContent />
                                 <div className="car-service-list-wrap">
                                     <div className="row align-items-center">
                                         <div className="col-lg-6 col-md-6">

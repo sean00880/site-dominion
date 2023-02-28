@@ -23,10 +23,15 @@ export default function ServicesStyleOne(){
 
     <div className="main-contact-area" id="quote">
             <div className="container">
-                <div className="section-title">
+                
+                <div className="section-title" style={{"display":"flex","flexDirection":"row"}}>
+                    <div style={{"display":"flex","flexDirection":"column"}}>
                     <span>Contact Us</span>
                     <h2>Get Your FREE Quote</h2>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque quibusdam deleniti porro praesentium. Aliquam minus quisquam velit in at nam.</p>
+                    </div>
+                    <img src="/images/lion9.png" alt="Site Dominion Logo" style={{"maxWidth":"15vh"}}/>
+                   
                 </div>
 
                 <div className="row align-items-center" style={{"padding":"0", "margin":"2vh 0","background":"none"}}>

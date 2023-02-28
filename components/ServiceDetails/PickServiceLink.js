@@ -5,8 +5,8 @@ export default function Page() {
   const router = useRouter()
 
   return (
-    <Link href="#quote">
-    <button type="button" className="pickService" style={{"fontFamily":"Smooch Sans"}} onClick={() => router.back()}>
+    <Link href="#quote" passHref>
+    <button type="button" className="pickService" style={{"fontFamily":"Smooch Sans"}} >
       Like this service? Get started.
     </button>
     </Link>
