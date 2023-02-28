@@ -25,7 +25,7 @@ const Features = () => {
                             <div className="single-features" data-aos="flip-left"  data-aos-duration="1200" >
                                 <Image src="/images/design.png" alt="Website Design and development icon." width={100} height={100}/>
                                 <h3>1) Design + Development</h3>
-                                <p>A gorgeous web design coupled with subpar development can guarantee you a lifetime of sorrow. Site Dominion ensures that that your website loads quickly, is safe, functions flawlessly across all browsers and screen sizes, and is set up for the long term to continuously reach your business goals.</p>
+                                <p> Site Dominion ensures that that your website loads quickly, is safe, functions flawlessly across all browsers and screen sizes, and is set up for the long term to continuously reach your business goals.</p>
 
                                 <Link href="/service-details">
                                     <a className="read-more-icon">
@@ -95,7 +95,7 @@ const Features = () => {
                             <div className="single-features" data-aos="flip-left"  data-aos-duration="1200" >
                             <Image src="/images/logo-design.png" alt="Logo design icon." width={100} height={100}/>
                                 <h3>Logo Design</h3>
-                                <p>Our goal at Site Dominion is to make the best first impression possible for your brand. And it all starts with a standout logo and specialized materials that are skillfully manufactured. One of our design experts will assist you in bringing your brand to life once you reach out to us.</p>
+                                <p>Our goal at Site Dominion is to make the best first impression possible for your brand. One of our design experts will assist you in bringing your brand to life once you reach out to us.</p>
 
                                 <Link href="/logo-design">
                                     <a className="read-more-icon">
@@ -124,7 +124,7 @@ const Features = () => {
                             <div className="single-features" data-aos="flip-right"  data-aos-duration="1200" >
                             <Image src="/images/content-management.svg" alt="Content management icon." width={100} height={100}/>
                                 
-                                <h3>Website Content Writing</h3>
+                                <h3>Website Content Writing/Management</h3>
                                 <p>Don't have time to manage the content on your website? Or maybe you're unsure about how to approach it. Let our professionals assist you with creating transformational SEO friendly content to fastrack the process.</p>
                                 
                                 <Link href="/website-content-writing">

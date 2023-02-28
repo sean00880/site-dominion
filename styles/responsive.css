@@ -1020,6 +1020,8 @@
   }
   }
 
+
+
 @media only screen and (max-width: 991px){
   .offset-md-3{
     margin-top: 2vh;
@@ -1039,6 +1041,8 @@
 .features-area .wrapper{
   flex-direction: column;
 }
+
+
 
 
   .wrapper{flex-direction: column; align-items: center;}
@@ -1091,7 +1095,7 @@
     font-size: 14px;
   }
   h3 {
-    font-size: 20px;
+    font-size: 29px;
   }
   .default-btn {
     padding: 14px 20px;
@@ -1885,6 +1889,12 @@
     left: 4vh;
     position: relative;
   }
+  .pricing-card ul li{
+    margin-bottom:5px;
+  }
+  .pricing-card{
+    height:90vh;
+  }
  
   .fn_cs_project_sticky_modern .inner{
     padding:0 1vh;
@@ -1899,10 +1909,18 @@
 
 }
 
+@media only screen and (max-width: 1048px){
+  .pricing-card{
+    height:100vh;
+  }
+}
+
 @media only screen and (max-width: 991px){
   .pricing-card{
     width: auto;
+    height:83vh;
   }
+  
   .long {
     width: 100%;
   }

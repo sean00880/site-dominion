@@ -11,10 +11,10 @@ class ServiceDetails extends Component {
                 <Navbar />
 
                 <PageBanner 
-                    pageTitle="Logo Design" 
+                    pageTitle="Web Content Writing/Management" 
                     homePageUrl="/" 
                     homePageText="Home" 
-                    activePageText="Site Dominion Elite Website Package" 
+                    activePageText="Website Content Writing" 
                 /> 
                 
                 <ContentTabs />

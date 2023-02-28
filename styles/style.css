@@ -1850,9 +1850,12 @@ Features Area Style
    font-style: italic;
     letter-spacing: 1px;
     color: #702525;
-    margin: 2vh 0;
-    padding:1vh;
+    margin: 2vh 1vh;
+    padding:2vh;
+    width: 90%;
+    text-align:center;
 }
+
 
 .single-features p {
   padding: 4vh 0;
@@ -2282,11 +2285,29 @@ color: #131212;
 .services h4, h3{
   color: #5f688a;
   letter-spacing: 1px;
-  font-size: 26px;
+  font-size: 29px;
   font-style: italic;
   text-align: left;
   /* text-indent: 1vh; */
   padding: 1vh 2vh;
+  text-transform: capitalize;
+}
+
+.services h3{
+  font-size: 29px;
+}
+
+.features-area h4{
+  color: #327429;
+  font-family: 'smooch sans', sans-serif;
+  letter-spacing: 1px;
+  font-size: 24px;
+  /* text-indent: 1vh; */
+  padding: 1vh 2vh;
+  text-transform: capitalize;
+  font-size: 27px;
+  text-align: center;
+  text-decoration: underline;
 }
 
 .features-area .section-title{
@@ -2313,6 +2334,7 @@ color: #131212;
   line-height: 2;
   letter-spacing: 1px;
   margin-top: 0;
+  text-align: center;
 }
 
 
@@ -3583,8 +3605,8 @@ Offer Area Two Style
 
 .pricing-card .pricing-top-heading p {
   font-weight: 600;
-  font-size: 16px;
-  padding: 0vh 2vh;
+  font-size: 15px;
+  padding: 0vh 1vh;
 }
 
 .pricing-card span {
@@ -3690,7 +3712,7 @@ Offer Area Two Style
 }
 
 .pricing-card .default-btn {
-  padding: 15px 35px;
+  padding: 10px 20px;
   position: absolute;
   bottom: 3vh;
   border: 4px double rgb(196 196 196 / 76%);
@@ -6996,10 +7018,9 @@ Service Details Area Style
 
 .service-details-wrap h2 {
   margin-bottom: 20px;
-  font-size: 28px;
+  font-size: 31px;
   color: #963a2c;
   text-transform: capitalize;
-  text-decoration: underline;
   letter-spacing: 2px;
 }
 
@@ -8298,4 +8319,17 @@ a:focus, a:hover{
 .backButton:hover{
   text-decoration: underline;
   text-indent: 7px;
+}
+
+.pickService{
+  color:#ab6464;
+  text-decoration: underline;
+}
+
+
+.pickService:hover{
+  color:#404e6b;
+  font-style: italic;
+  text-decoration: none;
+  transition: all 1s ease;
 }
