@@ -12,7 +12,7 @@ class CommentsArea extends Component {
                         <div className="comment-body">
                             <footer className="comment-meta">
                                 <div className="comment-author vcard">
-                                    <Image loading="lazy"  height={100} width={100}  src="/images/blog-details/comment1.jpg" className="avatar" alt="image" />
+                                     <img loading="lazy"   src="/images/blog-details/comment1.jpg" className="avatar" alt="image" />
                                     <b className="fn">John Jones</b>
                                     <span className="says">says:</span>
                                 </div>
@@ -38,7 +38,7 @@ class CommentsArea extends Component {
                                 <div className="comment-body">
                                     <footer className="comment-meta">
                                         <div className="comment-author vcard">
-                                            <Image loading="lazy"  height={100} width={100}  src="/images/blog-details/comment2.jpg" className="avatar" alt="image" />
+                                             <img loading="lazy"   src="/images/blog-details/comment2.jpg" className="avatar" alt="image" />
                                             <b className="fn">Steven Smith</b>
                                             <span className="says">says:</span>
                                         </div>
@@ -66,7 +66,7 @@ class CommentsArea extends Component {
                         <div className="comment-body">
                             <footer className="comment-meta">
                                 <div className="comment-author vcard">
-                                    <Image loading="lazy"  height={100} width={100}  src="/images/blog-details/comment3.jpg" className="avatar" alt="image" />
+                                     <img loading="lazy"   src="/images/blog-details/comment3.jpg" className="avatar" alt="image" />
                                     <b className="fn">John Doe</b>
                                     <span className="says">says:</span>
                                 </div>
