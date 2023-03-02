@@ -12,7 +12,7 @@ class NewsGridCard extends Component {
                                 <div className="blog-img">
                                     <Link href="/news-details">
                                         <a>
-                                            <Image loading="lazy"  height={100} width={100}  src="/images/blog/blog1.png" alt="blog post 1 by Site Dominion" />
+                                            <img loading="lazy"  src="/images/blog/blog1.png" alt="blog post 1 by Site Dominion" />
                                         </a>
                                     </Link>
 
@@ -57,7 +57,7 @@ class NewsGridCard extends Component {
                                 <div className="blog-img">
                                     <Link href="/news-details">
                                         <a>
-                                            <Image loading="lazy"  height={100} width={100}  src="/images/blog/blog2.png" alt="Blog 2 post by Site Dominion." />
+                                            <img loading="lazy"  src="/images/blog/blog2.png" alt="Blog 2 post by Site Dominion." />
                                         </a>
                                     </Link>
 
@@ -102,7 +102,7 @@ class NewsGridCard extends Component {
                                 <div className="blog-img">
                                     <Link href="/news-details">
                                         <a>
-                                            <Image loading="lazy"  height={100} width={100}  src="/images/blog/blog3.png" alt="Blog 3 post by Site Dominion" />
+                                            <img loading="lazy"  src="/images/blog/blog3.png" alt="Blog 3 post by Site Dominion" />
                                         </a>
                                     </Link>
 
@@ -147,7 +147,7 @@ class NewsGridCard extends Component {
                                 <div className="blog-img">
                                     <Link href="/news-details">
                                         <a>
-                                            <Image loading="lazy"  height={100} width={100}  src="/images/blog/blog4.png" alt="Image" />
+                                            <img loading="lazy"  src="/images/blog/blog4.png" alt="Image" />
                                         </a>
                                     </Link>
 
@@ -192,7 +192,7 @@ class NewsGridCard extends Component {
                                 <div className="blog-img">
                                     <Link href="/news-details">
                                         <a>
-                                            <Image loading="lazy"  height={100} width={100}  src="/images/blog/blog5.png" alt="Image" />
+                                            <img loading="lazy"  src="/images/blog/blog5.png" alt="Image" />
                                         </a>
                                     </Link>
 
@@ -237,7 +237,7 @@ class NewsGridCard extends Component {
                                 <div className="blog-img">
                                     <Link href="/news-details">
                                         <a>
-                                            <Image loading="lazy"  height={100} width={100}  src="/images/blog/blog6.png" alt="Image" />
+                                            <img loading="lazy"  src="/images/blog/blog6.png" alt="Image" />
                                         </a>
                                     </Link>
 
@@ -282,7 +282,7 @@ class NewsGridCard extends Component {
                                 <div className="blog-img">
                                     <Link href="/news-details">
                                         <a>
-                                            <Image loading="lazy"  height={100} width={100}  src="/images/blog/blog7.png" alt="Image" />
+                                            <img loading="lazy"  src="/images/blog/blog7.png" alt="Image" />
                                         </a>
                                     </Link>
 
@@ -327,7 +327,7 @@ class NewsGridCard extends Component {
                                 <div className="blog-img">
                                     <Link href="/news-details">
                                         <a>
-                                            <Image loading="lazy"  height={100} width={100}  src="/images/blog/blog8.png" alt="Image" />
+                                            <img loading="lazy"  src="/images/blog/blog8.png" alt="Image" />
                                         </a>
                                     </Link>
 
@@ -372,7 +372,7 @@ class NewsGridCard extends Component {
                                 <div className="blog-img">
                                     <Link href="/news-details">
                                         <a>
-                                            <Image loading="lazy"  height={100} width={100}  src="/images/blog/blog9.png" alt="Image" />
+                                            <img loading="lazy"  src="/images/blog/blog9.png" alt="Image" />
                                         </a>
                                     </Link>
 

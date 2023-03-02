@@ -39,7 +39,7 @@ class Navbar extends Component {
                            
                                 <Link href="/">
                                 <a className="navbar-brand">
-                                    <Image loading="lazy"  height={100} width={100}  src="/images/NewLogo.png" alt="Site Dominion Logo"/>
+                                    <img loading="lazy" src="/images/NewLogo.png" alt="Site Dominion Logo"/>
                                 </a>
                             </Link>
                         
