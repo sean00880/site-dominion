@@ -1879,7 +1879,7 @@ Features Area Style
 }
 
 .single-features .read-more-icon span {
-  width: 14vh;
+  width: 16vh;
     /* height: 5vh; */
     padding: 0vh;
     margin: 2vh 0;
@@ -1895,7 +1895,7 @@ Features Area Style
 }
 
 .single-features2 .read-more-icon span{
-  width:12vh;
+  width:16vh;
 }
 
 .single-features:hover {
