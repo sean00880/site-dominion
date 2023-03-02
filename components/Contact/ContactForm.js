@@ -4,6 +4,7 @@ import Swal from 'sweetalert2'
 import withReactContent from 'sweetalert2-react-content'
 const MySwal = withReactContent(Swal)
 import baseUrl from '../../utils/baseUrl'
+import Image from 'next/image'
 
 const alertContent = () => {
     MySwal.fire({

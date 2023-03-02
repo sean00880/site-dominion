@@ -6,6 +6,7 @@ import {
     AccordionItemPanel,
     AccordionItemButton
 } from 'react-accessible-accordion';
+import Image from 'next/image';
 
 class FaqContent extends Component {
     render() {

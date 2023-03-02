@@ -3,6 +3,7 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import ServicesTabs from './ServicesTabs';
 import Portfolio1Content from '../ServiceDetails/Portfolio1Content'
 import Link from 'next/link';
+import Image from 'next/image';
 
 class ServicesStyleOne extends Component {
     render() {

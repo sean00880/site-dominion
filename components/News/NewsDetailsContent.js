@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import NewsSidebar from './NewsSidebar';
 import Link from 'next/link';
 import CommentsArea from './CommentsArea';
+import Image from 'next/image';
 
 class NewsDetailsContent extends Component {
     render() {
