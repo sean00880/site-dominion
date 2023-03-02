@@ -8,12 +8,12 @@ const TopSections = () => {
           <div className="row justify-content-center">
             <div className="col-lg-3 col-sm-6">
               <div className="cs-card-content">
-                <h3>1. FREE Prototype Website Before You Pay</h3>
+                <h3>1. FREE Prototype Sample After 50% Deposit</h3>
               </div>
             </div>
             <div className="col-lg-3 col-sm-6">
               <div className="cs-card-content">
-                <h3>2. Only $99 Down</h3>
+                <h3>2. Flexible Payment Options</h3>
               </div>
             </div>
             <div className="col-lg-3 col-sm-6">
@@ -23,7 +23,7 @@ const TopSections = () => {
             </div>
             <div className="col-lg-3 col-sm-6">
               <div className="cs-card-content">
-                <h3>4. BONUS: Content Writeup & Management</h3>
+                <h3>4. Content Writeup & Management</h3>
               </div>
             </div>
           </div>

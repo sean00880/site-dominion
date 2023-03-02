@@ -1,18 +1,18 @@
 import React, { Component } from 'react';
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import ServicesTabs from './ServicesTabs';
-import BlogContent from '../ServiceDetails/BlogContent'
-import WorkTab from './WorkTab2';
-import QuoteRequest from './QuoteRequest';
-import PaymentTab from './PaymentTab';
+import PremiumContent from '../ServiceDetails/PremiumContent'
+import QuoteRequest from './QuoteRequest'
+import WorkTab from './WorkTab2'
+import PaymentTab from './PaymentTab'
 import DeploymentTab from './DeploymentTab'
 
 class ServicesStyleOne extends Component {
     render() {
         return (
             <section className="features-area features-area-inner-style">
-                <div className="container" style={{"padding":"0"}}>
-                <BlogContent/> 
+                <div className="container">
+                <PremiumContent/> 
               
                 <Tabs defaultIndex={1}>
               <TabList style={{'borderRadius':'0'}}>
@@ -32,21 +32,20 @@ class ServicesStyleOne extends Component {
               
               </TabPanel>
               </div>
-              <TabPanel id="quote2">
-              <QuoteRequest/> 
+              <TabPanel>
+              <QuoteRequest/>
                     </TabPanel>
-                    <TabPanel>
-                        <WorkTab/>
-                    </TabPanel>
-                    <TabPanel>
-                        <PaymentTab/>
-                    </TabPanel>
-                    <TabPanel>
-                        <DeploymentTab/>
-                    </TabPanel>
+                <TabPanel>
+                    <WorkTab/>        
+                </TabPanel>
+                <TabPanel>
+                    <PaymentTab/>
+                </TabPanel>
+                <TabPanel>
+                    <DeploymentTab/>
+                </TabPanel>
                     </Tabs>
                 </div>
-                
             </section>
         );
     }

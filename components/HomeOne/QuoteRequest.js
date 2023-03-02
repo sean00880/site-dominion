@@ -24,7 +24,7 @@ export default function ServicesStyleOne(){
     <div className="main-contact-area" id="quote">
             <div className="container">
                 
-                <div className="section-title" style={{"display":"flex","flexDirection":"row"}}>
+                <div className="section-title" style={{"display":"flex","flexDirection":"column","justifyContent":"center","alignItems":"center"}}>
                     <div style={{"display":"flex","flexDirection":"column"}}>
                     <span>Contact Us</span>
                     <h2>Get Your FREE Quote</h2>

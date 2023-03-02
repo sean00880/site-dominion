@@ -1698,6 +1698,25 @@
   }
 }
 
+@media only screen and (max-width: 907px){
+  #accordion__heading-f img{
+    top:21px;
+  }
+}
+@media only screen and (max-width: 854px){
+  #accordion__heading-g img{
+    top:21px;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  #accordion__heading-f img{
+    top:5px;
+  }
+  #accordion__heading-g img{
+    top:5px;
+  }
+}
 
 @media only screen and (max-width: 767px){
   .navbar-area .navbar-brand img {
@@ -1705,7 +1724,23 @@
     top: -132%;
     position: absolute;
   }
+  .service-details-wrap p {
+
+    flex-direction: column;
   }
+  .service-details-wrap p .img {
+
+    max-width: 100%;
+    max-height: 100%;
+  }
+  }
+
+  @media only screen and (max-width: 579px){
+    #accordion__heading-f img{
+      top:21px;
+    }
+    }
+
 
   @media only screen and (max-width: 570px){
     .navbar-area .navbar-brand img {
@@ -1715,6 +1750,40 @@
     }
     }
 
+    @media only screen and (max-width: 545px){
+      #accordion__heading-g img{
+        top:21px;
+      }
+      }
+
+    @media only screen and (max-width: 520px){
+      .faq-accordion .accordion .accordion__button .accordion__image2{
+        top:21px;
+      }
+
+    
+
+      }
+
+      @media only screen and (max-width: 493px){
+        #accordion__heading-a img{
+          top:21px;
+        }
+      }
+
+      @media only screen and (max-width: 470px){
+        .faq-accordion .accordion .accordion__button .accordion__image{
+          top:21px;
+        }
+        
+      }
+      @media only screen and (max-width: 447px){
+        #accordion__heading-h img{
+          top:21px;
+        }
+        
+      }
+
     @media only screen and (max-width: 426px){
       .navbar-area .navbar-brand img {
         max-width: 23%;
@@ -1722,6 +1791,27 @@
         position: absolute;
       }
       }
+
+      @media only screen and (max-width: 425px){
+        .faq-accordion .accordion .accordion__button .accordion__image4{
+          top:21px;
+        }
+        }
+
+      @media only screen and (max-width: 413px){
+        .faq-accordion .accordion .accordion__button .accordion__image3{
+          max-width: 132px;
+          max-height: 133px;
+          left: 10px;
+          position: absolute;
+          position: absolute;
+          top: 8px;
+          background: #ffffff;
+          border-radius: 1vh;
+          padding: 1vh;
+          top:11px;
+        }
+        }
 
 
 

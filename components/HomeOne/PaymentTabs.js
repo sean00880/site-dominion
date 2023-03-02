@@ -3,12 +3,10 @@ import Link from 'next/link';
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import ProjectTabs from './ProjectTabs';
 import ServicesTabs from './ServicesTabs';
-import PricingStyleOne from '../Pricing/PricingStyleOne';
-import QuoteRequest from './QuoteRequest';
-import WorkTab from './WorkTab2';
-import PaymentTab from './PaymentTab';
-import DeploymentTab from './DeploymentTab';
-
+import Payment from './Payment2';
+import QuoteRequest from './QuoteRequest'
+import WorkTab from './WorkTab'
+import PaymentAccordion2 from "./PaymentAccordion2";
 class ServicesStyleOne extends Component {
     render() {
         return (
@@ -16,7 +14,7 @@ class ServicesStyleOne extends Component {
                 <div className="container">
                 <Tabs>
               <TabList>
-              <a href="/getting-started" className="backButton" style={{"textAlign":"right", "position":"absolute","right":"6vh", "color":"white"}}>
+              <a href="/getting-started" className="backButton" style={{"textAlign":"right", "position":"absolute","right":"6vh", "color":"white", "top":"20px"}}>
       Go Back
     </a>
                 
@@ -24,8 +22,24 @@ class ServicesStyleOne extends Component {
               </TabList>
               <div className="row" style={{"borderRadius":"0"}}>
               <TabPanel>
-                <PricingStyleOne/>  
-              
+              <div className="pp-expertise-area process">
+        <div className="container">
+          <div style={{"background":"linear-gradient(45deg, rgb(47 94 112), rgb(51 52 57), rgb(36 95 117))"}} className="section-title style-two">
+          
+                        <div className="about-img">
+                            <img src="/images/venmo-logo.png" alt="Site Dominion | Web Design Process Desktop Display" className="homeImage" />
+                        </div>
+                   
+            <h2 style={{"color":"white"}}>for Business</h2>
+            <hr style={{"color":"white"}}/>
+            <h4>Site Dominion's promise is to produce and deliver websites of the highest caliber in order to provide direct value to businesses accross the globe.</h4>
+          </div>
+
+          <div className="row justify-content-center">
+            <PaymentAccordion2/>
+          </div>
+        </div>
+      </div>
               </TabPanel>
               </div>
                     </Tabs>
@@ -47,8 +61,8 @@ class ServicesStyleOne extends Component {
                         <TabPanel>
                             <WorkTab/>
                         </TabPanel>
-                        <TabPanel><PaymentTab/></TabPanel>
-                        <TabPanel><DeploymentTab/></TabPanel>
+                        <TabPanel></TabPanel>
+                        <TabPanel></TabPanel>
                     </Tabs>
                 </div>
             </section>

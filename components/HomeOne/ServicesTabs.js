@@ -30,7 +30,7 @@ class ServicesStyleOne extends Component {
                             </div>
                         </div>
                         <hr />
-                        <h3>INCLUDED WITH OUR PREMIUM WEBSITE:</h3>
+                        <h3 style={{"color":"white"}}>INCLUDED WITH OUR PREMIUM WEBSITE:</h3>
               <div className="wrapper">
             
                         

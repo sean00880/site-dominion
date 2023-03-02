@@ -1858,7 +1858,7 @@ Features Area Style
 
 
 .single-features p {
-  padding: 0;
+  padding: 1vh;
   color:black;
   margin:1vh;
   font-style: normal;
@@ -4442,17 +4442,15 @@ FAQ CSS
   display: block;
   box-shadow: 2px 8px 20px 0 rgb(25 42 70 / 13%) !important;
   background: linear-gradient(45deg, #e7e7e7, #783737);
-  padding: 3vh 9vh;
   color: #3f3f3f;
-  text-decoration: underline;
   position: relative;
   display: block;
   font-size: 19px;
-  font-weight: 600;
   font-family: 'Smooch Sans';
   border: 3px solid #ffffff;
   letter-spacing: 2px;
   align-items: center;
+  text-transform: capitalize;
 }
 
 .faq-accordion .accordion .gs-heading{
@@ -4483,24 +4481,68 @@ border-radius: 1vh;
 padding: 1vh;
 }
 
+  #accordion__heading-g, #accordion__heading-b, #accordion__heading-d{
+  padding-left:10vh;
+}
+
+ #accordion__heading-f, #accordion__heading-h, #accordion__heading-a, #accordion__heading-c, #accordion__heading-e{
+  padding-right:10vh;
+}
+
+#accordion__heading-f{
+  background: linear-gradient(45deg, #33353a, #08749e);
+  color:white;
+}
+
+#accordion__heading-g{
+  background: linear-gradient(225deg, #33353a, #08749e);
+  color:white;
+}
+
+#accordion__heading-h{
+  background: linear-gradient(45deg, #33353a, #08749e);
+  color:white;
+}
+
 .faq-accordion .accordion .accordion__button .accordion__image{
   max-width: 66px;
   max-height: 60px;
   right: 10px;
   position: absolute;
-  top: 13px;
+  top: 5px;
   background: #ffffff;
   border-radius: 1vh;
   padding: 1vh;
   }
 
+  .faq-accordion .accordion .accordion__button .accordion__image4{
+    max-width: 66px;
+    max-height: 60px;
+    right: 10px;
+    position: absolute;
+    top: 5px;
+    background: #ffffff;
+    border-radius: 1vh;
+    padding: 1vh;
+    }
+
+    .faq-accordion .accordion .accordion__button .accordion__image5{
+      max-width: 66px;
+      max-height: 60px;
+      right: 10px;
+      position: absolute;
+      top: 5px;
+      background: #ffffff;
+      border-radius: 1vh;
+      padding: 1vh;
+    }
 .faq-accordion .accordion .accordion__button .accordion__image2{
   max-width: 59px;
   max-height: 59px;
   left: 10px;
   position: absolute;
   position: absolute;
-  top: 15px;
+  top: 5px;
   border-radius: 1vh;
   background: #ffffff;
   padding: 1vh;
@@ -4512,7 +4554,7 @@ padding: 1vh;
     left: 10px;
     position: absolute;
     position: absolute;
-    top: 17px;
+    top: 8px;
     background: #ffffff;
     border-radius: 1vh;
     padding: 1vh;
@@ -4529,7 +4571,7 @@ max-height: 60px;
 right: 10px;
 position: absolute;
 position: absolute;
-top: 13px;
+top: 5px;
 border-radius: 1vh;
 padding: 1vh;
 }
@@ -4576,7 +4618,6 @@ padding: 1vh;
   position: relative;
   margin-top: 5px;
   padding-bottom: 20px;
-  border-radius: 2vh 1vh;
   padding: 10px 20px;
   justify-content: center;
     display: flex;
@@ -4622,7 +4663,6 @@ padding: 1vh;
 
 .faq-area .container{
   background-color: #ffffff;
-  border-radius: 9vh 1vh;
   padding: 6vh 1vh;
   margin: 2vh auto;
 }
@@ -7002,8 +7042,11 @@ Service Details Area Style
 
 .service-details-wrap{
   background: white;
-  border-radius: 1vh 0 0 1vh;
+  border-radius: 1vh;
   padding: 2vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .service-details-area .container .row .col-lg-4{
@@ -7037,10 +7080,26 @@ Service Details Area Style
 .service-details-wrap p {
   text-align: left;
   text-indent: 1vh;
-  padding: 1vh 2vh;
+  padding: 0vh 2vh;
   font-size: 17px;
   color:black;
   letter-spacing: 1px;
+  display: flex;
+}
+.service-details-wrap p .img{
+  flex-direction: column;
+  max-width: 25%;
+  max-height: 25%;
+  justify-content: center;
+  display: flex;
+  margin:1vh;
+}
+
+.img{
+  display:flex;
+  justify-content: center;
+  max-width: 60%;
+  align-items: center;
 }
 
 .service-details-wrap ul li {
@@ -8075,8 +8134,8 @@ a{
 }
 
 .cs-card-content h3 {
-  line-height: 2;
-  font-size: 17px;
+  line-height: 1;
+  font-size: 15px;
   margin-bottom: 0;
   position: relative;
   padding-bottom: 22px;

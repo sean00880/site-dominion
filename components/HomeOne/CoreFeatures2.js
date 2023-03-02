@@ -37,7 +37,8 @@ const MyExpertise = () => {
                           
             <h2 style={{"color":"white"}}>Core Features</h2>
             <hr style={{"color":"white"}}/>
-            <h4>Site Dominion's promise is to produce and deliver websites of the highest caliber in order to provide direct value to businesses accross the globe.</h4>
+            <h4> Our team of experienced developers has worked tirelessly to create cutting-edge web solutions that cater to businesses of all sizes and industries. Our features are designed to not only enhance the functionality and aesthetics of your website, but also improve user engagement and conversion rates. From responsive design to customized integrations, we provide comprehensive web development solutions that are tailored to meet the unique needs of your business. Explore our features to discover how we can transform your online presence into a powerful marketing tool.</h4>
+            
           
           </div>
        

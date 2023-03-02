@@ -9,7 +9,7 @@ class ServiceDetailsContent extends Component {
             <section className="service-details-area ptb-100">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-8" style={{'borderRadius':'0'}}>
+                        <div className="col-lg-12" style={{'borderRadius':'0'}}>
                             <div className="service-details-wrap">
                                 <div className="service-img">
                                     <img src="/images/blogImage.png" alt="Image" />
@@ -69,23 +69,23 @@ A blog adds more website pages that you can internally link to. It also provides
                                                 <ul>
                                                     <li>
                                                         <i role="none" className='bx bx-check'></i>
-                                                        Engine bay cleaned and dressed
+                                                        Fully Custom Blog Design
                                                     </li>
                                                     <li>
                                                         <i role="none" className='bx bx-check'></i>
-                                                        Door card panels cleaned
+                                                        100% Original Content
                                                     </li>
                                                     <li>
                                                         <i role="none" className='bx bx-check'></i>
-                                                        Plastic trim enhanced
+                                                        Backlinks Assistance
                                                     </li>
                                                     <li>
                                                         <i role="none" className='bx bx-check'></i>
-                                                        Paint surface clay barred
+                                                        Upto 5 Posts
                                                     </li>
                                                     <li>
                                                         <i role="none" className='bx bx-check'></i>
-                                                        Alloy wheel treatment inside and out
+                                                        SEO
                                                     </li>
                                                 </ul>
                                             </div>
@@ -93,11 +93,6 @@ A blog adds more website pages that you can internally link to. It also provides
                                     </div>
                                 </div>
                             </div>
-                        </div>
-
-
-                        <div className="col-lg-4">
-                            <ServiceSidebar />
                         </div>
                     </div>
                 </div>

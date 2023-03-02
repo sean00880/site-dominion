@@ -2,9 +2,10 @@ import React, { Component } from 'react';
 import Link from 'next/link';
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import ServicesTabs from './ServicesTabs';
-import WorkTab from './WorkTab';
+import WorkTab from './WorkTab2';
 import GoBack from './GoBack';
-import QuoteRequest from './QuoteRequest'
+import QuoteRequest from './QuoteRequest';
+import PaymentTab from './PaymentTab';
 class ServicesStyleOne extends Component {
     render() {
         return (
@@ -39,7 +40,7 @@ class ServicesStyleOne extends Component {
                             <QuoteRequest/>  
                         </TabPanel>
                         <TabPanel><WorkTab/></TabPanel>
-                        <TabPanel></TabPanel>
+                        <TabPanel><PaymentTab/></TabPanel>
                         <TabPanel></TabPanel>
                     </Tabs>
                 </div>

@@ -26,7 +26,7 @@ class HomeAccordion extends Component {
                                         <AccordionItemHeading>
                                             <AccordionItemButton>
                                                 Step One: Browse Through Our Services   
-                                                <img className='accordion__image' src="/images/browse.png" alt="browse" />                                            
+                                                <img className='accordion__image5' src="/images/browse.png" alt="browse" />                                            
                                             </AccordionItemButton>
                                             
                                         </AccordionItemHeading>
@@ -96,9 +96,14 @@ class HomeAccordion extends Component {
                                             </AccordionItemButton>
                                         </AccordionItemHeading>
                                         <AccordionItemPanel>
-                                            <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+                                        <div className="col-lg-12 step1"><p className="p-3">
+                                        Simply follow our three step process to make secure payments to Site Dominion using Venmo for Business:
                                             </p>
+                                            <Link href="/getting-started/#payment">
+                                            <button type="submit" className="default-btn btn-two">
+                                                Payments
+                                            </button>
+                                            </Link></div>
                                         </AccordionItemPanel>
                                     </AccordionItem>
 
@@ -106,7 +111,7 @@ class HomeAccordion extends Component {
                                         <AccordionItemHeading>
                                             <AccordionItemButton>
                                             Step Five: Website Deployment
-                                            <img className='accordion__image' src="/images/browser.png" alt="browse" /> 
+                                            <img className='accordion__image4' src="/images/browser.png" alt="browse" /> 
                                             </AccordionItemButton>
                                         </AccordionItemHeading>
                                         <AccordionItemPanel>

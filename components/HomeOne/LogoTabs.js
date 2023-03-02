@@ -3,7 +3,9 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import ServicesTabs from './ServicesTabs';
 import LogoContent from '../ServiceDetails/LogoContent'
 import QuoteRequest from './QuoteRequest'
-import WorkTab from './WorkTab'
+import WorkTab from './WorkTab2'
+import PaymentTab from './PaymentTab'
+import DeploymentTab from './DeploymentTab'
 
 class ServicesStyleOne extends Component {
     render() {
@@ -35,6 +37,12 @@ class ServicesStyleOne extends Component {
                     </TabPanel>
                 <TabPanel>
                     <WorkTab/>        
+                </TabPanel>
+                <TabPanel>
+                    <PaymentTab/>
+                </TabPanel>
+                <TabPanel>
+                    <DeploymentTab/>
                 </TabPanel>
                     </Tabs>
                 </div>

@@ -15,9 +15,23 @@ const Features = () => {
                     </div>
                 
                 <hr />
-                <h3 style={{"color":"#f0ecec"}}>Go with Site Dominion's featured website package. We handle everything for you, from design to developement, hosting, deployment and optimization.</h3>                       
-                        <h1>All-In-One Package</h1>
-                        <TopSections/>
+                <TopSections/>
+                <div className="col-lg-12 offset-lg-0 p-0">
+                            <div className="single-features">
+                                <Image src="/images/mockup.png" alt="Site Dominion | Premium All-in-One Website Package." width={200} height={200}/>
+                                <h3>Site Dominion Premium Website </h3>
+                                <p>Go with our featured service and get the best web development service you could ask for.</p>
+                                
+                                <Link href="/premium-website-package">
+                                    <a className="read-more-icon">
+                                        <span className="flaticon-right-arrow span2" role="presentation">Learn More</span>
+                                    </a>
+                                </Link>
+                            </div>
+                        </div>
+                        <hr />
+                        <h3 style={{"color":"white"}}>INCLUDED WITH OUR PREMIUM WEBSITE:</h3>
+                        
                         <div className="wrapper"  data-aos="fade-down">
                       
                        
@@ -27,7 +41,7 @@ const Features = () => {
                                 <h3>1) Design + Development</h3>
                                 <p> Site Dominion ensures that that your website loads quickly, is safe, functions flawlessly across all browsers and screen sizes, and is set up for the long term to continuously reach your business goals.</p>
 
-                                <Link href="/service-details">
+                                <Link href="/website-design-and-development">
                                     <a className="read-more-icon">
                                         <span className="flaticon-right-arrow" role="presentation">Learn More</span>
                                     </a>
@@ -41,7 +55,7 @@ const Features = () => {
                                 <h3>2) Project Optimization</h3>
                                 <p>We use SEO and tools, cutting-edge techniques, and experiments to enhance the functionality of your website, further attract more visitors, boost conversions, and increase revenue.</p>
                                 
-                                <Link href="/service-details">
+                                <Link href="/website-optimization">
                                     <a className="read-more-icon">
                                         <span className="flaticon-right-arrow span2" role="presentation">Learn More</span>
                                     </a>

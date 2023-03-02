@@ -9,7 +9,7 @@ class WhyChooseUs extends Component {
                         <span>Why Choose Us</span>
                         <h2>What's included in our featured website package?</h2>
                         <hr />
-                        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nisi rem quo itaque minus dolorem ratione vero, quisquam reiciendis quia atque eos aspernatur.</h4>
+                        <h4>Site Dominion's promise is to produce and deliver websites of the highest caliber in order to provide direct value to businesses accross the globe.</h4>
                     </div>
 
                     <div className="row align-items-center" style={{"borderRadius":"0 0 1vh 1vh", "background":"none"}}>

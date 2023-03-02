@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import ServicesTabs from './ServicesTabs';
-import PackageContent from '../ServiceDetails/PackageContent'
-import QuoteRequest from './QuoteRequest'
-import WorkTab from './WorkTab'
+import PackageContent from '../ServiceDetails/PackageContent';
+import QuoteRequest from './QuoteRequest';
+import WorkTab from './WorkTab2';
+import DeploymentTab from './DeploymentTab';
+import PaymentTab from './PaymentTab'
 
 class ServicesStyleOne extends Component {
     render() {
@@ -36,6 +38,8 @@ class ServicesStyleOne extends Component {
             <TabPanel>
                 <WorkTab/>
             </TabPanel>
+            <TabPanel><PaymentTab/></TabPanel>
+            <TabPanel><DeploymentTab/></TabPanel>
                     </Tabs>
                 </div>
             </section>

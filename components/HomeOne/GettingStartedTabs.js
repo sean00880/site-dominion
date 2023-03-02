@@ -4,8 +4,10 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import ServicesTabs from './ServicesTabs';
 import LogoContent from '../ServiceDetails/LogoContent'
 import HomeAccordion from './HomeAccordion';
-import WorkTab from '../HomeOne/WorkTab';
+import WorkTab from '../HomeOne/WorkTab2';
+import DeploymentTab from '../HomeOne/DeploymentTab';
 import QuoteRequest from './QuoteRequest';
+import PaymentTab from '../HomeOne/PaymentTab';
 
 class ServicesStyleOne extends Component {
     render() {
@@ -13,8 +15,8 @@ class ServicesStyleOne extends Component {
             <section className="features-area features-area-inner-style">
                 <div className="container">
                 <Tabs defaultIndex={4}>
-              <TabList>
-              <h2 style={{"color":"white"}}>Follow Our 5-Step Guide</h2>
+              <TabList style={{"borderRadius":"0"}}>
+              <h2 style={{"color":"white","margin":"0","paddingTop":"2vh"}}>Follow Our 5-Step Guide</h2>
                     <hr style={{"color":"white"}}/>
                 <Tab>Step #1: Pick a Service</Tab> 
                 
@@ -57,9 +59,8 @@ class ServicesStyleOne extends Component {
                     </Tabs>
 
                     <Tabs>
-<TabList style={{"borderRadius":"0"}}>
+<TabList style={{"borderRadius":"0", "padding":"3vh 0"}}>
                 
-                <br />
                 <Tab>Step #2: Initiate Your FREE Quote Request
 </Tab>
                 
@@ -73,17 +74,38 @@ class ServicesStyleOne extends Component {
                     <Tabs style={{"borderRadius":"0vh 0vh", "padding":"0"}}>
                         <TabList style={{"borderRadius":"0vh 0vh" , "padding":"3vh 0"}}>
                         <Tab>Step #3: We Work On Your Project</Tab>
-                <Tab>Step #4: Complete Payment</Tab>
-                <Tab>Step #5: Project Deployed
+                <Tab>
 </Tab>
                         </TabList>
-                        <div className="row" style={{"borderRadius":"0vh 0vh 1vh 1vh"}}>
+                        <div className="row" style={{"borderRadius":"0vh"}}>
                             <TabPanel  style={{"padding":"0"}}>
 
 <WorkTab/>
                             </TabPanel>
-                            <TabPanel/>
-                            <TabPanel/>
+                        </div>
+                    </Tabs>
+                    <Tabs>
+<TabList style={{"borderRadius":"0vh 0vh", "padding":"3vh 0"}}>
+                <Tab>Step #4: Complete Payment
+</Tab>
+                
+</TabList>
+<div className="row" style={{"borderRadius":"0", "padding":"1vh"}}>
+    <TabPanel style={{"padding":"0"}} >
+    <PaymentTab/>
+    </TabPanel>
+</div>
+                    </Tabs>
+                    <Tabs style={{"borderRadius":"0vh 0vh", "padding":"0"}}>
+                        <TabList style={{"borderRadius":"0vh 0vh" , "padding":"3vh 0"}}>
+                        <Tab>Step #5: Project Deployed</Tab>
+                        </TabList>
+                        <div className="row" style={{"borderRadius":"0vh 0vh 1vh 1vh"}}>
+                            <TabPanel  style={{"padding":"0"}}>
+
+                            <DeploymentTab/>
+                            </TabPanel>
+                            
                         </div>
                     </Tabs>
                     

@@ -8,7 +8,7 @@ class ServiceDetailsContent extends Component {
             <section className="service-details-area ptb-100">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-8" style={{'borderRadius':'0'}}>
+                        <div className="col-lg-12" style={{'borderRadius':'0'}}>
                             <div className="service-details-wrap">
                                 <div className="service-img">
                                     <img src="/images/content-writing.png" alt="Image" />
@@ -70,11 +70,6 @@ class ServiceDetailsContent extends Component {
                                     </div>
                                 </div>
                             </div>
-                        </div>
-
-
-                        <div className="col-lg-4">
-                            <ServiceSidebar />
                         </div>
                     </div>
                 </div>
