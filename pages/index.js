@@ -1,25 +1,22 @@
-import Navbar from '../components/Layouts/Navbar'
-import MainBanner from '../components/HomeOne/MainBanner'
-import Features from '../components/HomeOne/Features'
-import TopSections2 from '../components/HomeOne/TopSections2'
-import About from '../components/HomeOne/About'
-import Services from '../components/HomeOne/Services'
-import MakeYourBusiness from '../components/Common/MakeYourBusiness'
-import ServicesStyleFour from '../components/Services/ServicesStyleFour'
-import Testimonials from '../components/Common/Testimonials'
-import News from '../components/Common/News'
-import Footer from '../components/Layouts/Footer'
-import PartnerSlider from '../components/Common/PartnerSlider';
-import Projects from '../components/HomeOne/Projects'
-import '../node_modules/font-awesome/css/font-awesome.min.css'; 
 
-import GettingStarted from '../components/HomeOne/GettingStarted';
+
+
+import '../node_modules/font-awesome/css/font-awesome.min.css'; 
 import dynamic from 'next/dynamic'
 const CoreFeatures = dynamic(() => import( '../components/HomeOne/CoreFeatures'));
 const Pricing = dynamic(() => import( '../components/HomeOne/Pricing'));
-
-import Process from '../components/HomeOne/Process';
-import WhyChooseUs from '../components/HomeThree/WhyChooseUs';
+const MainBanner = dynamic(() => import( '../components/HomeOne/MainBanner'));
+const Navbar = dynamic(() => import( '../components/Layouts/Navbar'));
+const Footer = dynamic(() => import( '../components/Layouts/Footer'));
+const Projects = dynamic(() => import( '../components/HomeOne/Projects'));
+const Features = dynamic(() => import( '../components/HomeOne/Features'));
+const TopSections2 = dynamic(() => import( '../components/HomeOne/TopSections2'));
+const Testimonials = dynamic(() => import( '../components/Common/Testimonials'));
+const News = dynamic(() => import( '../components/Common/News'));
+const PartnerSlider = dynamic(() => import( '../components/Common/PartnerSlider'));
+const Process = dynamic(() => import( '../components/HomeOne/Process'));
+const ServicesStyleFour = dynamic(() => import( '../components/Services/ServicesStyleFour'));
+const WhyChooseUs = dynamic(() => import( '../components/HomeThree/WhyChooseUs'));
 
 const Index = () => {
     return (
