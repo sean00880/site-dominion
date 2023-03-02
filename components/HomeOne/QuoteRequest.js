@@ -31,7 +31,7 @@ export default function ServicesStyleOne(){
                     <h2>Get Your FREE Quote</h2>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque quibusdam deleniti porro praesentium. Aliquam minus quisquam velit in at nam.</p>
                     </div>
-                    <Image loading="lazy"  height={100} width={100}  src="/images/lion9.png" alt="Site Dominion Logo" style={{"maxWidth":"15vh"}}/>
+                    <img loading="lazy"  height={100} width={100}  src="/images/lion9.png" alt="Site Dominion Logo" style={{"maxWidth":"15vh"}}/>
                    
                 </div>
 
