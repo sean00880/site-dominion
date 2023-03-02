@@ -35,8 +35,8 @@ const Features = () => {
                         <div className="wrapper"  data-aos="fade-down">
                       
                        
-                       <div className="col-lg-4 p-0">
-                            <div className="single-features" data-aos="fade-left" data-aos-easing="ease-in-sine">
+                       <div className="col-lg-3 p-0">
+                            <div className="single-features single-features2" data-aos="fade-left" data-aos-easing="ease-in-sine">
                                 <Image src="/images/design.png" alt="Website Design and development icon." width={100} height={100}/>
                                 <h3>1) Design + Development</h3>
                                 <p> Site Dominion ensures that that your website loads quickly, is safe, functions flawlessly across all browsers and screen sizes, and is set up for the long term to continuously reach your business goals.</p>
@@ -49,10 +49,24 @@ const Features = () => {
                             </div>
                         </div>
 
-                        <div className="col-lg-4 offset-lg-0 p-0">
-                            <div className="single-features" data-aos="fade-right" data-aos-easing="ease-in-sine">
+                        <div className="col-lg-3 p-0">
+                            <div className="single-features single-features2" data-aos="fade-down" data-aos-easing="ease-in-sine">
+                            <Image src="/images/blog-setup.svg" alt="Blog-setup icon." width={100} height={100}/>
+                                <h3>2) Blog Creation + Setup</h3>
+                                <p>Reach clients and search engines with skilled professionals' high-quality, budget friendly blog and website content. A straightforward solution to cover your blogging needs.</p>
+                                
+                                <Link href="/blog-creation">
+                                    <a className="read-more-icon">
+                                        <span className="flaticon-right-arrow" role="presentation">Learn More</span>
+                                    </a>
+                                </Link>
+                            </div>
+                        </div>
+
+                        <div className="col-lg-3 offset-lg-0 p-0">
+                            <div className="single-features single-features2" data-aos="fade-right" data-aos-easing="ease-in-sine">
                             <Image src="/images/seo.png" alt="SEO setup icon." width={100} height={100}/>
-                                <h3>2) Project Optimization</h3>
+                                <h3>3) Project Optimization</h3>
                                 <p>We use SEO and tools, cutting-edge techniques, and experiments to enhance the functionality of your website, further attract more visitors, boost conversions, and increase revenue.</p>
                                 
                                 <Link href="/website-optimization">
@@ -63,13 +77,13 @@ const Features = () => {
                             </div>
                         </div>
 
-                        <div className="col-lg-4 p-0">
-                            <div className="single-features" data-aos="fade-up" data-aos-easing="ease-in-sine">
+                        <div className="col-lg-3 p-0">
+                            <div className="single-features single-features2" data-aos="fade-up" data-aos-easing="ease-in-sine">
                             <Image src="/images/deployment.png" alt="Website deployment icon." width={100} height={100}/>
-                                <h3>3) Full Deployment [Hosting & Domain]</h3>
+                                <h3>4) Full Deployment [Hosting & Domain]</h3>
                                 <p>After the completion of the developmental phase, the website is pushed into deployment. Site Dominion's premium website package covers all domain and hosting expenses, so you don't have to break a sweat.</p>
                                 
-                                <Link href="/service-details">
+                                <Link href="/website-deployment">
                                     <a className="read-more-icon">
                                         <span className="flaticon-right-arrow span" role="presentation">Learn More</span>
                                     </a>

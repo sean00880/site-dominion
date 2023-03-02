@@ -20,17 +20,19 @@ class ServiceDetailsContent extends Component {
                                 <h3>Our Website Optimization Process:</h3>
                                 <p>At Site Dominion, we understand the importance of website optimization for your business, and we are here to help you with our comprehensive website optimization services.</p>
                                 <h4>1. Website Audit</h4>
-                                <p>The first step in website optimization is to conduct a thorough website audit. This involves analyzing the current state of your website to identify areas that need improvement.</p>
-                                <p>Our team of experts at Site Dominion will conduct a website audit to identify any issues with your website, including broken links, slow loading pages, poor navigation, and lack of mobile responsiveness. We will provide you with a comprehensive report and recommendations for improvement to help you optimize your website for better performance.</p>
-                                <h4>2. Keyword Research</h4>
-                                <p>Keyword research is a crucial aspect of website optimization. It involves identifying the keywords and phrases that your target audience is using to search for products or services that you offer.</p>
+                                <p>Identifying the keywords and phrases that your target audience is using to search for products or services that you offer. <div className='img' ><img src="/images/auditlogo.png" alt="Image" /></div></p>
+                                
                                 <p>Our team at Site Dominion can help you optimize your website for the right keywords by conducting thorough keyword research. By optimizing your website for the right keywords, you can improve your search engine rankings, attract more targeted traffic, and increase your chances of converting visitors into customers.</p>
+                               
                                 <h4>3. Search Engine Optimization</h4>
+                                
                                 <p>Search Engine Optimization(SEO) involves making changes to the content and structure of your website to improve its performance and search engine rankings.</p>
-                                <p>Our team of experts can help you optimize your website's content and structure to improve its performance and search engine rankings. We will ensure that your website is search engine friendly and user-friendly, helping you attract more targeted traffic and improve your conversion rates.</p>
+                                <p><div className='img' ><img src="/images/seo.png" alt="Image" /></div>Our team of experts can help you optimize your website's content and structure to improve its performance and search engine rankings. We will ensure that your website is search engine friendly and user-friendly, helping you attract more targeted traffic and improve your conversion rates.</p>
                                 <h4>4. Page Speed Optimization</h4>
                                 <p>We understand that website speed is critical to your online success. A slow website not only creates a poor user experience, but it also affects your search engine ranking, leading to lower traffic and conversions. That's why we offer page speed optimization services to help improve the loading speed of your website.</p>
+                                
                                 <p>Our team of experts uses the latest tools and techniques to analyze and optimize every aspect of your website that affects page speed, including image optimization, caching, and code optimization. We also offer website hosting recommendations and server configuration optimization to ensure your website is running at its optimal speed.</p>
+                                <div className='img' ><img src="/images/speed.png" alt="Image" /></div>
                                 <p>Our page speed optimization services are tailored to your specific needs and goals, whether you have an e-commerce website, a blog, or a portfolio site. We work with you to identify the areas that need improvement and develop a customized plan that meets your unique needs.</p>
                                 <p>By partnering with Site Dominion for page speed optimization, you can expect faster loading times, improved user experience, and increased search engine ranking. Our proven track record of successful page speed optimization projects speaks for itself, and we're confident that we can help take your website to the next level.</p>
                                 <h3>Conclusion:</h3>
@@ -40,7 +42,7 @@ class ServiceDetailsContent extends Component {
                                     <div className="row align-items-center">
                                         <div className="col-lg-6 col-md-6">
                                             <div className="service-list-img">
-                                                <img src="/images/optimization.png" alt="Site Dominion - Website Optimization" />
+                                                <img src="/images/optimized.png" alt="Site Dominion - Website Optimization" />
                                             </div>
                                         </div>
 
@@ -49,23 +51,19 @@ class ServiceDetailsContent extends Component {
                                                 <ul>
                                                     <li>
                                                         <i role="none" className='bx bx-check'></i>
-                                                        Engine bay cleaned and dressed
+                                                        Website Audit
                                                     </li>
                                                     <li>
                                                         <i role="none" className='bx bx-check'></i>
-                                                        Door card panels cleaned
+                                                        Top Keywords Inclusion
                                                     </li>
                                                     <li>
                                                         <i role="none" className='bx bx-check'></i>
-                                                        Plastic trim enhanced
+                                                        Page Speed Optimization
                                                     </li>
                                                     <li>
                                                         <i role="none" className='bx bx-check'></i>
-                                                        Paint surface clay barred
-                                                    </li>
-                                                    <li>
-                                                        <i role="none" className='bx bx-check'></i>
-                                                        Alloy wheel treatment inside and out
+                                                        SEO Friendly Content
                                                     </li>
                                                 </ul>
                                             </div>

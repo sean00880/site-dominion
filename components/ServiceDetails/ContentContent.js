@@ -11,7 +11,7 @@ class ServiceDetailsContent extends Component {
                         <div className="col-lg-12" style={{'borderRadius':'0'}}>
                             <div className="service-details-wrap">
                                 <div className="service-img">
-                                    <img src="/images/content-writing.png" alt="Image" />
+                                    <img src="/images/content-writing.jpeg" alt="Image" />
                                 </div>
 
                                 <h2>Online copywriting that improves search engine rankings</h2>

@@ -20,7 +20,7 @@ const MyExpertise = () => {
   }, []);
   return (
     <>
-      <div className="pp-expertise-area">
+      <div className="pp-expertise-area" id="features">
         <div className="container">
        
           <div className="section-title style-two">

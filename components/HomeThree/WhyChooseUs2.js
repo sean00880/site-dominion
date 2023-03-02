@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class WhyChooseUs extends Component {
     render() {
         return (
-            <section className="choose-ue-area" style={{"padding":"0", "borderRadius":"0 0 1vh 1vh"}} >
+            <section className="choose-ue-area" style={{"padding":"0", "borderRadius":"0 0 1vh 1vh"}} id="why-us">
                 <div className="container2" style={{"borderRadius":"0 0 1vh 1vh", "padding":"0","background":"none"}}>
                     <div className="section-title" style={{"borderRadius":"0"}}>
                         <span>Why Choose Us</span>

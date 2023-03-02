@@ -27,7 +27,7 @@ class ServicesStyleOne extends Component {
                 <TabPanel className="d-flex flex-column">
                     
                 <div className="col-lg-12 "><p className="p-3">
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+                With a team of experienced developers, designers, and digital marketing experts, we offer a range of services to help our clients establish a strong online presence and grow their businesses.   
                                             </p>
                                             <Link href="/services">
                                             <button type="submit" className="default-btn btn-two">
@@ -35,14 +35,14 @@ class ServicesStyleOne extends Component {
                                             </button>
                                             </Link></div>
                 <div className="row" style={{"background":"none"}}><div className="col-lg-6"><p className="p-3">
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+                At Site Dominion, we understand that every business has different needs and budgets when it comes to web development. That's why we offer flexible pricing options to ensure that our clients get the best value for their investment.
                                             </p>
                                             <Link href="/pricing">
                                             <button type="submit" className="default-btn btn-two">
                                                 Pricing
                                             </button>
                                             </Link></div><div className="col-lg-6"><p className="p-3">
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+                                            We have worked with clients from various industries and niches, providing them with tailored websites and applications that not only meet their needs but also exceed their expectations. We also specialize in creating high-quality prototype projects that bring our clients' ideas to life. Check out our work.
                                             </p>
                                             <Link href="/portfolio">
                                             <button type="submit" className="default-btn btn-two">

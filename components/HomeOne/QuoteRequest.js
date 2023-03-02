@@ -53,19 +53,7 @@ export default function ServicesStyleOne(){
                                                 />
                                             </div>
                                         </div>
-                                        <div className="col-lg-6 col-sm-6">
-                                            <div className="form-group">
-                                                <input 
-                                                    type="text" 
-                                                    name="email" 
-                                                    placeholder="Email" 
-                                                    className="form-control" 
-                                                  
-                                                   
-                                                    required 
-                                                />
-                                            </div>
-                                        </div>
+                                        
                                         <div className="col-lg-6 col-sm-6">
                                             <div className="form-group">
                                                 <input 
@@ -74,6 +62,19 @@ export default function ServicesStyleOne(){
                                                     placeholder="Phone number" 
                                                     className="form-control" 
                                                     
+                                                    required 
+                                                />
+                                            </div>
+                                        </div>
+                                        <div className="col-lg-12 col-sm-12">
+                                            <div className="form-group">
+                                                <input 
+                                                    type="text" 
+                                                    name="email" 
+                                                    placeholder="Email" 
+                                                    className="form-control" 
+                                                  
+                                                   
                                                     required 
                                                 />
                                             </div>

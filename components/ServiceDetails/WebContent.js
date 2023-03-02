@@ -47,23 +47,23 @@ class ServiceDetailsContent extends Component {
                                                 <ul>
                                                     <li>
                                                         <i role="none" className='bx bx-check'></i>
-                                                        Engine bay cleaned and dressed
+                                                        Luxurious UI/UX
                                                     </li>
                                                     <li>
                                                         <i role="none" className='bx bx-check'></i>
-                                                        Door card panels cleaned
+                                                        Responsive On All Devices
                                                     </li>
                                                     <li>
                                                         <i role="none" className='bx bx-check'></i>
-                                                        Plastic trim enhanced
+                                                        SEO-Friendly
                                                     </li>
                                                     <li>
                                                         <i role="none" className='bx bx-check'></i>
-                                                        Paint surface clay barred
+                                                        Unlimited Pages
                                                     </li>
                                                     <li>
                                                         <i role="none" className='bx bx-check'></i>
-                                                        Alloy wheel treatment inside and out
+                                                        ADA Compliant
                                                     </li>
                                                 </ul>
                                             </div>

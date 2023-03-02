@@ -60,43 +60,13 @@ class Navbar extends Component {
                             <div className={classOne} id="navbarSupportedContent">
                                 <ul className="navbar-nav m-auto">
                                     <li role="none" className="nav-item active">
-                                        <Link href="#">
+                                        <Link href="/">
                                             <a className="nav-link menu" aria-haspopup="true" aria-expanded="false" onClick={e => e.preventDefault()}>
-                                                Home <i role="none" className='bx bx-chevron-down'></i>
+                                                Home <i role="none" className='bx'></i>
                                             </a>
                                         </Link>
 
-                                        <ul className="dropdown-menu">
-                                            <li role="none" className="nav-item">
-                                                <Link href="/" activeClassName="active">
-                                                    <a className="nav-link">Home One</a>
-                                                </Link>
-                                            </li>
-
-                                            <li role="none" className="nav-item">
-                                                <Link href="/index-2" activeClassName="active">
-                                                    <a className="nav-link">Home Two</a>
-                                                </Link>
-                                            </li>
-
-                                            <li role="none" className="nav-item">
-                                                <Link href="/index-3" activeClassName="active">
-                                                    <a className="nav-link">Home Three</a>
-                                                </Link>
-                                            </li>
-
-                                            <li role="none" className="nav-item">
-                                                <Link href="/index-4" activeClassName="active">
-                                                    <a className="nav-link">Home Four</a>
-                                                </Link>
-                                            </li>
-                                            
-                                            <li role="none" className="nav-item">
-                                                <Link href="/index-5" activeClassName="active">
-                                                    <a className="nav-link">Home Five</a>
-                                                </Link>
-                                            </li>
-                                        </ul>
+                                        
                                     </li>
 
                                     <li role="none" className="nav-item">
@@ -108,16 +78,29 @@ class Navbar extends Component {
 
                                         <ul className="dropdown-menu">
                                             <li role="none" className="nav-item">
-                                                <Link href="/about-1" activeClassName="active">
-                                                    <a className="nav-link">About Style One</a>
+                                                <Link href="/getting-started/#features" activeClassName="active">
+                                                    <a className="nav-link">Core Features</a>
+                                                </Link>
+                                            </li>
+                                            <li role="none" className="nav-item">
+                                                <Link href="/getting-started/#why-us" activeClassName="active">
+                                                    <a className="nav-link">What Is Included?</a>
+                                                </Link>
+                                            </li>
+                                            <li role="none" className="nav-item">
+                                                <Link href="/pricing" activeClassName="active">
+                                                    <a className="nav-link">Pricing</a>
                                                 </Link>
                                             </li>
 
                                             <li role="none" className="nav-item">
-                                                <Link href="/about-2" activeClassName="active">
-                                                    <a className="nav-link">About Style Two</a>
+                                                <Link href="/getting-started/#payment" activeClassName="active">
+                                                    <a className="nav-link">Payments</a>
                                                 </Link>
                                             </li>
+                                            
+
+                                            
                                         </ul>
                                     </li>
 
@@ -131,155 +114,97 @@ class Navbar extends Component {
                                         <ul className="dropdown-menu">
                                             <li role="none" className="nav-item">
                                                 <Link href="/services" activeClassName="active">
-                                                    <a className="nav-link">Services Style One</a>
+                                                    <a className="nav-link">All Services</a>
                                                 </Link>
                                             </li>
 
                                             <li role="none" className="nav-item">
-                                                <Link href="/services-2" activeClassName="active">
-                                                    <a className="nav-link">Services Style Two</a>
+                                                <Link href="/premium-website-package" activeClassName="active">
+                                                    <a className="nav-link">Premium Website Package</a>
                                                 </Link>
                                             </li>
 
                                             <li role="none" className="nav-item">
-                                                <Link href="/services-3" activeClassName="active">
-                                                    <a className="nav-link">Services Style Three</a>
+                                                <Link href="/website-design-and-development" activeClassName="active">
+                                                    <a className="nav-link">Website Development</a>
                                                 </Link>
                                             </li>
 
                                             <li role="none" className="nav-item">
-                                                <Link href="/services-4" activeClassName="active">
-                                                    <a className="nav-link">Services Style Four</a>
+                                                <Link href="/website-deployment" activeClassName="active">
+                                                    <a className="nav-link">Full Website Deployment</a>
                                                 </Link>
                                             </li>
 
                                             <li role="none" className="nav-item">
-                                                <Link href="/service-details" activeClassName="active">
-                                                    <a className="nav-link">Service Details</a>
+                                                <Link href="/blog-creation" activeClassName="active">
+                                                    <a className="nav-link">Blog Creation & Setup</a>
                                                 </Link>
                                             </li>
+                                            <li role="none" className="nav-item">
+                                                <Link href="/logo-design" activeClassName="active">
+                                                    <a className="nav-link">Logo Design</a>
+                                                </Link>
+                                            </li>
+                                            <li role="none" className="nav-item">
+                                                <Link href="/website-optimization" activeClassName="active">
+                                                    <a className="nav-link">Project Optimization</a>
+                                                </Link>
+                                            </li>
+                                            <li role="none" className="nav-item">
+                                                <Link href="/website-content-writing" activeClassName="active">
+                                                    <a className="nav-link">Website Content Writing</a>
+                                                </Link>
+                                            </li>
+                                            
                                         </ul>
                                     </li>
 
                                     <li role="none" className="nav-item">
-                                        <Link href="#">
+                                        <Link href="/portfolio">
                                             <a className="nav-link menu" aria-haspopup="true" aria-expanded="false" onClick={e => e.preventDefault()}>
-                                                Pages <i role="none" className='bx bx-chevron-down'></i>
+                                                Portfolio <i role="none" className='bx bx-chevron-down'></i>
                                             </a>
                                         </Link>
 
                                         <ul className="dropdown-menu">
                                             <li role="none" className="nav-item">
-                                                <Link href="/pricing" activeClassName="active">
-                                                    <a className="nav-link">Pricing</a>
+                                                <Link href="/portfolio" activeClassName="active">
+                                                    <a className="nav-link">All Projects</a>
                                                 </Link>
                                             </li>
                                     
                                             <li role="none" className="nav-item">
                                                 <Link href="/team" activeClassName="active">
-                                                    <a className="nav-link">Team</a>
+                                                    <a className="nav-link">Live Projects</a>
                                                 </Link>
                                             </li>
 
                                             <li role="none" className="nav-item">
                                                 <Link href="/testimonials" activeClassName="active">
-                                                    <a className="nav-link">Testimonials</a>
-                                                </Link>
-                                            </li>
-
-                                            <li role="none" className="nav-item">
-                                                <Link href="/faq" activeClassName="active">
-                                                    <a className="nav-link">Faq</a>
-                                                </Link>
-                                            </li>
-
-                                            <li role="none" className="nav-item">
-                                                <Link href="/terms-conditions" activeClassName="active">
-                                                    <a className="nav-link">Terms & Conditions</a>
-                                                </Link>
-                                            </li> 
-
-                                            <li role="none" className="nav-item">
-                                                <Link href="/privacy-policy" activeClassName="active">
-                                                    <a className="nav-link">Privacy Policy</a>
-                                                </Link>
-                                            </li>
-
-                                            <li role="none" className="nav-item">
-                                                <Link href="/coming-soon" activeClassName="active">
-                                                    <a className="nav-link">Coming Soon</a>
-                                                </Link>
-                                            </li>
-
-                                            <li role="none" className="nav-item">
-                                                <Link href="/login" activeClassName="active">
-                                                    <a className="nav-link">Get Started</a>
-                                                </Link>
-                                            </li>
-
-                                            <li role="none" className="nav-item">
-                                                <Link href="/sign-up" activeClassName="active">
-                                                    <a className="nav-link">Sign Up</a>
-                                                </Link>
-                                            </li> 
-
-                                            <li role="none" className="nav-item">
-                                                <Link href="/404" activeClassName="active">
-                                                    <a className="nav-link">404 error</a>
+                                                    <a className="nav-link">Prototype Projects</a>
                                                 </Link>
                                             </li>
                                         </ul>
+                                    </li>
+
+                                    <li role="none" className="nav-item">
+                                        <Link href="/getting-started/quote">
+                                            <a className="nav-link menu" aria-haspopup="true" aria-expanded="false" onClick={e => e.preventDefault()}>
+                                                Contact <i role="none" className='bx'></i>
+                                            </a>
+                                        </Link>
                                     </li>
 
                                     <li role="none" className="nav-item">
                                         <Link href="#">
                                             <a className="nav-link menu" aria-expanded="false" aria-haspopup="true" onClick={e => e.preventDefault()}>
-                                                News <i role="none" className='bx bx-chevron-down'></i>
+                                                Blog <i role="none" className='bx'></i>
                                             </a>
                                         </Link>
-
-                                        <ul className="dropdown-menu">
-                                            <li role="none" className="nav-item">
-                                                <Link href="/news-grid" activeClassName="active">
-                                                    <a className="nav-link">News Grid</a>
-                                                </Link>
-                                            </li>
-
-                                            <li role="none" className="nav-item">
-                                                <Link href="/news-right-sidebar" activeClassName="active">
-                                                    <a className="nav-link">News Right Sidebar</a>
-                                                </Link>
-                                            </li>
-
-                                            <li role="none" className="nav-item">
-                                                <Link href="/news-details" activeClassName="active">
-                                                    <a className="nav-link">News Details</a>
-                                                </Link>
-                                            </li>
-                                        </ul>
                                     </li>
 
-                                    <li role="none" className="nav-item">
-                                        <Link href="#">
-                                            <a className="nav-link menu" aria-haspopup="true" aria-expanded="false" onClick={e => e.preventDefault()}>
-                                                Contact <i role="none" className='bx bx-chevron-down' role='none'></i>
-                                            </a>
-                                        </Link>
-
-                                        <ul className="dropdown-menu">
-                                            <li role="none" className="nav-item">
-                                                <Link href="/contact" activeClassName="active">
-                                                    <a className="nav-link">Contact Style One</a>
-                                                </Link>
-                                            </li>
-
-                                            <li role="none" className="nav-item">
-                                                <Link href="/contact-2" activeClassName="active">
-                                                    <a className="nav-link">Contact Style Two</a>
-                                                </Link>
-                                            </li>
-                                        </ul>
-                                    </li>
+                                    
                                 </ul>
                                 
                                 <div className="others-options">

@@ -211,6 +211,7 @@ img {
 
 .form-control::placeholder {
   color: #495057;
+  text-transform: capitalize;
 }
 
 .form-control:focus {
@@ -801,7 +802,8 @@ Section Title Area Style
 .section-title h4 {
   color: #702525;
   letter-spacing: 1px;
-  font-size: 14px;
+  font-size: 16px;
+  line-height: 2;
 }
 
 .section-title h2:last-child {
@@ -1128,6 +1130,7 @@ Nice Select Area Style
 /*
 jumpx Nav Area Style
 ======================================================*/
+
 .navbar-area nav {
      padding-top: 20px;
     padding-bottom: 20px;
@@ -1828,6 +1831,8 @@ Features Area Style
     justify-content: center;
 }
 
+
+
 .single-features i {
   width: 80px;
   height: 80px;
@@ -1878,7 +1883,7 @@ Features Area Style
   width: 14vh;
     /* height: 5vh; */
     padding: 0vh;
-    margin: 2vh;
+    margin: 2vh 0;
     font-size: 13px;
     /* line-height: 2; */
     background-color: #fff;
@@ -1888,6 +1893,10 @@ Features Area Style
     font-weight: 600;
     transition: all .6s ease;
     border: 2px solid #a15757;
+}
+
+.single-features2 .read-more-icon span{
+  width:12vh;
 }
 
 .single-features:hover {
@@ -7086,7 +7095,7 @@ Service Details Area Style
   letter-spacing: 1px;
   display: flex;
 }
-.service-details-wrap p .img{
+.service-details-wrap .img{
   flex-direction: column;
   max-width: 25%;
   max-height: 25%;
@@ -7675,7 +7684,7 @@ a{
 }
 .fn_cs_project_sticky_modern .title_holder h3 a{
 	color: #041230;
-	text-decoration: underline;
+  font-weight:500;
 }
 .fn_cs_project_sticky_modern .title_holder p{
 	margin: 0px;
@@ -7858,9 +7867,9 @@ a{
 
 
 .navbar-area nav img{
-  max-width: 11%;
+  max-width: 175px;
   position: absolute;
-  top: -10%;
+  top: -3vh;
   left: 3%;
   display: flex;
   justify-content: center;
@@ -7874,10 +7883,10 @@ a{
   position: absolute;
   justify-content: space-between;
   top: 12%;
-  max-width: 99%;
+  max-width: 100%;
   /* border: 1px solid black; */
   border-radius: 1vh 0 1vh 4vh;
-    margin: 0 1vh;
+  padding:1vh;
 }
 
 /* Expertise Area CSS */
