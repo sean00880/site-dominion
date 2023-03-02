@@ -17,7 +17,7 @@ class HomeAccordion extends Component {
                 <div className="container" style={{"borderRadius":"1vh"}}>
                     <div className="d-flex flex-column align-items-center w-100" style={{"borderRadius":"1vh"}}>
                     <div className="faq-img" data-aos="zoom-in">
-                                <img src="/images/qr.png" alt="Site Dominion's home-accordion image."  />
+                                <Image loading="lazy"  height={100} width={100}  src="/images/qr.png" alt="Site Dominion's home-accordion image."  />
                             </div>
                         <div className="col-lg-12">
                             <div className="faq-accordion">
@@ -26,7 +26,7 @@ class HomeAccordion extends Component {
                                         <AccordionItemHeading>
                                             <AccordionItemButton>
                                                 Step One: Set up a Venmo for Business account   
-                                                <img className='accordion__image' src="/images/account.png" alt="browse" />                                            
+                                                <img loading="lazy"  height={100} width={100}  className='accordion__image' src="/images/account.png" alt="browse" />                                            
                                             </AccordionItemButton>
                                             
                                         </AccordionItemHeading>
@@ -46,7 +46,7 @@ class HomeAccordion extends Component {
                                             <AccordionItemButton >
                                              
                                                 Step Two: Add Site Dominion as a recipient 
-                                                <img className='accordion__image2' src="/images/qrcode.png" alt="browse" />                                               
+                                                <img loading="lazy"  height={100} width={100}  className='accordion__image2' src="/images/qrcode.png" alt="browse" />                                               
                                             </AccordionItemButton>
                                         </AccordionItemHeading>
 
@@ -59,7 +59,7 @@ class HomeAccordion extends Component {
                                         <AccordionItemHeading>
                                             <AccordionItemButton>
                                             Step Three: Make the payment
-                                            <img className='accordion__image' src="/images/venmo.svg" alt="process" />
+                                            <img loading="lazy"  height={100} width={100}  className='accordion__image' src="/images/venmo.svg" alt="process" />
                                             </AccordionItemButton>
                                         </AccordionItemHeading>
                                         <AccordionItemPanel>

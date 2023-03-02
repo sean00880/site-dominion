@@ -26,7 +26,7 @@ class NewsSidebar extends Component {
                         <article className="item">
                             <Link href="/news-details">
                                 <a className="thumb">
-                                    <span className="fullimage cover bg1" role="img"></span>
+                                    <span className="fullimage cover bg1" role="/img"></span>
                                 </a>
                             </Link>
 
@@ -47,7 +47,7 @@ class NewsSidebar extends Component {
                         <article className="item">
                             <Link href="/news-details">
                                 <a className="thumb">
-                                    <span className="fullimage cover bg2" role="img"></span>
+                                    <span className="fullimage cover bg2" role="/img"></span>
                                 </a>
                             </Link>
 
@@ -68,7 +68,7 @@ class NewsSidebar extends Component {
                         <article className="item">
                             <Link href="/news-details">
                                 <a className="thumb">
-                                    <span className="fullimage cover bg3" role="img"></span>
+                                    <span className="fullimage cover bg3" role="/img"></span>
                                 </a>
                             </Link>
 
@@ -89,7 +89,7 @@ class NewsSidebar extends Component {
                         <article className="item">
                             <Link href="/news-details">
                                 <a className="thumb">
-                                    <span className="fullimage cover bg4" role="img"></span>
+                                    <span className="fullimage cover bg4" role="/img"></span>
                                 </a>
                             </Link>
 

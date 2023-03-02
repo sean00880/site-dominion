@@ -7,6 +7,7 @@ import {RiCustomerService2Line} from "react-icons/ri"
 import {MdOutlineScreenshot} from "react-icons/md"
 import {CgUserlane} from "react-icons/cg"
 import HomeAccordion from "./HomeAccordion";
+import Image from "next/image";
 
 
 
@@ -18,7 +19,7 @@ const MyExpertise = () => {
           <div className="section-title style-two">
           
                         <div className="about-img">
-                            <img src="/images/mockup.png" alt="Site Dominion | Web Design Process Desktop Display" className="homeImage" data-aos="flip-right" />
+                            <img loading="lazy"  height={100} width={100}  src="/images/mockup.png" alt="Site Dominion | Web Design Process Desktop Display" className="homeImage" data-aos="flip-right" />
                         </div>
                    
             <h2>Our Process</h2>

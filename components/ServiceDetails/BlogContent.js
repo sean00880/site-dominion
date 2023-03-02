@@ -12,7 +12,7 @@ class ServiceDetailsContent extends Component {
                         <div className="col-lg-12" style={{'borderRadius':'0'}}>
                             <div className="service-details-wrap">
                                 <div className="service-img">
-                                    <img src="/images/blogImage.png" alt="Image" />
+                                    <img loading="lazy"  src="/images/blogImage.png" alt="Image" />
                                 </div>
 
                                 <h2>Blog Creation Services that Deliver Engaging Blog Designs</h2>
@@ -60,7 +60,7 @@ A blog adds more website pages that you can internally link to. It also provides
                                     <div className="row align-items-center">
                                         <div className="col-lg-6 col-md-6">
                                             <div className="service-list-img">
-                                                <img src="/images/services-details/services-details2.png" alt="Image" />
+                                                <img loading="lazy"  src="/images/services-details/services-details2.png" alt="Image" />
                                             </div>
                                         </div>
 

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import ServiceSidebar from './ServiceSidebar';
 import AskQuestionForm from './AskQuestionForm';
 import PickServiceLink from './PickServiceLink';
+import Image from 'next/image';
 
 class ServiceDetailsContent extends Component {
     render() {
@@ -12,12 +13,12 @@ class ServiceDetailsContent extends Component {
                         <div className="col-lg-12" style={{'borderRadius':'0'}}>
                             <div className="service-details-wrap">
                                 <div className="service-img">
-                                    <img src="/images/mockup.png" alt="Image" />
+                                    <img loading="lazy"  src="/images/mockup.png" alt="Image" />
                                 </div>
 
                                 <h2>Web Design & Development</h2>
                                 <p>The web developers at Site Dominion assist companies and brands in navigating the constantly evolving digital market by offering client-focused, consumer-based website solutions that produce quantifiable business results.</p>
-                                <p><div className='img' ><img src="/images/main-img1.png" alt="Image" /></div>We can help you stand out from the competition by selecting the appropriate color schemes, digital elements, and design aspects that appeal to your target audience thanks to our years of experience in the web design sector. We go above and beyond to design a website that precisely embodies your business and enables you to establish deeper connections with both potential and current clients.</p>
+                                <p><div className='img' ><img loading="lazy"  src="/images/main-img1.png" alt="Image" /></div>We can help you stand out from the competition by selecting the appropriate color schemes, digital elements, and design aspects that appeal to your target audience thanks to our years of experience in the web design sector. We go above and beyond to design a website that precisely embodies your business and enables you to establish deeper connections with both potential and current clients.</p>
                                 <h3>Enterprise Level Website Design & Development</h3>
                                 <p>We directly collaborate with small businesses & enterprise-level clients to build exceptional, high-performing, and secure custom websites with a focus on distinctive, polished web design. Regardless of what your project calls for, Site Dominion has the resources and expertise to guarantee that your objectives are met with beyond satisfactory results.</p>
                                 <h3>Why Choose Site Dominion?</h3>
@@ -25,7 +26,7 @@ class ServiceDetailsContent extends Component {
                                 <p>A visually appealing website will encourage people to browse it at ease. As a result, customers will have more faith in your products or services and are more inclined to buy from you, boosting your profitability and revenue.</p>
                                 <p>For both user satisfaction and increasing your exposure on search engines like Google and Bing, you need a complete SEO-friendly website design. At Site Dominion, we are aware of the effort required to create an effective website. We offer small businesses web design and development services with a user interface (UI) and experience (UX) focus that is centered on SEO. From the moment your site launches, our excellent, cost-effective design service will optimize it to outperform your rivals. We will work with you to design your website from the ground up with growth in mind, whether you're starting a new company or enhancing an existing one.</p>
                                 <h4>2. Fully Responsive on all screen sizes.</h4>
-                                <p>Making your website mobile-friendly and improving its responsiveness are crucial throughout website development. This will prevent lags when visitors and potential customers access your website from mobile devices, tablets, laptops, desktops and other devices. <div className='img' ><img src="/images/iphonemockup.png" alt="Image" /></div></p>
+                                <p>Making your website mobile-friendly and improving its responsiveness are crucial throughout website development. This will prevent lags when visitors and potential customers access your website from mobile devices, tablets, laptops, desktops and other devices. <div className='img' ><img loading="lazy" src="/images/iphonemockup.png" alt="Image" /></div></p>
                                 <h4>3. Fast Page Loading Speed</h4>
                                 <p>Your visitors may become dissatisfied with a slow website, abandon it, and go to one of your rivals who have faster-loading sites to find the goods or services you're offering. By picking Site Dominion for your website development needs, you can effortlessly boost the speed of your site and make it easier for people to navigate between different pages.</p>
                                 <h4>4. ADA Compliant</h4>
@@ -38,7 +39,7 @@ class ServiceDetailsContent extends Component {
                                     <div className="row align-items-center">
                                         <div className="col-lg-6 col-md-6">
                                             <div className="service-list-img">
-                                                <img src="/images/web.png" alt="Site Dominion - website design and development" />
+                                                <img loading="lazy" src="/images/web.png" alt="Site Dominion - website design and development" />
                                             </div>
                                         </div>
 

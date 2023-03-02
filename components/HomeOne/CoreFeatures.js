@@ -12,6 +12,7 @@ import Fade from 'react-reveal/Fade';
 import Slide from 'react-reveal/Slide';
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Image from 'next/image';
 
 
 const MyExpertise = () => {
@@ -27,17 +28,18 @@ const MyExpertise = () => {
           
                         <div className="about-img"  >
                         
-                          <img src="/images/main-img1.png" alt="Site Dominion's homepage image." className="homeImage" data-aos="fade-down" data-aos-duration="2400" data-aos-delay="325" />
+                          <img src="/images/main-img1.png" loading="lazy" alt="Site Dominion's homepage image." className="homeImage" data-aos="fade-down" data-aos-duration="2400" data-aos-delay="325" />
                        
                             
                         
-                            <img src="/images/phones.png" alt="Site Dominion | Responsive Web Design" className="homeImage2" data-aos="flip-right" data-aos-duration="1200" data-aos-delay="550"/>
+                            <img src="/images/phones.png" loading="lazy" alt="Site Dominion | Responsive Web Design" className="homeImage2" data-aos="flip-right" data-aos-duration="1200" data-aos-delay="550"/>
                         
                         </div>
                           
             <h2>Core Features</h2>
             <hr style={{"color":"white"}}/>
-            <h4> Our team of experienced developers has worked tirelessly to create cutting-edge web solutions that cater to businesses of all sizes and industries. Our features are designed to not only enhance the functionality and aesthetics of your website, but also improve user engagement and conversion rates. From responsive design to customized integrations, we provide comprehensive web development solutions that are tailored to meet the unique needs of your business. Explore our features to discover how we can transform your online presence into a powerful marketing tool.</h4>
+            <h4> Our team of experienced developers has worked tirelessly to create cutting-edge web solutions that cater to businesses of all sizes and industries. Our features are designed to not only enhance the functionality and aesthetics of your website, but also improve user engagement and conversion rates. </h4>
+              <h4>From responsive design to customized integrations, we provide comprehensive web development solutions that are tailored to meet the unique needs of your business. Explore our features to discover how we can transform your online presence into a powerful marketing tool.</h4>
             
           </div>
        

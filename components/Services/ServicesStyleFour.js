@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 class ServicesStyleFour extends Component {
     render() {
@@ -75,7 +76,7 @@ class ServicesStyleFour extends Component {
 
                         <div className="col-lg-4">
                             <div className="industries-img" data-aos="zoom-in-up">
-                                <img src="/images/industry.webp" alt="Industry image." />
+                                <Image loading="lazy"  height={100} width={100}  src="/images/industry.webp" alt="Industry image." />
                             </div>
                         </div>
 

@@ -181,7 +181,7 @@ class GettingStarted extends Component {
 
                         <div className="col-lg-4">
                             <div className="faq-img">
-                                <img src="/images/faq-img.png" alt="Site Dominion's services section image." />
+                                <Image loading="lazy"  height={100} width={100}  src="/images/faq-img.png" alt="Site Dominion's services section image." />
                             </div>
                         </div>
                     </div>

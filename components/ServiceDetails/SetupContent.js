@@ -12,7 +12,7 @@ class ServiceDetailsContent extends Component {
                         <div className="col-lg-12" style={{'borderRadius':'0'}}>
                             <div className="service-details-wrap">
                                 <div className="service-img">
-                                    <img src="/images/websitedeployment.jpeg" alt="Image" />
+                                    <img loading="lazy" src="/images/websitedeployment.jpeg" alt="Image" />
                                 </div>
 
                                 <h2>Full Website Deployment & Configuration</h2>
@@ -32,7 +32,7 @@ class ServiceDetailsContent extends Component {
                                     <div className="row align-items-center">
                                         <div className="col-lg-6 col-md-6">
                                             <div className="service-list-img">
-                                                <img src="/images/webdeploy.webp" alt="Site Dominion - website design and development" />
+                                                <img loading="lazy" src="/images/webdeploy.webp" alt="Site Dominion - website design and development" />
                                             </div>
                                         </div>
 

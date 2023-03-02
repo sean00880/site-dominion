@@ -39,7 +39,7 @@ class CaseStudies extends Component {
                         <SwiperSlide>
                             <div className="case-wrap">
                                 <div className="single-case">
-                                    <img src="/images/cases/case1.png" alt="Image" className="w-100" />
+                                    <Image loading="lazy"  height={100} width={100}  src="/images/cases/case1.png" alt="Image" className="w-100" />
 
                                     <Link href="/case-studies-details">
                                         <a className="link-icon">
@@ -61,7 +61,7 @@ class CaseStudies extends Component {
                         <SwiperSlide>
                             <div className="case-wrap">
                                 <div className="single-case">
-                                    <img src="/images/cases/case2.png" alt="Image" className="w-100" />
+                                    <Image loading="lazy"  height={100} width={100}  src="/images/cases/case2.png" alt="Image" className="w-100" />
 
                                     <Link href="/case-studies-details">
                                         <a className="link-icon">
@@ -83,7 +83,7 @@ class CaseStudies extends Component {
                         <SwiperSlide>
                             <div className="case-wrap">
                                 <div className="single-case">
-                                    <img src="/images/cases/case3.png" alt="Image" className="w-100" />
+                                    <Image loading="lazy"  height={100} width={100}  src="/images/cases/case3.png" alt="Image" className="w-100" />
 
                                     <Link href="/case-studies-details">
                                         <a className="link-icon">
@@ -105,7 +105,7 @@ class CaseStudies extends Component {
                         <SwiperSlide>
                             <div className="case-wrap">
                                 <div className="single-case">
-                                    <img src="/images/cases/case4.png" alt="Image" className="w-100" />
+                                    <Image loading="lazy"  height={100} width={100}  src="/images/cases/case4.png" alt="Image" className="w-100" />
 
                                     <Link href="/case-studies-details">
                                         <a className="link-icon">

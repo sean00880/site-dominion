@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Link from 'next/link';
-
+import Image from 'next/image'; 
 class Footer extends Component {
     render() {
         let currentYear = new Date().getFullYear();
@@ -12,7 +12,7 @@ class Footer extends Component {
                             <div className="col-lg-3 col-md-6">
                                 <div className="single-widget">
                                     <a href="/" className="logo">
-                                        <img src="/images/lion4.png" alt="Site Dominion | Footer Logo" />
+                                        <Image loading="lazy"  height={100} width={100}  src="/images/lion4.png" alt="Site Dominion | Footer Logo" />
                                     </a>
 
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat molestiae corporis, magni maxime perferendis ducimus totam officiis sit exercitationem sed odio debitis minus cumque dolores dicta.</p>
@@ -184,8 +184,8 @@ class Footer extends Component {
                     </div>
 
                     <div className="footer-shape">
-                        <img src="/images/shape/footer-shape-one.png" alt="Image" />
-                        <img src="/images/shape/footer-shape-two.png" alt="Image" />
+                        <Image loading="lazy"  height={100} width={100}  src="/images/shape/footer-shape-one.png" alt="Image" />
+                        <Image loading="lazy"  height={100} width={100}  src="/images/shape/footer-shape-two.png" alt="Image" />
                     </div>
                 </footer>
     

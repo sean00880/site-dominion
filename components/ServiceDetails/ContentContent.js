@@ -11,7 +11,7 @@ class ServiceDetailsContent extends Component {
                         <div className="col-lg-12" style={{'borderRadius':'0'}}>
                             <div className="service-details-wrap">
                                 <div className="service-img">
-                                    <img src="/images/content-writing.jpeg" alt="Image" />
+                                    <img loading="lazy"  src="/images/content-writing.jpeg" alt="Image" />
                                 </div>
 
                                 <h2>Online copywriting that improves search engine rankings</h2>
@@ -37,7 +37,7 @@ class ServiceDetailsContent extends Component {
                                     <div className="row align-items-center">
                                         <div className="col-lg-6 col-md-6">
                                             <div className="service-list-img">
-                                                <img src="/images/content-writing-pro.webp" alt="Site Dominion - Logos Display" />
+                                                <img loading="lazy"  src="/images/content-writing-pro.webp" alt="Site Dominion - Logos Display" />
                                             </div>
                                         </div>
 

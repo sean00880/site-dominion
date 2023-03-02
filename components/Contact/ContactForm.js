@@ -149,7 +149,7 @@ const ContactForm = () => {
 
                     <div className="col-lg-6 col-md-12">
                         <div className="contact-img">
-                            <img 
+                            <Image loading="lazy"  height={100} width={100}  
                                 src="/images/contact-img.png" 
                                 alt="Image" 
                             />

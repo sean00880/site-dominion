@@ -9,6 +9,7 @@ import {
 import AccordionServices from './AccordionServices'
 import Link from 'next/link';
 import QuoteRequest from './QuoteRequest'
+import Image from 'next/image';
 
 class HomeAccordion extends Component {
     render() {
@@ -17,7 +18,7 @@ class HomeAccordion extends Component {
                 <div className="container">
                     <div className="d-flex flex-column align-items-center w-100">
                     <div className="faq-img" data-aos="zoom-in">
-                                <img src="/images/faq-img.png" alt="Site Dominion's home-accordion image."  />
+                                <img loading="lazy"  src="/images/faq-img.png" alt="Site Dominion's home-accordion image."  />
                             </div>
                         <div className="col-lg-12">
                             <div className="faq-accordion">
@@ -26,7 +27,7 @@ class HomeAccordion extends Component {
                                         <AccordionItemHeading>
                                             <AccordionItemButton>
                                                 Step One: Browse Through Our Services   
-                                                <img className='accordion__image5' src="/images/browse.png" alt="browse" />                                            
+                                                <img loading="lazy"  className='accordion__image5' src="/images/browse.png" alt="browse" />                                            
                                             </AccordionItemButton>
                                             
                                         </AccordionItemHeading>
@@ -65,7 +66,7 @@ class HomeAccordion extends Component {
                                             <AccordionItemButton >
                                              
                                                 Step Two: Initiate Your FREE Quote Request  
-                                                <img className='accordion__image2' src="/images/quote.png" alt="browse" />                                               
+                                                <img loading="lazy"  className='accordion__image2' src="/images/quote.png" alt="browse" />                                               
                                             </AccordionItemButton>
                                         </AccordionItemHeading>
 
@@ -78,7 +79,7 @@ class HomeAccordion extends Component {
                                         <AccordionItemHeading>
                                             <AccordionItemButton>
                                             Step Three: We Work On Your Project
-                                            <img className='accordion__image' src="/images/process.svg" alt="process" />
+                                            <img loading="lazy"  className='accordion__image' src="/images/process.svg" alt="process" />
                                             </AccordionItemButton>
                                         </AccordionItemHeading>
                                         <AccordionItemPanel>
@@ -92,7 +93,7 @@ class HomeAccordion extends Component {
                                         <AccordionItemHeading>
                                             <AccordionItemButton>
                                             Step Four: Complete Payment
-                                            <img className='accordion__image3' src="/images/payment.svg" alt="process" />
+                                            <img loading="lazy"  className='accordion__image3' src="/images/payment.svg" alt="process" />
                                             </AccordionItemButton>
                                         </AccordionItemHeading>
                                         <AccordionItemPanel>
@@ -111,7 +112,7 @@ class HomeAccordion extends Component {
                                         <AccordionItemHeading>
                                             <AccordionItemButton>
                                             Step Five: Website Deployment
-                                            <img className='accordion__image4' src="/images/browser.png" alt="browse" /> 
+                                            <img loading="lazy"   className='accordion__image4' src="/images/browser.png" alt="browse" /> 
                                             </AccordionItemButton>
                                         </AccordionItemHeading>
                                         <AccordionItemPanel>

@@ -53,7 +53,7 @@ const WhyChooseUs = () => {
 
                     <div className="col-lg-6">
                         <div className="choose-img">
-                            <img src="/images/choose-img.png" alt="Image" />
+                            <Image loading="lazy"  height={100} width={100}  src="/images/choose-img.png" alt="Image" />
                         </div>
                     </div>
                 </div>

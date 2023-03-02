@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { useState } from 'react';
+import Image from 'next/image';
 
 export default function ServicesStyleOne(){
 
@@ -30,7 +31,7 @@ export default function ServicesStyleOne(){
                     <h2>Get Your FREE Quote</h2>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque quibusdam deleniti porro praesentium. Aliquam minus quisquam velit in at nam.</p>
                     </div>
-                    <img src="/images/lion9.png" alt="Site Dominion Logo" style={{"maxWidth":"15vh"}}/>
+                    <Image loading="lazy"  height={100} width={100}  src="/images/lion9.png" alt="Site Dominion Logo" style={{"maxWidth":"15vh"}}/>
                    
                 </div>
 

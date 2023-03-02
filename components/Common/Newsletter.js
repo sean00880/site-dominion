@@ -11,7 +11,7 @@ class Newsletter extends Component {
                                 <h2>Sign Up To The Free Newsletter</h2>
 
                                 <form className="newsletter-form">
-                                    <input type="email" className="form-control" placeholder="Your Email" name="email" required />
+                                    <input type="email" aria-label="your email" className="form-control" placeholder="Your Email" name="email" required />
                                     <button className="default-btn" type="submit">
                                         Subscribe
                                     </button>
@@ -21,7 +21,7 @@ class Newsletter extends Component {
 
                         <div className="col-lg-2">
                             <div className="newsletter-img">
-                                <img src="/images/newsletter-img.png" alt="Image" />
+                                <Image loading="lazy"  height={100} width={100}  src="/images/newsletter-img.png" alt="Image" />
                             </div>
                         </div>
 
@@ -35,9 +35,9 @@ class Newsletter extends Component {
                 </div>
 
                 <div className="newsletter-shape">
-                    <img src="/images/shape/newsletter-shape-one.png" alt="Image" />
-                    <img src="/images/shape/newsletter-shape-one.png" alt="Image" />
-                    <img src="/images/shape/newsletter-shape-two.png" alt="Image" />
+                    <Image loading="lazy"  height={100} width={100}  src="/images/shape/newsletter-shape-one.png" alt="Image" />
+                    <Image loading="lazy"  height={100} width={100}  src="/images/shape/newsletter-shape-one.png" alt="Image" />
+                    <Image loading="lazy"  height={100} width={100}  src="/images/shape/newsletter-shape-two.png" alt="Image" />
                 </div>
             </div>
         );

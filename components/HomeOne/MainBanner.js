@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import KeenSlider from './KeenSlider';
+import Image from 'next/image'; 
 
 const MainBanner = () => {
     return (
@@ -10,7 +11,7 @@ const MainBanner = () => {
                     <div className="wrapper" style={{"display":"flex", "alignItems":"center"}}>
                     
                         <div className="banner-text">
-                        <img className="bannerImage" src="/images/home-one/main-img1.png" alt="Site Dominion's banner image." />
+                        <Image priority  height="300px" width="350px"  className="bannerImage" src="/images/home-one/main-img1.png" alt="Site Dominion's banner image." />
                             
                             
                             <h2>Website Design, Deployment, SEO & More.</h2>

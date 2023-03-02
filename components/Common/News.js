@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 class News extends Component {
     render() {
@@ -18,7 +19,7 @@ class News extends Component {
                                 <div className="blog-img">
                                     <Link href="/news-details">
                                         <a>
-                                            <img src="/images/blog/blog1.png" alt="Blog Post 1 | Site Dominion." />
+                                            <img loading="lazy" src="/images/blog/blog1.png" alt="Blog Post 1 | Site Dominion." />
                                         </a>
                                     </Link>
 
@@ -63,7 +64,7 @@ class News extends Component {
                                 <div className="blog-img">
                                     <Link href="/news-details">
                                         <a>
-                                            <img src="/images/blog/blog2.png" alt="Blog 2 post." />
+                                            <img loading="lazy"  src="/images/blog/blog2.png" alt="Blog 2 post." />
                                         </a>
                                     </Link>
 
@@ -108,7 +109,7 @@ class News extends Component {
                                 <div className="blog-img">
                                     <Link href="/news-details">
                                         <a>
-                                            <img src="/images/blog/blog3.png" alt="Blog 3 post." />
+                                            <img loading="lazy"  src="/images/blog/blog3.png" alt="Blog 3 post." />
                                         </a>
                                     </Link>
 

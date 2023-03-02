@@ -43,17 +43,17 @@ const MainBanner = () => {
                         <div className="col-lg-6">
                             {/* Main Image */}
                             <div className="banner-main-img banner-one-main-img">
-                                <img src="/images/home-three/main-img3.png" alt="Image" />
+                                <Image loading="lazy"  height={100} width={100}  src="/images/home-three/main-img3.png" alt="Image" />
                             </div>
 
                             {/* Banner Shape Images */}
                             <div className="banner-img">
-                                <img 
+                                <Image loading="lazy"  height={100} width={100}  
                                     className="animate__animated animate__fadeInDown animate__fast" 
                                     src="/images/home-three/shape1.png" 
                                     alt="Image" 
                                 />
-                                <img 
+                                <Image loading="lazy"  height={100} width={100}  
                                     className="animate__animated animate__fadeInDown animate__fast" 
                                     src="/images/home-three/shape2.png" 
                                     alt="Image" 
@@ -65,15 +65,15 @@ const MainBanner = () => {
 
                 {/* Shape Images */}
                 <div className="over-shape">
-                    <img src="/images/home-one/shape/animate1.png" alt="Image" />
-                    <img src="/images/home-one/shape/animate1.png" alt="Image" />
-                    <img src="/images/home-one/shape/animate2.png" alt="Image" />
-                    <img src="/images/home-one/shape/animate2.png" alt="Image" />
-                    <img src="/images/home-one/shape/animate3.png" alt="Image" />
+                    <Image loading="lazy"  height={100} width={100}  src="/images/home-one/shape/animate1.png" alt="Image" />
+                    <Image loading="lazy"  height={100} width={100}  src="/images/home-one/shape/animate1.png" alt="Image" />
+                    <Image loading="lazy"  height={100} width={100}  src="/images/home-one/shape/animate2.png" alt="Image" />
+                    <Image loading="lazy"  height={100} width={100}  src="/images/home-one/shape/animate2.png" alt="Image" />
+                    <Image loading="lazy"  height={100} width={100}  src="/images/home-one/shape/animate3.png" alt="Image" />
                 </div>
 
                 <div className="white-shape">
-                    <img src="/images/home-three/bottom-shape.png" alt="Image" />
+                    <Image loading="lazy"  height={100} width={100}  src="/images/home-three/bottom-shape.png" alt="Image" />
                 </div>
             </div>
 		</>

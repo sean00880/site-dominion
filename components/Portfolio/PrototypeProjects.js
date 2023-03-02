@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 class PrototypeProjects extends Component {
     render() {
@@ -12,7 +13,7 @@ class PrototypeProjects extends Component {
                         <li>
                             <div className="item">
                                 <div className="img_holder">
-                                    <img src="img/thumb/560-375.jpg" alt="" />
+                                    <Image height={100} width={100} loading="lazy"  src="/img/thumb/560-375.jpg" alt="" />
                                     <div className="abs_img" ><Link href=""><a role="img" aria-label="Background Image 5" style={{ "backgroundImage": "url(/images/projecta.png)", "backgroundSize":"contain", "backgroundPosition":"center","backgroundRepeat":"no-repeat" }}></a></Link></div>
                                        </div>
                                 <div className="title_holder">
@@ -30,7 +31,7 @@ class PrototypeProjects extends Component {
                         <li>
                             <div className="item">
                                 <div className="img_holder">
-                                    <img src="img/thumb/560-375.jpg" alt="" />
+                                    <Image height={100} width={100} loading="lazy"  src="/img/thumb/560-375.jpg" alt="" />
                                     <div className="abs_img" ><Link href=""><a role="img" aria-label="Background Image 6" style={{ "backgroundImage": "url(/images/projectc.png)", "backgroundSize":"contain", "backgroundPosition":"center","backgroundRepeat":"no-repeat" }}></a></Link></div>
                                  </div>
                                 <div className="title_holder">
@@ -48,7 +49,7 @@ class PrototypeProjects extends Component {
                         <li>
                             <div className="item">
                                 <div className="img_holder">
-                                    <img src="img/thumb/560-375.jpg" alt="" />
+                                    <Image height={100} width={100} loading="lazy" src="/img/thumb/560-375.jpg" alt="" />
                                     <div className="abs_img" ><Link href=""><a role="img" aria-label="Background Image 7" style={{ "backgroundImage": "url(/images/projectb.png)", "backgroundSize":"contain", "backgroundPosition":"center","backgroundRepeat":"no-repeat" }}></a></Link></div>
                                 </div>
                                 <div className="title_holder">

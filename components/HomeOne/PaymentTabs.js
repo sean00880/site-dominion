@@ -7,6 +7,7 @@ import Payment from './Payment2';
 import QuoteRequest from './QuoteRequest'
 import WorkTab from './WorkTab'
 import PaymentAccordion2 from "./PaymentAccordion2";
+import Image from 'next/image'; 
 class ServicesStyleOne extends Component {
     render() {
         return (
@@ -27,7 +28,7 @@ class ServicesStyleOne extends Component {
           <div style={{"background":"linear-gradient(45deg, rgb(47 94 112), rgb(51 52 57), rgb(36 95 117))"}} className="section-title style-two">
           
                         <div className="about-img">
-                            <img src="/images/venmo-logo.png" alt="Site Dominion | Web Design Process Desktop Display" className="homeImage" />
+                            <img loading="lazy"   src="/images/venmo-logo.png" alt="Site Dominion | Web Design Process Desktop Display" className="homeImage" />
                         </div>
                    
             <h2 style={{"color":"white"}}>for Business</h2>

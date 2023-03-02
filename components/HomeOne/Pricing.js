@@ -7,6 +7,7 @@ import {RiCustomerService2Line} from "react-icons/ri"
 import {MdOutlineScreenshot} from "react-icons/md"
 import {CgUserlane} from "react-icons/cg"
 import Pricing from '../Pricing/PricingStyleTwo'
+import Image from "next/image";
 
 
 
@@ -27,8 +28,8 @@ While a lot of manpower is involved in website development, we believe website s
 <br /><br />
 That is why, @ Site Dominion, we pledge to charge low set-up costs for fully optimized web solutions so you can allocate your budget on marketing and other business-related needs.</h4>
 <div className="about-img">
-                            <img src="/images/price2.png" alt="Pricing image." className="homeImage" data-aos="fade-up" />
-                            <img src="/images/price2.svg" alt="Pricing 2 image." className="homeImage2" data-aos="fade-right" data-aos-delay="150"/>
+                            <Image loading="lazy"  height={100} width={100}  src="/images/price2.png" alt="Pricing image." className="homeImage" data-aos="fade-up" />
+                            <Image loading="lazy"  height={100} width={100}  src="/images/price2.svg" alt="Pricing 2 image." className="homeImage2" data-aos="fade-right" data-aos-delay="150"/>
                         </div>
           </div>
 

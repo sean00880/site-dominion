@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay } from "swiper";
+import Image from 'next/image'; 
 
 class PartnerSlider extends Component {
     render() {
@@ -33,49 +34,49 @@ class PartnerSlider extends Component {
                     >
                         <SwiperSlide>
                             <a href="#" target="_blank" role="button">
-                                <img src="/images/brands/tree.jpg" alt="Grandpa Ron's LLC website created by Site Dominion." />
+                                <Image loading="lazy"  height="100px" width="125px"  src="/images/brands/tree.jpg" alt="Grandpa Ron's LLC website created by Site Dominion." />
                             </a>
                         </SwiperSlide>
 
                         <SwiperSlide>
                             <a href="#" target="_blank" role="button">
-                                <img src="/images/brands/brand2.png" alt="All Landscaping Services LLC website created by Site Dominion." />
+                                <Image loading="lazy"  height={100} width={100}  src="/images/brands/brand2.png" alt="All Landscaping Services LLC website created by Site Dominion." />
                             </a>
                         </SwiperSlide>
 
                         <SwiperSlide>
                             <a href="#" target="_blank" role="button">
-                                <img src="/images/brands/brand3.png" alt="Designation Dump LLC website created by Site Dominion." />
+                                <Image loading="lazy"  height={100} width={100}  src="/images/brands/brand3.png" alt="Designation Dump LLC website created by Site Dominion." />
                             </a>
                         </SwiperSlide>
 
                         <SwiperSlide>
                             <a href="#" target="_blank" role="button">
-                                <img src="/images/brands/brand4.png" alt="Decoded Web website created by Site Dominion." />
+                                <Image loading="lazy"  height={100} width={125}  src="/images/brands/brand4.png" alt="Decoded Web website created by Site Dominion." />
                             </a>
                         </SwiperSlide>
 
                         <SwiperSlide>
                             <a href="#" target="_blank" role="button">
-                                <img src="/images/brands/brand5.png" alt="Blank image number 1." />
+                                <Image loading="lazy"  height={100} width={100}  src="/images/brands/brand5.png" alt="Blank image number 1." />
                             </a>
                         </SwiperSlide>
 
                         <SwiperSlide>
                             <a href="#" target="_blank" role="button">
-                                <img src="/images/brands/brand6.png"  alt="Blank image number 2." />
+                                <Image loading="lazy"  height={100} width={100}  src="/images/brands/brand6.png"  alt="Blank image number 2." />
                             </a>
                         </SwiperSlide>
 
                         <SwiperSlide>
                             <a href="#" target="_blank" role="button">
-                                <img src="/images/brands/brand7.png"  alt="Blank image number 3." />
+                                <Image loading="lazy"  height={100} width={100}  src="/images/brands/brand7.png"  alt="Blank image number 3." />
                             </a>
                         </SwiperSlide>
 
                         <SwiperSlide>
                             <a href="#" target="_blank" role="button">
-                                <img src="/images/brands/brand8.png"  alt="Blank image number 4." />
+                                <Image loading="lazy"  height={100} width={100}  src="/images/brands/brand8.png"  alt="Blank image number 4." />
                             </a>
                         </SwiperSlide>
                     </Swiper> 

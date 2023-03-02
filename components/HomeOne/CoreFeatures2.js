@@ -12,6 +12,7 @@ import Fade from 'react-reveal/Fade';
 import Slide from 'react-reveal/Slide';
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Image from 'next/image';
 
 
 const MyExpertise = () => {
@@ -27,11 +28,11 @@ const MyExpertise = () => {
           
                         <div className="about-img"  >
                         
-                          <img src="/images/main-img1.png" alt="Site Dominion's homepage image." className="homeImage" data-aos="fade-down" data-aos-duration="2400" data-aos-delay="325" />
+                          <img loading="lazy" src="/images/main-img1.png" alt="Site Dominion's homepage image." className="homeImage" data-aos="fade-down" data-aos-duration="2400" data-aos-delay="325" />
                        
                             
                         
-                            <img src="/images/phones.png" alt="Site Dominion | Responsive Web Design" className="homeImage2" data-aos="flip-right" data-aos-duration="1200" data-aos-delay="550"/>
+                            <img loading="lazy" src="/images/phones.png" alt="Site Dominion | Responsive Web Design" className="homeImage2" data-aos="flip-right" data-aos-duration="1200" data-aos-delay="550"/>
                         
                         </div>
                           

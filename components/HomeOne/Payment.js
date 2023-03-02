@@ -12,7 +12,7 @@ const MyExpertise = () => {
           <div style={{"background":"linear-gradient(45deg, rgb(47 94 112), rgb(51 52 57), rgb(36 95 117))"}} className="section-title style-two">
           
                         <div className="about-img">
-                            <img src="/images/venmo-logo.png" alt="Site Dominion | Web Design Process Desktop Display" className="homeImage" data-aos="flip-right" />
+                            <img loading="lazy"  src="/images/venmo-logo.png" alt="Site Dominion | Web Design Process Desktop Display" className="homeImage" data-aos="flip-right" />
                         </div>
                    
             <h2 style={{"color":"white"}}>for Business</h2>
