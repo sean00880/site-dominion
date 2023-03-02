@@ -13,7 +13,7 @@ class NewsDetailsContent extends Component {
                         <div className="col-lg-8 col-md-12">
                             <div className="blog-details-desc">
                                 <div className="article-image">
-                                    <Image loading="lazy"  height={100} width={100}  src="/images/blog-details/blog-details.jpg" alt="Image" />
+                                    <img loading="lazy"  src="/images/blog-details/blog-details.jpg" alt="Image" />
                                 </div>
 
                                 <div className="article-content">
