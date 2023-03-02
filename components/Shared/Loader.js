@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Loader extends Component {
     render() {
         return (
-            <div role="/img" aria-label="Loading Image | Site Dominion" className={`preloader ${this.props.loading ? '' : 'preloader-deactivate'}`}>
+            <div role="img" aria-label="Loading Image | Site Dominion" className={`preloader ${this.props.loading ? '' : 'preloader-deactivate'}`}>
                 <div className="d-table">
                     <div className="d-table-cell">
                         <div className="spinner">
