@@ -1823,7 +1823,7 @@ Features Area Style
     border: 1px solid transparent;
     border-radius: 1vh;
     padding: 10px 3px;
-    min-height: 52vh;
+    min-height: 70vh;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -1879,7 +1879,7 @@ Features Area Style
 }
 
 .single-features .read-more-icon span {
-  width: 16vh;
+  width: 12vh;
     /* height: 5vh; */
     padding: 0vh;
     margin: 2vh 0;
@@ -1940,6 +1940,10 @@ Features Area Style
 
 .single-features:hover .read-more-icon .span2{
   background-color: rgb(38, 32, 116);
+}
+
+.single-features:hover .read-more-icon .span3{
+  background-color: rgb(68 149 73);
 }
 
 .col-lg-4:nth-child(1) .single-features {
@@ -8404,4 +8408,13 @@ a:focus, a:hover{
   font-style: italic;
   text-decoration: none;
   transition: all 1s ease;
+}
+
+.premium{
+  border-radius: 33% 66%;
+  max-width: 20%;
+}
+
+.service{
+  border-radius: 33% 66%;
 }
