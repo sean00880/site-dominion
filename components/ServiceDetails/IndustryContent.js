@@ -3,7 +3,7 @@ import ServiceSidebar from './ServiceSidebar';
 import AskQuestionForm from './AskQuestionForm';
 import PickServiceLink from './PickServiceLink';
 import ServicesStyleFour from '../Services/ServicesStyleFour';
-import Image from 'next/Image'
+import Image from 'next/image'
 
 class ServiceDetailsContent extends Component {
     render() {
