@@ -2019,7 +2019,7 @@
 
 
 @media (hover: none) {
-  .cs-card-area, section, .main-banner-area, .features-area, .industries-serve-area, .fn_cs_project_sticky_modern .left_part_in, .client-area, .footer-top-area, .section-title, .about-content spans{
+  .cs-card-area, section, .main-banner-area, .features-area, .industries-serve-area, .fn_cs_project_sticky_modern .left_part_in, .client-area, .footer-top-area, .section-title, .about-content, .industries-serve-area .container .row{
       background-attachment: unset;
       background-position: center;
       background-size:cover ;
