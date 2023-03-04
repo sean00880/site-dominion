@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import ServiceSidebar from './ServiceSidebar';
 import AskQuestionForm from './AskQuestionForm';
 import PickServiceLink from './PickServiceLink';
+import Image from 'next/image';
 class ServiceDetailsContent extends Component {
     render() {
         return (
@@ -11,7 +12,7 @@ class ServiceDetailsContent extends Component {
                         <div className="col-lg-12" style={{'borderRadius':'0'}}>
                             <div className="service-details-wrap">
                                 <div className="service-img">
-                                    <img loading="lazy"  src="/images/content-writing.jpeg" alt="Image" />
+                                <Image loading="lazy"  src="/images/content.png" alt="Image" width={660} height={494} />
                                 </div>
 
                                 <h2>Online copywriting that improves search engine rankings</h2>

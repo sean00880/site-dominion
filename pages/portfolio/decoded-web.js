@@ -11,7 +11,7 @@ class DecodedWeb extends Component {
                 <Navbar />
 
                 <PageBanner 
-                    pageTitle="Decoded Web - Website Development" 
+                    pageTitle="Decoded Web - Website Development Agency Website" 
                     homePageUrl="/" 
                     homePageText="sitedominion.com" 
                     activePageText="portfolio/decoded-web" 

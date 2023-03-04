@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Navbar from '../components/Layouts/Navbar';
 import PageBanner from '../components/Common/PageBanner';
 import ContactInfo from '../components/Contact/ContactInfo';
-import ContactForm from '../components/Contact/ContactForm';
+import QuoteRequest from '../components/HomeOne/QuoteRequest';
 import Footer from '../components/Layouts/Footer';
 
 class Contact extends Component {
@@ -18,9 +18,9 @@ class Contact extends Component {
                     activePageText="Contact Style One" 
                 /> 
 
-                <ContactInfo />
+                        <ContactInfo />
 
-                <ContactForm />
+                        <QuoteRequest />
                 
                 <Footer />
             </>

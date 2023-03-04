@@ -66,7 +66,7 @@ class ServicesStyleOne extends Component {
                 
 </TabList>
 <div className="row" style={{"borderRadius":"0", "padding":"1vh"}}>
-    <TabPanel style={{"padding":"0"}} >
+    <TabPanel style={{"padding":"0"}} id="quote-request2" >
     <QuoteRequest/>
     </TabPanel>
 </div>

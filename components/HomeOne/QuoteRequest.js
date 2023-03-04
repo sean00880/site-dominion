@@ -22,7 +22,7 @@ export default function ServicesStyleOne(){
         
     return (
 
-    <div className="main-contact-area" id="quote">
+    <div className="main-contact-area" id="quote-request">
             <div className="container">
                 
                 <div className="section-title" style={{"display":"flex","flexDirection":"column","justifyContent":"center","alignItems":"center"}}>
