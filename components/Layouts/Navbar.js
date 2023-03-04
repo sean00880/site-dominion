@@ -62,7 +62,7 @@ class Navbar extends Component {
                                 <ul className="navbar-nav m-auto">
                                     <li role="none" className="nav-item active">
                                         <Link href="/">
-                                            <a className="nav-link menu" aria-haspopup="true" aria-expanded="false" onClick={e => e.preventDefault()}>
+                                            <a className="nav-link menu" aria-haspopup="true" aria-expanded="false">
                                                 Home <i role="none" className='bx'></i>
                                             </a>
                                         </Link>
@@ -168,7 +168,7 @@ class Navbar extends Component {
 
                                     <li role="none" className="nav-item">
                                         <Link href="/portfolio">
-                                            <a className="nav-link menu" aria-haspopup="true" aria-expanded="false" onClick={e => e.preventDefault()}>
+                                            <a className="nav-link menu" aria-haspopup="true" aria-expanded="false">
                                                 Portfolio <i role="none" className='bx bx-chevron-down'></i>
                                             </a>
                                         </Link>
@@ -181,13 +181,13 @@ class Navbar extends Component {
                                             </li>
                                     
                                             <li role="none" className="nav-item">
-                                                <Link href="/team" activeClassName="active">
+                                                <Link href="/portfolio/live-projects" activeClassName="active">
                                                     <a className="nav-link">Live Projects</a>
                                                 </Link>
                                             </li>
 
                                             <li role="none" className="nav-item">
-                                                <Link href="/testimonials" activeClassName="active">
+                                                <Link href="/portfolio/prototype-projects" activeClassName="active">
                                                     <a className="nav-link">Prototype Projects</a>
                                                 </Link>
                                             </li>
@@ -195,8 +195,8 @@ class Navbar extends Component {
                                     </li>
 
                                     <li role="none" className="nav-item">
-                                        <Link href="/contact" passHref>
-                                            <a className="nav-link menu" aria-haspopup="true" aria-expanded="false" onClick={e => e.preventDefault()}>
+                                    <Link href="/getting-started/contact">
+                                            <a className="nav-link menu" aria-haspopup="true" aria-expanded="false">
                                                 Contact <i role="none" className='bx'></i>
                                             </a>
                                         </Link>
