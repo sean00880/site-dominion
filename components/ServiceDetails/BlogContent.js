@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import ServiceSidebar from './ServiceSidebar';
 import AskQuestionForm from './AskQuestionForm';
 import PickServiceLink from './PickServiceLink';
+import Image from 'next/image';
 
 class ServiceDetailsContent extends Component {
     render() {
