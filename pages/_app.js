@@ -54,7 +54,7 @@ export default class MyApp extends App {
                 <Component {...pageProps} />
                 
                 {/* Preloader */}
-             
+                <Loader loading={this.state.loading} />
 
                 {/* Go Top Button */}
                 <GoTop scrollStepInPx="100" delayInMs="10.50" />

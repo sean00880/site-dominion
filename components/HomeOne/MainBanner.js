@@ -3,6 +3,8 @@ import Link from 'next/link';
 import KeenSlider from './KeenSlider';
 import Image from 'next/image'; 
 
+export const config = { unstable_runtimeJS: false }
+
 const MainBanner = () => {
     return (
         <section className="main-banner-area main-banner-area-one">
