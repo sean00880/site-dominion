@@ -5437,7 +5437,7 @@ Ask Question Area Style
 }
 
 .portfolio_back {
-  color:#c5c4c4;
+  color:#201d1d;
 }
 
 
@@ -7057,6 +7057,11 @@ Service Details Area Style
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.service-details-wrap h1{
+  color: black;
+  font-size:21px;
 }
 
 .service-details-area .container .row .col-lg-4{

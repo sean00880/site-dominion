@@ -117,11 +117,20 @@ export default function ServicesStyleOne(){
                                                     required >
 													Industry/Niche:
 													<select className="options" name="industry">
+                                                    <option value="Automotive">Automotive & Transportation</option>
                                                         <option value="Construction">Construction</option>
-                                                        <option value="Landscaping">Landscaping / Junk Removal</option>
+                                                        <option value="Landscaping">Entertainment</option>
+                                                        <option value="Home">Home Services</option>
+                                                        <option value="Home">Insurance & Finance</option>
+                                                        <option value="Landscaping">Landscaping</option>
+                                                        <option value="Law">Law Firms</option>
+                                                        <option value="Real">Real Estate</option>
                                                         <option value="Salon">Salon / Parlor</option>
-														<option value="Health">Health / Medical</option>
-														<option value="Home Services">Home Services</option>
+                                                        <option value="Sports">Sports & Fitness</option>
+                                                        <option value="Waste">Waste Management</option>
+                                                        <option value="Other">Other</option>
+														
+														
                                                         <option value="Small business">Small Business (Describe below)</option>
                                                         <hr />
                                                         <option value="Other">Other (Describe below)</option>

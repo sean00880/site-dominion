@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import ProjectTabs from './ProjectTabs';
 import ServicesTabs from './ServicesTabs';
-import Payment from './Payment2';
+import Payment from './Payment';
 import QuoteRequest from './QuoteRequest'
 import WorkTab from './WorkTab'
 import PaymentAccordion2 from "./PaymentAccordion2";

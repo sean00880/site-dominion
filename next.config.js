@@ -1,6 +1,16 @@
 /** @type {import('next').NextConfig} */
 const path = require('path')
+const withBundleAnalyzer = require('@next/bundle-analyzer')({
+  enabled: process.env.ANALYZE === 'true'
+})
 const nextConfig = {
+  
+}
+
+module.exports = withBundleAnalyzer({
+  env: {
+      NEXT_PUBLIC_ENV: 'PRODUCTION', //your next configs goes here
+  },
   reactStrictMode: true,
   trailingSlash: true,
   distDir: 'build',
@@ -14,6 +24,4 @@ const nextConfig = {
     // your project has ESLint errors.
     ignoreDuringBuilds: true,
   }
-}
-
-module.exports = nextConfig
+})

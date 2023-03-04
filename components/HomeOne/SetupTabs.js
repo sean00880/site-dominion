@@ -4,7 +4,7 @@ import ServicesTabs from './ServicesTabs';
 import SetupContent from '../ServiceDetails/SetupContent';
 import QuoteRequest from './QuoteRequest';
 import WorkTab from './WorkTab2';
-import PaymentTab from './PaymentTab2';
+import PaymentTab from './PaymentTab';
 import DeploymentTab from './DeploymentTab';
 
 class ServicesStyleOne extends Component {

@@ -17,6 +17,20 @@ class HomeAccordion extends Component {
             <section className="faq-area">
                 <div className="container">
                     <div className="d-flex flex-column align-items-center w-100">
+                    <h2>As a web development agency, using Venmo for business has several benefits for accepting payments:</h2>
+<li>
+User-Friendly: Venmo is a user-friendly platform that is widely used and trusted by many consumers. This means that your clients are likely to feel comfortable using Venmo to make payments to your business.
+</li><li>
+Quick Payments: Venmo offers quick and easy payment processing. Clients can make payments to your business within minutes, which can help to speed up the payment process and improve cash flow.
+</li><li>
+Cost-Effective: Venmo is a cost-effective option for accepting payments. Unlike traditional payment processors, Venmo does not charge a monthly fee, and there are no fees for receiving payments. Venmo only charges a small fee for instant transfers, which are not necessary for most business transactions.
+</li><li>
+Secure: Venmo offers secure payment processing, with built-in fraud protection and encryption. This can give your clients peace of mind knowing that their transactions are secure.
+</li><li>
+Mobile-Friendly: Venmo is a mobile-friendly platform, which means that your clients can easily make payments from their mobile devices. This can be especially convenient for clients who are on-the-go and prefer to make payments from their smartphones.
+</li>
+<p>Overall, using Venmo for business can provide a convenient, secure, and cost-effective way to accept payments from your clients.</p>
+                    <h2>Follow these instructions when you're ready to pay:</h2>
                     <div className="faq-img">
                                 <img loading="lazy"  src="/images/qr.png" alt="Site Dominion's home-accordion image."  />
                             </div>
@@ -52,7 +66,7 @@ class HomeAccordion extends Component {
                                         </AccordionItemHeading>
 
                                         <AccordionItemPanel>
-                                        <p className="p-3">Once you have the Venmo for Business app installed, log in to your account or create a new one if you don't have one yet. Then, add Site Dominion as a recipient by searching for their Venmo username or scanning their QR code. You can find Site Dominion's Venmo username on their website or by contacting them directly.</p>
+                                        <p className="p-3">Once you have the Venmo for Business app installed, log in to your account or create a new one if you don't have one yet. Then, add Site Dominion as a recipient by searching for our Venmo username or scanning our QR code (locate these details on the banner above).</p>
                                         </AccordionItemPanel>
                                     </AccordionItem>
 

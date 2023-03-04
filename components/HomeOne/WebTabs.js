@@ -4,18 +4,21 @@ import ServicesTabs from './ServicesTabs';
 import WebContent from '../ServiceDetails/WebContent';
 import QuoteRequest from './QuoteRequest';
 import WorkTab from './WorkTab2';
-import PaymentTab from './PaymentTab2';
+import PaymentTab from './PaymentTab';
 import DeploymentTab from './DeploymentTab';
 
 class ServicesStyleOne extends Component {
     render() {
         return (
             <section className="features-area features-area-inner-style">
-                <div className="container">
+                <div className="container" >
+               
                 <WebContent/> 
               
                 <Tabs defaultIndex={1}>
               <TabList style={{'borderRadius':'0'}}>
+                
+                
                 <Tab>Step #1: Pick a Service</Tab>
                 <Tab>Step #2: Initiate Your FREE Quote Request
 </Tab>

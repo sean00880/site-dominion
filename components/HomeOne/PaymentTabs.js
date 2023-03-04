@@ -3,11 +3,12 @@ import Link from 'next/link';
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import ProjectTabs from './ProjectTabs';
 import ServicesTabs from './ServicesTabs';
-import Payment from './Payment2';
 import QuoteRequest from './QuoteRequest'
-import WorkTab from './WorkTab'
 import PaymentAccordion2 from "./PaymentAccordion2";
 import Image from 'next/image'; 
+import PaymentTab from './PaymentTab';
+import WorkTab from './WorkTab2';
+import DeploymentTab from './DeploymentTab';
 class ServicesStyleOne extends Component {
     render() {
         return (
@@ -62,8 +63,8 @@ class ServicesStyleOne extends Component {
                         <TabPanel>
                             <WorkTab/>
                         </TabPanel>
-                        <TabPanel></TabPanel>
-                        <TabPanel></TabPanel>
+                        <TabPanel><PaymentTab/></TabPanel>
+                        <TabPanel><DeploymentTab/></TabPanel>
                     </Tabs>
                 </div>
             </section>

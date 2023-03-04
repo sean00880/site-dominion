@@ -2,17 +2,18 @@ import React, { Component } from 'react';
 import Link from 'next/link';
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import ServicesTabs from './ServicesTabs';
-import WorkTab from './WorkTab2';
 import GoBack from './GoBack';
 import QuoteRequest from './QuoteRequest';
 import PaymentTab from './PaymentTab';
+import WorkTab from './WorkTab2';
+import DeploymentTab from './DeploymentTab';
 class ServicesStyleOne extends Component {
     render() {
         return (
             <section className="features-area features-area-inner-style">
                 <div className="container" style={{"borderRadius":"1vh"}}>
                 <Tabs>
-              <TabList><a href="/getting-started" className="backButton" style={{"textAlign":"right", "position":"absolute","right":"6vh", "color":"white"}}>
+              <TabList><a href="/getting-started" className="backButton" style={{"textAlign":"right", "position":"absolute","right":"2vh", "color":"white"}}>
       Go Back
     </a>
                 <Tab style={{"position":"relative"}}>Step #1: Pick A Service</Tab>
@@ -41,7 +42,7 @@ class ServicesStyleOne extends Component {
                         </TabPanel>
                         <TabPanel><WorkTab/></TabPanel>
                         <TabPanel><PaymentTab/></TabPanel>
-                        <TabPanel></TabPanel>
+                        <TabPanel><DeploymentTab/></TabPanel>
                     </Tabs>
                 </div>
             </section>

@@ -6,7 +6,10 @@
     "scripts": {
         "dev": "next",
         "build": "next build",
-        "start": "next start"
+        "start": "next start",
+        "analyze": "cross-env ANALYZE=true next build",
+        "analyze:server": "cross-env BUNDLE_ANALYZE=server next build",
+        "analyze:browser": "cross-env BUNDLE_ANALYZE=browser next build"
     },
     "author": "EnvyTheme.com",
     "license": "ISC",
@@ -16,9 +19,11 @@
         "@fortawesome/fontawesome-svg-core": "^6.2.1",
         "@fortawesome/free-solid-svg-icons": "^6.2.1",
         "@fortawesome/react-fontawesome": "^0.2.0",
+        "@next/bundle-analyzer": "^13.2.3",
         "animate.css": "^4.1.1",
         "aos": "^2.3.4",
         "axios": "^0.27.2",
+        "cross-env": "^7.0.3",
         "font-awesome": "^4.7.0",
         "fslightbox-react": "^1.6.2-2",
         "keen-slider": "^6.8.5",
@@ -32,8 +37,12 @@
         "react-reveal": "^1.2.2",
         "react-tabs": "^6.0.0",
         "sass": "^1.54.4",
+        "sharp": "^0.31.3",
         "sweetalert2": "^11.4.19",
         "sweetalert2-react-content": "^5.0.0",
         "swiper": "^8.3.2"
+    },
+    "devDependencies": {
+       
     }
 }

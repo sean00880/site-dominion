@@ -19,7 +19,7 @@ import Document, {
           </Head>
           
           <body>
-          <a href="#main" class="skip-to-main-content-link">Skip to main content</a>
+          <a href="#main" className="skip-to-main-content-link">Skip to main content</a>
           <main>
             <Main />
             <NextScript />
