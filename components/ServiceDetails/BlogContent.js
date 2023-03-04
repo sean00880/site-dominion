@@ -12,7 +12,7 @@ class ServiceDetailsContent extends Component {
                         <div className="col-lg-12" style={{'borderRadius':'0'}}>
                             <div className="service-details-wrap">
                                 <div className="service-img">
-                                    <img loading="lazy"  src="/images/blogImage.png" alt="Image" />
+                                    <img loading="lazy"  src="/images/blog.png" alt="Image" />
                                 </div>
 
                                 <h2>Blog Creation Services that Deliver Engaging Blog Designs</h2>
