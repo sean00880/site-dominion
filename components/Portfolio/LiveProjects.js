@@ -25,14 +25,14 @@ class LiveProjects extends Component {
                                             <div className="abs_img" ><Link href=""><a role="img" aria-label="Background Image 1" style={{ "backgroundImage": "url(/images/project4.png)", "backgroundSize":"contain", "backgroundPosition":"center","backgroundRepeat":"no-repeat" }}/></Link></div>
                                         </div>
                                         <div className="title_holder">
-                                            <h3><Link href="/portfolio/decoded-web"><a>All Landscaping Services LLC</a></Link></h3>
+                                            <h3><Link href="/portfolio/all-landscaping-services-llc"><a>All Landscaping Services LLC</a></Link></h3>
                                             <p>
-                                                <Link href="/portfolio/decoded-web"><a>
+                                                <Link href="/portfolio/all-landscaping-services-llc"><a>
                                                     <span className="text">View More</span>
                                                     
                                                 </a></Link>
                                             </p>
-                                            <Link href="/portfolio/decoded-web"><a></a></Link>
+                                            <Link href="/portfolio/all-landscaping-services-llc"><a></a></Link>
                                         </div>
                                     </div>
                                 </li>
@@ -44,14 +44,14 @@ class LiveProjects extends Component {
                                             <div className="abs_img" ><Link href=""><a role="/img" aria-label="Background Image 2" style={{ "backgroundImage": "url(/images/project2.png)", "backgroundSize":"contain", "backgroundPosition":"center","backgroundRepeat":"no-repeat" }}></a></Link></div>
                                         </div>
                                         <div className="title_holder">
-                                            <h3><Link href="/portfolio-single-2"><a>Designation Dump</a></Link></h3>
+                                            <h3><Link href="/portfolio/designation-dump-llc"><a>Designation Dump</a></Link></h3>
                                             <p>
-                                                <Link href="/portfolio-single-2"><a>
+                                                <Link href="/portfolio/designation-dump-llc"><a>
                                                     <span className="text">View More</span>
                                                     
                                                 </a></Link>
                                             </p>
-                                            <Link href="/portfolio-single-2"><a></a></Link>
+                                            <Link href="/portfolio/designation-dump-llc"><a></a></Link>
                                         </div>
                                     </div>
                                 </li>
@@ -62,14 +62,14 @@ class LiveProjects extends Component {
                                             <div className="abs_img" ><Link href=""><a role="/img" aria-label="Background Image 3" style={{ "backgroundImage": "url(/images/project3.png)", "backgroundSize":"contain", "backgroundPosition":"center","backgroundRepeat":"no-repeat" }}></a></Link></div>
                                        </div>
                                         <div className="title_holder">
-                                            <h3><Link href="/portfolio-single-3"><a>Grandpa Ron's</a></Link></h3>
+                                            <h3><Link href="/portfolio/grandpa-rons-llc"><a>Grandpa Ron's</a></Link></h3>
                                             <p>
-                                                <Link href="/portfolio-single-3"><a>
+                                                <Link href="/portfolio/grandpa-rons-llc"><a>
                                                     <span className="text">View More</span>
                                                 
                                                 </a></Link>
                                             </p>
-                                            <Link href="/portfolio-single-3"><a></a></Link>
+                                            <Link href="/portfolio/grandpa-rons-llc"><a></a></Link>
                                         </div>
                                     </div>
                                 </li>

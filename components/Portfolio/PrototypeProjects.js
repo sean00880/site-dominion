@@ -17,14 +17,14 @@ class PrototypeProjects extends Component {
                                     <div className="abs_img" ><Link href=""><a role="img" aria-label="Background Image 5" style={{ "backgroundImage": "url(/images/projecta.png)", "backgroundSize":"contain", "backgroundPosition":"center","backgroundRepeat":"no-repeat" }}></a></Link></div>
                                        </div>
                                 <div className="title_holder">
-                                    <h3><Link href="/portfolio/greenpower"><a>GREENPOWER Landscaping - Landscaping Business Website</a></Link></h3>
+                                    <h3><Link href="/portfolio/greenpower-landscaping"><a>GREENPOWER Landscaping - Landscaping Business Website</a></Link></h3>
                                     <p>
-                                        <Link href="/portfolio-single-1"><a>
+                                        <Link href="/portfolio/greenpower-landscaping"><a>
                                             <span className="text">View More</span>
                                             
                                         </a></Link>
                                     </p>
-                                    <Link href="/portfolio-single-1"><a></a></Link>
+                                    <Link href="/portfolio/greenpower-landscaping"><a></a></Link>
                                 </div>
                             </div>
                         </li>
@@ -35,14 +35,14 @@ class PrototypeProjects extends Component {
                                     <div className="abs_img" ><Link href=""><a role="img" aria-label="Background Image 6" style={{ "backgroundImage": "url(/images/projectc.png)", "backgroundSize":"contain", "backgroundPosition":"center","backgroundRepeat":"no-repeat" }}></a></Link></div>
                                  </div>
                                 <div className="title_holder">
-                                    <h3><Link href="/portfolio-single-2"><a>Articulate Insuarance - Insurance Agency</a></Link></h3>
+                                    <h3><Link href="/portfolio/articulate-insurance"><a>Articulate Insuarance - Insurance Agency</a></Link></h3>
                                     <p>
-                                        <Link href="/portfolio-single-2"><a>
+                                        <Link href="/portfolio/articulate-insurance"><a>
                                             <span className="text">View More</span>
                                             
                                         </a></Link>
                                     </p>
-                                    <Link href="/portfolio-single-2"><a></a></Link>
+                                    <Link href="/portfolio/articulate-insurance"><a></a></Link>
                                 </div>
                             </div>
                         </li>
@@ -50,17 +50,17 @@ class PrototypeProjects extends Component {
                             <div className="item">
                                 <div className="img_holder">
                                     <Image height={100} width={100} loading="lazy" src="/img/thumb/560-375.jpg" alt="" />
-                                    <div className="abs_img" ><Link href=""><a role="img" aria-label="Background Image 7" style={{ "backgroundImage": "url(/images/projectb.png)", "backgroundSize":"contain", "backgroundPosition":"center","backgroundRepeat":"no-repeat" }}></a></Link></div>
+                                    <div className="abs_img" ><Link href=""><a role="img" aria-label="Background Image 7" style={{ "backgroundImage": "url(/images/afj.png)", "backgroundSize":"contain", "backgroundPosition":"center","backgroundRepeat":"no-repeat" }}></a></Link></div>
                                 </div>
                                 <div className="title_holder">
-                                    <h3><Link href="/portfolio-single-3"><a>Shareo - Online Marketing Agency</a></Link></h3>
+                                    <h3><Link href="/portfolio/afj-productions"><a>A Film Junkie Productions - Video Production Agency [Live Soon]</a></Link></h3>
                                     <p>
-                                        <Link href="/portfolio-single-3"><a>
+                                        <Link href="/portfolio/afj-productions"><a>
                                             <span className="text">View More</span>
                                         
                                         </a></Link>
                                     </p>
-                                    <Link href="/portfolio-single-3"><a></a></Link>
+                                    <Link href="/portfolio/afj-productions"><a></a></Link>
                                 </div>
                             </div>
                         </li>

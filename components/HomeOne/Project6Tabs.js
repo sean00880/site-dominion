@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import ServicesTabs from './ServicesTabs';
-import Portfolio1Content from '../ServiceDetails/Portfolio1Content'
-import Link from 'next/link';
-import Image from 'next/image';
+import Portfolio1Content from '../ServiceDetails/Portfolio6Content'
 import QuoteRequest from './QuoteRequest';
 import PaymentTab from './PaymentTab';
 import WorkTab from './WorkTab2';
@@ -27,13 +25,11 @@ class ServicesStyleOne extends Component {
                 <Tabs defaultIndex={1}>
               <TabList style={{"borderRadius":"0"}}>
                 <Tab>Step #1: Pick a Service</Tab>
-                <Tab>Step #2: Initiate Your FREE Quote Request
-</Tab>
+                <Tab>Step #2: Initiate Your FREE Quote Request</Tab>
                 <Tab>Step #3: We Work On Your Project</Tab>
                 <br />
                 <Tab>Step #4: Complete Payment</Tab>
-                <Tab>Step #5: Project Deployed
-</Tab>
+                <Tab>Step #5: Project Deployed</Tab>
 
               </TabList>
               <div className="row" style={{"borderRadius":"0"}}>

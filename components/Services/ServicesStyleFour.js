@@ -13,9 +13,9 @@ class ServicesStyleFour extends Component {
                         <h4>As a leading web development agency, we are dedicated to providing customized solutions to help businesses of all industries and sizes grow online. </h4>
                     </div>
 
-                    <div className="row align-items-center">
+                    <div className="row align-items-center" >
                         <div className="col-lg-4">
-                            <div className="row">
+                            <div className="row" style={{"borderRadius":"1vh"}}>
                                 <div className="col-lg-12 col-md-6">
                                     <div className="single-industries">
                                         <i role="none"><Image src='/images/automotive1.png' width={50} height={50}/></i>
@@ -128,7 +128,7 @@ Painting and decorating</span>
                         </div>
 
                         <div className="col-lg-4">
-                            <div className="row">
+                            <div className="row" style={{"borderRadius":"1vh"}}>
                                 <div className="col-lg-12 col-md-6">
                                     <div className="single-industries right-item">
                                         <i role="none"><Image src='/images/entertainment.png' width={50} height={50}/></i>

@@ -33,32 +33,32 @@ class PartnerSlider extends Component {
                         className="brand-slide text-center"
                     >
                         <SwiperSlide>
-                            <a href="#" target="_blank" role="button">
+                            <a href="https://www.grandparonsllc.com/" target="_blank" role="button">
                                 <Image loading="lazy"  height="100px" width="125px"  src="/images/brands/tree.jpg" alt="Grandpa Ron's LLC website created by Site Dominion." />
                             </a>
                         </SwiperSlide>
 
                         <SwiperSlide>
-                            <a href="#" target="_blank" role="button">
+                            <a href="https://www.alllandscapingservicesllcmaryland.com/" target="_blank" role="button">
                                 <Image loading="lazy"  height={100} width={100}  src="/images/brands/brand2.png" alt="All Landscaping Services LLC website created by Site Dominion." />
                             </a>
                         </SwiperSlide>
 
                         <SwiperSlide>
-                            <a href="#" target="_blank" role="button">
+                            <a href="https://designation-dump.vercel.app/" target="_blank" role="button">
                                 <Image loading="lazy"  height={100} width={100}  src="/images/brands/brand3.png" alt="Designation Dump LLC website created by Site Dominion." />
                             </a>
                         </SwiperSlide>
 
                         <SwiperSlide>
-                            <a href="#" target="_blank" role="button">
+                            <a href="http://decodedweb.us/" target="_blank" role="button">
                                 <Image loading="lazy"  height={100} width={125}  src="/images/brands/brand4.png" alt="Decoded Web website created by Site Dominion." />
                             </a>
                         </SwiperSlide>
 
                         <SwiperSlide>
-                            <a href="#" target="_blank" role="button">
-                                <Image loading="lazy"  height={100} width={100}  src="/images/brands/brand5.png" alt="Blank image number 1." />
+                            <a href="https://afj-productions.vercel.app/" target="_blank" role="button">
+                                <Image loading="lazy"  height={100} width={100}  src="/images/afjlogo.png" alt="Blank image number 1." />
                             </a>
                         </SwiperSlide>
 

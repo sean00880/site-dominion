@@ -1,20 +1,19 @@
 import React, { Component } from 'react';
-import ServiceSidebar from './ServiceSidebar';
-import AskQuestionForm from './AskQuestionForm';
 
+import Image from 'next/image';
 class ServiceDetailsContent extends Component {
     render() {
         return (
             <section className="service-details-area ptb-100">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-8">
+                        <div className="col-lg-12">
                             <div className="service-details-wrap">
-                                <div className="service-img">
-                                    <img loading="lazy"   src="/images/ALS.png" alt="Image" />
+                                <div className="service-img" >
+                                    <Image loading="lazy"   src="/images/ALS.png" alt="Image" style={{"borderRadius":"1vh"}} width={900} height={500}/>
                                 </div>
                                 <h1>Website Link: <a href="https://www.alllandscapingservicesllcmaryland.com">https://www.alllandscapingservicesllcmaryland.com</a></h1>
-                                <h2>Project Overview</h2>
+                                <h2>All Landscaping Services LLC - Landscaping Business in Westminster, MD</h2>
                                 <p>All Landscaping Services LLC is a landscaping company that provides a variety of services related to lawn care and landscape design. Their website was created using Next.JS, a popular web development framework that allows for server-side rendering of React applications. The website is designed to showcase the company's services, portfolio, and contact information, while also providing an easy-to-use interface for customers to request quotes and schedule appointments.</p>
                                 <h3>Technology Stack</h3>
                                 <p>Technology Stack:
@@ -43,51 +42,12 @@ Site Dominion chose to use Next.js as the web framework for the project. Next.js
 <p>The request a quote page allows visitors to submit a detailed description of their landscaping needs, including information about their property, desired services, and budget. The company's staff will review the information and provide a customized quote in response.</p>
                                 <h3>Conclusion:</h3>
                                 <p>Site Dominion successfully built a new website for All Landscaping Services LLC using Next.js. The website's design reflects the business's brand and values, and its functionality makes it easy for users to learn about the business's services and contact them for work. The use of Next.js allowed Site Dominion to build a performant and SEO-friendly website that will help All Landscaping Services LLC attract new customers and grow their business.</p>  
-                                <div className="car-service-list-wrap">
-                                    <div className="row align-items-center">
-                                        <div className="col-lg-6 col-md-6">
-                                            <div className="service-list-img">
-                                                <img loading="lazy"   src="/images/services-details/services-details2.png" alt="Image" />
-                                            </div>
-                                        </div>
 
-                                        <div className="col-lg-6 col-md-6">
-                                            <div className="car-service-list">
-                                                <ul>
-                                                    <li>
-                                                        <i role="none" className='bx bx-check'></i>
-                                                        Engine bay cleaned and dressed
-                                                    </li>
-                                                    <li>
-                                                        <i role="none" className='bx bx-check'></i>
-                                                        Door card panels cleaned
-                                                    </li>
-                                                    <li>
-                                                        <i role="none" className='bx bx-check'></i>
-                                                        Plastic trim enhanced
-                                                    </li>
-                                                    <li>
-                                                        <i role="none" className='bx bx-check'></i>
-                                                        Paint surface clay barred
-                                                    </li>
-                                                    <li>
-                                                        <i role="none" className='bx bx-check'></i>
-                                                        Alloy wheel treatment inside and out
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <AskQuestionForm />
                             </div>
                         </div>
 
 
-                        <div className="col-lg-4">
-                            <ServiceSidebar />
-                        </div>
+                      
                     </div>
                 </div>
             </section>
