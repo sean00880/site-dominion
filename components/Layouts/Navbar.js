@@ -195,7 +195,7 @@ class Navbar extends Component {
                                     </li>
 
                                     <li role="none" className="nav-item">
-                                    <Link href="/getting-started/contact">
+                                    <Link href="/getting-started/#quote">
                                             <a className="nav-link menu" aria-haspopup="true" aria-expanded="false">
                                                 Contact <i role="none" className='bx'></i>
                                             </a>
