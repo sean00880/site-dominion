@@ -17,7 +17,7 @@ const MainBanner = () => {
                             
                             
                             <h2>Website Design, Deployment, SEO & More.</h2>
-                           <h3>Empower your digital presence with the world's finest web development agency. Unleash the power of innovation, creativity, and expertise to craft a website that exceeds your expectations. Let us elevate your online presence to new heights with our exceptional web development services.<p><Link href="/payment" passHref><Image priority  height="30px" width="30px" src="/images/i2.png" style={{"cursor":"pointer"}} alt="Site Dominion's Payment info." /></Link>Business transactions processed via VENMO.</p>
+                           <h3>Empower your digital presence with an exceptional web development agency. Unleash the power of innovation, creativity, and expertise to craft a website that exceeds your expectations. Let us elevate your online presence to new heights with our exceptional web development services.<p><Link href="/payment" passHref><Image priority  height="30px" width="30px" src="/images/i2.png" style={{"cursor":"pointer"}} alt="Site Dominion's Payment info." /></Link>Business transactions processed via VENMO.</p>
                            <div className="banner-btn">
                                 <Link href="/getting-started">
                                     <a className="default-btn">

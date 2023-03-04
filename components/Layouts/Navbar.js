@@ -99,6 +99,11 @@ class Navbar extends Component {
                                                     <a className="nav-link">Payments</a>
                                                 </Link>
                                             </li>
+                                            <li role="none" className="nav-item">
+                                                <Link href="/industries-we-serve" activeClassName="active">
+                                                    <a className="nav-link">Industries We Serve</a>
+                                                </Link>
+                                            </li>
                                             
 
                                             
