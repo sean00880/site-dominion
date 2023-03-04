@@ -6,6 +6,7 @@ import Image from 'next/image';
 
 class NewsDetailsContent extends Component {
     render() {
+        
         return (
             <section className="news-details-area ptb-100">
                 <div className="container">
@@ -101,7 +102,7 @@ class NewsDetailsContent extends Component {
                                 </div>
 
                                 {/* Comments Area */}
-                                <CommentsArea />
+                                
                             </div>
                         </div>
 
