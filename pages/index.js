@@ -18,6 +18,7 @@ const Process = dynamic(() => import( '../components/HomeOne/Process'));
 const ServicesStyleFour = dynamic(() => import( '../components/Services/ServicesStyleFour'));
 const WhyChooseUs = dynamic(() => import( '../components/HomeThree/WhyChooseUs'));
 
+export const config = { unstable_runtimeJS: false }
 
 const Index = () => {
     return (
