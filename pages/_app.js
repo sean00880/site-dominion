@@ -39,6 +39,8 @@ export default class MyApp extends App {
     
     
     render () {
+        
+        
 
         const { Component, pageProps } = this.props
         return (
@@ -48,6 +50,7 @@ export default class MyApp extends App {
                         name="viewport" 
                         content="width=device-width, initial-scale=1" 
                     />
+                    
                     <title>Lead Generating Websites for Businesses - https://www.sitedominion.com/</title>
                 </Head>
 

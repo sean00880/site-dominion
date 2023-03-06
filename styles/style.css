@@ -81,6 +81,7 @@ Default Style
 ============================*/
 @import "@fontsource/montserrat";
 
+
 html{
   scroll-behavior: smooth;
 }
@@ -8316,7 +8317,6 @@ a{
   align-items: center;
   display: flex;  
   flex-direction: row;
-  background: #1d1c1c;
   border-radius: 1vh;
   padding: 1vh 0px;
 }
