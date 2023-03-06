@@ -1811,19 +1811,19 @@
 
       @media only screen and (max-width: 413px){
         .faq-accordion .accordion .accordion__button .accordion__image3{
-          max-width: 132px;
+          max-width: 93px;
           max-height: 133px;
           left: 10px;
           position: absolute;
           position: absolute;
-          top: 8px;
+          top: 23px;
           background: #ffffff;
           border-radius: 1vh;
           padding: 1vh;
-          top:11px;
         }
         }
 
+    
 
 
 @media only screen and (min-width: 1824px) {
@@ -1922,6 +1922,54 @@
   }
 }
 
+@media only screen and (max-width: 420px){
+  .main-banner-area.main-banner-area-one{
+    padding: 0;
+    padding-bottom: 3vh;
+  }
+  .main-banner-area.main-banner-area-one .banner-text h3{
+    font-size: 19px;
+    padding:3px;
+    margin: 0;
+  }
+  .main-banner-area.main-banner-area-one .banner-text{
+    height: auto;
+    background-color: black;
+    padding:2px;
+  }
+  .main-banner-area.main-banner-area-one .banner-text h2{
+    text-align: center;
+  }
+  .section-title h4{
+    font-size: 14px;
+  }
+  }
+
+  @media only screen and (max-width: 390px){
+    .main-banner-area.main-banner-area-one .banner-text h3{
+      font-size: 16px;
+      display: none;
+      padding:3px;
+      margin-top: 0;
+      
+    }
+    .main-banner-area.main-banner-area-one{
+      padding:0;
+      justify-content: end;
+      padding-bottom: 15vh;
+    }
+    .bannerImage2{
+      max-width: 33vh;
+        /* padding-top: 18vh; */
+        max-height: 27vh;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        display: block;
+    }
+  }
+
 @media only screen and (min-width: 375px) and (max-width: 667px){
   .main-banner-area .banner-text h1{
     margin-bottom: 0px;
@@ -1981,6 +2029,13 @@
     left: 4vh;
     position: relative;
   }
+  .main-banner-area.main-banner-area-one{
+    width: 100%;
+  }
+
+  .blog-section{
+    display: none;
+  }
  
   .pricing-card ul li{
     margin-bottom:5px;
@@ -2006,6 +2061,11 @@
   .pricing-card{
     width: auto;
     height:83vh;
+  }
+
+  .main-banner-area.main-banner-area-one .banner-text p{
+    padding: 0;
+    margin: 1vh;
   }
   
   .long {

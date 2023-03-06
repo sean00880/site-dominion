@@ -2,6 +2,8 @@ import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { useState } from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
+import { useRouter } from "next/router"
 
 export default function ServicesStyleOne(){
 
@@ -19,6 +21,10 @@ export default function ServicesStyleOne(){
     };
   
     const [buttonPopup, setButtonPopup] = useState(false);
+    const openInNewTab = (url) => {
+        const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
+        if (newWindow) newWindow.opener = null
+    }
         
     return (
 
@@ -121,17 +127,13 @@ export default function ServicesStyleOne(){
                                                         <option value="Construction">Construction</option>
                                                         <option value="Landscaping">Entertainment</option>
                                                         <option value="Home">Home Services</option>
-                                                        <option value="Home">Insurance & Finance</option>
+                                                        <option value="Insurance">Insurance & Finance</option>
                                                         <option value="Landscaping">Landscaping</option>
                                                         <option value="Law">Law Firms</option>
                                                         <option value="Real">Real Estate</option>
                                                         <option value="Salon">Salon / Parlor</option>
                                                         <option value="Sports">Sports & Fitness</option>
                                                         <option value="Waste">Waste Management</option>
-                                                        <option value="Other">Other</option>
-														
-														
-                                                        <option value="Small business">Small Business (Describe below)</option>
                                                         <hr />
                                                         <option value="Other">Other (Describe below)</option>
 													</select>
@@ -142,7 +144,7 @@ export default function ServicesStyleOne(){
                                         <div className="col-lg-12 col-md-12">
                                             <div className="form-group">
                                                 <textarea 
-                                                    name="text" 
+                                                    name="message" 
                                                     cols="30" 
                                                     rows="6" 
                                                     placeholder="Write your message..." 
@@ -154,8 +156,9 @@ export default function ServicesStyleOne(){
                                             </div>
                                         </div>
                                         <div className="col-lg-12 col-sm-12">
-                                            <button type="submit" className="default-btn btn-two">
-                                                Submit
+                                        
+                                            <button type="submit" className="default-btn btn-two" onClick={()=> openInNewTab("/contact")} > 
+                                                Submit                                               
                                             </button>
                                         </div>
                                     </div>

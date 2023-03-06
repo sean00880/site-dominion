@@ -93,23 +93,7 @@ Snow and Ice Removal Services.
                                     </div>
                                 </div>
 
-                                <div className="col-lg-12 col-md-6">
-                                    <div className="single-industries">
-                                        <i role="none"><Image src='/images/construction.png' width={50} height={50}/></i>
-                                        <h3>Construction & Trade Work</h3>
-                                        <span>Construction, Electrical contracting,
-Plumbing and heating,
-Carpentry and woodworking,
-Masonry and stonework,
-Painting and decorating</span>
-
-                                        <Link href="/industries-we-serve/#construction">
-                                            <a className="right-icon">
-                                                <span className="bx bx-chevrons-right" role="presentation"> </span>
-                                            </a>
-                                        </Link>
-                                    </div>
-                                </div>
+                                
                             </div>
                         </div>
                     
@@ -127,8 +111,30 @@ Painting and decorating</span>
                             </Link>
                         </div>
 
+                        
+
                         <div className="col-lg-4">
                             <div className="row" style={{"borderRadius":"1vh"}}>
+
+                            <div className="col-lg-12 col-md-6 right-item">
+                                    <div className="single-industries">
+                                        <i role="none"><Image src='/images/construction.png' width={50} height={50}/></i>
+                                        <h3>Construction & Trade Work</h3>
+                                        <span>Construction, Electrical contracting,
+Plumbing and heating,
+Carpentry and woodworking,
+Masonry and stonework,
+Painting and decorating</span>
+
+                                        <Link href="/industries-we-serve/#construction">
+                                            <a className="right-icon">
+                                                <span className="bx bx-chevrons-right" role="presentation"> </span>
+                                            </a>
+                                        </Link>
+                                    </div>
+                                </div>
+
+
                                 <div className="col-lg-12 col-md-6">
                                     <div className="single-industries right-item">
                                         <i role="none"><Image src='/images/entertainment.png' width={50} height={50}/></i>

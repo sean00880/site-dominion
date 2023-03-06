@@ -8,10 +8,6 @@ class Testimonials extends Component {
         return (
             <section className="client-area ptb-100">
                 <div className="container">
-                    <div className="section-title">
-                        <span>Testimonials</span>
-                        <h2>What Clients Say About Us</h2>
-                    </div>
 
                     <Swiper 
                         spaceBetween={25}

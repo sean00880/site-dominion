@@ -203,8 +203,8 @@ class Navbar extends Component {
                                     </li>
 
                                     <li role="none" className="nav-item">
-                                        <Link href="#">
-                                            <a className="nav-link menu" aria-expanded="false" aria-haspopup="true" onClick={e => e.preventDefault()}>
+                                        <Link href="/coming-soon" passHref>
+                                            <a className="nav-link menu" aria-expanded="false" aria-haspopup="true">
                                                 Blog <i role="none" className='bx'></i>
                                             </a>
                                         </Link>

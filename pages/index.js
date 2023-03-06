@@ -8,11 +8,12 @@ const Pricing = dynamic(() => import( '../components/HomeOne/Pricing'));
 const MainBanner = dynamic(() => import( '../components/HomeOne/MainBanner'));
 const Navbar = dynamic(() => import( '../components/Layouts/Navbar'));
 const Footer = dynamic(() => import( '../components/Layouts/Footer'));
+const Footer2 = dynamic(() => import( '../components/Layouts/Footer2'));
 const Projects = dynamic(() => import( '../components/HomeOne/Projects'));
 const Features = dynamic(() => import( '../components/HomeOne/Features'));
 const TopSections2 = dynamic(() => import( '../components/HomeOne/TopSections2'));
 const Testimonials = dynamic(() => import( '../components/Common/Testimonials'));
-const News = dynamic(() => import( '../components/Common/News'));
+const Blog = dynamic(() => import( '../components/HomeOne/Blog'));
 const PartnerSlider = dynamic(() => import( '../components/Common/PartnerSlider'));
 const Process = dynamic(() => import( '../components/HomeOne/Process'));
 const ServicesStyleFour = dynamic(() => import( '../components/Services/ServicesStyleFour'));
@@ -36,9 +37,9 @@ const Index = () => {
             <Pricing/>                
             <ServicesStyleFour />
             <Projects />
-            <News />
-            <Testimonials />
+            <Testimonials/>  
             <Footer />
+           
         </>
     )
 }
