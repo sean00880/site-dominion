@@ -17,7 +17,7 @@ import Head from 'next/head';
 import Loader from '../components/Shared/Loader';
 import GoTop from '../components/Shared/GoTop';
 
-
+import Script from 'next/script';
 
 
 export default class MyApp extends App {
@@ -43,9 +43,23 @@ export default class MyApp extends App {
         
 
         const { Component, pageProps } = this.props
+
         return (
             <>
                 <Head>
+                <Script
+        src="https://www.googletagmanager.com/gtag/js?id=NEXT_PUBLIC_GOOGLE_ANALYTICS"
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){window.dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'NEXT_PUBLIC_GOOGLE_ANALYTICS');
+        `}
+      </Script>
                     <meta 
                         name="viewport" 
                         content="width=device-width, initial-scale=1" 
