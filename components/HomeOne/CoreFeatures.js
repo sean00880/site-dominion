@@ -73,8 +73,7 @@ const MyExpertise = () => {
                 <CgWebsite className="icon"/>
                 <h3>Advanced Functionality</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore.
+                Features that go beyond the basic functionality of a website and provide additional value to users. These features are designed to enhance the user experience, improve website performance, and offer more advanced capabilities.
                 </p>
               </div>
             </div>
@@ -134,8 +133,7 @@ const MyExpertise = () => {
                 <RiCustomerService2Line  className="icon"/>
                 <h3>Flexible Support</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore.
+                "Flexible support" refers to a website's ability to provide users with different options for getting help or support when they need it.
                 </p>
               </div>
             </div>
