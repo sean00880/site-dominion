@@ -11,7 +11,7 @@ const Features = () => {
                     <div className="section-title">
                         <h2>Our Services</h2>
                         <hr />
-                        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nisi rem quo itaque minus dolorem ratione vero, quisquam reiciendis quia atque eos aspernatur.</h4>
+                        <h4>Empower your digital presence with an exceptional web development agency. Unleash the power of innovation, creativity, and expertise to craft a website that exceeds your expectations. Let us elevate your online presence to new heights with our exceptional web development services.</h4>
                     </div>
                 
                 <hr />

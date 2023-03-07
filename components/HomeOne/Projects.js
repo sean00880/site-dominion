@@ -12,7 +12,7 @@ class Services extends Component {
                     <span>Projects</span>
                     <h2>Browse Through Our Collection of Websites</h2>
                     <hr />
-                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias eos ea obcaecati et similique incidunt animi, sed, quos officiis placeat. Id ipsa molestias.</h4>
+                    <h4>Our portfolio showcases a wide range of projects, from small business websites to large-scale enterprise level projects. Each project is unique and tailored to our clients' specific needs, goals, and target audience.</h4>
                 </div>
                 <LiveProjects/>
                 <PrototypeProjects/>

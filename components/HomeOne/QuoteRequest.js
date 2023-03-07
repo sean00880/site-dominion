@@ -35,7 +35,7 @@ export default function ServicesStyleOne(){
                     <div style={{"display":"flex","flexDirection":"column"}}>
                     <span>Contact Us</span>
                     <h2>Get Your FREE Quote</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque quibusdam deleniti porro praesentium. Aliquam minus quisquam velit in at nam.</p>
+                    <p>Empower your digital presence with an exceptional web development agency. Unleash the power of innovation, creativity, and expertise to craft a website that exceeds your expectations. Let us elevate your online presence to new heights with our exceptional web development services.</p>
                     </div>
                     <img loading="lazy"  height={100} width={100}  src="/images/lion9.png" alt="Site Dominion Logo" style={{"maxWidth":"15vh"}}/>
                    
