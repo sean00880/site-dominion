@@ -1583,8 +1583,6 @@ jumpx Nav Area Style
 Main Banner Area Style
 ======================================================*/
 .main-banner-area {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#00095e), to(#000638));
-  background-image: url('/images/lion4.png');
   background-color:black;
   background-size: contain;
   background-repeat: no-repeat;
@@ -1661,7 +1659,7 @@ Main Banner Area Style
   display: flex;
   /* flex-direction: row; */
   padding: 4vh;
-  width: 50%;
+  width: 100%;
 }
 
 .blog-section{
@@ -1670,10 +1668,6 @@ Main Banner Area Style
 
 .main-banner-area.main-banner-area-one .banner-text {
   top: 90px;
-  background: linear-gradient(45deg, #3d3d3d, #0000004f);
-  border: 3px solid #c8c8c8;
-  /* color: black; */
-  border-radius: 2vh 9vh;
   width: 100%;
   height: 74vh;
   align-items: center;

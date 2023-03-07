@@ -47,7 +47,6 @@ const MainBanner = () => {
 
            
         </section>
-        <Blog></Blog>
         </div>
         </>
     )
