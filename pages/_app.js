@@ -5,7 +5,7 @@ import '../styles/flaticon.css';
 import 'react-accessible-accordion/dist/fancy-example.css';
 import "swiper/css";
 import "swiper/css/bundle";
-
+import { useRouter } from 'next/router';
 // Global styles
 import '../styles/style.css';
 import '../styles/responsive.css';
@@ -40,13 +40,17 @@ export default class MyApp extends App {
     
     render () {
         
-        
+        const siteUrl = 'https://www.sitedominion.com';
+  const router = useRouter();
+  const cleanPath = router.asPath.split('#')[0].split('?')[0];
+  const canonicalUrl = `${siteUrl}` + (router.asPath === '/' ? '' : cleanPath);
 
         const { Component, pageProps } = this.props
 
         return (
             <>
                 <Head>
+                <link rel="canonical" href={canonicalUrl} />
                 <Script
         src="https://www.googletagmanager.com/gtag/js?id=NEXT_PUBLIC_GOOGLE_ANALYTICS"
         strategy="afterInteractive"

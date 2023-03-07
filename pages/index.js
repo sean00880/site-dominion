@@ -24,7 +24,6 @@ const WhyChooseUs = dynamic(() => import( '../components/HomeThree/WhyChooseUs')
 const Index = () => {
     return (
         <>
-            
             <Navbar />
           
             <MainBanner />
