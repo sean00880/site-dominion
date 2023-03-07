@@ -839,7 +839,8 @@ Preloader Area Style
   width: 100%;
   height: 100%;
   position: fixed;
-  background-image: url(/images/background.png);
+  background:black;
+  background-image: url(/images/lion4.png);
   background-size: cover;
   top: 0;
   left: 0;
@@ -1697,7 +1698,7 @@ Main Banner Area Style
   line-height: 2;
   font-style: italic;
   margin-bottom: 0;
-  text-align: left;
+  text-align: center;
   padding: 0 2vh;
 }
 
