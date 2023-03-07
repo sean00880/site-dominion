@@ -8051,7 +8051,6 @@ a{
 }
 
 .process .container{
-  background:linear-gradient(225deg,#e7e7e7, #ffffff, #ffffff, #e7e7e7);
   flex-direction: row-reverse;
 }
 
@@ -8299,9 +8298,7 @@ a{
   align-items: center;
   justify-content: center;
 }
-.faq-area .container{
-  background:#fdfdfe;
-}
+
 
 .row .features-area{
   background-image: none;
