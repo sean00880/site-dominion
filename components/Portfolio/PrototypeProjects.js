@@ -71,7 +71,7 @@ class PrototypeProjects extends Component {
                 <div className="fn_cs_sticky_section">
                     <div className="left_part_in left_part_in2">
                         <h3>Prototype Projects</h3>
-                        <p>It&apos;s a burning, never-ending desire to help our clients maximize their outcomes and exceed their strategic goals. Though our goal is a bit aspirational, our values are what drive us every day. </p>
+                        <p>In our portfolio, you'll find a wide range of prototype websites that showcase our expertise in design, development, and user experience. From sleek and modern designs to more traditional layouts, we have experience creating websites for a variety of industries and niches.</p>
                         <Link href="/portfolio"><a className='projects-btn'>All Projects</a></Link>
                     </div>
                 </div>

@@ -10,7 +10,7 @@ class LiveProjects extends Component {
                         <div className="fn_cs_sticky_section">
                             <div className="left_part_in">
                                 <h3>Our LIVE Projects</h3>
-                                <p>It&apos;s a burning, never-ending desire to help our clients maximize their outcomes and exceed their strategic goals. Though our goal is a bit aspirational, our values are what drive us every day. </p>
+                                <p>Take a look around and see what we've been up to lately. And when you're ready to take your own website to the next level, don't hesitate to get in touch. We can't wait to bring your vision to life!</p>
                                 <Link href="/portfolio"><a>All Projects</a></Link>
                             </div>
                         </div>
