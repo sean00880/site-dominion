@@ -18,41 +18,21 @@ import Loader from '../components/Shared/Loader';
 import GoTop from '../components/Shared/GoTop';
 import { NextSeo } from "next-seo";
 import Script from 'next/script';
+import { useRouter } from "next/router";
+
+function MyApp({ Component, pageProps }) {
+  const router = useRouter();
+  const canonicalUrl = (`https://sitedominion.com` + (router.asPath === "/" ? "": router.asPath)).split("?")[0];
 
 
-export default class MyApp extends App {
-
-    // Preloader
-    state = {
-        loading: true
-    };
-    componentDidMount() {
-        this.timerHandle = setTimeout(() => this.setState({ loading: false }), 2000); 
-    }
-    componentWillUnmount() {
-        if (this.timerHandle) {
-            clearTimeout(this.timerHandle);
-            this.timerHandle = 0;
-        }
-    }
-
-    
-    
-    render () {
-        
-        
-        
-        const { Component, pageProps } = this.props
-        
-        
-        return (
-            <>
-                <NextSeo
+  return (
+    <>
+                  <NextSeo
         title="Site Domininon - Web Development Services"
         titleTemplate="Site Domininon - Web Development Services"
         defaultTitle="Site Domininon - Web Development Services"
         description="Looking for a lead generating website agency that can help you increase your online presence and drive more traffic to your business? Look no further than Site Dominion's expert team of website developers and digital marketing specialists."
-        canonical="https://www.sitedominion.com/"
+        canonical={canonicalUrl}
         openGraph={{
           url: "https://www.sitedominion.com/",
           title: "Site Dominion - Web Development Services",
@@ -84,16 +64,10 @@ export default class MyApp extends App {
         `}
       </Script>
             </Head>
-                <Component {...pageProps} />
-                
-                {/* Preloader */}
-                <Loader loading={this.state.loading} />
-
-                {/* Go Top Button */}
-                <GoTop scrollStepInPx="100" delayInMs="10.50" />
-            </>
-        );
-    }
+            <Component {...pageProps} />
+    </>
+  );
 }
 
+export default MyApp;
 
