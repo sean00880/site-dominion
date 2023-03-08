@@ -19,28 +19,27 @@ const Process = dynamic(() => import( '../components/HomeOne/Process'));
 const ServicesStyleFour = dynamic(() => import( '../components/Services/ServicesStyleFour'));
 const WhyChooseUs = dynamic(() => import( '../components/HomeThree/WhyChooseUs'));
 
-
-
-const Index = () => {
-    return (
-        <>
-            <Navbar />
+export async function getStaticSideProps() {
+    return( <>
+       <Navbar />
           
-            <MainBanner />
-            <PartnerSlider/>
-            <TopSections2/>
-            <CoreFeatures/>
-            <Process />
-            <Features />
-            <WhyChooseUs />
-            <Pricing/>                
-            <ServicesStyleFour />
-            <Projects />
-            <Testimonials/>  
-            <Footer />
-           
-        </>
+          <MainBanner />
+          <PartnerSlider/>
+          <TopSections2/>
+          <CoreFeatures/>
+          <Process />
+          <Features />
+          <WhyChooseUs />
+          <Pricing/>                
+          <ServicesStyleFour />
+          <Projects />
+          <Testimonials/>  
+          <Footer /></>
     )
 }
 
-export default Index
+function SSRPage() {
+  // Displaying the data to the client
+}
+
+export default SSRPage
