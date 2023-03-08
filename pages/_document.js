@@ -5,7 +5,7 @@ import Document, {
     NextScript 
   } from "next/document";
 
-import Canonical from '../components/Common/Canonical';
+import loader from "../src/loader";
   
   class MyDocument extends Document {
     
@@ -21,10 +21,18 @@ import Canonical from '../components/Common/Canonical';
             />
             <link href="https://fonts.googleapis.com/css2?family=montserrat&family=Smooch+Sans&display=swap" rel="stylesheet" />
             <link rel="icon" type="image/png" href="/images/favicon.png"></link>
-            
+            <head>
+              <style>{loader}</style>
+            </head>
           </Head>
           
           <body>
+          <div id={'globalLoader'}>
+                     <div className="loader">
+                        <div/>
+                        <div/>
+                    </div>
+                </div>
           <a href="#main" className="skip-to-main-content-link">Skip to main content</a>
           <main>
             <Main />
