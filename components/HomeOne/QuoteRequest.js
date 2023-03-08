@@ -37,7 +37,7 @@ export default function ServicesStyleOne(){
                     <h2>Get Your FREE Quote</h2>
                     <p>Empower your digital presence with an exceptional web development agency. Unleash the power of innovation, creativity, and expertise to craft a website that exceeds your expectations. Let us elevate your online presence to new heights with our exceptional web development services.</p>
                     </div>
-                    <img loading="lazy"  height={100} width={100}  src="/images/lion9.png" alt="Site Dominion Logo" style={{"maxWidth":"15vh"}}/>
+                    <img loading="lazy"  height={100} width={100}  src="/images/lion9.png" alt="Site Dominion - Lead Generating Websites for Business" style={{"maxWidth":"15vh"}}/>
                    
                 </div>
 
