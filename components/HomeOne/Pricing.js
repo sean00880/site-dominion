@@ -8,10 +8,14 @@ import {MdOutlineScreenshot} from "react-icons/md"
 import {CgUserlane} from "react-icons/cg"
 import Pricing from '../Pricing/PricingStyleTwo'
 import Image from "next/image";
+import AOS from "aos";
 
 
 
 const MyExpertise = () => {
+  React.useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <>
       <div className="pricing">
@@ -33,7 +37,7 @@ That is why, @ Site Dominion, we pledge to charge low set-up costs for fully opt
                         </div>
           </div>
 
-          <div className="row justify-content-center" style={{"width":"100%"}} data-aos="fade-left"  data-aos-duration="1200" >
+          <div className="row justify-content-center" style={{"width":"100%"}} data-aos="fade-left" >
             
             <Pricing/>
           </div>

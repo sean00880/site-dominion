@@ -439,6 +439,52 @@ Go Top Style
 /*
 Page-navigation Area Style
 ======================================================*/
+
+.navbar-nav{
+  position:relative;
+  left:100px;
+}
+
+.social-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.social-container div{
+  justify-content: center;
+}
+
+.social-container img{
+  position:relative;
+  top:0;
+}
+
+.social-container p{
+  font-size: 19px;
+  font-weight: 500;
+  color: #1a1919;
+  text-transform: uppercase;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-family: "Smooch Sans", sans-serif;
+  letter-spacing: 1px;
+  justify-content: center;
+}
+
+.social-container .social img{
+  margin-right:1vh;
+}
+
+
+
 .page-navigation-area {
   text-align: center;
   margin-top: 30px;
@@ -820,7 +866,7 @@ Section Title Area Style
 .section-title h4 {
   color: #702525;
   letter-spacing: 1px;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 2;
 }
 
@@ -1172,6 +1218,9 @@ jumpx Nav Area Style
   padding-bottom: 10px;
   padding-left: 0;
   padding-right: 0;
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .navbar-area nav .navbar-nav .nav-item a {
@@ -1197,7 +1246,7 @@ jumpx Nav Area Style
 
 
 .navbar-area nav .navbar-nav .nav-item a i {
-  font-size: 23px;
+  font-size: 16px;
   position: relative;
   top: 3px;
 }
@@ -1659,7 +1708,6 @@ Main Banner Area Style
   justify-content: flex-end;
   display: flex;
   /* flex-direction: row; */
-  padding: 4vh;
   width: 100%;
 }
 
@@ -1668,11 +1716,10 @@ Main Banner Area Style
 }
 
 .main-banner-area.main-banner-area-one .banner-text {
-  top: 90px;
   width: 100%;
   height: 74vh;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
   display: flex;
   flex-direction: column;
 }
@@ -1889,7 +1936,7 @@ Features Area Style
 }
 
 .single-features2 .read-more-icon span{
-  width:16vh;
+  width:15vh;
 }
 
 .single-features:hover {
@@ -3618,6 +3665,7 @@ Offer Area Two Style
 
 .pricing-card .pricing-top-heading p {
   font-weight: 600;
+  margin:0;
   font-size: 15px;
 }
 
@@ -3717,6 +3765,7 @@ Offer Area Two Style
   top: 5px;
   left: 0;
   color: #197425;
+  border:1px solid;
 }
 
 .pricing-card ul li .bx-x {
@@ -3887,8 +3936,8 @@ Pricing Area Style
 .popular {
   position: absolute;
   top: -23px;
-  right: -75px;
-  width: 197px;
+  right: -61px;
+  width: 145px;
   z-index: 0;
   font-family: 'smooch sans', sans-serif;
   background-color: #e7c625;
@@ -3896,8 +3945,8 @@ Pricing Area Style
   color: #fff;
   padding: 40px 40px 10px 35px;
   transform: rotate(45deg);
-  font-size: 30px;
-  letter-spacing: 1px;
+  font-size: 18px;
+  letter-spacing: 2px;
 }
 
 .tab.quote-list-tab {
@@ -7565,7 +7614,7 @@ a{
     display: none;
 }
 .fn_cs_project_sticky_modern .left_part p{
-  font-size: 17px;
+  font-size: 14px;
   line-height: 2;
   margin: 5vh 0;
   background: #000000de;
@@ -7577,7 +7626,7 @@ a{
 }
 
 .fn_cs_project_sticky_modern .left_part_in2 p{
-  font-size: 15px;
+  font-size: 14px;
   line-height: 2;
   margin: 5vh 0;
   background: #7a2222e3;
@@ -7905,11 +7954,21 @@ a{
 .navbar-area nav img{
   max-width: 125px;
   position: absolute;
-  top: -3vh;
+  top: 3vh;
   left: 3%;
   display: flex;
   justify-content: center;
   flex-direction: column;
+}
+
+@media(max-width: 1440px){
+  .navbar-area nav .google{
+  display:none;
+  
+}
+.navbar-area nav img{
+  top:0vh;
+}
 }
 
 .navbar .container{
@@ -7918,7 +7977,6 @@ a{
   align-items: center;
   position: absolute;
   justify-content: space-between;
-  top: 12%;
   max-width: 100%;
   /* border: 1px solid black; */
   border-radius: 1vh 0 1vh 4vh;

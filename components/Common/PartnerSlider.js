@@ -63,22 +63,17 @@ class PartnerSlider extends Component {
                         </SwiperSlide>
 
                         <SwiperSlide>
-                            <a href="#" target="_blank" role="button">
-                                <Image loading="lazy"  height={100} width={100}  src="/images/brands/brand6.png"  alt="Blank image number 2." />
+                            <a href="https://greenpower-delta.vercel.app/" target="_blank" role="button">
+                                <Image loading="lazy"  height={100} width={100}  src="/images/GPlogo.png"  alt="Blank image number 2." />
                             </a>
                         </SwiperSlide>
 
                         <SwiperSlide>
                             <a href="#" target="_blank" role="button">
-                                <Image loading="lazy"  height={100} width={100}  src="/images/brands/brand7.png"  alt="Blank image number 3." />
+                                <Image loading="lazy"  height={100} width={100}  src="/images/zen.png"  alt="Blank image number 3." />
                             </a>
                         </SwiperSlide>
 
-                        <SwiperSlide>
-                            <a href="#" target="_blank" role="button">
-                                <Image loading="lazy"  height={100} width={100}  src="/images/brands/brand8.png"  alt="Blank image number 4." />
-                            </a>
-                        </SwiperSlide>
                     </Swiper> 
                 </div>
             </div>

@@ -1,6 +1,14 @@
 import React, { Component } from 'react';
 import Link from '../../utils/ActiveLink';
 import Image from 'next/image';
+import {
+    faYoutube,
+    faFacebook,
+    faTwitter,
+    faInstagram
+  } from "@fortawesome/free-brands-svg-icons";
+  import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+  import { Button } from "reactstrap";
 
 class Navbar extends Component {
     _isMounted = false;
@@ -109,6 +117,7 @@ class Navbar extends Component {
 
                                             
                                         </ul>
+
                                     </li>
 
                                     <li role="none" className="nav-item">
@@ -212,13 +221,53 @@ class Navbar extends Component {
                                     </li>
 
                                     
+                               
+                                    <li role="none" className="nav-item">
+                                        <Link href="/coming-soon" passHref>
+                                            <a className="nav-link menu" aria-expanded="false" aria-haspopup="true">
+                                                Social: <i role="none" className='bx'></i>
+                                            </a>
+                                        </Link>
+                                    </li>
+                                <div style={{"display":"flex","flexDirection":"row"}}>
+                                <div class="social-container" >
+                                   <div style={{"display":"flex","flexDirection":"column"}}>
+                                    <a href="https://www.facebook.com/sitedominion"
+                                        className="facebook social">
+                                        <img width={25} height={25} src="/images/fb.png" style={{"position":"relative","top":"0"}}/>
+                                    </a>
+                                    <a href="https://www.twitter.com/sitedominion"
+                                        className="twitter social">
+                                        <img width={25} height={25} src="/images/twitter.png" style={{"position":"relative","top":"0"}}/>
+                                    </a>
+                                    </div>
+                                    
+                                    <div style={{"display":"flex","flexDirection":"column"}}>
+                                    <a href="https://sitedominion.medium.com/"
+                                        className="medium social">
+                                        <img width={25} height={25} src="/images/medium.png" style={{"position":"relative","top":"0"}}/>
+                                    </a>
+                                    <a href="https://www.facebook.com/sitedominionofficial"
+                                        className="instagram social">
+                                        <img width={25} height={25} src="/images/ig.png" style={{"position":"relative","top":"0"}}/>
+                                        
+                                    </a>
+
+                                    </div>
+                                    
+                                </div>
+
+                               
+                                <img loading="lazy" src="/images/reviews.png" className="google" alt="Site Dominion Logo" style={{"position":"relative","top":"-3vh","maxWidth":"unset","transform":"scale(.6)"}}/>
+                                </div>
                                 </ul>
                                 
                                 <div className="others-options">
+                                    
                                 <p role="heading">Ready for your website?</p>   
                                     <Link href="/getting-started">
                                         <a className="default-btn">
-                                            Get Started <i role="none" className="bx bx-log-in-circle" role="presentation"></i>
+                                            Get Started <i role="none" className="bx bx-log-in-circle"></i>
                                         </a>
                                     </Link>
                                 </div>

@@ -13,7 +13,7 @@ const MainBanner = () => {
         <section className="main-banner-area main-banner-area-one">
             <div className="container-fluid">
                 <div className="row text-center justify-center flex flex-column-reverse text-align-center align-items-center">
-                    <div className="wrapper" style={{"display":"flex", "alignItems":"center"}}>
+                    <div className="wrapper" style={{"display":"flex", "alignItems":"center","padding":"0"}}>
                     
                         <div className="banner-text">
                         <img priority className="bannerImage2" src="/images/mockup.png" alt="Site Dominion's banner image." />

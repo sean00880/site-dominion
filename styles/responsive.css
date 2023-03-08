@@ -2,9 +2,6 @@
 
 @media only screen and (max-width: 767px) {
 
-  .navbar-area nav img{
-    top: 30%;
-  }
   .navbar-area .navbar-brand {
     padding-top: 0;
   }
@@ -16,13 +13,19 @@
   }
   .navbar-area nav .navbar-nav {
     overflow-y: auto;
-    max-height: 78vh;
+    max-height: 61vh;
     top: 2vh;
     padding-right: 15px;
     display: flex;
     position: relative;
     flex-direction: column;
     left: 0;
+  }
+  .navbar-area.is-sticky .navbar-nav .nav-item.active .menu{
+    color:rgb(143, 57, 57);
+  }
+  .navbar-area.is-sticky nav .navbar-nav .nav-item a{
+    color:black;
   }
   .navbar-area nav .navbar-nav::-webkit-scrollbar {
     width: 12px;
@@ -157,15 +160,14 @@
     display: block;
     margin-top: 30px;
   }
-  .main-banner-area .container-fluid {
-    max-width: 540px;
-  }
+
   .main-banner-area.main-banner-area-one .banner-text {
     max-width: unset;
     margin-left: unset;
     top: 2vh;
     height: 76vh;
     border-radius: 0 0 0 0vh;
+    justify-content: center;
   }
   .main-banner-area .white-shape {
     -webkit-animation: unset;
@@ -1020,7 +1022,7 @@
 
 @media only screen and (max-width: 1200px){
   .single-features{
-    min-height: 65vh;
+    min-height: 69vh;
   }
   }
 
@@ -1067,7 +1069,7 @@
   .navbar-area nav .navbar-brand img {
 
     max-width: 100px;
-    top: -5vh;
+    top: -2vh;
     left: 3%;
     position: absolute;
   }
@@ -1140,13 +1142,11 @@
     display: block;
     margin-top: 30px;
   }
-  .main-banner-area .container-fluid {
-    max-width: 720px;
-  }
   .main-banner-area.main-banner-area-one .banner-text {
     max-width: unset;
     margin-left: unset;
     top: 0;
+    justify-content: center;
   }
   .main-banner-area .white-shape {
     -webkit-animation: unset;
@@ -1466,10 +1466,20 @@
   }
 }
 
+@media only screen and (max-width: 767px){
+.navbar-area nav .navbar-brand img {
+
+  max-width: 100px;
+  top: -2vh;
+  left: 3%;
+  position: absolute;
+}
+}
+
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .navbar-area nav .navbar-brand img {
     max-width: 100px;
-    top: -1vh;
+    top: 0vh;
     left: 2%;
     position: absolute;
 }
@@ -1484,9 +1494,6 @@
   }
   .navbar-area .others-option .default-btn {
     padding: 10px 20px;
-  }
-  .main-banner-area .container-fluid {
-    max-width: 960px;
   }
   .main-banner-area {
     display: flex;
@@ -1755,7 +1762,7 @@
   @media only screen and (max-width: 670px){
     .navbar-area .navbar-brand img {
       max-width: 100px;
-      top: -5vh;
+      top: -2vh;
       position: absolute;
     }
   }
@@ -1829,16 +1836,13 @@
 @media only screen and (min-width: 1824px) {
   .navbar-area nav .navbar-brand img {
     max-width: 10%;
-    top: -21%;
+    top: -2vh;
     left: 2%;
     position: absolute;
 }
   .main-banner-area.main-banner-area-one {
     justify-content: flex-end;
-    padding:5vh;
-  }
-  .main-banner-area.main-banner-area-one .banner-text {
-    top: 40px;
+    padding:5vh 0;
   }
   .main-banner-area.main-banner-area-one .banner-img img:nth-child(1) {
     bottom: -445px;
@@ -2064,7 +2068,6 @@
   }
 
   .main-banner-area.main-banner-area-one .banner-text p{
-    padding: 0;
     margin: 1vh;
   }
   
