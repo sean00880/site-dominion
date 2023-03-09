@@ -17,19 +17,18 @@ module.exports = withBundleAnalyzer({
     reactStrictMode: true,
     async redirects() {
       return [
-        {
-          source: '/blog',
-          destination: 'https://blog.sitedominion.com',
-          permanent: true,
-          has: [
-            {
-              type: 'cookie',
-              key: 'authorized',
-              value: 'false',
-            },
-          ],
-        },
-      ]
+          {
+            source: '/blog',
+            has: [
+              {
+                type: 'host',
+                value: '.*\\..*\\..*'
+              },
+            ],
+            permanent: false,
+            destination: 'https://blog.sitedominion.com/'
+          }
+        ]
     },
   compress: true,
   sassOptions: {
