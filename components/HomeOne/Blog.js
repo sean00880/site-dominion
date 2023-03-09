@@ -53,7 +53,7 @@ const Blog = ({posts}) => {
                                 <h5>{post.month}</h5>
                                 <h5>{post.year}</h5></div>
 									<div className="img_holder">
-										<Link href={`/blog/${post.cat}/${post.titleurl}`}><a><img src={`${process.env.NEXT_PUBLIC_URL}/images/${post.photo}`} alt="" /></a></Link>
+										<Link href={`/blog/${post.cat}/${post.titleurl}`}><a><img src={`/images/${post.photo}`} alt="" /></a></Link>
 										<span className="shape1"></span>
 									</div>
 									<div className="content_holder">
