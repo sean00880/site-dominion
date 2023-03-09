@@ -23,11 +23,5 @@ module.exports = withBundleAnalyzer({
     // Warning: This allows production builds to successfully complete even if
     // your project has ESLint errors.
     ignoreDuringBuilds: true,
-  },
-  redirects: [
-    {
-      source: "/blog",
-        destination: "http://www.sitedominion.com/blog"
-    }
-  ]
+  }
 })
