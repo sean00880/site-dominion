@@ -7,12 +7,35 @@ const Footer = dynamic(() => import( '../../../components/Layouts/Footer'));
 const Footer2 = dynamic(() => import( '../../../components/Layouts/Footer2'));
 import PageBanner from '../../../components/Common/PageBanner';
 import { codepen, CopyBlock, solarizedDark, a11yLight } from "react-code-blocks";
-
+import { NextSeo } from 'next-seo';
 
 
 export default function BlogSingle1() {
 	return (
-		<>
+		<>	<NextSeo
+		title="Enhancing the SEO of Your Next.js Website with Canonical Tags"
+		description="Next SEO packages simplifies the SEO management in Next Apps with less configurations"
+		canonical="https://www.sitedominion.com/blog/web-development/enhancing-the-seo-of-your-next-js-website-with-cononical-tags/"
+		openGraph={{
+			type: 'article',
+			article: {
+				publishedTime: '2023-03-08T21:02:23Z',
+				modifiedTime: '2023-03-09T07:24:43Z',
+				authors: [
+					'',
+				],
+				tags: ['Web Development', 'Career'],
+			},
+			url: 'https://www.sitedominion.com/blog/web-development/enhancing-the-seo-of-your-next-js-website-with-cononical-tags/',
+			images: {
+				url: 'https://mockup.png',
+				width: 850,
+				height: 650,
+				alt: 'Site Dominion Websites For Businesses',
+			},
+			site_name: 'Site Dominion'
+		}}
+	/>
 			<Navbar/>
 				{/* Page Title */}
 				<PageBanner 
@@ -32,7 +55,7 @@ export default function BlogSingle1() {
 									<li className="separator"><span></span></li>
 									<li><Link href="/blog"><a title="Blog">Blog</a></Link></li>
 									<li className="separator"><span></span></li>
-									<li><Link href="/blog/career"><a title="Blog">Career</a></Link></li>
+									<li><Link href="/blog/career"><a title="Blog">Web Development</a></Link></li>
 									<li className="separator"><span></span></li>
 									<li><span className="bread-current">Enhancing the SEO of Your Next.js Website with Canonical Tags</span></li>
 								</ul>

@@ -23,7 +23,7 @@ export default function BlogSingle1() {
                     authors: [
                         '',
                     ],
-                    tags: ['Web Development', 'Career'],
+                    tags: ['Career', 'Web Development'],
                 },
                 url: 'https://www.sitedominion.com/blog/career/why-web-development-is-the-perfect-career-choice/',
                 images: {
