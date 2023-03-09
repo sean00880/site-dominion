@@ -13,9 +13,6 @@ module.exports = withBundleAnalyzer({
   },
   reactStrictMode: true,
   trailingSlash: true,
-  images: {
-    disableStaticImages: true
-  },
   distDir: 'build',
     reactStrictMode: true,
   compress: true,
