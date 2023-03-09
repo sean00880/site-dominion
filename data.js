@@ -36,10 +36,10 @@ export const data = [
       date: "28",
       photo: "mockup.png",
       description:"Seymour Whyte employs 475...",
-      cat: "future",
-      cat2:"technology",
-      category:"Future",
-      category2:"Technology"
+      cat: "technology",
+      cat2:"Technology",
+      category:"education",
+      category2:"Education"
     }
    
   ];
