@@ -14,15 +14,23 @@ module.exports = withBundleAnalyzer({
   reactStrictMode: true,
   trailingSlash: true,
   distDir: 'build',
-  async redirects() {
-    return [
-      {
-        source: '/blog',
-        destination: 'https://blog.sitedominion.com',
-        permanent: true,
-      },
-    ]
-  },
+    reactStrictMode: true,
+    async redirects() {
+      return [
+        {
+          source: '/blog',
+          destination: 'https://blog.sitedominion.com',
+          permanent: true,
+          has: [
+            {
+              type: 'cookie',
+              key: 'authorized',
+              value: 'false',
+            },
+          ],
+        },
+      ]
+    },
   compress: true,
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')],
