@@ -13,17 +13,11 @@ module.exports = withBundleAnalyzer({
   },
   reactStrictMode: true,
   trailingSlash: true,
+  images: {
+    disableStaticImages: true
+  },
   distDir: 'build',
     reactStrictMode: true,
-    async redirects() {
-      return [
-          {
-            source: '/blog',
-            permanent: false,
-            destination: 'https://blog.sitedominion.com/'
-          }
-        ]
-    },
   compress: true,
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')],

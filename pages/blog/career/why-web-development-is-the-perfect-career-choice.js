@@ -12,27 +12,27 @@ export default function BlogSingle1() {
 	return (
 		<>
 			<NextSeo
-            title="Manage SEO in NextJS with Next SEO"
+            title="2023 And Beyond: Why Web Development Is The Perfect Career Choice"
             description="Next SEO packages simplifies the SEO management in Next Apps with less configurations"
-            canonical="www.example.com/next-seo-blog"
+            canonical="https://www.sitedominion.com/blog/career/why-web-development-is-the-perfect-career-choice/"
             openGraph={{
                 type: 'article',
                 article: {
                     publishedTime: '2023-03-08T23:04:13Z',
                     modifiedTime: '2023-03-09T09:31:43Z',
                     authors: [
-                        'https://www.sitedominion.com',
+                        '',
                     ],
                     tags: ['Web Development', 'Career'],
                 },
-                url: 'www.example.com/next-seo-blog',
+                url: 'https://www.sitedominion.com/blog/career/why-web-development-is-the-perfect-career-choice/',
                 images: {
-                    url: 'https://www.test.ie/images/cover.jpg',
+                    url: 'https://mockup.png',
                     width: 850,
                     height: 650,
-                    alt: 'Photo of text',
+                    alt: 'Site Dominion Websites For Businesses',
                 },
-                site_name: 'Next Blog'
+                site_name: 'Site Dominion'
             }}
         />
 			<Navbar/>
