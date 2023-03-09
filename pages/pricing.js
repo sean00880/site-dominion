@@ -5,7 +5,7 @@ import PricingStyleOne from '../components/Pricing/PricingStyleOne';
 import MakeYourBusiness from '../components/Common/MakeYourBusiness';
 import Footer from '../components/Layouts/Footer';
 import PricingTabs from '../components/HomeOne/PricingTabs';
-
+import { NextSeo } from 'next-seo';
 class Pricing extends Component {
     render() {
         return (
@@ -18,7 +18,7 @@ class Pricing extends Component {
                     homePageText="Home" 
                     activePageText="Pricing" 
                 /> 
-                
+                <NextSeo title="Site Dominion | Pricing" />
                 <PricingTabs/>
                 
                 <Footer />

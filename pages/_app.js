@@ -16,7 +16,7 @@ import App from 'next/app';
 import Head from 'next/head';
 import Loader from '../components/Shared/Loader';
 import GoTop from '../components/Shared/GoTop';
-import { NextSeo } from "next-seo";
+import { DefaultSeo } from "next-seo";
 import Script from 'next/script';
 import { useRouter } from "next/router";
 import { useEffect } from 'react';
@@ -34,7 +34,7 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <>
-                  <NextSeo
+                  <DefaultSeo
         title="Site Domininon - Web Development Services"
         titleTemplate="Site Domininon - Web Development Services"
         defaultTitle="Site Domininon - Web Development Services"

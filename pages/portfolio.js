@@ -4,12 +4,13 @@ import PageBanner from '../components/Common/PageBanner';
 import ServicesStyleOne from '../components/Services/ServicesStyleOne';
 import Footer from '../components/Layouts/Footer';
 import PortfolioTabs from '../components/HomeOne/PortfolioTabs';
-
+import { NextSeo } from 'next-seo';
 
 class Services extends Component {
     render() {
         return (
             <>
+                <NextSeo title="Site Dominion | Portfolio" />
                 <Navbar />
 
                 <PageBanner 

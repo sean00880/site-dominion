@@ -6,10 +6,35 @@ const Navbar = dynamic(() => import( '../../../components/Layouts/Navbar'));
 const Footer = dynamic(() => import( '../../../components/Layouts/Footer'));
 const Footer2 = dynamic(() => import( '../../../components/Layouts/Footer2'));
 import PageBanner from '../../../components/Common/PageBanner';
+import { NextSeo } from 'next-seo';
 
 export default function BlogSingle1() {
 	return (
 		<>
+			<NextSeo
+            title="Manage SEO in NextJS with Next SEO"
+            description="Next SEO packages simplifies the SEO management in Next Apps with less configurations"
+            canonical="www.example.com/next-seo-blog"
+            openGraph={{
+                type: 'article',
+                article: {
+                    publishedTime: '2023-03-08T23:04:13Z',
+                    modifiedTime: '2023-03-09T09:31:43Z',
+                    authors: [
+                        'https://www.sitedominion.com',
+                    ],
+                    tags: ['Web Development', 'Career'],
+                },
+                url: 'www.example.com/next-seo-blog',
+                images: {
+                    url: 'https://www.test.ie/images/cover.jpg',
+                    width: 850,
+                    height: 650,
+                    alt: 'Photo of text',
+                },
+                site_name: 'Next Blog'
+            }}
+        />
 			<Navbar/>
 				{/* Page Title */}
 				<PageBanner 

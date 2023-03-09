@@ -19,12 +19,6 @@ module.exports = withBundleAnalyzer({
       return [
           {
             source: '/blog',
-            has: [
-              {
-                type: 'host',
-                value: '.*\\..*\\..*'
-              },
-            ],
             permanent: false,
             destination: 'https://blog.sitedominion.com/'
           }
