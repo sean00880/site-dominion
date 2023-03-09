@@ -13,15 +13,15 @@ const Projects = dynamic(() => import( '../components/HomeOne/Projects'));
 const Features = dynamic(() => import( '../components/HomeOne/Features'));
 const TopSections2 = dynamic(() => import( '../components/HomeOne/TopSections2'));
 const Testimonials = dynamic(() => import( '../components/Common/Testimonials'));
-const Blog = dynamic(() => import( '../components/HomeOne/Blog'));
+const Blog = dynamic(() => import( '../components/HomeOne/Blog2'));
 const PartnerSlider = dynamic(() => import( '../components/Common/PartnerSlider'));
 const Process = dynamic(() => import( '../components/HomeOne/Process'));
 const ServicesStyleFour = dynamic(() => import( '../components/Services/ServicesStyleFour'));
 const WhyChooseUs = dynamic(() => import( '../components/HomeThree/WhyChooseUs'));
+import { data } from "../data";
 
 
-
-const Index = () => {
+export default function Index({ posts }) {
     return (
         <>
             <Navbar />
@@ -37,11 +37,18 @@ const Index = () => {
             <ServicesStyleFour />
             <Projects />
             <Testimonials/>  
+            <Blog posts={posts}/>
+            <Footer2/>
             <Footer />
            
         </>
     )
 }
 
-export default Index
+export const getStaticProps = () => {
+    const posts = data;
+    return {
+      props: { posts },
+    };
+  };
 

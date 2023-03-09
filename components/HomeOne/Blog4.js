@@ -45,7 +45,7 @@ const Blog2 = ({posts}) => {
 						<ul className="industify_fn_postlist">
              
             {posts.map((post) => (
-            post.cat==="career"?
+            post.cat==="web-development"?
             (
             
 							<li>
@@ -64,7 +64,7 @@ const Blog2 = ({posts}) => {
 												<br />
                                                 <br />
 												<div className="industify_fn_tags industify_fn_tags2">
-                        <label>Categories:</label>
+												<label>Categories:</label>
 										<Link href={`/blog/${post.cat}`}><a style={{"color":"white"}}>{post.category}</a></Link>
 										<Link href={`/blog/${post.cat2}`}><a style={{"color":"white"}}>{post.category2}</a></Link>
 									</div>
@@ -74,7 +74,7 @@ const Blog2 = ({posts}) => {
 											<h3><Link href={`/blog/${post.cat}/${post.titleurl}`}><a>{post.title}</a></Link></h3>
 										</div>
 										<div className="excerpt_holder">
-											<p>"{post.description}"</p>
+											<p>{post.description}</p>
 										</div>
 										<div className="read_holder">
 											<p><Link href={`/blog/${post.cat}/${post.titleurl}`}><a>Read More</a></Link></p>
@@ -85,8 +85,8 @@ const Blog2 = ({posts}) => {
             ):null
             
                ))}
-               {posts.map((post) => (
-            post.cat2==="career"?
+			   {posts.map((post) => (
+            post.cat2==="web-development"?
             (
             
 							<li>
@@ -105,7 +105,7 @@ const Blog2 = ({posts}) => {
 												<br />
                                                 <br />
 												<div className="industify_fn_tags industify_fn_tags2">
-                        <label>Categories:</label>
+												<label>Categories:</label>
 										<Link href={`/blog/${post.cat}`}><a style={{"color":"white"}}>{post.category}</a></Link>
 										<Link href={`/blog/${post.cat2}`}><a style={{"color":"white"}}>{post.category2}</a></Link>
 									</div>
@@ -115,7 +115,7 @@ const Blog2 = ({posts}) => {
 											<h3><Link href={`/blog/${post.cat}/${post.titleurl}`}><a>{post.title}</a></Link></h3>
 										</div>
 										<div className="excerpt_holder">
-											<p>"{post.description}"</p>
+											<p>{post.description}</p>
 										</div>
 										<div className="read_holder">
 											<p><Link href={`/blog/${post.cat}/${post.titleurl}`}><a>Read More</a></Link></p>

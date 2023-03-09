@@ -1466,6 +1466,8 @@
   }
 }
 
+
+
 @media only screen and (max-width: 767px){
 .navbar-area nav .navbar-brand img {
 
@@ -1474,6 +1476,15 @@
   left: 3%;
   position: absolute;
 }
+}
+
+@media only screen and (max-width: 400px){
+  .navbar-area nav .navbar-brand img {
+      max-width: 100px;
+      top: -5vh;
+      left: 3%;
+      position: absolute;
+  }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {

@@ -1244,6 +1244,15 @@
     }
 }
 
+@media only screen and (max-width: 400px){
+    .navbar-area nav .navbar-brand img {
+        max-width: 100px;
+        top: -5vh;
+        left: 3%;
+        position: absolute;
+    }
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .navbar-area {
         nav {
@@ -2202,4 +2211,5 @@
         margin-top: 66px;
     }
 }
+
 

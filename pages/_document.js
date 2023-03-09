@@ -37,6 +37,13 @@ import loader from "../src/loader";
           <main>
             <Main />
             <NextScript />
+            <style jsx global>{`
+            /* Other global styles such as 'html, body' etc... */
+
+            #__next {
+              height: 100%;
+            }
+          `}</style>
             </main>
           </body>
         </Html>

@@ -15,86 +15,84 @@ import "aos/dist/aos.css";
 import Image from 'next/image';
 import Link from 'next/link';
 
-const MyExpertise = () => {
+const Blog = ({posts}) => {
   React.useEffect(() => {
     AOS.init();
   }, []);
   return (
     <>
-      <section className="fn_cs_triple_blog_modern fn_alpha">
-    <div className="container">
-    <div className="section-title">
-                    <h2>Our Blog</h2>
-                    <hr />
-                    <h4>Exploring the latest trends, tips, and tricks in web development to create stunning websites and applications.</h4>
-                </div>
-        <div className="inner">
+      {/* <!-- Page Title --> */}
+				<div className="industify_fn_pagetitle">
+					<div className="container">
+						<div className="title_holder">
+							<h3>News &amp; Articles</h3>
+							<div className="industify_fn_breadcrumbs">
+								<ul>
+									<li><Link href="/"><a title="Home">Home</a></Link></li>
+									<li className="separator"><span></span></li>
+									<li><span className="bread-current">Blog Full</span></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				{/* <!-- /Page Title --> */}
 
-            <ul>
-                <li>
-                    <div className="item">
-                        <div className="img_holder" style={{ "background": "url(/images/1.jpg)","backgroundSize":"cover" }}>
-                            <div className="time">
-                                <span></span>
-                                <h3>28</h3>
-                                <h5>Aug</h5>
-                                <h5>2018</h5>
-                            </div>
-                            <Link href="/blog-single-1"><a></a></Link>
-                            <img src='/images/1.jpg' alt="" />
-                        </div>
-                        <div className="title_holder">
-                            <p className="t_header">By <Link href="#"><a>Frenify</a></Link> — In <Link href="#"><a>Australia</a></Link></p>
-                            <h3><Link href="/blog-single-1"><a>Laing O’Rourke: Moves, projects and bids</a></Link></h3>
-                            <p className="t_footer"><Link href="/blog-single-1"><a>Read More</a></Link></p>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div className="item">
-                        <div className="img_holder" style={{ "background": "url(/images/1.jpg)", "backgroundSize":"cover" }}>
-                            <div className="time">
-                                <span></span>
-                                <h3>27</h3>
-                                <h5>Aug</h5>
-                                <h5>2018</h5>
-                            </div>
-                            <Link href="/blog-single-2"><a></a></Link>
-                            <img src='/images/1.jpg' alt="" />
-                        </div>
-                        <div className="title_holder">
-                            <p className="t_header">By <Link href="#"><a>Frenify</a></Link> — In <Link href="#"><a>Australia</a></Link></p>
-                            <h3><Link href="/blog-single-2"><a>How to turn Victorian gasholders apartments</a></Link></h3>
-                            <p className="t_footer"><Link href="/blog-single-2"><a>Read More</a></Link></p>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div className="item">
-                        <div className="img_holder" style={{ "background": "url(/images/1.jpg)", "backgroundSize":"cover" }}>
-                            <div className="time">
-                                <span></span>
-                                <h3>26</h3>
-                                <h5>Aug</h5>
-                                <h5>2018</h5>
-                            </div>
-                            <Link href="/blog-single-3"><a></a></Link>
-                            <img src="/images/1.jpg" alt="" />
-                        </div>
-                        <div className="title_holder">
-                            <p className="t_header">By <Link href="#"><a>Frenify</a></Link> — In <Link href="#"><a>Australia</a></Link></p>
-                            <h3><Link href="/blog-single-3"><a>CITB appoints Peter Lauener as new chairman</a></Link></h3>
-                            <p className="t_footer"><Link href="/blog-single-3"><a>Read More</a></Link></p>
-                        </div>
-                    </div>
-                </li>
-            </ul>
 
-        </div>
-    </div>
-</section>
+
+				<div className="industify_fn_blog_full">
+					<div className="container">
+						<ul className="industify_fn_postlist">
+             
+            {posts.map((post) => (
+           
+            
+							<li>
+								<div className="post has-post-thumbnail">
+									<div className="time"><span></span><h3>{post.date}</h3>
+                                <h5>{post.month}</h5>
+                                <h5>{post.year}</h5></div>
+									<div className="img_holder">
+										<Link href={`/blog/${post.cat}/${post.titleurl}`}><a><img src={`${process.env.NEXT_PUBLIC_URL}/images/${post.photo}`} alt="" /></a></Link>
+										<span className="shape1"></span>
+									</div>
+									<div className="content_holder">
+                                    <div className="title">
+											<h3><Link href={`/blog/${post.cat}/${post.titleurl}`}><a>{post.title}</a></Link></h3>
+										</div>
+										<div className="info_holder">
+											<p>
+												<span className="t_author">By <Link href="https://themeforest.net/user/trendycoder"><a target="_blank" >Site Dominion</a></Link></span>
+												<br />
+                                                <br />
+												<div className="industify_fn_tags industify_fn_tags2">
+                                                    <label>Categories:</label>
+										<Link href={`/blog/${post.cat}`}><a style={{"color":"white"}}>{post.category}</a></Link>
+										<Link href={`/blog/${post.cat2}`}><a style={{"color":"white"}}>{post.category2}</a></Link>
+									</div>
+											</p>
+										</div>
+										
+										<div className="excerpt_holder">
+											<p>"{post.description}"</p>
+										</div>
+										<div className="read_holder">
+											<p><Link href={`/blog/${post.cat}/${post.titleurl}`}><a>Read More</a></Link> </p>
+										</div>
+                                        <img className='blogimage' src="/images/lion7.png" alt="" />
+									</div>
+                                  
+								</div>
+                               
+							</li>
+            
+        
+               ))}
+						</ul>
+					</div>
+				</div>
     </>
   );
 };
 
-export default MyExpertise;
+export default Blog;
