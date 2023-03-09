@@ -25,7 +25,7 @@ const Blog = ({posts}) => {
 				<div className="industify_fn_pagetitle">
 					<div className="container">
 						<div className="title_holder">
-							<h3>News &amp; Articles</h3>
+							<h3>Blog Posts</h3>
 							<div className="industify_fn_breadcrumbs">
 								<ul>
 									<li><Link href="/"><a title="Home">Home</a></Link></li>
