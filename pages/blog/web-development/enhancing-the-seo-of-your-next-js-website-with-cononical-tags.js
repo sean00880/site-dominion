@@ -28,10 +28,10 @@ export default function BlogSingle1() {
 			},
 			url: 'https://www.sitedominion.com/blog/web-development/enhancing-the-seo-of-your-next-js-website-with-cononical-tags/',
 			images: {
-				url: 'https://mockup.png',
+				url: 'https://canonical.png',
 				width: 850,
 				height: 650,
-				alt: 'Site Dominion Websites For Businesses',
+				alt: 'Site Dominion - Canonical Tags',
 			},
 			site_name: 'Site Dominion'
 		}}
@@ -39,10 +39,10 @@ export default function BlogSingle1() {
 			<Navbar/>
 				{/* Page Title */}
 				<PageBanner 
-                    pageTitle="Contact Style One" 
+                    pageTitle="Blog" 
                     homePageUrl="/" 
                     homePageText="Home" 
-                    activePageText="Contact Style One" 
+                    activePageText="Enhancing the SEO of Your Next.js Website with Canonical Tags" 
                 /> 
 				<div style={{"background":"linear-gradient(45deg, #2e2e2e, black)"}}>
 				<div className="industify_fn_pagetitle">
@@ -53,9 +53,9 @@ export default function BlogSingle1() {
 								<ul>
 									<li><Link href="/"><a title="Home">Home</a></Link></li>
 									<li className="separator"><span></span></li>
-									<li><Link href="/blog"><a title="Blog">Blog</a></Link></li>
+									<li><Link href="/blog"><a title="Blog">Blog Posts</a></Link></li>
 									<li className="separator"><span></span></li>
-									<li><Link href="/blog/career"><a title="Blog">Web Development</a></Link></li>
+									<li><Link href="/blog/web-development"><a title="Blog">Web Development</a></Link></li>
 									<li className="separator"><span></span></li>
 									<li><span className="bread-current">Enhancing the SEO of Your Next.js Website with Canonical Tags</span></li>
 								</ul>
@@ -79,11 +79,12 @@ export default function BlogSingle1() {
 								<div className="industify_fn_blog_single">
 
 									<div className="img_holder">
-										<img src="/images/web.png" alt="" />
+										<img src="/images/canonical.jpg" alt="" />
 									</div>
 
 									<div className="desc_holder">
-										
+										<blockquote>The use of canonical tags is a crucial consideration that is sometimes disregarded in the difficult subject of search engine optimization (SEO). Canonical tags can enhance your website's overall SEO by assisting search engines in understanding the relationships between various versions of the same content.
+This blog post will give you the information and resources you need to raise your website's exposure and rating in search engine results, whether you're an experienced developer or brand-new to SEO. Let's begin, then!</blockquote>
 										<p>It’s crucial to make sure the search engines can tell which version of a given page is the original while developing a website. Canonical tags are useful in this situation. An HTML tag called a canonical tag informs search engines which version of a certain page is the official one. We’ll go over how to add canonical tags to a Next.js website in this blog post.</p>
 										<h4>Step 1: Determine which Pages Need a Canonical Tag</h4>
 										<p>The initial step is to identify the internet pages that call for canonical tags. Pages with various URLs or versions frequently utilize canonical tags. If a blog post appears on multiple pages of your website, for instance, the original blog post should have a canonical tag added to it. Search engines will be able to determine which version is the official one with the aid of this.</p>
@@ -128,11 +129,8 @@ export default function BlogSingle1() {
 										</div>
 									<div className="industify_fn_tags">
 										<label>Tags:</label>
-										<Link href="#"><a>2017</a></Link>
-										<Link href="#"><a>Australia</a></Link>
-										<Link href="#"><a>Construction</a></Link>
-										<Link href="#"><a>New Contract</a></Link>
-										<Link href="#"><a>Upgrade</a></Link>
+										<Link href="/blog/web-development"><a>Web Development</a></Link>
+										<Link href="/blog/career"><a>Career</a></Link>
 									</div>
 
 								</div>

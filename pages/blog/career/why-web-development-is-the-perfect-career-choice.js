@@ -37,12 +37,6 @@ export default function BlogSingle1() {
         />
 			<Navbar/>
 				{/* Page Title */}
-				<PageBanner 
-                    pageTitle="Contact Style One" 
-                    homePageUrl="/" 
-                    homePageText="Home" 
-                    activePageText="Contact Style One" 
-                /> 
 				<div style={{"background":"linear-gradient(45deg, #2e2e2e, black)"}}>
 				<div className="industify_fn_pagetitle">
 					<div className="container">
@@ -53,6 +47,9 @@ export default function BlogSingle1() {
 									<li><Link href="/"><a title="Home">Home</a></Link></li>
 									<li className="separator"><span></span></li>
 									<li><Link href="/blog"><a title="Blog">Blog Posts</a></Link></li>
+									
+									<li className="separator"><span></span></li>
+									<li><Link href="/blog/career"><a title="Career">Career</a></Link></li>
 									<li className="separator"><span></span></li>
 									<li><span className="bread-current">2023 and Beyond: Why Web Development is the Perfect Career Choice</span></li>
 								</ul>
@@ -80,7 +77,7 @@ export default function BlogSingle1() {
 									</div>
 
 									<div className="desc_holder">
-										
+										<blockquote>For those wishing to pursue a rewarding career in technology, web development is a fast-paced and interesting sector that provides a variety of chances. In this article, we'll look at why web development is the ideal profession for 2023 and how it can open doors to success for anyone with a passion for technology.</blockquote>
 										<p>As someone who has been working in web development for several years now, I can confidently say that 2023 is the perfect time to get into this field. With the continued growth of the internet and the increasing importance of digital marketing, the demand for skilled web developers is higher than ever.</p>
 										<p>I started my own web development business called Site Dominion because I wanted to help local businesses generate leads while making money and having fun doing what I’m passionate about. I have always been interested in technology and knew that I wanted to work in the tech industry, but I also wanted to make a positive impact in my community.</p>
 										<p>Through Site Dominion, I have been able to help numerous small businesses improve their online presence and increase their sales. It’s been incredibly rewarding to see my clients’ businesses grow and thrive as a result of the work I’ve done.</p>
@@ -91,11 +88,8 @@ export default function BlogSingle1() {
 									</div>
 									<div className="industify_fn_tags">
 										<label>Tags:</label>
-										<Link href="#"><a>2017</a></Link>
-										<Link href="#"><a>Australia</a></Link>
-										<Link href="#"><a>Construction</a></Link>
-										<Link href="#"><a>New Contract</a></Link>
-										<Link href="#"><a>Upgrade</a></Link>
+										<Link href="/blog/career"><a>Career</a></Link>
+										<Link href="/blog/web-development"><a>Web Development</a></Link>
 									</div>
 
 								</div>

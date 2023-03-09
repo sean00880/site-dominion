@@ -13,17 +13,20 @@ const Projects = dynamic(() => import( '../components/HomeOne/Projects'));
 const Features = dynamic(() => import( '../components/HomeOne/Features'));
 const TopSections2 = dynamic(() => import( '../components/HomeOne/TopSections2'));
 const Testimonials = dynamic(() => import( '../components/Common/Testimonials'));
-const Blog = dynamic(() => import( '../components/HomeOne/Blog2'));
+const Blog = dynamic(() => import( '../components/HomeOne/Blog'));
 const PartnerSlider = dynamic(() => import( '../components/Common/PartnerSlider'));
 const Process = dynamic(() => import( '../components/HomeOne/Process'));
 const ServicesStyleFour = dynamic(() => import( '../components/Services/ServicesStyleFour'));
 const WhyChooseUs = dynamic(() => import( '../components/HomeThree/WhyChooseUs'));
+import { NextSeo } from 'next-seo';
 import { data } from "../data";
+
 
 
 export default function Index({ posts }) {
     return (
         <>
+            <NextSeo title="Site Dominion | Lead Generating Website Development" />
             <Navbar />
           
             <MainBanner />

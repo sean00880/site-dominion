@@ -158,27 +158,7 @@ class Footer extends Component {
 
                             <div className="col-lg-3 col-md-6">
                                 <div className="single-widget">
-                                    <h3>Information</h3>
-
-                                    <ul className="information">
-                                        <li role="none" className="address">
-                                            <i role="none" className="flaticon-call"></i>
-                                            <span role="heading" aria-level="1">Phone</span>
-                                            +882-569-756
-                                        </li>
-
-                                        <li role="none" className="address">
-                                            <i role="none" className="flaticon-envelope"></i>
-                                            <span role="heading" aria-level="2">Email</span>
-                                            hello@sitedominion.com
-                                        </li>
-
-                                        <li role="none" className="address">
-                                            <i role="none" className="flaticon-maps-and-flags"></i>
-                                            <span role="heading" aria-level="3">Address</span>
-                                            123, Western Road, Melbourne Australia
-                                        </li>
-                                    </ul>
+                                    
                                 </div>
                             </div>
                         </div>

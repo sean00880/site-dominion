@@ -25,12 +25,14 @@ const Blog2 = ({posts}) => {
 				<div className="industify_fn_pagetitle">
 					<div className="container">
 						<div className="title_holder">
-							<h3>Blog Posts</h3>
+							<h3>Blog</h3>
 							<div className="industify_fn_breadcrumbs">
 								<ul>
 									<li><Link href="/"><a title="Home">Home</a></Link></li>
 									<li className="separator"><span></span></li>
-									<li><span className="bread-current">Blog Full</span></li>
+									<li><span className="bread-current">Blog</span></li>
+									<li className="separator"><span></span></li>
+									<li><span className="bread-current">Web Development</span></li>
 								</ul>
 							</div>
 						</div>

@@ -6,8 +6,8 @@ export const data = [
       year: "2023",
       month: "Jan",
       date: "28",
-      photo: "mockup.png",
-      description:"Seymour Whyte employs 475...",
+      photo: "web.png",
+      description:"For those wishing to pursue a rewarding career in technology, web development...",
       cat: "career",
       cat2: "web-development",
       category:"Career",
@@ -20,8 +20,8 @@ export const data = [
       year: "2023",
       month: "Jan",
       date: "28",
-      photo: "mockup.png",
-      description:"Seymour Whyte employs 475...",
+      photo: "canonical.jpg",
+      description:"The use of canonical tags is a crucial consideration that is...",
       cat: "web-development",
       cat2:"career",
       category:"Web Development",
@@ -34,12 +34,12 @@ export const data = [
       year: "2023",
       month: "Jan",
       date: "28",
-      photo: "mockup.png",
-      description:"Seymour Whyte employs 475...",
-      cat: "technology",
-      cat2:"Technology",
-      category:"education",
-      category2:"Education"
+      photo: "chatgptsite.png",
+      description:"In this post, we'll examine the technology underlying ChatGPT...",
+      cat: "education",
+      cat2:"technology",
+      category:"Education",
+      category2:"Technology"
     }
    
   ];

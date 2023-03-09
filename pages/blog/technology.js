@@ -6,10 +6,12 @@ import Footer from '../../components/Layouts/Footer';
 import { data } from "../../data"
 import dynamic from 'next/dynamic';
 const Blog = dynamic(() => import( '../../components/HomeOne/Blog4'));
+import { NextSeo } from 'next-seo';
 
 export default function Index({ posts }) {
 	return (
 		<>
+			<NextSeo title="Site Dominion | Technology Blog Posts" />
 			<Navbar />
 				
 			<Blog posts={posts}/>
