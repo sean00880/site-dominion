@@ -16,30 +16,40 @@ class Footer extends Component {
                                         <img loading="lazy"   src="/images/lion4.png" alt="Site Dominion | Footer Logo" />
                                     </a>
 
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat molestiae corporis, magni maxime perferendis ducimus totam officiis sit exercitationem sed odio debitis minus cumque dolores dicta.</p>
+                                    <p>Site Dominion is a top-notch web development website dedicated to creating stunning and functional websites for businesses and individuals. Our team of experienced developers and designers are passionate about delivering exceptional web solutions tailored to meet the unique needs of each of our clients</p>
+                                    
+                                <div style={{"display":"flex","flexDirection":"row"}}>
+                                <div class="social-container" >
+                                   <div style={{"display":"flex","flexDirection":"column"}}>
+                                    <a href="https://www.facebook.com/sitedominion"
+                                        className="facebook social">
+                                        <img width={25} height={25} src="/images/fb.png" style={{"position":"relative","top":"0"}}/>
+                                    </a>
+                                    <a href="https://www.twitter.com/sitedominion"
+                                        className="twitter social">
+                                        <img width={25} height={25} src="/images/twitter.png" style={{"position":"relative","top":"0"}}/>
+                                    </a>
+                                    </div>
+                                    
+                                    <div style={{"display":"flex","flexDirection":"column"}}>
+                                    <a href="https://sitedominion.medium.com/"
+                                        className="medium social">
+                                        <img width={25} height={25} src="/images/medium.png" style={{"position":"relative","top":"0"}}/>
+                                    </a>
+                                    <a href="https://www.facebook.com/sitedominionofficial"
+                                        className="instagram social">
+                                        <img width={25} height={25} src="/images/ig.png" style={{"position":"relative","top":"0"}}/>
+                                        
+                                    </a>
 
-                                    <ul className="social-icon">
-                                        <li>
-                                            <a aria-label="facebook" href="https://www.facebook.com/" target="_blank">
-                                                <i role="none" className="bx bxl-facebook"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a aria-label="twitter" href="https://twitter.com/" target="_blank">
-                                                <i role="none" className="bx bxl-twitter"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a aria-label="linkedin" href="https://www.linkedin.com/" target="_blank">
-                                                <i role="none" className="bx bxl-linkedin"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a aria-label="pinterest" href="https://www.pinterest.com/" target="_blank">
-                                                <i role="none" className="bx bxl-pinterest-alt"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
+                                    </div>
+                                    
+                                </div>
+
+                               <a href="https://g.page/r/Cb1Ep_G4Wk8KEAI/review">
+                                <img loading="lazy" src="/images/reviews.png" className="google" alt="Site Dominion| Google Reviews" style={{"position":"relative","top":"-1vh","maxWidth":"unset","transform":"scale(.6)"}}/>
+                                </a>
+                                </div>
                                 </div>
                             </div>
 
