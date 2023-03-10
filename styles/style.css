@@ -8702,7 +8702,8 @@ a:focus, a:hover{
 	text-decoration: none;
   font-weight: 500;
   position: absolute;
-  bottom:41vh;
+  top:33vh;
+  font-size:20px;
 }
 
 .industify_fn_postlist .title h3 a:hover{
@@ -8772,7 +8773,7 @@ a:focus, a:hover{
 	color: #666;
 	font-size: 14px;
   position: absolute;
-  bottom:29vh;
+  top:42vh;
 }
 .industify_fn_postlist .excerpt_holder{
 	margin-bottom: 25px;
