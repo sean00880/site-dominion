@@ -8542,15 +8542,16 @@ a:focus, a:hover{
 }
 
 @media only screen and (max-width: 767px){
-  .industify_fn_postlist{
-  grid-template-columns: repeat(1, minmax(0, 1fr));
-  }
+ 
   .industify_fn_postlist .img_holder img{
-    height: 40vh;
+    height: 30vh;
   }
   .industify_fn_postlist .has-post-thumbnail .content_holder{
-    min-height: 40vh;
-    height: 40vh;
+    min-height: 50vh;
+    height: 50vh;
+  }
+  .industify_fn_postlist .has-post-thumbnail .img_holder{
+    height:35vh;
   }
 }
 
@@ -8700,6 +8701,8 @@ a:focus, a:hover{
   color:#3e3e3e;
 	text-decoration: none;
   font-weight: 500;
+  position: absolute;
+  bottom:41vh;
 }
 
 .industify_fn_postlist .title h3 a:hover{
@@ -8759,6 +8762,7 @@ a:focus, a:hover{
     text-decoration: none;
     text-transform: capitalize;
     border-bottom: 1px solid currentcolor;
+    font-size: 16px;
 }
 .industify_fn_postlist .info_holder p a:hover{
 	border-bottom-color: transparent;
@@ -8799,7 +8803,9 @@ a:focus, a:hover{
 }
 @media(max-width: 768px){
 	.industify_fn_postlist .has-post-thumbnail .content_holder{
-		padding-right: 20px;
+    padding-right: 20px;
+    height: 44vh;
+    min-height: 44vh;
 	}
 	.industify_fn_postlist .post{
 		padding-left: 20px;
@@ -8808,9 +8814,50 @@ a:focus, a:hover{
 	.industify_fn_postlist .has-post-thumbnail{
 		padding: 0;
 	}
+
+  .industify_fn_postlist .title h3 a{
+    position: absolute;
+    bottom:38vh;
+    font-size: 16px;
+  }
  
   
 }
+
+@media(max-width:616px){
+  .industify_fn_postlist{
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+}
+
+
+@media(max-width: 400px){
+	.industify_fn_postlist .has-post-thumbnail .content_holder{
+    padding-right: 20px;
+    height: 55vh;
+    min-height: 55vh;
+	}
+	.industify_fn_postlist .post{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.industify_fn_postlist .has-post-thumbnail{
+		padding: 0;
+	}
+  .industify_fn_postlist .excerpt_holder p{
+    position: absolute;
+    bottom: 36vh;
+  }
+
+  .industify_fn_postlist .title h3 a{
+    position: absolute;
+    bottom:45vh;
+  }
+ 
+  
+}
+
+
 
 .blog_section{
 	width: 100%;

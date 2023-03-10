@@ -36,10 +36,10 @@ export const data = [
       date: "28",
       photo: "chatgptsite.png",
       description:"In this post, we'll examine the technology underlying ChatGPT...",
-      cat: "education",
-      cat2:"technology",
-      category:"Education",
-      category2:"Technology"
+      cat: "technology",
+      cat2:"education",
+      category:"Technology",
+      category2:"Education"
     }
    
   ];
