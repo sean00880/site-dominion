@@ -258,7 +258,7 @@ class Navbar extends Component {
                                 </div>
 
                                <a href="https://g.page/r/Cb1Ep_G4Wk8KEAI/review">
-                                <img loading="lazy" src="/images/reviews.png" className="google" alt="Site Dominion| Google Reviews" style={{"position":"relative","top":"-3vh","maxWidth":"unset","transform":"scale(.6)"}}/>
+                                <img loading="lazy" src="/images/reviews.png" className="google" alt="Site Dominion| Google Reviews" style={{"position":"relative","top":"-1vh","maxWidth":"unset","transform":"scale(.6)"}}/>
                                 </a>
                                 </div>
                                 </ul>

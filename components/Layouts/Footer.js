@@ -48,50 +48,58 @@ class Footer extends Component {
                                     <h3>Services</h3>
                                     <ul>
                                         <li>
-                                            <Link href="/service-details">
+                                            <Link href="/premium-website-package">
                                                 <a>
                                                     <i role="none" className="right-icon bx bx-chevrons-right"></i>
-                                                    Big Data
+                                                    Premium Website Package
                                                 </a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/service-details">
+                                            <Link href="/website-design-and-development">
                                                 <a>
                                                     <i role="none" className="right-icon bx bx-chevrons-right"></i>
-                                                    UI/UX Design
+                                                    Website Design & Development
                                                 </a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/service-details">
+                                            <Link href="/website-deployment">
                                                 <a>
                                                     <i role="none" className="right-icon bx bx-chevrons-right"></i>
-                                                    Desktop Application
+                                                    Website Deployment
                                                 </a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/service-details">
+                                            <Link href="/blog-creation">
                                                 <a>
                                                     <i role="none" className="right-icon bx bx-chevrons-right"></i>
-                                                    Mobile Application
+                                                   Blog Creation & Setup
                                                 </a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/service-details">
+                                            <Link href="/logo-design">
                                                 <a>
                                                     <i role="none" className="right-icon bx bx-chevrons-right"></i>
-                                                    Product Engineering
+                                                    Logo Design
                                                 </a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/service-details">
+                                            <Link href="/website-optimization">
                                                 <a>
                                                     <i role="none" className="right-icon bx bx-chevrons-right"></i>
-                                                    Machine Learning
+                                                    Website Optimization
+                                                </a>
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="/website-content-writing">
+                                                <a>
+                                                    <i role="none" className="right-icon bx bx-chevrons-right"></i>
+                                                    Website Content Writing
                                                 </a>
                                             </Link>
                                         </li>
@@ -105,18 +113,10 @@ class Footer extends Component {
 
                                     <ul>
                                         <li>
-                                            <Link href="/about-1">
+                                            <Link href="/process">
                                                 <a>
                                                     <i role="none" className="right-icon bx bx-chevrons-right"></i>
-                                                    About Us
-                                                </a>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="/services">
-                                                <a>
-                                                    <i role="none" className="right-icon bx bx-chevrons-right"></i>
-                                                    Services
+                                                    Process
                                                 </a>
                                             </Link>
                                         </li>
@@ -129,26 +129,34 @@ class Footer extends Component {
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/team">
+                                            <Link href="/getting-started/#features">
                                                 <a>
                                                     <i role="none" className="right-icon bx bx-chevrons-right"></i>
-                                                    Team
+                                                    Core Features
                                                 </a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/contact">
+                                            <Link href="/getting-started/#why-us">
                                                 <a>
                                                     <i role="none" className="right-icon bx bx-chevrons-right"></i>
-                                                    Support
+                                                    What's Included?
                                                 </a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/testimonials">
+                                            <Link href="/industries-we-serve/">
                                                 <a>
                                                     <i role="none" className="right-icon bx bx-chevrons-right"></i>
-                                                    Testimonials
+                                                    Industries We Serve
+                                                </a>
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="/portfolio">
+                                                <a>
+                                                    <i role="none" className="right-icon bx bx-chevrons-right"></i>
+                                                    Portfolio
                                                 </a>
                                             </Link>
                                         </li>
@@ -204,12 +212,12 @@ class Footer extends Component {
                                 <div className="privacy">
                                     <ul>
                                         <li>
-                                            <Link href="/terms-conditions">
+                                            <Link href="/coming-soon">
                                                 <a>Terms & Conditions</a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/privacy-policy">
+                                            <Link href="/coming-soon">
                                                 <a>Privacy Policy</a>
                                             </Link>
                                         </li>
