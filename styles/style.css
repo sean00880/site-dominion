@@ -7183,7 +7183,7 @@ Service Details Area Style
 }
 .service-details-wrap .img{
   flex-direction: column;
-  max-width: 25%;
+  width: 25%;
   max-height: 25%;
   justify-content: center;
   display: flex;
@@ -7193,7 +7193,7 @@ Service Details Area Style
 .img{
   display:flex;
   justify-content: center;
-  max-width: 60%;
+  width: 60%;
   align-items: center;
 }
 
@@ -7982,7 +7982,7 @@ a{
   align-items: center;
   position: absolute;
   justify-content: space-between;
-  max-width: 100%;
+  width: 100%;
   /* border: 1px solid black; */
   border-radius: 1vh 0 1vh 4vh;
   padding:1vh;
@@ -8507,7 +8507,7 @@ a:focus, a:hover{
 
 .premium{
   border-radius: 33% 66%;
-  max-width: 20%;
+  width: 250px;
 }
 
 .service{
