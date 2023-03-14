@@ -22,6 +22,9 @@ import { useRouter } from "next/router";
 import { useEffect } from 'react';
 
 function MyApp({ Component, pageProps }) {
+  React.useEffect(() => {
+    AOS.init();
+  }, []);
   const router = useRouter();
   const canonicalUrl = (`https://sitedominion.com` + (router.asPath === "/" ? "": router.asPath)).split("?")[0];
   useEffect(() => {
@@ -78,3 +81,4 @@ function MyApp({ Component, pageProps }) {
 
 export default MyApp;
 
+//AfG_7vM6H4oA6M6jg1XF6b7M5Y7z08kAsNYFiNlP8PyL_Fb5pV7zdvVnfzBoIU0ncgSSRR0xxBxRwLw8

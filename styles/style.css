@@ -443,7 +443,7 @@ Page-navigation Area Style
 
 .navbar-nav{
   position:relative;
-  left:100px;
+  left:50px;
 }
 
 .social-container{
@@ -454,6 +454,10 @@ Page-navigation Area Style
 
 .social-container div{
   justify-content: center;
+}
+
+.social-container div a{
+  margin:1vh;
 }
 
 .social-container img{
@@ -1218,10 +1222,7 @@ jumpx Nav Area Style
 
 .navbar-area nav .navbar-nav .nav-item {
   position: relative;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 0;
-  padding-right: 0;
+padding: 10px 10px;
   display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1235,7 +1236,7 @@ jumpx Nav Area Style
   padding-left: 0;
   padding: 0;
   padding-bottom: 0;
-  margin:0 20px;
+  margin:0 30px;
   font-family: "Smooch Sans", sans-serif;
   letter-spacing: 1px;
 }
