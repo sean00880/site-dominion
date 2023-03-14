@@ -27,13 +27,7 @@ function MyApp({ Component, pageProps }) {
   }, []);
   const router = useRouter();
   const canonicalUrl = (`https://sitedominion.com` + (router.asPath === "/" ? "": router.asPath)).split("?")[0];
-  useEffect(() => {
-    if (typeof window !== 'undefined') {
-            const loader = document.getElementById('globalLoader');
-        if (loader)
-            loader.style.display = 'none';
-    }
-}, []);
+ 
 
   return (
     <>
