@@ -443,7 +443,9 @@ Page-navigation Area Style
 
 .navbar-nav{
   position:relative;
-  left:50px;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
 }
 
 .social-container{
@@ -1236,7 +1238,7 @@ padding: 10px 10px;
   padding-left: 0;
   padding: 0;
   padding-bottom: 0;
-  margin:0 30px;
+  margin:0 20px;
   font-family: "Smooch Sans", sans-serif;
   letter-spacing: 1px;
 }

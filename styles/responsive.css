@@ -1001,12 +1001,14 @@
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media  (max-width: 768px) {
 
   .navbar-expand-md .navbar-nav {
     flex-direction: row;
     position: relative;
-    left: 7vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
   .navbar .container{
@@ -1498,10 +1500,9 @@
 
 .navbar-expand-md .navbar-nav{
   position: relative;
-  left: 8vh;
 }
   .navbar-area nav .navbar-nav .nav-item a {
-    margin: 0 20px;
+    margin: 0 10px;
   }
   .navbar-area .others-option .default-btn {
     padding: 10px 20px;
