@@ -1847,7 +1847,6 @@
 @media only screen and (min-width: 1824px) {
   .navbar-area nav .navbar-brand img {
     width: 10%;
-    top: -2vh;
     left: 2%;
     position: absolute;
 }
