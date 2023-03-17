@@ -26,7 +26,7 @@ function MyApp({ Component, pageProps }) {
     AOS.init();
   }, []);
   const router = useRouter();
-  const canonicalUrl = (`https://sitedominion.com` + (router.asPath === "/" ? "": router.asPath)).split("?")[0];
+  const canonicalUrl = (`https://www.sitedominion.com` + (router.asPath === "/" ? "": router.asPath)).split("?")[0];
  
 
   return (

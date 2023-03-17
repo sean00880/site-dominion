@@ -26,7 +26,7 @@ import { data } from "../data";
 export default function Index({ posts }) {
     return (
         <>
-            <NextSeo title="Site Dominion | Lead Generating Website Development" />
+            <NextSeo title="Site Dominion | Lead Generating Website Development" canonical="https://www.sitedominion.com"/>
             <Navbar />
           
             <MainBanner />
