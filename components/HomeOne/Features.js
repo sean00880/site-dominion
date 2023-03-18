@@ -32,11 +32,11 @@ const Features = () => {
                         <hr />
                         <h3 style={{"color":"white"}}>INCLUDED WITH OUR PREMIUM WEBSITE:</h3>
                         
-                        <div className="wrapper"  data-aos="fade-down">
+                        <div className="wrapper">
                       
                        
                        <div className="col-lg-3 p-0">
-                            <div className="single-features single-features2" data-aos="fade-left" data-aos-easing="ease-in-sine">
+                            <div className="single-features single-features2" >
                                 <Image loading='lazy' src="/images/design1.png" alt="Website Design and development icon." width={320} height={240}/>
                                 <h3>1) Design + Development</h3>
                                 <p> Site Dominion ensures that that your website loads quickly, is safe, functions flawlessly across all browsers and screen sizes, and is set up for the long term to continuously reach your business goals.</p>
@@ -50,7 +50,7 @@ const Features = () => {
                         </div>
 
                         <div className="col-lg-3 p-0">
-                            <div className="single-features single-features2" data-aos="fade-down" data-aos-easing="ease-in-sine">
+                            <div className="single-features single-features2" >
                             <Image loading='lazy'  src="/images/blog.png"  alt="Blog-setup icon." width={320} height={240}/>
                                 <h3>2) Blog Development + Setup</h3>
                                 <p>Reach clients and search engines with skilled professionals' high-quality, budget friendly blog and website content. A straightforward solution to cover your blogging needs.</p>
@@ -64,7 +64,7 @@ const Features = () => {
                         </div>
 
                         <div className="col-lg-3 offset-lg-0 p-0">
-                            <div className="single-features single-features2" data-aos="fade-right" data-aos-easing="ease-in-sine">
+                            <div className="single-features single-features2" >
                             <Image loading='lazy'  src="/images/optimization.png" className='service' alt="SEO setup icon." width={300} height={200}/>
                                 <h3>3) Project Optimization</h3>
                                 <p>We use SEO and tools, cutting-edge techniques, and experiments to enhance the functionality of your website, further attract more visitors, boost conversions, and increase revenue.</p>
@@ -78,7 +78,7 @@ const Features = () => {
                         </div>
 
                         <div className="col-lg-3 p-0">
-                            <div className="single-features single-features2" data-aos="fade-up" data-aos-easing="ease-in-sine">
+                            <div className="single-features single-features2" >
                             <Image loading='lazy'  src="/images/deployment2.png" className='service' alt="Website deployment icon." width={360} height={280}/>
                                 <h3>4) Full Deployment [Hosting & Domain]</h3>
                                 <p>After the completion of the developmental phase, the website is pushed into deployment. Site Dominion's premium website package covers all domain and hosting expenses, so you don't have to break a sweat.</p>
@@ -120,7 +120,7 @@ const Features = () => {
                 <div className="wrapper">
                     
                         <div className="col-lg-4 p-0">
-                            <div className="single-features" data-aos="fade-left" data-aos-easing="ease-in-sine">
+                            <div className="single-features" >
                             <Image loading='lazy'  src="/images/logomock.png" alt="Logo design icon." width={340} height={260}/>
                                 <h3>Logo Design</h3>
                                 <p>Our goal at Site Dominion is to make the best first impression possible for your brand. One of our design experts will assist you in bringing your brand to life once you reach out to us.</p>
@@ -134,7 +134,7 @@ const Features = () => {
                         </div>
 
                         <div className="col-lg-4 p-0">
-                            <div className="single-features" data-aos="fade-down" data-aos-easing="ease-in-sine">
+                            <div className="single-features" >
                             <Image loading='lazy'  src="/images/blog.png" alt="Blog-setup icon." width={320} height={240}/>
                                 <h3>Blog Development + Setup</h3>
                                 <p>Reach clients and search engines with skilled professionals' high-quality, budget friendly blog and website content. A straightforward solution to cover your blogging needs.</p>

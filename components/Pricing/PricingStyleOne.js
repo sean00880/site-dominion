@@ -21,8 +21,8 @@ class PricingStyleOne extends Component {
 
     render() {
         return (
-            <section className="pricing-area pt-100 pb-70">
-                <div className="container">
+            <section className="pricing-area" id="payment">
+                <div className="container" style={{border:'none'}}>
                     
 
                     <div className="tab quote-list-tab">
@@ -44,7 +44,7 @@ class PricingStyleOne extends Component {
 
                         <div className="tab_content">
                             <div id="tab1" className="tabs_item">
-                                <div className="row" style={{"borderRadius":"1vh"}}>
+                                <div className="row" style={{"borderRadius":"1vh","background":"none"}}>
                                     <div className="col-lg-4 col-md-6">
                                         <div className="single-pricing single-pricing1">
                                             <div className="pricing-top-heading">
@@ -154,7 +154,7 @@ class PricingStyleOne extends Component {
                                             <ul>
                                             <li>
                                                     <i role="none" className='bx bx-check'></i>
-                                                    Website Design [Industry Standard]
+                                                    Website Design [Industry]
                                                 </li>   
                                                 <li>
                                                     <i role="none" className='bx bx-check'></i>

@@ -22,7 +22,7 @@ class PricingStyleOne extends Component {
 
     render() {
         return (
-            <section className="pricing-area" style={{"width":"100%"}}>
+            <section className="pricing-area" style={{"width":"100%"}} id="payment">
                 <div className="container" style={{"width":"100%"}}>
                     
 
@@ -45,7 +45,7 @@ class PricingStyleOne extends Component {
 
                         <div className="tab_content" style={{"width":"100%"}}>
                             <div id="tab1" className="tabs_item" style={{"width":"100%"}}>
-                                <div className="row" style={{"borderRadius":"1vh"}}>
+                                <div className="row" style={{"borderRadius":"1vh","background":"none"}}>
                                     <div className="col-lg-4 col-md-6">
                                         <div className="pricing-card single-pricing1" data-aos="fade-left"  data-aos-delay="100">
                                             <div className="pricing-top-heading">
@@ -155,7 +155,7 @@ class PricingStyleOne extends Component {
                                             <ul>
                                             <li>
                                                     <i role="none" className='bx bx-check'></i>
-                                                    Website Design [Industry Standard]
+                                                    Website Design [Industry]
                                                 </li>   
                                                 <li>
                                                     <i role="none" className='bx bx-check'></i>
@@ -315,7 +315,7 @@ class PricingStyleOne extends Component {
                                             <ul>
                                             <li>
                                                     <i role="none" className='bx bx-check'></i>
-                                                    Website Design [Industry Standard]
+                                                    Website Design [Industry]
                                                 </li>   
                                                 <li>
                                                     <i role="none" className='bx bx-check'></i>

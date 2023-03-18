@@ -7,7 +7,7 @@ import HomeAccordion from './HomeAccordion';
 import WorkTab from '../HomeOne/WorkTab2';
 import DeploymentTab from '../HomeOne/DeploymentTab';
 import QuoteRequest from './QuoteRequest';
-import PaymentTab from '../HomeOne/PaymentTab';
+import PaymentTab from '../Pricing/PricingStyleTwo';
 
 class ServicesStyleOne extends Component {
     render() {
@@ -34,14 +34,8 @@ class ServicesStyleOne extends Component {
                                                 Services
                                             </button>
                                             </Link></div>
-                <div className="row" style={{"background":"none"}}><div className="col-lg-6"><p className="p-3">
-                At Site Dominion, we understand that every business has different needs and budgets when it comes to web development. That's why we offer flexible pricing options to ensure that our clients get the best value for their investment.
-                                            </p>
-                                            <Link href="/pricing">
-                                            <button type="submit" className="default-btn btn-two">
-                                                Pricing
-                                            </button>
-                                            </Link></div><div className="col-lg-6"><p className="p-3">
+                <div className="row" style={{"background":"none"}}>
+                    <div className="col-lg-12"><p className="p-3">
                                             We have worked with clients from various industries and niches, providing them with tailored websites and applications that not only meet their needs but also exceed their expectations. We also specialize in creating high-quality prototype projects that bring our clients' ideas to life. Check out our work.
                                             </p>
                                             <Link href="/portfolio">
@@ -90,7 +84,7 @@ class ServicesStyleOne extends Component {
 </Tab>
                 
 </TabList>
-<div className="row" style={{"borderRadius":"0", "padding":"1vh"}}>
+<div className="row" style={{"borderRadius":"0", "padding":"1vh","background":"#1d1c1c"}}>
     <TabPanel style={{"padding":"0"}} >
     <PaymentTab/>
     </TabPanel>
@@ -100,7 +94,7 @@ class ServicesStyleOne extends Component {
                         <TabList style={{"borderRadius":"0vh 0vh" , "padding":"3vh 0"}}>
                         <Tab>Step #5: Project Deployed</Tab>
                         </TabList>
-                        <div className="row" style={{"borderRadius":"0vh 0vh 1vh 1vh"}}>
+                        <div className="row" style={{"borderRadius":"0vh 0vh 1vh 1vh", "background":"none"}}>
                             <TabPanel  style={{"padding":"0"}}>
 
                             <DeploymentTab/>

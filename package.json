@@ -46,5 +46,9 @@
         "sweetalert2": "^11.4.19",
         "sweetalert2-react-content": "^5.0.0",
         "swiper": "^8.3.2"
+    },
+    "devDependencies": {
+        "brotli-webpack-plugin": "^1.1.0",
+        "compression-webpack-plugin": "^10.0.0"
     }
 }

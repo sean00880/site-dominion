@@ -29,7 +29,7 @@ class WhyChooseUs extends Component {
                                     <li role="none" className="ml-25" data-aos="fade-right">
                                         <span>III <i role="none" className="flaticon-support"></i></span>
                                         <h3>Domain + Hosting</h3>
-                                        <p>Lorem ipsum dolor sit labore amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                                        <p> A domain name is the website's unique identifier, while hosting provides the server space where the website is stored and made available to visitors. We take care of it all for your convenience.</p>
                                     </li>
                                 </ul>
                             </div>

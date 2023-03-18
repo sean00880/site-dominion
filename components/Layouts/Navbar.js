@@ -46,11 +46,12 @@ class Navbar extends Component {
                     <nav className="navbar navbar-expand-md navbar-light" style={{ "height":"20vh"}}>
                         <div className="container">
                            
-                                <Link href="/">
-                                <a className="navbar-brand">
+                                
+                                <a className="navbar-brand"><Link href="/">
                                     <img loading="lazy" src="/images/NewLogo.png" alt="Site Dominion Logo"/>
+                                    </Link>
                                 </a>
-                            </Link>
+                            
                         
 
                             <button 
@@ -97,15 +98,11 @@ class Navbar extends Component {
                                                     <a className="nav-link">What Is Included?</a>
                                                 </Link>
                                             </li>
-                                            <li role="none" className="nav-item">
-                                                <Link href="/pricing" activeClassName="active">
-                                                    <a className="nav-link">Pricing</a>
-                                                </Link>
-                                            </li>
+                                            
 
                                             <li role="none" className="nav-item">
                                                 <Link href="/getting-started/#payment" activeClassName="active">
-                                                    <a className="nav-link">Payments</a>
+                                                    <a className="nav-link">Pricing</a>
                                                 </Link>
                                             </li>
                                             <li role="none" className="nav-item">

@@ -15,6 +15,14 @@ import "aos/dist/aos.css";
 import Image from 'next/image';
 import Link from 'next/link';
 
+const MenuItem = ({ href, label }) => {
+	return (
+	  <li>
+		<a href={href}>{label}</a>
+	  </li>
+	);
+  };
+
 const Blog2 = ({posts}) => {
   React.useEffect(() => {
     AOS.init();
@@ -39,6 +47,21 @@ const Blog2 = ({posts}) => {
 					</div>
 				</div>
 				{/* <!-- /Page Title --> */}
+				<ul className="menu" style={{listStyleType:'none',display:"flex",flexDirection:"row", justifyContent:"space-around"}}>
+      <span style={{fontFamily:"Smooch Sans",fontSize:"23px"}}>Categories:</span>
+	  <li>
+		<a href='/blog'>All</a>
+	  </li>
+	  {posts.map((post) => {
+        return (
+          <MenuItem
+            key={post.id}
+            href={`/blog/${post.cat}`}
+            label={post.category}
+          />
+        );
+      })}
+    </ul>
 
 
 
@@ -62,7 +85,7 @@ const Blog2 = ({posts}) => {
 									<div className="content_holder">
 										<div className="info_holder">
 											<p>
-												<span className="t_author">By <Link href="https://themeforest.net/user/trendycoder"><a target="_blank" >Site Dominion</a></Link></span>
+												<span className="t_author">By <Link href="/"><a target="_blank" >Site Dominion</a></Link></span>
 												<br />
                                                 <br />
 												<div className="industify_fn_tags industify_fn_tags2">

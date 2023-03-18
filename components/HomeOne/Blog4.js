@@ -15,6 +15,14 @@ import "aos/dist/aos.css";
 import Image from 'next/image';
 import Link from 'next/link';
 
+const MenuItem = ({ href, label }) => {
+	return (
+	  <li>
+		<a href={href}>{label}</a>
+	  </li>
+	);
+  };
+
 const Blog2 = ({posts}) => {
   React.useEffect(() => {
     AOS.init();
@@ -38,14 +46,28 @@ const Blog2 = ({posts}) => {
 				</div>
 				{/* <!-- /Page Title --> */}
 
-
+				<ul className="menu" style={{listStyleType:'none',display:"flex",flexDirection:"row", justifyContent:"space-around"}}>
+      <span style={{fontFamily:"Smooch Sans",fontSize:"23px"}}>Categories:</span>
+	  <li>
+		<a href='/blog'>All</a>
+	  </li>
+	  {posts.map((post) => {
+        return (
+          <MenuItem
+            key={post.id}
+            href={`/blog/${post.cat}`}
+            label={post.category}
+          />
+        );
+      })}
+    </ul>
 
 				<div className="industify_fn_blog_full">
 					<div className="container">
 						<ul className="industify_fn_postlist">
              
             {posts.map((post) => (
-            post.cat==="web-development"?
+            post.cat==="technology"?
             (
             
 							<li>
@@ -86,7 +108,7 @@ const Blog2 = ({posts}) => {
             
                ))}
 			   {posts.map((post) => (
-            post.cat2==="web-development"?
+            post.cat2==="technology"?
             (
             
 							<li>

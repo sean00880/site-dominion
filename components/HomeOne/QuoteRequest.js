@@ -44,7 +44,7 @@ export default function ServicesStyleOne(){
                 <div className="row align-items-center" style={{"padding":"0", "margin":"2vh 0","background":"none"}}>
                     <div className="col-lg-12 col-md-12">
                         <div className="contact-wrap contact-pages mb-0">
-                            <div className="contact-form" style={{"borderRadius":"1vh", "margin":"2vh"}}>
+                            <div className="contact-form" style={{"borderRadius":"1vh", "padding":"2vh"}}>
                                 <form ref={form} onSubmit={sendEmail}>
                                     <div className="row" style={{"borderRadius":"0","background":"none"}}>
                                         <div className="col-lg-6 col-sm-6">

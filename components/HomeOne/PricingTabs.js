@@ -16,7 +16,7 @@ class ServicesStyleOne extends Component {
                 <div className="container">
                 <Tabs>
               <TabList>
-              <a href="/getting-started" className="backButton" style={{"textAlign":"right", "position":"absolute","right":"6vh", "color":"white"}}>
+              <a href="/getting-started" className="backButton" style={{"textAlign":"right", "position":"absolute","right":"6vh", "color":"white", top:"-8ch"}}>
       Go Back
     </a>
                 

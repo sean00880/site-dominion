@@ -1639,7 +1639,7 @@ padding: 10px 10px;
 Main Banner Area Style
 ======================================================*/
 .main-banner-area {
-  background-color:black;
+  background:linear-gradient(0deg, #1f1e1e, #1d1c1c);
   background-size: contain;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -1847,6 +1847,7 @@ Main Banner Area Style
   display: flex;
   justify-content: center;
   align-items: center;
+  background: #1d1c1c;
 }
 
 .pricing-area .container{
@@ -2285,26 +2286,26 @@ Choose Us Area Style
     align-items: center;
     justify-content: center;
     display: flex;
+    margin: 4vh 0;
 }
 
 .features-area .container {
-  border: 2px solid #f2f2f2;
+  border: 0;
   text-align: center;
-  padding: 1vh
+  padding: 0;
 }
 
 .features-area .container2{
   background-color: white;
   border-radius: 1vh;
-  padding: 1vh
+  padding: 0;
 }
 
 
 
 .features-area .container .row{
-  background: linear-gradient(45deg, #000000e0, #464545ed);
+  background: #1d1c1c;
   border-radius: 0 0 1vh 1vh;
-  padding: 1vh;
   margin: 0;
 }
 
@@ -3642,13 +3643,12 @@ Offer Area Two Style
   text-align: center;
   background-color: #ffffff;
   box-shadow: 0vh 0vh 2vh rgb(189 189 189 / 67%);
-  padding: 1vh;
+  margin: 1vh;
   height: 88vh;
   border: 3px solid #d0b5b5;
   position: relative;
   z-index: 1;
   overflow: hidden;
-  margin-bottom: 30px;
   transition: all 0.6s ease;
   border-radius: 1vh;
   display: flex;
@@ -4172,7 +4172,7 @@ Industries Serve Area Style
 
 .single-industries .right-icon span {
   color: #515454;
-    margin: 1vh;
+    margin: 1vh -7px;
 }
 
 .single-industries h3 {
@@ -6917,7 +6917,7 @@ Contact Info Area Style
 }
 
 .react-tabs .col-lg-12 {
-  padding: 0;
+  margin: 2vh 0;
 }
 
 
@@ -7966,6 +7966,8 @@ a{
   display: flex;
   justify-content: center;
   flex-direction: column;
+  z-index: 1000;
+  cursor:pointer;
 }
 
 @media(max-width: 1440px){
@@ -8025,7 +8027,7 @@ a{
   display: flex;
   flex-direction: row;
   background:linear-gradient( #f9f9f9f9, #ffffff);  
-  padding:1vh 2vh;
+  padding:1vh 0;
 }
 
 .pp-expertise-area .container .section-title{
@@ -8179,6 +8181,11 @@ a{
   padding: 0;
 }
 
+.pricing .container .row .pricing-area{
+  border-radius: 1vh;
+  background: none;
+}
+
 .pricing .icon.bg-fff5e6 {
   background-color: #fff5e6;
 }
@@ -8285,12 +8292,11 @@ a{
 .features-area .react-tabs .react-tabs__tab-list {
   text-align: center;
   padding: 0 0 10px;
-  border-bottom: 2px solid #f1f0f0;
   line-height: 4;
   background: #1d1c1c;
   /* margin: 1vh; */
   margin: 0;
-  border-radius: 1vh 1vh 0 0;
+  border-radius: 0;
 }
 
 .features-area .react-tabs .react-tabs__tab-list:nth-child(3){
@@ -8306,7 +8312,7 @@ a{
   margin-right: 2vh;
   color: #ffffff;
   cursor: pointer;
-  font-size: 19px;
+  font-size: 23px;
   letter-spacing: 1px;
   font-weight: 500;
   font-family:'Smooch Sans', sans-serif;
@@ -8344,7 +8350,6 @@ a{
 
 .col-lg-12 .single-features{
   background: #ffffff;
-  margin: 0;
 }
 
 .react-tabs__tab-panel .react-tabs__tab-panel--selected{

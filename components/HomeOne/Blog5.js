@@ -15,8 +15,6 @@ import "aos/dist/aos.css";
 import Image from 'next/image';
 import Link from 'next/link';
 
-
-
 const MenuItem = ({ href, label }) => {
 	return (
 	  <li>
@@ -24,7 +22,6 @@ const MenuItem = ({ href, label }) => {
 	  </li>
 	);
   };
-
 
 const Blog2 = ({posts}) => {
   React.useEffect(() => {
@@ -36,14 +33,12 @@ const Blog2 = ({posts}) => {
 				<div className="industify_fn_pagetitle">
 					<div className="container">
 						<div className="title_holder">
-							<h3>Blog</h3>
+							<h3>Blog Posts</h3>
 							<div className="industify_fn_breadcrumbs">
 								<ul>
 									<li><Link href="/"><a title="Home">Home</a></Link></li>
 									<li className="separator"><span></span></li>
-									<li><span className="bread-current">Blog</span></li>
-									<li className="separator"><span></span></li>
-									<li><span className="bread-current">Web Development</span></li>
+									<li><span className="bread-current">Blog Full</span></li>
 								</ul>
 							</div>
 						</div>
@@ -67,13 +62,12 @@ const Blog2 = ({posts}) => {
     </ul>
 
 
-
 				<div className="industify_fn_blog_full">
 					<div className="container">
 						<ul className="industify_fn_postlist">
              
             {posts.map((post) => (
-            post.cat==="web-development"?
+            post.cat==="education"?
             (
             
 							<li>
@@ -102,7 +96,7 @@ const Blog2 = ({posts}) => {
 											<h3><Link href={`/blog/${post.cat}/${post.titleurl}`}><a>{post.title}</a></Link></h3>
 										</div>
 										<div className="excerpt_holder">
-											<p>"{post.description}"</p>
+											<p>{post.description}</p>
 										</div>
 										<div className="read_holder">
 											<p><Link href={`/blog/${post.cat}/${post.titleurl}`}><a>Read More</a></Link></p>
@@ -114,7 +108,7 @@ const Blog2 = ({posts}) => {
             
                ))}
 			   {posts.map((post) => (
-            post.cat2==="web-development"?
+            post.cat2==="education"?
             (
             
 							<li>
@@ -123,7 +117,7 @@ const Blog2 = ({posts}) => {
                                 <h5>{post.month}</h5>
                                 <h5>{post.year}</h5></div>
 									<div className="img_holder">
-										<Link href={`/blog/${post.cat}/${post.titleurl}`}><a><img src={`/images/${post.photo}`} alt="" /></a></Link>
+										<Link href={`/blog/${post.cat}/${post.titleurl}`}><a><img src={`${process.env.NEXT_PUBLIC_URL}/images/${post.photo}`} alt="" /></a></Link>
 										<span className="shape1"></span>
 									</div>
 									<div className="content_holder">
@@ -143,7 +137,7 @@ const Blog2 = ({posts}) => {
 											<h3><Link href={`/blog/${post.cat}/${post.titleurl}`}><a>{post.title}</a></Link></h3>
 										</div>
 										<div className="excerpt_holder">
-											<p>"{post.description}"</p>
+											<p>{post.description}</p>
 										</div>
 										<div className="read_holder">
 											<p><Link href={`/blog/${post.cat}/${post.titleurl}`}><a>Read More</a></Link></p>

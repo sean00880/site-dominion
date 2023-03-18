@@ -1,4 +1,7 @@
 /** @type {import('next').NextConfig} */
+
+
+var BrotliPlugin = require('brotli-webpack-plugin');
 const path = require('path')
 const withBundleAnalyzer = require('@next/bundle-analyzer')({
   enabled: process.env.ANALYZE === 'true'
@@ -16,6 +19,14 @@ module.exports = withBundleAnalyzer({
   distDir: 'build',
     reactStrictMode: true,
   compress: true,
+  plugins: [
+    new BrotliPlugin({
+      asset: '[path].br[query]',
+      test: /\.(js|css|html|svg)$/,
+      threshold: 10240,
+      minRatio: 0.8
+    })
+  ],
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')],
   },
