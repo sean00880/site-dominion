@@ -121,7 +121,7 @@ class PricingStyleOne extends Component {
                                                 </li>
                                             
                                                 <li>
-                                                    <i role="none" className='bx bx-x'></i>
+                                                    <i role="none" className='bx bx-check'></i>
                                                     Lead Generation API
                                                 </li>
                                                 <li>
