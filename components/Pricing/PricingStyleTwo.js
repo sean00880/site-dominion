@@ -134,11 +134,11 @@ class PricingStyleOne extends Component {
                                                 </li>
                                             </ul>
 
-                                            <Link href="/getting-started/#quote">
+                                            
                                                 <a className="default-btn" href="https://buy.stripe.com/5kAfZPezA9ujf6gcMR">
                                                     Choose Package
                                                 </a>
-                                            </Link>
+                                            
 
                                             <strong className="popular" role="heading">Popular</strong>
                                         </div>
@@ -246,11 +246,11 @@ class PricingStyleOne extends Component {
                                                 </li>
                                             </ul>
 
-                                            <Link href="/getting-started/#quote">
+                                            
                                                 <a className="default-btn" href="https://buy.stripe.com/cN200RajkdKz4rC8wx">
                                                     Choose Package
                                                 </a>
-                                            </Link>
+                                            
                                         </div>
                                     </div>
 
@@ -294,11 +294,11 @@ class PricingStyleOne extends Component {
                                                 </li>
                                             </ul>
 
-                                            <Link href="/getting-started/#quote">
+                                            
                                                 <a className="default-btn" href="https://buy.stripe.com/aEUcNDcrsbCre2ccMO">
                                                     Choose Package
                                                 </a>
-                                            </Link>
+                                            
 
                                             <strong className="popular" role="heading">Popular</strong>
                                         </div>
@@ -344,11 +344,11 @@ class PricingStyleOne extends Component {
                                                 </li>
                                             </ul>
 
-                                            <Link href="/getting-started/#quote">
-                                                <a className="default-btn" href="price_1MltDNBprPOebpuICSWnqsHh">
+                                            
+                                                <a className="default-btn" href="https://buy.stripe.com/aEU00Rdvw5e37DO5kn">
                                                     Choose Package
                                                 </a>
-                                            </Link>
+                                            
                                         </div>
                                     </div>
 
