@@ -18,7 +18,7 @@ class ServicesStyleFour extends Component {
                             <div className="row" style={{"borderRadius":"1vh"}}>
                                 <div className="col-lg-12 col-md-6">
                                     <div className="single-industries">
-                                        <i role="none"><Image src='/images/automotive1.png' width={50} height={50}/></i>
+                                        <i role="none"><Image src='/images/automotive1.png' width={50} height={50} alt="automotive icon"/></i>
                                         <h3>Automotive & Transportation</h3>
                                         <span>Car manufacturing,
 Commercial vehicles manufacturing,
@@ -36,7 +36,7 @@ Transportation and logistics services</span>
 
                                 <div className="col-lg-12 col-md-6">
                                     <div className="single-industries">
-                                        <i role="none"><Image src='/images/sports.png' width={50} height={50}/></i>
+                                        <i role="none"><Image src='/images/sports.png' width={50} height={50} alt="sports icon"/></i>
                                         <h3>Sports & Fitness</h3>
                                         <span>Sports betting,
 Sponsorship and endorsements,
@@ -59,7 +59,7 @@ Esports </span>
 
                                 <div className="col-lg-12 col-md-6">
                                     <div className="single-industries">
-                                        <i role="none"><Image src='/images/lawncare.png' width={50} height={50}/></i>
+                                        <i role="none"><Image src='/images/lawncare.png' width={50} height={50} alt="lawncare icon"/></i>
                                         <h3>Landscaping & Lawncare</h3>
                                         <span>Residential and Commercial Landscaping, Landscape Design and Installation, Irrigation Systems Installation, Hardscaping and Outdoor Living Spaces, Tree and Shrub Care,
 Landscape Lighting Design and Installation,
@@ -81,7 +81,7 @@ Snow and Ice Removal Services.
 
                                 <div className="col-lg-12 col-md-6">
                                     <div className="single-industries">
-                                    <i role="none"><Image src='/images/insurance.png' width={50} height={50}/></i>
+                                    <i role="none"><Image src='/images/insurance.png' width={50} height={50} alt="insurance icon"/></i>
                                         <h3>Insurance & Finance</h3>
                                         <span>Life, Health, Property, Auto, Home & Business insurance, Investment management, Banking and financial services</span>
 
@@ -106,7 +106,7 @@ Snow and Ice Removal Services.
                             <hr />
                             <Link href="/industries-we-serve">
                                 <a className="default-btn2">
-                                    Learn More
+                                    More Info
                                 </a>
                             </Link>
                         </div>
@@ -118,7 +118,7 @@ Snow and Ice Removal Services.
 
                             <div className="col-lg-12 col-md-6 right-item">
                                     <div className="single-industries">
-                                        <i role="none"><Image src='/images/construction.png' width={50} height={50}/></i>
+                                        <i role="none"><Image src='/images/construction.png' alt="construction icon" width={50} height={50}/></i>
                                         <h3>Construction & Trade Work</h3>
                                         <span>Construction, Electrical contracting,
 Plumbing and heating,
@@ -137,7 +137,7 @@ Painting and decorating</span>
 
                                 <div className="col-lg-12 col-md-6">
                                     <div className="single-industries right-item">
-                                        <i role="none"><Image src='/images/entertainment.png' width={50} height={50}/></i>
+                                        <i role="none"><Image src='/images/entertainment.png' alt="entertainment icon" width={50} height={50}/></i>
                                         <h3>Entertainment</h3>
                                         <span>Film Production,
 Music Production,
@@ -155,7 +155,7 @@ Live Performance Production (e.g. concerts, theater, comedy shows)</span>
 
                                 <div className="col-lg-12 col-md-6">
                                     <div className="single-industries right-item">
-                                        <i role="none"><Image src='/images/realestate.png' width={50} height={50}/></i>
+                                        <i role="none"><Image src='/images/realestate.png' alt="realestate icon" width={50} height={50}/></i>
                                         <h3>Real Estate</h3>
                                         <span>Residential real estate,
 Commercial real estate,
@@ -173,7 +173,7 @@ Real estate finance</span>
 
                                 <div className="col-lg-12 col-md-6">
                                     <div className="single-industries right-item">
-                                        <i role="none"><Image src='/images/homeservices.png' width={50} height={50}/></i>
+                                        <i role="none"><Image src='/images/homeservices.png' alt="home services icon" width={50} height={50}/></i>
                                         <h3>Home Services</h3>
                                         <span>Cleaning services,
 Pest control services,
@@ -190,7 +190,7 @@ HVAC (heating, ventilation, and air conditioning) services</span>
 
                                 <div className="col-lg-12 col-md-6">
                                     <div className="single-industries right-item">
-                                        <i role="none"><Image src='/images/lawfirm.png' width={50} height={50}/></i>
+                                        <i role="none"><Image src='/images/lawfirm.png' alt="law firm icon" width={50} height={50}/></i>
                                         <h3>Law Firms</h3>
                                         <span>Corporate Law,
 Criminal Law,

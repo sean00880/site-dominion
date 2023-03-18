@@ -47,10 +47,10 @@ class Navbar extends Component {
                         <div className="container">
                            
                                 
-                                <a className="navbar-brand"><Link href="/">
+                        <Link href="/"><a className="navbar-brand" href="#">
                                     <img loading="lazy" src="/images/NewLogo.png" alt="Site Dominion Logo"/>
-                                    </Link>
-                                </a>
+                                    
+                                </a></Link>
                             
                         
 
@@ -231,22 +231,22 @@ class Navbar extends Component {
                                    <div style={{"display":"flex","flexDirection":"column"}}>
                                     <a href="https://www.facebook.com/sitedominion"
                                         className="facebook social">
-                                        <img width={25} height={25} src="/images/fb.png" style={{"position":"relative","top":"0"}}/>
+                                        <img width={25} height={25} src="/images/fb.png" alt="facebook icon" style={{"position":"relative","top":"0"}}/>
                                     </a>
                                     <a href="https://www.twitter.com/sitedominion"
                                         className="twitter social">
-                                        <img width={25} height={25} src="/images/twitter.png" style={{"position":"relative","top":"0"}}/>
+                                        <img width={25} height={25} src="/images/twitter.png" alt="twitter icon" style={{"position":"relative","top":"0"}}/>
                                     </a>
                                     </div>
                                     
                                     <div style={{"display":"flex","flexDirection":"column"}}>
                                     <a href="https://sitedominion.medium.com/"
                                         className="medium social">
-                                        <img width={25} height={25} src="/images/medium.png" style={{"position":"relative","top":"0"}}/>
+                                        <img width={25} height={25} src="/images/medium.png" alt="medium icon" style={{"position":"relative","top":"0"}}/>
                                     </a>
                                     <a href="https://www.facebook.com/sitedominionofficial"
                                         className="instagram social">
-                                        <img width={25} height={25} src="/images/ig.png" style={{"position":"relative","top":"0"}}/>
+                                        <img width={25} height={25} src="/images/ig.png" alt="instagram icon" style={{"position":"relative","top":"0"}}/>
                                         
                                     </a>
 

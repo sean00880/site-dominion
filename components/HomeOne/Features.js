@@ -24,7 +24,7 @@ const Features = () => {
                                 
                                 <Link href="/premium-website-package">
                                     <a className="read-more-icon">
-                                        <span className="flaticon-right-arrow span2" role="presentation">Learn More</span>
+                                        <span className="flaticon-right-arrow span2" role="presentation">Pick Service</span>
                                     </a>
                                 </Link>
                             </div>
@@ -43,7 +43,7 @@ const Features = () => {
 
                                 <Link href="/website-design-and-development">
                                     <a className="read-more-icon">
-                                        <span className="flaticon-right-arrow" role="presentation">Learn More</span>
+                                        <span className="flaticon-right-arrow" role="presentation">Pick Service</span>
                                     </a>
                                 </Link>
                             </div>
@@ -57,7 +57,7 @@ const Features = () => {
                                 
                                 <Link href="/blog-creation">
                                     <a className="read-more-icon">
-                                        <span className="flaticon-right-arrow span3" role="presentation">Learn More</span>
+                                        <span className="flaticon-right-arrow span3" role="presentation">Pick Service</span>
                                     </a>
                                 </Link>
                             </div>
@@ -71,7 +71,7 @@ const Features = () => {
                                 
                                 <Link href="/website-optimization">
                                     <a className="read-more-icon">
-                                        <span className="flaticon-right-arrow span2" role="presentation">Learn More</span>
+                                        <span className="flaticon-right-arrow span2" role="presentation">Pick Service</span>
                                     </a>
                                 </Link>
                             </div>
@@ -85,7 +85,7 @@ const Features = () => {
                                 
                                 <Link href="/website-deployment">
                                     <a className="read-more-icon">
-                                        <span className="flaticon-right-arrow span" role="presentation">Learn More</span>
+                                        <span className="flaticon-right-arrow span" role="presentation">Pick Service</span>
                                     </a>
                                 </Link>
                             </div>
@@ -127,7 +127,7 @@ const Features = () => {
 
                                 <Link href="/logo-design">
                                     <a className="read-more-icon">
-                                        <span className="flaticon-right-arrow span" role="presentation">Learn More</span>
+                                        <span className="flaticon-right-arrow span" role="presentation">Pick Service</span>
                                     </a>
                                 </Link>
                             </div>
@@ -141,7 +141,7 @@ const Features = () => {
                                 
                                 <Link href="/blog-creation">
                                     <a className="read-more-icon">
-                                        <span className="flaticon-right-arrow span3" role="presentation">Learn More</span>
+                                        <span className="flaticon-right-arrow span3" role="presentation">Pick Service</span>
                                     </a>
                                 </Link>
                             </div>
@@ -157,7 +157,7 @@ const Features = () => {
                                 
                                 <Link href="/website-content-writing">
                                     <a className="read-more-icon">
-                                        <span className="flaticon-right-arrow span2" role="presentation">Learn More</span>
+                                        <span className="flaticon-right-arrow span2" role="presentation">Pick Service</span>
                                     </a>
                                 </Link>
                             </div>
