@@ -13,7 +13,7 @@ export default function BlogSingle1() {
 		<>
 			<NextSeo
             title="2023 And Beyond: Why Web Development Is The Perfect Career Choice"
-            description="Next SEO packages simplifies the SEO management in Next Apps with less configurations"
+            description="Let's explore why web development is a great career choice in 2023 and beyond."
             canonical="https://www.sitedominion.com/blog/career/why-web-development-is-the-perfect-career-choice/"
             openGraph={{
                 type: 'article',
@@ -27,7 +27,7 @@ export default function BlogSingle1() {
                 },
                 url: 'https://www.sitedominion.com/blog/career/why-web-development-is-the-perfect-career-choice/',
                 images: {
-                    url: 'https://mockup.png',
+                    url: 'https://www.sitedominion.com/images/web.png',
                     width: 850,
                     height: 650,
                     alt: 'Site Dominion Websites For Businesses',
@@ -41,7 +41,7 @@ export default function BlogSingle1() {
 				<div className="industify_fn_pagetitle">
 					<div className="container">
 						<div className="title_holder">
-							<h3>2023 and Beyond: Why Web Development is the Perfect Career Choice</h3>
+							<h1>2023 and Beyond: Why Web Development is the Perfect Career Choice</h1>
 							<div className="industify_fn_breadcrumbs">
 								<ul>
 									<li><Link href="/"><a title="Home">Home</a></Link></li>

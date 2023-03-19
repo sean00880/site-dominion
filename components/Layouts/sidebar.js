@@ -19,8 +19,8 @@ export default function Sidebar() {
                                 <div className="abs_img" style={{"backgroundImage":"url(/images/mockup.png)"}}></div>
                             </div>
                             <div className="bfwe_inner">
-                                <p>Let's get started! Contact us for a free quote on your next home improvement project.</p>
-                                <Link href="/contact"><a>Request an Estimate</a></Link>
+                                <p>Follow our 5-step process & get started with your custom website today! </p>
+                                <Link href="/getting-started"><a>Get Started</a></Link>
                                 
                             </div>
                             

@@ -19,7 +19,7 @@ class Footer extends Component {
                                 <div className="privacy">
                                     <ul>
                                         <li>
-                                            <Link href="/terms-conditions">
+                                            <Link href="/blog">
                                                 <a className="default-btn">All Blog Posts</a>
                                             </Link>
                                         </li>

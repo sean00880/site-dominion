@@ -1241,6 +1241,7 @@ padding: 10px 10px;
   margin:0 20px;
   font-family: "Smooch Sans", sans-serif;
   letter-spacing: 1px;
+  font-style: normal;
 }
 
 .navbar-area.is-sticky nav .navbar-nav .nav-item a {
@@ -1861,7 +1862,7 @@ Features Area Style
 ======================================================*/
 .single-features {
   text-align: center;
-  background:linear-gradient(45deg, #ffffff, transparent);
+  background:#ffffff;
   -webkit-box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
           box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
   position: relative;
@@ -1950,7 +1951,6 @@ Features Area Style
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
   z-index: 1;
-  background: #1d1c1c;
   color: white;
   border: 1px solid white;
   border-radius: 0;
@@ -2382,7 +2382,7 @@ color: #131212;
 
 .features-area .single-features:hover{
   border: 3px solid #ffffff;
-  background:linear-gradient(45deg, #b2b2b3, #f0f0f0, #b2b2b3);
+  background: white;
 
 }
 
@@ -8684,7 +8684,7 @@ a:focus, a:hover{
 	padding: 0px;
 	color: #fff;
 	letter-spacing: 0px;
-	font-size: 12px;
+	font-size: 19px;
 	line-height: 14px;
 	font-weight: 400;
 	text-transform: uppercase;
@@ -9190,7 +9190,7 @@ a:focus, a:hover{
 	clear: both;
 	position: relative;
   padding:4vh 0;
-  padding-top: 20vh;
+  padding-top:20vh;
 }
 
 .industify_fn_pagetitle .container{
@@ -9231,7 +9231,7 @@ a:focus, a:hover{
 	background-color: #1d1c1c;
 	border-radius: 10px;
 }
-.industify_fn_pagetitle h3{
+.industify_fn_pagetitle h1{
 	margin: 0px;
 	padding: 0px;
 	font-size: 48px;
@@ -9312,6 +9312,7 @@ a:focus, a:hover{
 	border-radius: 3px;
 	min-width: 100%;
 }
+
 .industify_fn_blog_single .desc_holder p{
 	margin: 0px;
     padding: 0px;
@@ -9325,6 +9326,7 @@ a:focus, a:hover{
   align-items: center;
     display: flex;
     flex-direction: column;
+    margin:2ch 0;
 }
 
 .bold{
@@ -9337,6 +9339,9 @@ a:focus, a:hover{
 
 .industify_fn_blog_single .desc_holder h4{
   margin: 1rem 0;
+  text-transform: capitalize;
+  font-family: 'smooch sans',sans-serif;
+    font-size: 31px;
 }
 
 blockquote{

@@ -5,7 +5,7 @@ const TopSections = () => {
     <>
       <div className="cs-card-area" style={{"background":"none"}}>
         <div className="container">
-          <div className="row justify-content-center">
+          <div className="row justify-content-center" style={{"borderRadius":"0"}}>
           <div className="col-lg-3 col-sm-6">
               <div className="cs-card-content">
                 <h3>1. FREE Prototype Sample After 50% Deposit</h3>

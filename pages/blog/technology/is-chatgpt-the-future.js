@@ -13,7 +13,7 @@ export default function BlogSingle1() {
 		<>
 			<NextSeo
             title="Is ChatGPT The Future?"
-            description="Next SEO packages simplifies the SEO management in Next Apps with less configurations"
+            description="In this blog, we discuss ChatGPT, it's case use and what the future holds for it."
             canonical="https://www.sitedominion.com/blog/technology/is-chatgpt-the-future/"
             openGraph={{
                 type: 'article',
@@ -37,17 +37,12 @@ export default function BlogSingle1() {
         />
 			<Navbar/>
 				{/* Page Title */}
-				<PageBanner 
-                    pageTitle="Contact Style One" 
-                    homePageUrl="/" 
-                    homePageText="Home" 
-                    activePageText="Contact Style One" 
-                /> 
+				
 				<div style={{"background":"linear-gradient(45deg, #2e2e2e, black)"}}>
 				<div className="industify_fn_pagetitle">
 					<div className="container">
 						<div className="title_holder">
-							<h3>Is ChatGPT The Future?</h3>
+							<h1>Is ChatGPT The Future?</h1>
 							<div className="industify_fn_breadcrumbs">
 								<ul>
 									<li><Link href="/"><a title="Home">Home</a></Link></li>

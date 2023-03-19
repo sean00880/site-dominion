@@ -14,7 +14,7 @@ export default function BlogSingle1() {
 	return (
 		<>	<NextSeo
 		title="Enhancing the SEO of Your Next.js Website with Canonical Tags"
-		description="Next SEO packages simplifies the SEO management in Next Apps with less configurations"
+		description="Let's discuss how canonical tags help establish the identity of your website's url."
 		canonical="https://www.sitedominion.com/blog/web-development/enhancing-the-seo-of-your-next-js-website-with-cononical-tags/"
 		openGraph={{
 			type: 'article',
@@ -28,7 +28,7 @@ export default function BlogSingle1() {
 			},
 			url: 'https://www.sitedominion.com/blog/web-development/enhancing-the-seo-of-your-next-js-website-with-cononical-tags/',
 			images: {
-				url: 'https://canonical.png',
+				url: 'https://www.sitedominion.com/images/canonical.jpg',
 				width: 850,
 				height: 650,
 				alt: 'Site Dominion - Canonical Tags',
@@ -38,17 +38,12 @@ export default function BlogSingle1() {
 	/>
 			<Navbar/>
 				{/* Page Title */}
-				<PageBanner 
-                    pageTitle="Blog" 
-                    homePageUrl="/" 
-                    homePageText="Home" 
-                    activePageText="Enhancing the SEO of Your Next.js Website with Canonical Tags" 
-                /> 
+				
 				<div style={{"background":"linear-gradient(45deg, #2e2e2e, black)"}}>
 				<div className="industify_fn_pagetitle">
 					<div className="container">
 						<div className="title_holder">
-							<h3>Enhancing the SEO of Your Next.js Website with Canonical Tags</h3>
+							<h1>Enhancing the SEO of Your Next.js Website with Canonical Tags</h1>
 							<div className="industify_fn_breadcrumbs">
 								<ul>
 									<li><Link href="/"><a title="Home">Home</a></Link></li>

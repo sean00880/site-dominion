@@ -8,7 +8,7 @@ const Features = () => {
                 
                 <div className="container">
                     <div className="row">
-                    <div className="section-title">
+                    <div className="section-title" style={{margin:"1vh 0"}}>
                         <h2>Our Services</h2>
                         <hr />
                         <h4>Empower your digital presence with an exceptional web development agency. Unleash the power of innovation, creativity, and expertise to craft a website that exceeds your expectations. Let us elevate your online presence to new heights with our exceptional web development services.</h4>
@@ -18,7 +18,7 @@ const Features = () => {
                 <TopSections/>
                 <div className="col-lg-12 offset-lg-0 p-0">
                             <div className="single-features">
-                                <img loading='lazy'  src="/images/mockup3.png" className='premium' alt="Site Dominion | Premium All-in-One Website Package."/>
+                                <img   src="/images/mockup3.png" className='premium' alt="Site Dominion | Premium All-in-One Website Package."/>
                                 <h3>Site Dominion Premium Website </h3>
                                 <p>Go with our featured service and get the best web development service you could ask for.</p>
                                 
@@ -51,7 +51,7 @@ const Features = () => {
 
                         <div className="col-lg-3 p-0">
                             <div className="single-features single-features2" >
-                            <Image loading='lazy'  src="/images/blog.png"  alt="Blog-setup icon." width={320} height={240}/>
+                            <Image loading='lazy'  src="/images/blog.png"  alt="Blog-setup icon." width={320} height={220}/>
                                 <h3>2) Blog Development + Setup</h3>
                                 <p>Reach clients and search engines with skilled professionals' high-quality, budget friendly blog and website content. A straightforward solution to cover your blogging needs.</p>
                                 
@@ -65,7 +65,7 @@ const Features = () => {
 
                         <div className="col-lg-3 offset-lg-0 p-0">
                             <div className="single-features single-features2" >
-                            <Image loading='lazy'  src="/images/optimization.png" className='service' alt="SEO setup icon." width={300} height={200}/>
+                            <Image loading='lazy'  src="/images/optimization.png" className='service' alt="SEO setup icon." width={320} height={240}/>
                                 <h3>3) Project Optimization</h3>
                                 <p>We use SEO and tools, cutting-edge techniques, and experiments to enhance the functionality of your website, further attract more visitors, boost conversions, and increase revenue.</p>
                                 
@@ -150,7 +150,7 @@ const Features = () => {
 
                         <div className="col-lg-4 offset-lg-0 p-0">
                             <div className="single-features" data-aos="fade-right"  data-aos-easing="ease-in-sine" >
-                            <Image loading='lazy'  src="/images/content.png" alt="Content management icon." width={320} height={240}/>
+                            <Image loading='lazy'  src="/images/content.png" alt="Content management icon." width={340} height={260}/>
                                 
                                 <h3>Website Content Writing/Management</h3>
                                 <p>Don't have time to manage the content on your website? Or maybe you're unsure about how to approach it. Let our professionals assist you with creating transformational SEO friendly content to fastrack the process.</p>
