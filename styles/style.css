@@ -7202,11 +7202,13 @@ Service Details Area Style
 .service-details-wrap ul li {
   display: inline-block;
   font-weight: 400;
-  color: #bfbfbf;
-  font-size: 14px;
+  color: #292525;
+  font-size: 18px;
   padding-left: 30px;
   position: relative;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
+  text-align: left;
+  margin: 1vh 0;
 }
 
 .service-details-wrap ul li i {
@@ -9342,6 +9344,14 @@ a:focus, a:hover{
   text-transform: capitalize;
   font-family: 'smooch sans',sans-serif;
     font-size: 31px;
+    color:#5e8260;
+}
+.industify_fn_blog_single .desc_holder h2{
+  margin: 1rem 0;
+  text-transform: capitalize;
+  font-family: 'smooch sans',sans-serif;
+    font-size: 31px;
+    color:blue;
 }
 
 blockquote{

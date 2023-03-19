@@ -149,8 +149,8 @@ const Features = () => {
                         
 
                         <div className="col-lg-4 offset-lg-0 p-0">
-                            <div className="single-features" data-aos="fade-right"  data-aos-easing="ease-in-sine" >
-                            <Image loading='lazy'  src="/images/content.png" alt="Content management icon." width={340} height={260}/>
+                            <div className="single-features"  >
+                            <Image loading='lazy'  src="/images/content.png" alt="Content management icon." width={320} height={240}/>
                                 
                                 <h3>Website Content Writing/Management</h3>
                                 <p>Don't have time to manage the content on your website? Or maybe you're unsure about how to approach it. Let our professionals assist you with creating transformational SEO friendly content to fastrack the process.</p>

@@ -69,6 +69,21 @@ export const data = [
       category:"Web Development",
       category2:"Education"
     },
+    {
+      id: 6,
+      titleurl:"10-digital-trends-in-2023",
+      title: "10 Web Development Digital Trends to Look Out for in 2023",
+      year: "2023",
+      month: "March",
+      date: "18",
+      photo: "digital.jpg",
+      description:"Web development trends are continually changing in the modern digital era...",
+      cat: "technology",
+      cat2:"education",
+      category:"Technology",
+      category2:"Education"
+    },
+
    
   ];
   
