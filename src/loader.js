@@ -40,7 +40,7 @@ display: block;
  animation: spin 1s infinite;
 }
 .loader div:nth-child(2) {
- border: 10px solid #ccc;
+ border: 10px solid white;
 }
 @keyframes spin {
  0% {

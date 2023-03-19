@@ -21,10 +21,19 @@ import Script from 'next/script';
 import { useRouter } from "next/router";
 import { useEffect } from 'react';
 
+
 function MyApp({ Component, pageProps }) {
   React.useEffect(() => {
     AOS.init();
   }, []);
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+            const loader = document.getElementById('globalLoader');
+        if (loader)
+            loader.style.display = 'none';
+    }
+}, []);
   const router = useRouter();
   const canonicalUrl = (`https://www.sitedominion.com` + (router.asPath === "/" ? "": router.asPath)).split("?")[0];
  
@@ -68,6 +77,7 @@ function MyApp({ Component, pageProps }) {
         `}
       </Script>
       <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0" />
+      
             </Head>
             <Component {...pageProps} />
     </>

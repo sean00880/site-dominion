@@ -27,10 +27,10 @@ export default function BlogSingle1() {
                 },
                 url: 'https://www.sitedominion.com/blog/technology/10-digital-trends-in-2023/',
                 images: {
-                    url: 'https://www.sitedominion.com/digital.jpg',
+                    url: 'https://www.sitedominion.com/images/digital.jpg',
                     width: 850,
                     height: 650,
-                    alt: 'Chat GPT Site',
+                    alt: 'Digital trends.',
                 },
                 site_name: 'Site Dominion'
             }}
@@ -111,6 +111,15 @@ With the use of low code development, programmers may build applications with li
 <h4> 8. Cybersecurity </h4>
 <p>
 Businesses are constantly concerned about cybersecurity, but in 2023, that anxiety is predicted to grow even more. Web designers will need to concentrate on building safe websites that can shield user data from online threats. </p>
+<ul>
+	<li>
+Increased use of SSL/TLS encryption: SSL/TLS encryption is already widely used to protect user data during online transactions, but we can expect to see even more websites adopting this technology in 2023.</li>
+
+<li>Multi-factor authentication: Multi-factor authentication is becoming increasingly popular as a way to enhance security, and we can expect to see more websites implementing this feature in 2023.</li> 
+<li> Improved web application firewalls: Web application firewalls are used to protect websites from attacks such as SQL injection and cross-site scripting, and we can expect to see more advanced web application firewalls being developed in 2023.</li>
+
+</ul>
+
 <h4>9. Chatbots </h4>
 <p> In web development, chatbots are becoming more and more common since they may improve customer service for organizations. They are projected to become even more widespread in 2023, as organizations explore for ways to automate their customer care activities. </p>
 <h4>

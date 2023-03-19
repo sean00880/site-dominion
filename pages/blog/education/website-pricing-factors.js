@@ -12,9 +12,9 @@ export default function BlogSingle1() {
 	return (
 		<>
 			<NextSeo
-            title="2023 And Beyond: Why Web Development Is The Perfect Career Choice"
+            title="Website Pricing Factors: What You Need to Know"
             description="Uncover the factors in play when it comes to pricing a website."
-            canonical="https://www.sitedominion.com/blog/career/why-web-development-is-the-perfect-career-choice/"
+            canonical="https://www.sitedominion.com/blog/education/website-pricing-factors/"
             openGraph={{
                 type: 'article',
                 article: {
@@ -25,7 +25,7 @@ export default function BlogSingle1() {
                     ],
                     tags: ['Career', 'Web Development'],
                 },
-                url: 'https://www.sitedominion.com/blog/career/why-web-development-is-the-perfect-career-choice/',
+                url: 'https://www.sitedominion.com/blog/education/website-pricing-factors',
                 images: {
                     url: 'https://www.sitedominion.com/images/price.png',
                     width: 850,
