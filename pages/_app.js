@@ -73,8 +73,9 @@ function MyApp({ Component, pageProps }) {
           function gtag(){window.dataLayer.push(arguments);}
           gtag('js', new Date());
 
-          gtag('config', 'NEXT_PUBLIC_GOOGLE_ANALYTICS');
+          gtag('config', 'G-LYS6SMLR0H');
         `}
+        
       </Script>
       <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0" />
       
