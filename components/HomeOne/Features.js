@@ -18,7 +18,7 @@ const Features = () => {
                 <TopSections/>
                 <div className="col-lg-12 offset-lg-0 p-0">
                             <div className="single-features">
-                                <img   src="/images/mockup3.png" className='premium' alt="Site Dominion | Premium All-in-One Website Package."/>
+                                <Image loading="lazy"  src="/images/mockup3.png" className='premium' alt="Site Dominion | Premium All-in-One Website Package." width={330} height={240}/>
                                 <h3>Site Dominion Premium Website </h3>
                                 <p>Go with our featured service and get the best web development service you could ask for.</p>
                                 
