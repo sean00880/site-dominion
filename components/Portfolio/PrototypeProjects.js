@@ -68,7 +68,7 @@ class PrototypeProjects extends Component {
                                     <div className="item">
                                         <div className="img_holder">
                                             <Image loading="lazy" height={100} width={100} src="/img/thumb/560-375.jpg" alt="" />
-                                            <div className="abs_img" ><Link href=""><a role="/img" aria-label="Background Image 2" style={{ "backgroundImage": "url(/images/project2.png)", "backgroundSize":"contain", "backgroundPosition":"center","backgroundRepeat":"no-repeat" }}></a></Link></div>
+                                            <div className="abs_img" ><Link href=""><a role="/img" aria-label="Background Image 2" style={{ "backgroundImage": "url(/images/metanetic.png)", "backgroundSize":"contain", "backgroundPosition":"center","backgroundRepeat":"no-repeat" }}></a></Link></div>
                                         </div>
                                         <div className="title_holder">
                                             <h3><Link href="/portfolio/metanetic"><a>Metanetic</a></Link></h3>

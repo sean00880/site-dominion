@@ -42,8 +42,8 @@ function MyApp({ Component, pageProps }) {
     <>
                   <DefaultSeo
         title="Site Domininon - Web Development Services"
-        titleTemplate="Site Domininon - Web Development Services"
-        defaultTitle="Site Domininon - Web Development Services"
+        titleTemplate="Site Dominion - Web Development Services"
+        defaultTitle="Site Dominion - Web Development Services"
         description="Looking for a lead generating website agency that can help you increase your online presence and drive more traffic to your business? Look no further than Site Dominion's expert team of website developers and digital marketing specialists."
         canonical={canonicalUrl}
         openGraph={{
