@@ -28,7 +28,7 @@ export default function ServicesStyleOne(){
         
     return (
 
-    <div className="main-contact-area" id="quote-request">
+    <div className="main-contact-area" id="quote" style={{ "scrollPaddingTop": "20vh"}}>
             <div className="container">
                 
                 <div className="section-title" style={{"display":"flex","flexDirection":"column","justifyContent":"center","alignItems":"center"}}>

@@ -33,7 +33,7 @@ const Features = () => {
                         <div className="col-lg-4 p-0">
                             <div className="single-features">
                                 <i role="none" className="flaticon-engineer"></i>
-                                <h3>2) Full Deployment [Hosting & Domain]</h3>
+                                <h3>2) Full Deployment </h3>
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, maxime ipsum praesentium culpa expedita.</p>
                                 
                                 <Link href="/service-details">

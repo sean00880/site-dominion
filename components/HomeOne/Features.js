@@ -80,7 +80,7 @@ const Features = () => {
                         <div className="col-lg-3 p-0">
                             <div className="single-features single-features2" >
                             <Image loading='lazy'  src="/images/deployment2.png" className='service' alt="Website deployment icon." width={360} height={280}/>
-                                <h3>4) Full Deployment [Hosting & Domain]</h3>
+                                <h3>4) Full Deployment</h3>
                                 <p>After the completion of the developmental phase, the website is pushed into deployment. Site Dominion's premium website package covers all domain and hosting expenses, so you don't have to break a sweat.</p>
                                 
                                 <Link href="/website-deployment">
@@ -152,7 +152,7 @@ const Features = () => {
                             <div className="single-features"  >
                             <Image loading='lazy'  src="/images/content.png" alt="Content management icon." width={320} height={240}/>
                                 
-                                <h3>Website Content Writing/Management</h3>
+                                <h3>Website Copywriting</h3>
                                 <p>Don't have time to manage the content on your website? Or maybe you're unsure about how to approach it. Let our professionals assist you with creating transformational SEO friendly content to fastrack the process.</p>
                                 
                                 <Link href="/website-content-writing">

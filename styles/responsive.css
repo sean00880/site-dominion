@@ -182,7 +182,7 @@
     margin-bottom: 20px;
   }
   .single-features p {
-    margin-bottom: 20px;
+    margin-bottom: 10vh;
   }
   .about-content h2 {
     font-size: 25px;
@@ -1029,7 +1029,7 @@
   }
 
   .single-features2{
-    min-height:80vh;
+    min-height:87vh;
   }
   
 
@@ -1109,7 +1109,7 @@
     display: none;
   }
   p {
-    font-size: 14px;
+    font-size: 21px;
   }
   h3 {
     font-size: 29px;
@@ -1163,7 +1163,7 @@
     margin-bottom: 20px;
   }
   .single-features p {
-    margin-bottom: 20px;
+    margin-bottom: 10vh;
   }
   .about-content h2 {
     font-size: 30px;
@@ -1536,7 +1536,7 @@
     padding: 20px;
   }
   .features-area .single-features p {
-    margin-bottom: 20px;
+    margin-bottom: 10vh;
   }
   .features-area .single-features2{
     padding:0;
@@ -1710,7 +1710,7 @@
     font-size: 20px;
   }
   .contact-info-area .single-contact-info p {
-    font-size: 14px;
+    font-size: 21px;
   }
   .main-contact-area .contact-wrap .contact-form {
     padding: 40px;
