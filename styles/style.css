@@ -2236,7 +2236,7 @@ Choose Us Area Style
   justify-content: center;
   display: flex;
   flex-direction: column;
-  color: #683434;
+  color: #000000;
 }
 
 .features-area .wrapper{
@@ -3676,7 +3676,7 @@ Offer Area Two Style
 .pricing-card .pricing-top-heading p {
   font-weight: 600;
   margin:0;
-  font-size: 15px;
+  font-size: 23px;
 }
 
 .pricing-card span {
@@ -4193,11 +4193,13 @@ Industries Serve Area Style
 .single-industries span {
   margin-bottom: -3px;
   display: block;
-  font-weight: 600;
+  font-weight: 400;
   -webkit-transition: all 0.6s ease;
   transition: all 0.6s ease;
   color: #4d4d4d;
   text-transform: capitalize;
+  font-family: 'Smooch Sans', sans-serif;
+  font-size: 21px;
 }
 
 .industry{

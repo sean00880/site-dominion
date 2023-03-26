@@ -12,10 +12,10 @@ class ServiceDetails extends Component {
                 <Navbar />
 
                 <PageBanner 
-                    pageTitle="SEO-friendly Web Design & Development" 
+                    pageTitle="Full Website Deployment [w/ Domain + Hosting]" 
                     homePageUrl="/" 
                     homePageText="Home" 
-                    activePageText="Website Design & Development" 
+                    activePageText="Website Deployment" 
                 /> 
                 
                 <SetupTabs />

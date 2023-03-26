@@ -22,7 +22,7 @@ const MainBanner = () => {
                             
                             
                             <h1>Website Design, Deployment, SEO & More.</h1>
-                           <h3>We unleash the power of innovation, creativity, and expertise to craft websites that exceed your expectations. Let us elevate your online presence to new heights with our exceptional web development services.</h3><p><Link href="/payment" passHref><Image priority  height="30px" width="30px" src="/images/i2.png" style={{"cursor":"pointer"}} alt="Site Dominion's Payment info." /></Link>Business transactions processed via VENMO.</p>
+                           <h3>We unleash the power of innovation, creativity, and expertise to craft websites that exceed your expectations. Let us elevate your online presence to new heights with our exceptional web development services.</h3><p><Link href="/payment" passHref><Image priority  height="30px" width="30px" src="/images/i2.png" style={{"cursor":"pointer"}} alt="Site Dominion's Payment info." /></Link>Business transactions processed via STRIPE.</p>
                            <div className="others-options">
                                     
                                        <Link href="/getting-started">

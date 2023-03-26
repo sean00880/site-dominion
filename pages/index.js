@@ -36,9 +36,10 @@ export default function Index({ posts }) {
             <Process />
             <Features />
             <WhyChooseUs />
-            <Pricing/>                
+            <Pricing/>  
+            <Projects />              
             <ServicesStyleFour />
-            <Projects />
+            
             <Testimonials/>  
             <Blog posts={posts}/>
             <Footer2/>

@@ -157,7 +157,7 @@ export default function ServicesStyleOne(){
                                         </div>
                                         <div className="col-lg-12 col-sm-12">
                                         
-                                            <button type="submit" className="default-btn btn-two" onClick={()=> openInNewTab("/contact")} > 
+                                            <button type="submit" className="default-btn btn-two" onClick={()=> openInNewTab("/thankyou")} > 
                                                 Submit                                               
                                             </button>
                                         </div>

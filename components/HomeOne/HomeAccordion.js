@@ -84,7 +84,7 @@ class HomeAccordion extends Component {
                                         </AccordionItemHeading>
                                         <AccordionItemPanel>
                                             <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+                                                This is where we apply our expertise and create your unique website. Our priority is to stay in alignment with your requirements throughout the design and development process in order to produce websites of the finest quality.
                                             </p>
                                         </AccordionItemPanel>
                                     </AccordionItem>
@@ -92,13 +92,13 @@ class HomeAccordion extends Component {
                                     <AccordionItem uuid="d" data-aos="zoom-in-right" data-aos-delay="400">
                                         <AccordionItemHeading>
                                             <AccordionItemButton>
-                                            Step Four: Complete Payment
+                                            Step Four: Initiate Payment
                                             <img loading="lazy"  className='accordion__image3' src="/images/payment.svg" alt="process" />
                                             </AccordionItemButton>
                                         </AccordionItemHeading>
                                         <AccordionItemPanel>
                                         <div className="col-lg-12 step1"><p className="p-3">
-                                        Simply follow our three step process to make secure payments to Site Dominion using Venmo for Business:
+                                        Once your prototype website is ready, simply enter your card details to complete your payment via Stripe.
                                             </p>
                                             <Link href="/getting-started/#payment">
                                             <button type="submit" className="default-btn btn-two">
