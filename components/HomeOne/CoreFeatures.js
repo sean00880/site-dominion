@@ -28,11 +28,11 @@ const MyExpertise = () => {
           
                         <div className="about-img"  >
                         
-                          <img src="/images/main-img1.png" loading="lazy" alt="Site Dominion's homepage image." className="homeImage" data-aos="fade-down" data-aos-duration="2400" data-aos-delay="325" />
+                          <Image src="/images/main-img1.png" width={438} height={313} loading="lazy" alt="Site Dominion's homepage image." className="homeImage" data-aos="fade-down" data-aos-duration="2400" data-aos-delay="325" />
                        
                             
                         
-                            <img src="/images/phones.png" loading="lazy" alt="Site Dominion | Responsive Web Design" className="homeImage2" data-aos="flip-right" data-aos-duration="1200" data-aos-delay="550"/>
+                            <Image src="/images/phones.png" width={281} height={200} loading="lazy" alt="Site Dominion | Responsive Web Design" className="homeImage2" data-aos="flip-right" data-aos-duration="1200" data-aos-delay="550"/>
                         
                         </div>
                           
