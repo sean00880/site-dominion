@@ -44,7 +44,7 @@ class PricingStyleOne extends Component {
                         </ul>
 
                         <div className="tab_content" style={{"width":"100%"}}>
-                            <div id="tab1" className="tabs_item" style={{"width":"100%"}}>
+                        <div id="tab1" className="tabs_item" style={{"width":"100%"}}>
                                 <div className="row" style={{"borderRadius":"1vh","background":"none"}}>
                                     <div className="col-lg-4 col-md-6">
                                         <div className="pricing-card single-pricing1" data-aos="fade-left"  data-aos-delay="100">
@@ -52,7 +52,7 @@ class PricingStyleOne extends Component {
                                                 <h3>Basic</h3>
                                                 <p>Personal Website Design + Deployment</p>
                                             </div>
-                                            <span>$299</span>
+                                            <span>$399<sub>.99</sub></span>
 
                                             <ul>
                                                 <li>
@@ -86,11 +86,11 @@ class PricingStyleOne extends Component {
                                                 </li>
                                             </ul>
 
-                                            <Link href="/getting-started/#quote">
-                                                <a className="default-btn">
-                                                    Get Started
+                                            
+                                                <a className="default-btn" href="https://buy.stripe.com/7sI4h70IKdKz6zK28c">
+                                                    Choose Package
                                                 </a>
-                                            </Link>
+                                            
                                         </div>
                                     </div>
 
@@ -100,7 +100,7 @@ class PricingStyleOne extends Component {
                                                 <h3>Premium</h3>
                                                 <p>Professional Website Design + Setup</p>
                                             </div>
-                                            <span>$499</span>
+                                            <span>$699<sub>.99</sub></span>
 
                                             <ul>
                                             <li>
@@ -121,7 +121,7 @@ class PricingStyleOne extends Component {
                                                 </li>
                                             
                                                 <li>
-                                                    <i role="none" className='bx bx-x'></i>
+                                                    <i role="none" className='bx bx-check'></i>
                                                     Lead Generation API
                                                 </li>
                                                 <li>
@@ -134,11 +134,11 @@ class PricingStyleOne extends Component {
                                                 </li>
                                             </ul>
 
-                                            <Link href="/getting-started/#quote">
-                                                <a className="default-btn">
-                                                    Get Started
+                                            
+                                                <a className="default-btn" href="https://buy.stripe.com/5kAfZPezA9ujf6gcMR">
+                                                    Choose Package
                                                 </a>
-                                            </Link>
+                                            
 
                                             <strong className="popular" role="heading">Popular</strong>
                                         </div>
@@ -150,7 +150,7 @@ class PricingStyleOne extends Component {
                                                 <h3>Elite</h3>
                                                 <p>Industrial Website Design + Setup</p>
                                             </div>
-                                            <span>$699</span>
+                                            <span>$899<sub>.99</sub></span>
 
                                             <ul>
                                             <li>
@@ -184,11 +184,11 @@ class PricingStyleOne extends Component {
                                                 </li>
                                             </ul>
 
-                                            <Link href="/getting-started/#quote">
-                                                <a className="default-btn">
-                                                    Get Started
+                                            
+                                                <a className="default-btn" href="https://buy.stripe.com/4gwbJz4Z0eOD2ju8wC">
+                                                    Choose Package
                                                 </a>
-                                            </Link>
+                                            
                                         </div>
                                     </div>
 
@@ -212,7 +212,7 @@ class PricingStyleOne extends Component {
                                                 <h3>Basic</h3>
                                                 <p>Personal Website Design + Deployment</p>
                                             </div>
-                                            <span>$29.99</span>
+                                            <span>$49.99</span>
 
                                             <ul>
                                                 <li>
@@ -246,11 +246,11 @@ class PricingStyleOne extends Component {
                                                 </li>
                                             </ul>
 
-                                            <Link href="/getting-started/#quote">
-                                                <a className="default-btn">
-                                                    Get Started
+                                            
+                                                <a className="default-btn" href="https://buy.stripe.com/cN200RajkdKz4rC8wx">
+                                                    Choose Package
                                                 </a>
-                                            </Link>
+                                            
                                         </div>
                                     </div>
 
@@ -260,7 +260,7 @@ class PricingStyleOne extends Component {
                                                 <h3>Premium</h3>
                                                 <p>Professional Website Design + Setup</p>
                                             </div>
-                                            <span>$49.99</span>
+                                            <span>$69.99</span>
 
                                             <ul>
                                             <li>
@@ -294,11 +294,11 @@ class PricingStyleOne extends Component {
                                                 </li>
                                             </ul>
 
-                                            <Link href="/getting-started/#quote">
-                                                <a className="default-btn">
-                                                    Get Started
+                                            
+                                                <a className="default-btn" href="https://buy.stripe.com/aEUcNDcrsbCre2ccMO">
+                                                    Choose Package
                                                 </a>
-                                            </Link>
+                                            
 
                                             <strong className="popular" role="heading">Popular</strong>
                                         </div>
@@ -310,7 +310,7 @@ class PricingStyleOne extends Component {
                                                 <h3>Elite</h3>
                                                 <p>Industrial Website Design + Setup</p>
                                             </div>
-                                            <span>$69.99</span>
+                                            <span>$89.99</span>
 
                                             <ul>
                                             <li>
@@ -344,11 +344,11 @@ class PricingStyleOne extends Component {
                                                 </li>
                                             </ul>
 
-                                            <Link href="/getting-started/#quote">
-                                                <a className="default-btn">
-                                                    Get Started
+                                            
+                                                <a className="default-btn" href="https://buy.stripe.com/aEU00Rdvw5e37DO5kn">
+                                                    Choose Package
                                                 </a>
-                                            </Link>
+                                            
                                         </div>
                                     </div>
 
