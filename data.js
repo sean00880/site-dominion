@@ -83,6 +83,23 @@ export const data = [
       category:"Technology",
       category2:"Education"
     },
+    {
+      id: 7,
+      titleurl:"animations-in-react-and-nextjs",
+      title: "Exploring React Animations: AOS vs WOW vs React Reveal",
+      year: "2023",
+      month: "March",
+      date: "28",
+      photo: "react.png",
+      description:"In this blog post, we'll explore these three popular React animation libraries...",
+      cat: "web-development",
+      cat2:"education",
+      category:"Web Development",
+      category2:"Education"
+    },
+
+
+    
 
    
   ];

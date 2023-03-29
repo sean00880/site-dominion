@@ -4202,6 +4202,15 @@ Industries Serve Area Style
   font-size: 21px;
 }
 
+.menu{
+  flex-direction: row;
+}
+
+.menu-wrapper{
+  display: block;
+  
+}
+
 .industry{
     letter-spacing: 1px;
     font-style: italic;

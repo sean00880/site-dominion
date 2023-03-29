@@ -46,13 +46,13 @@ const Blog = ({posts}) => {
 				</div>
 				{/* <!-- /Page Title --> */}
 
-
-				<ul className="menu" style={{listStyleType:'none',display:"flex",flexDirection:"row", justifyContent:"space-evenly"}}>
+<div className='menu-wrapper'>
+				<ul className="menu" style={{listStyleType:'none',display:"flex", justifyContent:"space-evenly"}}>
       <span style={{fontFamily:"Smooch Sans",fontSize:"23px"}}>Categories:</span>
 	  <li>
 		<a href='/blog'>All</a>
 	  </li>
-	  {posts.map((post) => {
+	  {posts.slice(0, 2).map((post) => {
         return (
           <MenuItem
             key={post.id}
@@ -61,7 +61,21 @@ const Blog = ({posts}) => {
           />
         );
       })}
-    </ul>
+	   </ul>
+	   <br />
+	   <ul className="menu" style={{listStyleType:'none',display:"flex", justifyContent:"space-evenly"}}>
+	  {posts.slice(2, 4).map((post) => {
+        return (
+          <MenuItem
+            key={post.id}
+            href={`/blog/${post.cat}`}
+            label={post.category}
+          />
+        );
+      })}
+	  </ul>
+	  </div>
+   
 
 				<div className="industify_fn_blog_full">
 					<div className="container">

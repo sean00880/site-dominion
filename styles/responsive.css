@@ -1079,9 +1079,9 @@
     font-size: 22px;
   }
   .navbar-area nav .navbar-nav .nav-item a {
-    font-size: 14px;
-    margin-left: 6px;
-    margin-right: 6px;
+    font-size: 18px;
+    margin-left: 2px;
+    margin-right: 2px;
   }
   .navbar-area .others-options {
     display: none;
@@ -1760,6 +1760,17 @@
     position: relative;
     padding:1vh;
   }
+  .menu-wrapper{
+    display: -webkit-inline-box;
+    
+  }
+
+  .menu{
+    flex-direction: column;
+    width: 100%;
+  }
+
+  
   .service-details-wrap p {
 
     flex-direction: column;
