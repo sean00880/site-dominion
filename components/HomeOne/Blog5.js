@@ -82,7 +82,7 @@ const Blog2 = ({posts}) => {
 									<div className="content_holder">
 										<div className="info_holder">
 											<p>
-												<span className="t_author">By <Link href="https://themeforest.net/user/trendycoder"><a target="_blank" >Site Dominion</a></Link></span>
+												<span className="t_author">By <Link href="/"><a target="_blank" >Site Dominion</a></Link></span>
 												<br />
                                                 <br />
 												<div className="industify_fn_tags industify_fn_tags2">
@@ -117,7 +117,7 @@ const Blog2 = ({posts}) => {
                                 <h5>{post.month}</h5>
                                 <h5>{post.year}</h5></div>
 									<div className="img_holder">
-										<Link href={`/blog/${post.cat}/${post.titleurl}`}><a><img src={`${process.env.NEXT_PUBLIC_URL}/images/${post.photo}`} alt="" /></a></Link>
+										<Link href={`/blog/${post.cat}/${post.titleurl}`}><a><img src={`/images/${post.photo}`} alt="" /></a></Link>
 										<span className="shape1"></span>
 									</div>
 									<div className="content_holder">

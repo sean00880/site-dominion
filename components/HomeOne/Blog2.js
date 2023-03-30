@@ -126,7 +126,7 @@ const Blog2 = ({posts}) => {
 									<div className="content_holder">
 										<div className="info_holder">
 											<p>
-												<span className="t_author">By <Link href="https://themeforest.net/user/trendycoder"><a target="_blank" >Site Dominion</a></Link></span>
+												<span className="t_author">By <Link href="/"><a target="_blank" >Site Dominion</a></Link></span>
 												<br />
                                                 <br />
 												<div className="industify_fn_tags industify_fn_tags2">
