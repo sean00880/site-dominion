@@ -1071,7 +1071,7 @@
   .navbar-area nav .navbar-brand img {
 
     width: 100px;
-    top: -2vh;
+    top: -4vh;
     left: 3%;
     position: absolute;
   }
@@ -1474,7 +1474,7 @@
 .navbar-area nav .navbar-brand img {
 
   width: 100px;
-  top: -2vh;
+  top: -4vh;
   left: 3%;
   position: absolute;
 }
@@ -1492,7 +1492,7 @@
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .navbar-area nav .navbar-brand img {
     width: 100px;
-    top: 0vh;
+    top: -1vh;
     left: 2%;
     position: absolute;
 }

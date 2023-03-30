@@ -18,7 +18,7 @@ import Link from 'next/link';
 const MenuItem = ({ href, label }) => {
 	return (
 	  <li>
-		<a href={href}>{label}</a>
+		<Link href={href}><a>{label}</a></Link>
 	  </li>
 	);
   };
@@ -50,7 +50,7 @@ const Blog = ({posts}) => {
 				<ul className="menu" style={{listStyleType:'none',display:"flex", justifyContent:"space-evenly"}}>
       <span style={{fontFamily:"Smooch Sans",fontSize:"23px"}}>Categories:</span>
 	  <li>
-		<a href='/blog'>All</a>
+		<Link href='/blog'><a>All</a></Link>
 	  </li>
 	  {posts.slice(0, 2).map((post) => {
         return (

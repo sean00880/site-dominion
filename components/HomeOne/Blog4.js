@@ -15,13 +15,16 @@ import "aos/dist/aos.css";
 import Image from 'next/image';
 import Link from 'next/link';
 
+
+
 const MenuItem = ({ href, label }) => {
 	return (
-	  <li>
-		<a href={href}>{label}</a>
+		<li>
+		<Link href={href}><a>{label}</a></Link>
 	  </li>
 	);
   };
+
 
 const Blog2 = ({posts}) => {
   React.useEffect(() => {
@@ -33,25 +36,27 @@ const Blog2 = ({posts}) => {
 				<div className="industify_fn_pagetitle">
 					<div className="container">
 						<div className="title_holder">
-							<h3>Blog Posts</h3>
+							<h3>Blog</h3>
 							<div className="industify_fn_breadcrumbs">
 								<ul>
 									<li><Link href="/"><a title="Home">Home</a></Link></li>
 									<li className="separator"><span></span></li>
-									<li><span className="bread-current">Blog Full</span></li>
+									<li><span className="bread-current">Blog</span></li>
+									<li className="separator"><span></span></li>
+									<li><span className="bread-current">Web Development</span></li>
 								</ul>
 							</div>
 						</div>
 					</div>
 				</div>
 				{/* <!-- /Page Title --> */}
-
-				<ul className="menu" style={{listStyleType:'none',display:"flex",flexDirection:"row", justifyContent:"space-around"}}>
+				<div className='menu-wrapper'>
+				<ul className="menu" style={{listStyleType:'none',display:"flex", justifyContent:"space-evenly"}}>
       <span style={{fontFamily:"Smooch Sans",fontSize:"23px"}}>Categories:</span>
 	  <li>
-		<a href='/blog'>All</a>
+		<Link href='/blog'><a>All</a></Link>
 	  </li>
-	  {posts.map((post) => {
+	  {posts.slice(0, 2).map((post) => {
         return (
           <MenuItem
             key={post.id}
@@ -60,7 +65,22 @@ const Blog2 = ({posts}) => {
           />
         );
       })}
-    </ul>
+	   </ul>
+	   <br />
+	   <ul className="menu" style={{listStyleType:'none',display:"flex", justifyContent:"space-evenly"}}>
+	  {posts.slice(2, 4).map((post) => {
+        return (
+          <MenuItem
+            key={post.id}
+            href={`/blog/${post.cat}`}
+            label={post.category}
+          />
+        );
+      })}
+	  </ul>
+	  </div>
+
+
 
 				<div className="industify_fn_blog_full">
 					<div className="container">
@@ -96,7 +116,7 @@ const Blog2 = ({posts}) => {
 											<h3><Link href={`/blog/${post.cat}/${post.titleurl}`}><a>{post.title}</a></Link></h3>
 										</div>
 										<div className="excerpt_holder">
-											<p>{post.description}</p>
+											<p>"{post.description}"</p>
 										</div>
 										<div className="read_holder">
 											<p><Link href={`/blog/${post.cat}/${post.titleurl}`}><a>Read More</a></Link></p>
@@ -137,7 +157,7 @@ const Blog2 = ({posts}) => {
 											<h3><Link href={`/blog/${post.cat}/${post.titleurl}`}><a>{post.title}</a></Link></h3>
 										</div>
 										<div className="excerpt_holder">
-											<p>{post.description}</p>
+											<p>"{post.description}"</p>
 										</div>
 										<div className="read_holder">
 											<p><Link href={`/blog/${post.cat}/${post.titleurl}`}><a>Read More</a></Link></p>

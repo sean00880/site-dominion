@@ -17,8 +17,8 @@ import Link from 'next/link';
 
 const MenuItem = ({ href, label }) => {
 	return (
-	  <li>
-		<a href={href}>{label}</a>
+		<li>
+		<Link href={href}><a>{label}</a></Link>
 	  </li>
 	);
   };
@@ -47,12 +47,13 @@ const Blog2 = ({posts}) => {
 					</div>
 				</div>
 				{/* <!-- /Page Title --> */}
-				<ul className="menu" style={{listStyleType:'none',display:"flex",flexDirection:"row", justifyContent:"space-around"}}>
+				<div className='menu-wrapper'>
+				<ul className="menu" style={{listStyleType:'none',display:"flex", justifyContent:"space-evenly"}}>
       <span style={{fontFamily:"Smooch Sans",fontSize:"23px"}}>Categories:</span>
 	  <li>
-		<a href='/blog'>All</a>
+		<Link href='/blog'><a>All</a></Link>
 	  </li>
-	  {posts.map((post) => {
+	  {posts.slice(0, 2).map((post) => {
         return (
           <MenuItem
             key={post.id}
@@ -61,7 +62,20 @@ const Blog2 = ({posts}) => {
           />
         );
       })}
-    </ul>
+	   </ul>
+	   <br />
+	   <ul className="menu" style={{listStyleType:'none',display:"flex", justifyContent:"space-evenly"}}>
+	  {posts.slice(2, 4).map((post) => {
+        return (
+          <MenuItem
+            key={post.id}
+            href={`/blog/${post.cat}`}
+            label={post.category}
+          />
+        );
+      })}
+	  </ul>
+	  </div>
 
 
 
