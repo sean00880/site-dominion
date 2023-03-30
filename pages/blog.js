@@ -12,7 +12,7 @@ const Blog = dynamic(() => import( '../components/HomeOne/Blog'));
 export default function Index({ posts }) {
 	return (
 		<>
-			<NextSeo title="Site Dominion | Our Blog" />
+			<NextSeo title="Site Dominion | Blog" />
 			<Navbar />
 			
 			<Blog posts={posts}/>
