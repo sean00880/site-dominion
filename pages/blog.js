@@ -7,7 +7,7 @@ import Footer from '../components/Layouts/Footer';
 import { data } from "../data"
 import dynamic from 'next/dynamic';
 import { NextSeo } from 'next-seo';
-const Blog = dynamic(() => import( '../components/HomeOne/Blog'));
+import Blog from '../components/HomeOne/Blog';
 
 export default function Index({ posts }) {
 	return (
