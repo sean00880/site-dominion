@@ -19,14 +19,6 @@ module.exports = withBundleAnalyzer({
   distDir: 'build',
     reactStrictMode: true,
   compress: true,
-  plugins: [
-    new BrotliPlugin({
-      asset: '[path].br[query]',
-      test: /\.(js|css|html|svg)$/,
-      threshold: 10240,
-      minRatio: 0.8
-    })
-  ],
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')],
   },
